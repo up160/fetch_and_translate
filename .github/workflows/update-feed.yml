@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch and translate feeds
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_SECRET_KEY }}
         run: python fetch_and_translate.py
 
       - name: Commit updated feed.json
