@@ -1,21 +1,24 @@
 {
   "max_items_per_feed": 5,
   "feeds": [
-    { "category": "Tech",     "name": "Hacker News",               "url": "https://news.ycombinator.com/rss" },
-    { "category": "Tech",     "name": "The Verge",                 "url": "https://www.theverge.com/rss/index.xml" },
-    { "category": "Tech",     "name": "Ars Technica",              "url": "https://feeds.arstechnica.com/arstechnica/index" },
+    { "category": "World Cup", "name": "World Cup 2026 (Guardian)",  "url": "https://www.theguardian.com/football/world-cup-2026/rss" },
+    { "category": "World Cup", "name": "BBC Football",               "url": "http://feeds.bbci.co.uk/sport/football/rss.xml" },
 
-    { "category": "News",     "name": "BBC News",                  "url": "http://feeds.bbci.co.uk/news/rss.xml" },
-    { "category": "News",     "name": "The Guardian",              "url": "https://www.theguardian.com/uk/rss" },
+    { "category": "MTG",       "name": "MTGGoldfish",                "url": "https://www.mtggoldfish.com/feed" },
+    { "category": "MTG",       "name": "Star City Games",            "url": "https://articles.starcitygames.com/feed/" },
 
-    { "category": "Sport",    "name": "BBC Sport",                 "url": "http://feeds.bbci.co.uk/sport/rss.xml" },
+    { "category": "Scotland",  "name": "Walkhighlands",              "url": "https://www.walkhighlands.co.uk/news/feed/" },
 
-    { "category": "Football", "name": "Liverpool FC (Sky Sports)", "url": "https://www.skysports.com/rss/12040" },
-    { "category": "Football", "name": "Wales Football (BBC)",      "url": "http://feeds.bbci.co.uk/sport/football/wales/rss.xml" },
+    { "category": "Parenting", "name": "r/daddit",                   "url": "https://www.reddit.com/r/daddit/.rss" },
 
-    { "category": "Rugby",    "name": "Wales Rugby (BBC)",         "url": "http://feeds.bbci.co.uk/sport/rugby-union/wales/rss.xml" },
+    { "category": "Tech",      "name": "Hacker News",                "url": "https://news.ycombinator.com/rss" },
+    { "category": "Tech",      "name": "Ars Technica",               "url": "https://feeds.arstechnica.com/arstechnica/index" },
 
-    { "category": "MMA",      "name": "MMA Junkie",                "url": "https://mmajunkie.usatoday.com/feed" },
-    { "category": "MMA",      "name": "Bloody Elbow",              "url": "https://www.bloodyelbow.com/rss/current" }
+    { "category": "News",      "name": "BBC News",                   "url": "http://feeds.bbci.co.uk/news/rss.xml" },
+    { "category": "News",      "name": "The Guardian",               "url": "https://www.theguardian.com/uk/rss" },
+
+    { "category": "Football",  "name": "Wales Football (BBC)",       "url": "https://feeds.bbci.co.uk/sport/football/welsh/rss.xml" },
+
+    { "category": "Rugby",     "name": "Wales Rugby (BBC)",          "url": "https://feeds.bbci.co.uk/sport/rugby-union/welsh/rss.xml" }
   ]
 }
