@@ -86,13 +86,22 @@ def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict
     """
     print("Translating to Spanish via Claude...")
 
-    # Build compact JSON payload for translation
-    to_translate = [
-        {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
-        for item in items
-    ]
+    # English fallback up front; successful chunks overwrite it
+    for item in items:
+        item["title_es"] = item["title_en"]
+        item["summary_es"] = item["summary_en"]
 
-    prompt = f"""You are a professional translator. Translate the following news items from English to Spanish.
+    # Translate in chunks — one giant request risks truncating the JSON output
+    CHUNK_SIZE = 15
+    translated_count = 0
+    for start in range(0, len(items), CHUNK_SIZE):
+        chunk = items[start:start + CHUNK_SIZE]
+        to_translate = [
+            {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
+            for item in chunk
+        ]
+
+        prompt = f"""You are a professional translator. Translate the following news items from English to Spanish.
 Return ONLY a valid JSON array — no markdown, no explanation, no preamble.
 Each object must have: id, title_es, summary_es.
 Keep titles punchy and natural. Summaries should read as fluent Spanish, not literal translations.
@@ -101,38 +110,35 @@ Keep proper nouns (team names, places, brand names) as-is.
 Items to translate:
 {json.dumps(to_translate, ensure_ascii=False)}"""
 
-    try:
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=4000,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        raw = response.content[0].text.strip()
+        try:
+            response = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=8000,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            raw = response.content[0].text.strip()
 
-        # Strip markdown fences if present
-        if raw.startswith("```"):
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-        raw = raw.strip()
+            # Strip markdown fences if present
+            if raw.startswith("```"):
+                raw = raw.split("```")[1]
+                if raw.startswith("json"):
+                    raw = raw[4:]
+            raw = raw.strip()
 
-        translations = json.loads(raw)
-        translation_map = {t["id"]: t for t in translations}
+            translations = json.loads(raw)
+            translation_map = {t["id"]: t for t in translations}
 
-        # Merge translations back into items
-        for item in items:
-            t = translation_map.get(item["id"], {})
-            item["title_es"] = t.get("title_es", item["title_en"])
-            item["summary_es"] = t.get("summary_es", item["summary_en"])
+            for item in chunk:
+                t = translation_map.get(item["id"], {})
+                item["title_es"] = t.get("title_es", item["title_en"])
+                item["summary_es"] = t.get("summary_es", item["summary_en"])
 
-        print(f"  ✓ Translated {len(translations)} items")
-    except Exception as e:
-        print(f"  ✗ Translation failed: {e}")
-        # Fallback: use English
-        for item in items:
-            item["title_es"] = item["title_en"]
-            item["summary_es"] = item["summary_en"]
+            translated_count += len(translations)
+            print(f"  ✓ Translated {start + 1}–{start + len(chunk)}")
+        except Exception as e:
+            print(f"  ✗ Chunk {start + 1}–{start + len(chunk)} failed: {e}")
 
+    print(f"  Translated {translated_count}/{len(items)} items")
     return items
 
 
