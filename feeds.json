@@ -1,0 +1,21 @@
+{
+  "max_items_per_feed": 5,
+  "feeds": [
+    { "category": "Tech",     "name": "Hacker News",               "url": "https://news.ycombinator.com/rss" },
+    { "category": "Tech",     "name": "The Verge",                 "url": "https://www.theverge.com/rss/index.xml" },
+    { "category": "Tech",     "name": "Ars Technica",              "url": "https://feeds.arstechnica.com/arstechnica/index" },
+
+    { "category": "News",     "name": "BBC News",                  "url": "http://feeds.bbci.co.uk/news/rss.xml" },
+    { "category": "News",     "name": "The Guardian",              "url": "https://www.theguardian.com/uk/rss" },
+
+    { "category": "Sport",    "name": "BBC Sport",                 "url": "http://feeds.bbci.co.uk/sport/rss.xml" },
+
+    { "category": "Football", "name": "Liverpool FC (Sky Sports)", "url": "https://www.skysports.com/rss/12040" },
+    { "category": "Football", "name": "Wales Football (BBC)",      "url": "http://feeds.bbci.co.uk/sport/football/wales/rss.xml" },
+
+    { "category": "Rugby",    "name": "Wales Rugby (BBC)",         "url": "http://feeds.bbci.co.uk/sport/rugby-union/wales/rss.xml" },
+
+    { "category": "MMA",      "name": "MMA Junkie",                "url": "https://mmajunkie.usatoday.com/feed" },
+    { "category": "MMA",      "name": "Bloody Elbow",              "url": "https://www.bloodyelbow.com/rss/current" }
+  ]
+}

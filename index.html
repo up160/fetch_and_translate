@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEÑAL // Feed Diario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;600;800&family=Barlow:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:        #080b0f;
+      --surface:   #0d1117;
+      --border:    #1c2a3a;
+      --accent:    #00e5ff;
+      --accent2:   #ff3d71;
+      --dim:       #3a4a5a;
+      --text:      #c8d8e8;
+      --text-dim:  #5a7a8a;
+      --mono:      'Share Tech Mono', monospace;
+      --sans:      'Barlow', sans-serif;
+      --condensed: 'Barlow Condensed', sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-weight: 300;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px);
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    /* ── Header ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(8,11,15,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .logo {
+      font-family: var(--condensed);
+      font-weight: 800;
+      font-size: 1.5rem;
+      letter-spacing: 0.15em;
+      color: var(--accent);
+      text-shadow: 0 0 20px rgba(0,229,255,0.4);
+      cursor: pointer;
+    }
+    .logo span { color: var(--accent2); margin: 0 0.3em; }
+
+    .header-right { display: flex; align-items: center; gap: 1.25rem; }
+
+    .nav-links { display: flex; gap: 0.5rem; }
+
+    .nav-link {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+      background: transparent;
+      border: 1px solid transparent;
+      padding: 0.3rem 0.6rem;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-transform: uppercase;
+    }
+    .nav-link:hover { color: var(--accent); }
+    .nav-link.active { color: var(--accent); border-color: var(--border); background: var(--surface); }
+
+    .vocab-count {
+      background: var(--accent2);
+      color: var(--bg);
+      font-size: 0.55rem;
+      padding: 0 0.3rem;
+      border-radius: 2px;
+      margin-left: 0.3rem;
+    }
+
+    .header-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--text-dim);
+      text-align: right;
+      line-height: 1.5;
+    }
+    #update-time { color: var(--accent); }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 2rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-wrap { position: relative; flex: 1; min-width: 180px; max-width: 320px; }
+    .search-wrap::before {
+      content: '>';
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--accent);
+      font-family: var(--mono);
+      font-size: 0.8rem;
+    }
+    #search {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      padding: 0.45rem 0.75rem 0.45rem 1.75rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search:focus { border-color: var(--accent); }
+    #search::placeholder { color: var(--dim); }
+
+    .cat-nav { display: flex; gap: 0.25rem; overflow-x: auto; scrollbar-width: none; }
+    .cat-nav::-webkit-scrollbar { display: none; }
+
+    .cat-btn, .src-toggle-btn {
+      font-family: var(--condensed);
+      font-weight: 600;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      background: transparent;
+      color: var(--text-dim);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    .cat-btn:hover, .src-toggle-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .cat-btn.active { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+    .src-toggle-btn.open { background: var(--accent2); border-color: var(--accent2); color: var(--bg); }
+
+    /* ── Source panel ── */
+    .src-panel {
+      display: none;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+    }
+    .src-panel.open { display: block; }
+
+    .src-panel-title {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      color: var(--text-dim);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+    }
+
+    .src-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 0.4rem;
+    }
+
+    .src-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      color: var(--text);
+      padding: 0.4rem 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.15s;
+      user-select: none;
+    }
+    .src-item:hover { border-color: var(--accent); }
+    .src-item.off { opacity: 0.35; }
+    .src-item .src-led {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 6px var(--accent);
+      flex-shrink: 0;
+    }
+    .src-item.off .src-led { background: var(--dim); box-shadow: none; }
+    .src-item .src-cat { color: var(--dim); font-size: 0.55rem; margin-left: auto; }
+
+    .src-panel-note {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      color: var(--dim);
+      margin-top: 0.75rem;
+      line-height: 1.6;
+    }
+    .src-panel-note a { color: var(--accent); text-decoration: none; }
+
+    /* ── Hint bar ── */
+    .hint-bar {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      color: var(--dim);
+      padding: 0.4rem 2rem;
+      border-bottom: 1px solid var(--border);
+      letter-spacing: 0.05em;
+    }
+    .hint-bar b { color: var(--text-dim); font-weight: normal; }
+
+    main { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+
+    .section-header { display: flex; align-items: center; gap: 1rem; margin: 2rem 0 1rem; }
+    .section-label {
+      font-family: var(--condensed);
+      font-weight: 800;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent2);
+    }
+    .section-line { flex: 1; height: 1px; background: var(--border); }
+    .section-count { font-family: var(--mono); font-size: 0.65rem; color: var(--dim); }
+
+    .feed-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    /* ── Item card ── */
+    .item {
+      background: var(--surface);
+      padding: 1.25rem;
+      position: relative;
+      transition: background 0.15s ease;
+      opacity: 0;
+      transform: translateY(8px);
+      animation: fadeUp 0.3s ease forwards;
+    }
+    .item:hover { background: #111820; }
+    .item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 2px; height: 0;
+      background: var(--accent);
+      transition: height 0.2s ease;
+    }
+    .item:hover::before { height: 100%; }
+    .item.read { animation: fadeUpRead 0.3s ease forwards; }
+    .item.read:hover { opacity: 0.8; }
+
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeUpRead { to { opacity: 0.45; transform: translateY(0); } }
+
+    .item-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; }
+
+    .item-source {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .item-source::before { content: '▶'; color: var(--accent); font-size: 0.45rem; }
+
+    .item-controls { display: flex; gap: 0.4rem; align-items: center; }
+
+    .badge-new {
+      font-family: var(--mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.1em;
+      color: var(--bg);
+      background: var(--accent2);
+      padding: 0.1rem 0.4rem;
+      border-radius: 2px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: 0.6; } }
+
+    .flip-btn {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      padding: 0.15rem 0.45rem;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .flip-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .flip-btn.flipped { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+    .item-title {
+      font-family: var(--condensed);
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.3;
+      margin-bottom: 0.6rem;
+      color: #e8f4ff;
+    }
+    .item-title a { color: inherit; text-decoration: none; transition: color 0.15s; }
+    .item-title a:hover { color: var(--accent); }
+
+    .item-summary { font-size: 0.8rem; line-height: 1.7; color: var(--text-dim); }
+
+    .w {
+      cursor: pointer;
+      border-radius: 2px;
+      transition: background 0.1s, color 0.1s;
+      padding: 0 1px;
+    }
+    .w:hover, .w.active { background: rgba(0,229,255,0.18); color: var(--accent); }
+    .w.saved { border-bottom: 1px dotted var(--accent2); }
+
+    .item-footer { margin-top: 0.75rem; display: flex; justify-content: space-between; align-items: center; }
+    .item-date { font-family: var(--mono); font-size: 0.6rem; color: var(--dim); }
+    .item-link {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      opacity: 0.6;
+      transition: opacity 0.15s;
+    }
+    .item-link:hover { opacity: 1; }
+
+    /* ── Word popup ── */
+    #word-popup {
+      position: fixed;
+      z-index: 500;
+      background: #0a1420;
+      border: 1px solid var(--accent);
+      border-radius: 3px;
+      padding: 0.6rem 0.9rem;
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      box-shadow: 0 0 24px rgba(0,229,255,0.25), 0 8px 24px rgba(0,0,0,0.6);
+      max-width: 260px;
+      display: none;
+    }
+    #word-popup .wp-word { color: var(--accent); margin-bottom: 0.25rem; }
+    #word-popup .wp-trans { color: #fff; font-size: 0.85rem; margin-bottom: 0.4rem; }
+    #word-popup .wp-loading { color: var(--dim); }
+    #word-popup .wp-save {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      background: transparent;
+      border: 1px solid var(--accent2);
+      color: var(--accent2);
+      padding: 0.2rem 0.5rem;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    #word-popup .wp-save:hover, #word-popup .wp-save.saved { background: var(--accent2); color: var(--bg); }
+    #word-popup::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 16px;
+      width: 8px; height: 8px;
+      background: #0a1420;
+      border-right: 1px solid var(--accent);
+      border-bottom: 1px solid var(--accent);
+      transform: rotate(45deg);
+    }
+    #word-popup.below::after { bottom: auto; top: -5px; transform: rotate(225deg); }
+
+    /* ── Vocab page ── */
+    #vocab-page { display: none; }
+    #vocab-page.visible { display: block; }
+    #feed-page.hidden { display: none; }
+
+    .vocab-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .vocab-title {
+      font-family: var(--condensed);
+      font-weight: 800;
+      font-size: 1.4rem;
+      letter-spacing: 0.1em;
+      color: var(--accent2);
+      text-transform: uppercase;
+    }
+    .vocab-actions { display: flex; gap: 0.5rem; }
+    .vocab-action-btn {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      padding: 0.35rem 0.8rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      background: transparent;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .vocab-action-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .vocab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .vocab-card {
+      background: var(--surface);
+      padding: 1rem 1.25rem;
+      position: relative;
+      cursor: pointer;
+      transition: background 0.15s;
+      min-height: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .vocab-card:hover { background: #111820; }
+
+    .vocab-word {
+      font-family: var(--condensed);
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: var(--accent);
+    }
+    .vocab-trans {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--text);
+      margin-top: 0.3rem;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .vocab-card.revealed .vocab-trans { opacity: 1; }
+    .vocab-card .vocab-hint {
+      font-family: var(--mono);
+      font-size: 0.55rem;
+      color: var(--dim);
+      margin-top: 0.3rem;
+    }
+    .vocab-card.revealed .vocab-hint { display: none; }
+
+    .vocab-del {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.6rem;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--dim);
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: color 0.15s;
+    }
+    .vocab-del:hover { color: var(--accent2); }
+
+    .vocab-empty {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      text-align: center;
+      padding: 4rem 2rem;
+      line-height: 2;
+    }
+
+    /* ── Lang toggle ── */
+    .lang-toggle {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 200;
+      display: flex;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .lang-btn {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      padding: 0.5rem 0.9rem;
+      border: none;
+      background: transparent;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .lang-btn.active { background: var(--accent); color: var(--bg); }
+
+    #status {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .err { color: var(--accent2); }
+
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+    @media (max-width: 600px) {
+      header { padding: 0 1rem; height: auto; min-height: 56px; flex-wrap: wrap; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+      .header-meta { display: none; }
+      main { padding: 1rem; }
+      .toolbar { padding: 0.5rem 1rem; }
+      .hint-bar { padding: 0.4rem 1rem; }
+      .src-panel { padding: 1rem; }
+      .feed-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo" onclick="showPage('feed')">SEÑAL<span>//</span>FEED</div>
+  <div class="header-right">
+    <div class="nav-links">
+      <button class="nav-link active" id="nav-feed" onclick="showPage('feed')">Feed</button>
+      <button class="nav-link" id="nav-vocab" onclick="showPage('vocab')">Palabras<span class="vocab-count" id="vocab-badge">0</span></button>
+    </div>
+    <div class="header-meta">
+      <div>ACTUALIZADO: <span id="update-time">—</span></div>
+      <div id="item-count">CARGANDO<span class="blink">_</span></div>
+    </div>
+  </div>
+</header>
+
+<div id="feed-page">
+  <div class="toolbar">
+    <div class="search-wrap">
+      <input id="search" type="text" placeholder="buscar..." autocomplete="off" />
+    </div>
+    <nav class="cat-nav" id="cat-nav"></nav>
+    <button class="src-toggle-btn" id="src-toggle" onclick="toggleSrcPanel()">FUENTES ⚙</button>
+  </div>
+
+  <div class="src-panel" id="src-panel">
+    <div class="src-panel-title">Fuentes visibles — toca para activar/desactivar</div>
+    <div class="src-grid" id="src-grid"></div>
+    <div class="src-panel-note">
+      Esto oculta fuentes en la página. Para añadir o quitar fuentes del feed diario,
+      edita <a href="https://github.com/up160/fetchandtranslate/edit/main/feeds.json" target="_blank" rel="noopener">feeds.json en GitHub</a>
+      — funciona desde el móvil.
+    </div>
+  </div>
+
+  <div class="hint-bar">
+    <b>TIP:</b> toca cualquier palabra para traducirla y guardarla · <b>[EN]</b> cambia el idioma de una tarjeta
+  </div>
+
+  <main>
+    <div id="status">INICIALIZANDO<span class="blink">_</span></div>
+    <div id="feed-container"></div>
+  </main>
+</div>
+
+<div id="vocab-page">
+  <main>
+    <div class="vocab-header">
+      <div class="vocab-title">// Palabras Guardadas</div>
+      <div class="vocab-actions">
+        <button class="vocab-action-btn" onclick="toggleRevealAll()">REVELAR TODO</button>
+        <button class="vocab-action-btn" onclick="exportVocab()">EXPORTAR CSV</button>
+      </div>
+    </div>
+    <div id="vocab-container"></div>
+  </main>
+</div>
+
+<div id="word-popup"></div>
+
+<div class="lang-toggle">
+  <button class="lang-btn active" id="btn-es" onclick="setLang('es')">ES</button>
+  <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+</div>
+
+<script>
+  let allItems = [];
+  let currentCat = 'all';
+  let currentLang = 'es';
+  let searchQuery = '';
+  let flippedCards = new Set();
+  let revealAll = false;
+
+  let readItems  = new Set(JSON.parse(localStorage.getItem('senal_read') || '[]'));
+  let hiddenSrcs = new Set(JSON.parse(localStorage.getItem('senal_hidden_srcs') || '[]'));
+  const wordCache = JSON.parse(localStorage.getItem('senal_wordcache') || '{}');
+  // savedVocab: { "es:palabra": { word, trans, lang, added } }
+  let savedVocab = JSON.parse(localStorage.getItem('senal_vocab') || '{}');
+
+  // ── Load ─────────────────────────────────────────────────────────
+  async function loadFeed() {
+    try {
+      const res = await fetch('./feed.json?t=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      allItems = data.items || [];
+
+      const d = new Date(data.generated_at);
+      document.getElementById('update-time').textContent =
+        d.toLocaleString('es-ES', { dateStyle: 'short', timeStyle: 'short' });
+      document.getElementById('item-count').textContent = `${allItems.length} ARTÍCULOS`;
+
+      buildCategoryNav();
+      buildSrcPanel();
+      updateVocabBadge();
+      render();
+    } catch (e) {
+      document.getElementById('status').innerHTML =
+        `<span class="err">ERROR: No se pudo cargar feed.json<br>${e.message}</span>`;
+    }
+  }
+
+  // ── Page switching ───────────────────────────────────────────────
+  function showPage(page) {
+    document.getElementById('feed-page').classList.toggle('hidden', page !== 'feed');
+    document.getElementById('vocab-page').classList.toggle('visible', page === 'vocab');
+    document.getElementById('nav-feed').classList.toggle('active', page === 'feed');
+    document.getElementById('nav-vocab').classList.toggle('active', page === 'vocab');
+    if (page === 'vocab') renderVocab();
+    hidePopup();
+  }
+
+  // ── Category nav ─────────────────────────────────────────────────
+  function buildCategoryNav() {
+    const cats = ['all', ...new Set(allItems.map(i => i.category))];
+    const nav = document.getElementById('cat-nav');
+    nav.innerHTML = '';
+    cats.forEach(cat => {
+      const btn = document.createElement('button');
+      btn.className = 'cat-btn' + (cat === currentCat ? ' active' : '');
+      btn.dataset.cat = cat;
+      btn.textContent = cat === 'all' ? 'TODOS' : cat.toUpperCase();
+      btn.onclick = () => { currentCat = cat; updateNav(); render(); };
+      nav.appendChild(btn);
+    });
+  }
+
+  function updateNav() {
+    document.querySelectorAll('.cat-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.cat === currentCat);
+    });
+  }
+
+  // ── Source panel ─────────────────────────────────────────────────
+  function toggleSrcPanel() {
+    document.getElementById('src-panel').classList.toggle('open');
+    document.getElementById('src-toggle').classList.toggle('open');
+  }
+
+  function buildSrcPanel() {
+    // Unique sources with their categories, from the actual feed data
+    const srcMap = new Map();
+    allItems.forEach(i => { if (!srcMap.has(i.source)) srcMap.set(i.source, i.category); });
+
+    const grid = document.getElementById('src-grid');
+    grid.innerHTML = '';
+    [...srcMap.entries()].sort((a,b) => a[1].localeCompare(b[1]) || a[0].localeCompare(b[0])).forEach(([src, cat]) => {
+      const el = document.createElement('div');
+      el.className = 'src-item' + (hiddenSrcs.has(src) ? ' off' : '');
+      el.innerHTML = `<span class="src-led"></span><span>${escHtml(src)}</span><span class="src-cat">${escHtml(cat)}</span>`;
+      el.onclick = () => {
+        if (hiddenSrcs.has(src)) hiddenSrcs.delete(src);
+        else hiddenSrcs.add(src);
+        localStorage.setItem('senal_hidden_srcs', JSON.stringify([...hiddenSrcs]));
+        el.classList.toggle('off');
+        render();
+      };
+      grid.appendChild(el);
+    });
+  }
+
+  // ── Search ───────────────────────────────────────────────────────
+  document.getElementById('search').addEventListener('input', (e) => {
+    searchQuery = e.target.value.toLowerCase().trim();
+    render();
+  });
+
+  // ── Language ─────────────────────────────────────────────────────
+  function setLang(lang) {
+    currentLang = lang;
+    flippedCards.clear();
+    document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    render();
+  }
+
+  function flipCard(id) {
+    if (flippedCards.has(id)) flippedCards.delete(id);
+    else flippedCards.add(id);
+    render();
+  }
+
+  // ── Read tracking ────────────────────────────────────────────────
+  function markRead(id) {
+    readItems.add(id);
+    localStorage.setItem('senal_read', JSON.stringify([...readItems]));
+    const el = document.querySelector(`[data-id="${id}"]`);
+    if (el) el.classList.add('read');
+  }
+
+  function isNew(item) {
+    if (!item.published) return false;
+    try {
+      return (Date.now() - new Date(item.published).getTime()) < 24 * 60 * 60 * 1000;
+    } catch { return false; }
+  }
+
+  // ── Render feed ──────────────────────────────────────────────────
+  function render() {
+    let filtered = currentCat === 'all'
+      ? allItems
+      : allItems.filter(i => i.category === currentCat);
+
+    filtered = filtered.filter(i => !hiddenSrcs.has(i.source));
+
+    if (searchQuery) {
+      filtered = filtered.filter(i =>
+        (i.title_es || '').toLowerCase().includes(searchQuery) ||
+        (i.title_en || '').toLowerCase().includes(searchQuery) ||
+        (i.summary_es || '').toLowerCase().includes(searchQuery) ||
+        (i.summary_en || '').toLowerCase().includes(searchQuery) ||
+        (i.source || '').toLowerCase().includes(searchQuery)
+      );
+    }
+
+    const container = document.getElementById('feed-container');
+    document.getElementById('status').style.display = 'none';
+
+    if (filtered.length === 0) {
+      container.innerHTML = '<div id="status" style="display:block">SIN RESULTADOS</div>';
+      return;
+    }
+
+    const groups = {};
+    filtered.forEach(item => {
+      if (!groups[item.category]) groups[item.category] = [];
+      groups[item.category].push(item);
+    });
+
+    let html = '';
+    for (const [cat, items] of Object.entries(groups)) {
+      html += `
+        <div class="section-header">
+          <div class="section-label">${cat}</div>
+          <div class="section-line"></div>
+          <div class="section-count">${items.length} ART.</div>
+        </div>
+        <div class="feed-grid">
+          ${items.map((item, i) => renderItem(item, i)).join('')}
+        </div>`;
+    }
+
+    container.innerHTML = html;
+    attachWordHandlers();
+  }
+
+  function renderItem(item, index) {
+    const flipped = flippedCards.has(item.id);
+    const showEs = (currentLang === 'es') !== flipped;
+
+    const title   = showEs ? (item.title_es   || item.title_en)   : item.title_en;
+    const summary = showEs ? (item.summary_es || item.summary_en) : item.summary_en;
+    const srcLang = showEs ? 'es' : 'en';
+
+    const date = item.published
+      ? (() => { try { return new Date(item.published).toLocaleDateString('es-ES'); } catch { return ''; } })()
+      : '';
+
+    const isRead = readItems.has(item.id);
+
+    return `
+      <article class="item${isRead ? ' read' : ''}" data-id="${item.id}" style="animation-delay:${Math.min(index * 30, 300)}ms">
+        <div class="item-top">
+          <div class="item-source">${escHtml(item.source)}</div>
+          <div class="item-controls">
+            ${isNew(item) && !isRead ? '<span class="badge-new">NUEVO</span>' : ''}
+            <button class="flip-btn${flipped ? ' flipped' : ''}" onclick="flipCard('${item.id}')">[${showEs ? 'EN' : 'ES'}]</button>
+          </div>
+        </div>
+        <div class="item-title">
+          <a href="${escHtml(item.link)}" target="_blank" rel="noopener" onclick="markRead('${item.id}')">${wordify(title, srcLang)}</a>
+        </div>
+        ${summary ? `<div class="item-summary">${wordify(summary, srcLang)}</div>` : ''}
+        <div class="item-footer">
+          <span class="item-date">${date}</span>
+          <a class="item-link" href="${escHtml(item.link)}" target="_blank" rel="noopener" onclick="markRead('${item.id}')">LEER →</a>
+        </div>
+      </article>`;
+  }
+
+  // ── Word tap-to-translate + save ─────────────────────────────────
+  function wordify(text, lang) {
+    if (!text) return '';
+    return escHtml(text).split(/(\s+)/).map(token => {
+      const clean = token.replace(/[.,;:!?¿¡"'()\[\]«»—–]/g, '');
+      if (clean.length < 2 || /^\s*$/.test(token)) return token;
+      const key = `${lang}:${clean.toLowerCase()}`;
+      const savedCls = savedVocab[key] ? ' saved' : '';
+      return token.replace(clean, `<span class="w${savedCls}" data-word="${clean.toLowerCase()}" data-lang="${lang}">${clean}</span>`);
+    }).join('');
+  }
+
+  function attachWordHandlers() {
+    document.querySelectorAll('.w').forEach(el => {
+      el.addEventListener('click', async (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        await showWordPopup(el, el.dataset.word, el.dataset.lang);
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('#word-popup') && !e.target.classList.contains('w')) hidePopup();
+    });
+    document.addEventListener('scroll', hidePopup, { passive: true });
+  }
+
+  async function showWordPopup(el, word, lang) {
+    document.querySelectorAll('.w.active').forEach(w => w.classList.remove('active'));
+    el.classList.add('active');
+
+    const popup = document.getElementById('word-popup');
+    const pair = lang === 'es' ? 'es|en' : 'en|es';
+    const cacheKey = `${pair}:${word}`;
+    const vocabKey = `${lang}:${word}`;
+
+    popup.innerHTML = `<div class="wp-word">${escHtml(word)}</div><div class="wp-loading">traduciendo<span class="blink">_</span></div>`;
+    positionPopup(popup, el);
+    popup.style.display = 'block';
+
+    let translation = wordCache[cacheKey];
+
+    if (!translation) {
+      try {
+        const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${pair}`);
+        const data = await res.json();
+        translation = data?.responseData?.translatedText || '?';
+        wordCache[cacheKey] = translation;
+        const keys = Object.keys(wordCache);
+        if (keys.length > 500) delete wordCache[keys[0]];
+        localStorage.setItem('senal_wordcache', JSON.stringify(wordCache));
+      } catch {
+        translation = '⚠ sin conexión';
+      }
+    }
+
+    const alreadySaved = !!savedVocab[vocabKey];
+    popup.innerHTML = `
+      <div class="wp-word">${escHtml(word)}</div>
+      <div class="wp-trans">${escHtml(translation)}</div>
+      <button class="wp-save${alreadySaved ? ' saved' : ''}" id="wp-save-btn">${alreadySaved ? '✓ GUARDADA' : '+ GUARDAR'}</button>`;
+    positionPopup(popup, el);
+
+    document.getElementById('wp-save-btn').onclick = (e) => {
+      e.stopPropagation();
+      if (savedVocab[vocabKey]) {
+        delete savedVocab[vocabKey];
+        e.target.textContent = '+ GUARDAR';
+        e.target.classList.remove('saved');
+        el.classList.remove('saved');
+      } else {
+        savedVocab[vocabKey] = { word, trans: translation, lang, added: Date.now() };
+        e.target.textContent = '✓ GUARDADA';
+        e.target.classList.add('saved');
+        el.classList.add('saved');
+      }
+      localStorage.setItem('senal_vocab', JSON.stringify(savedVocab));
+      updateVocabBadge();
+    };
+  }
+
+  function positionPopup(popup, el) {
+    const rect = el.getBoundingClientRect();
+    popup.style.display = 'block';
+    const pw = popup.offsetWidth || 200;
+    const ph = popup.offsetHeight || 80;
+
+    let left = rect.left;
+    if (left + pw > window.innerWidth - 12) left = window.innerWidth - pw - 12;
+    if (left < 12) left = 12;
+
+    if (rect.top - ph - 10 > 0) {
+      popup.style.top = (rect.top - ph - 10) + 'px';
+      popup.classList.remove('below');
+    } else {
+      popup.style.top = (rect.bottom + 10) + 'px';
+      popup.classList.add('below');
+    }
+    popup.style.left = left + 'px';
+  }
+
+  function hidePopup() {
+    document.getElementById('word-popup').style.display = 'none';
+    document.querySelectorAll('.w.active').forEach(w => w.classList.remove('active'));
+  }
+
+  // ── Vocab page ───────────────────────────────────────────────────
+  function updateVocabBadge() {
+    document.getElementById('vocab-badge').textContent = Object.keys(savedVocab).length;
+  }
+
+  function renderVocab() {
+    const container = document.getElementById('vocab-container');
+    const entries = Object.entries(savedVocab).sort((a,b) => b[1].added - a[1].added);
+
+    if (entries.length === 0) {
+      container.innerHTML = `<div class="vocab-empty">
+        SIN PALABRAS GUARDADAS<br>
+        toca una palabra en el feed → GUARDAR
+      </div>`;
+      return;
+    }
+
+    container.innerHTML = `<div class="vocab-grid">
+      ${entries.map(([key, v]) => `
+        <div class="vocab-card${revealAll ? ' revealed' : ''}" onclick="this.classList.toggle('revealed')">
+          <button class="vocab-del" onclick="event.stopPropagation(); deleteVocab('${escHtml(key)}')">✕</button>
+          <div class="vocab-word">${escHtml(v.word)}</div>
+          <div class="vocab-trans">${escHtml(v.trans)}</div>
+          <div class="vocab-hint">toca para revelar</div>
+        </div>`).join('')}
+    </div>`;
+  }
+
+  function deleteVocab(key) {
+    delete savedVocab[key];
+    localStorage.setItem('senal_vocab', JSON.stringify(savedVocab));
+    updateVocabBadge();
+    renderVocab();
+  }
+
+  function toggleRevealAll() {
+    revealAll = !revealAll;
+    renderVocab();
+  }
+
+  function exportVocab() {
+    const rows = [['palabra','traduccion','idioma','fecha']];
+    Object.values(savedVocab).forEach(v => {
+      rows.push([v.word, v.trans, v.lang, new Date(v.added).toISOString().slice(0,10)]);
+    });
+    const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+    const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'palabras_guardadas.csv';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  function escHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  loadFeed();
+</script>
+</body>
+</html>
