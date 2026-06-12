@@ -14,6 +14,9 @@ from typing import Optional
 import feedparser
 import anthropic
 
+# Reddit (and some other hosts) block feedparser's default user agent
+feedparser.USER_AGENT = "fetch_and_translate-rss-reader/1.0"
+
 # ─── Feed Sources (loaded from feeds.json) ──────────────────────────────────
 
 def load_config():
@@ -100,7 +103,7 @@ Items to translate:
 
     try:
         response = client.messages.create(
-            model="claude-sonnet-6",
+            model="claude-sonnet-4-6",
             max_tokens=4000,
             messages=[{"role": "user", "content": prompt}]
         )
