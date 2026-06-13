@@ -4,11 +4,6 @@
     { "category": "World Cup", "name": "World Cup 2026 (Guardian)",  "url": "https://www.theguardian.com/football/world-cup-2026/rss" },
     { "category": "World Cup", "name": "BBC Football",               "url": "http://feeds.bbci.co.uk/sport/football/rss.xml" },
 
-    { "category": "MTG",       "name": "MTGGoldfish",                "url": "https://www.mtggoldfish.com/feed" },
-    { "category": "MTG",       "name": "Star City Games",            "url": "https://articles.starcitygames.com/feed/" },
-
-    { "category": "Scotland",  "name": "Walkhighlands",              "url": "https://www.walkhighlands.co.uk/news/feed/" },
-
     { "category": "Parenting", "name": "r/daddit",                   "url": "https://www.reddit.com/r/daddit/.rss" },
 
     { "category": "Tech",      "name": "Hacker News",                "url": "https://news.ycombinator.com/rss" },
