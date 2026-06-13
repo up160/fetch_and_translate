@@ -272,6 +272,32 @@
       border: 1px solid var(--border);
     }
 
+    /* ── Frase del día ── */
+    .phrase-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+    .phrase-card { background: var(--surface); padding: 1.25rem; position: relative; }
+    .phrase-card::before {
+      content: ''; position: absolute; top: 0; left: 0;
+      width: 2px; height: 100%; background: var(--accent2);
+    }
+    .phrase-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; }
+    .phrase-cat {
+      font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--accent2);
+      border: 1px solid var(--border); padding: 0.1rem 0.45rem; border-radius: 2px;
+    }
+    .phrase-es {
+      font-family: var(--condensed); font-weight: 600; font-size: 1.15rem;
+      line-height: 1.35; color: #e8f4ff; margin-bottom: 0.45rem;
+    }
+    .phrase-en { font-family: var(--mono); font-size: 0.72rem; color: var(--text-dim); line-height: 1.5; }
+
     /* ── Item card ── */
     .item {
       background: var(--surface);
@@ -700,6 +726,7 @@
   </div>
 
   <main>
+    <div id="phrase-box"></div>
     <div id="status">INICIALIZANDO<span class="blink">_</span></div>
     <div id="feed-container"></div>
   </main>
@@ -1247,6 +1274,70 @@
     renderReview();
   }
 
+  // ── Frase del día (rotating everyday phrases) ────────────────────
+  const PHRASES = [
+    { cat: 'Transporte', es: '¿A qué hora sale el próximo tren a Madrid?', en: 'What time does the next train to Madrid leave?' },
+    { cat: 'Transporte', es: '¿De qué andén sale el tren?', en: 'Which platform does the train leave from?' },
+    { cat: 'Transporte', es: 'Un billete de ida y vuelta a Barcelona, por favor.', en: 'A return ticket to Barcelona, please.' },
+    { cat: 'Transporte', es: '¿Cuánto cuesta un billete sencillo?', en: 'How much is a one-way ticket?' },
+    { cat: 'Transporte', es: '¿Este tren para en Sevilla?', en: 'Does this train stop in Seville?' },
+    { cat: 'Transporte', es: '¿El autobús al centro pasa por aquí?', en: 'Does the bus to the centre stop here?' },
+    { cat: 'Reservas',   es: 'Quería reservar una mesa para esta noche.', en: "I'd like to book a table for tonight." },
+    { cat: 'Reservas',   es: 'Tengo una reserva a nombre de…', en: 'I have a reservation under the name…' },
+    { cat: 'Reservas',   es: '¿Tienen habitaciones libres?', en: 'Do you have any rooms available?' },
+    { cat: 'Reservas',   es: '¿A qué hora es la entrada?', en: 'What time is check-in?' },
+    { cat: 'Bar',        es: '¿Me pone una caña, por favor?', en: 'Can I get a small beer, please?' },
+    { cat: 'Bar',        es: '¿Me pone otra, por favor?', en: 'Can I have another one, please?' },
+    { cat: 'Bar',        es: '¿Me cobra, por favor?', en: 'Can I pay, please?' },
+    { cat: 'Restaurante',es: 'La cuenta, por favor.', en: 'The bill, please.' },
+    { cat: 'Restaurante',es: '¿Qué me recomienda?', en: 'What do you recommend?' },
+    { cat: 'Restaurante',es: '¿Tienen una mesa para dos?', en: 'Do you have a table for two?' },
+    { cat: 'Restaurante',es: 'Para mí, el menú del día.', en: "I'll have the set menu." },
+    { cat: 'Restaurante',es: '¿Tienen opciones vegetarianas?', en: 'Do you have vegetarian options?' },
+    { cat: 'Tienda',     es: '¿Cuánto cuesta esto?', en: 'How much is this?' },
+    { cat: 'Tienda',     es: '¿Tienen esto en otra talla?', en: 'Do you have this in another size?' },
+    { cat: 'Tienda',     es: 'Solo estoy mirando, gracias.', en: "I'm just looking, thanks." },
+    { cat: 'Tienda',     es: '¿Puedo pagar con tarjeta?', en: 'Can I pay by card?' },
+    { cat: 'Tienda',     es: '¿Me da una bolsa, por favor?', en: 'Could I have a bag, please?' },
+    { cat: 'Tienda',     es: '¿Dónde está la caja?', en: 'Where is the till?' },
+    { cat: 'Direcciones',es: '¿Dónde está la estación más cercana?', en: 'Where is the nearest station?' },
+    { cat: 'Direcciones',es: '¿Cómo llego al centro?', en: 'How do I get to the centre?' },
+    { cat: 'Direcciones',es: '¿Está lejos de aquí?', en: 'Is it far from here?' },
+    { cat: 'Direcciones',es: '¿Me lo puede indicar en el mapa?', en: 'Can you show me on the map?' },
+    { cat: 'Básicos',    es: 'Perdón, ¿me puede ayudar?', en: 'Excuse me, can you help me?' },
+    { cat: 'Básicos',    es: '¿Habla inglés?', en: 'Do you speak English?' },
+    { cat: 'Básicos',    es: '¿Puede repetir, por favor?', en: 'Can you repeat that, please?' },
+    { cat: 'Básicos',    es: 'No entiendo, más despacio por favor.', en: "I don't understand, slower please." },
+    { cat: 'Básicos',    es: '¿Dónde está el baño?', en: 'Where is the toilet?' },
+  ];
+
+  function renderDailyPhrases() {
+    const box = document.getElementById('phrase-box');
+    if (!box) return;
+    const n = PHRASES.length;
+    const day = Math.floor(Date.now() / 86400000); // days since epoch (UTC)
+    const picks = [PHRASES[(day * 2) % n], PHRASES[(day * 2 + 1) % n]];
+    box.innerHTML = `
+      <div class="section-header">
+        <div class="section-label">Frases del día</div>
+        <div class="section-line"></div>
+        <div class="section-count">${picks.length} FRASES</div>
+      </div>
+      <div class="phrase-grid">
+        ${picks.map(p => `
+          <div class="phrase-card">
+            <div class="phrase-top">
+              <span class="phrase-cat">${escHtml(p.cat)}</span>
+              <button class="speak-btn" title="Escuchar" data-es="${escHtml(p.es)}" onclick="speak(this.dataset.es, 'es')">🔊</button>
+            </div>
+            <div class="phrase-es">${wordify(p.es, 'es')}</div>
+            <div class="phrase-en">${escHtml(p.en)}</div>
+          </div>`).join('')}
+      </div>`;
+    attachWordHandlers();
+  }
+
+  renderDailyPhrases();
   loadFeed();
 </script>
 </body>
