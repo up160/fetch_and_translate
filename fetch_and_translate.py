@@ -193,36 +193,15 @@ def fetch_world_cup_results(days_back: int = 3) -> list[dict]:
 
 # ─── Translate ────────────────────────────────────────────────────────────────
 
-def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
-    """
-    Translate titles and summaries to Spanish in a single Claude API call.
-    Batching all items together is efficient and cheap.
-    """
-    print("Translating to Spanish via Claude...")
-
-    # English fallback up front; successful chunks overwrite it
-    for item in items:
-        item["title_es"] = item["title_en"]
-        item["summary_es"] = item["summary_en"]
-
-    # Translate in chunks — one giant request risks truncating the JSON output
-    CHUNK_SIZE = 15
-    translated_count = 0
-    for start in range(0, len(items), CHUNK_SIZE):
-        chunk = items[start:start + CHUNK_SIZE]
-        to_translate = [
-            {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
-            for item in chunk
-        ]
-
-        prompt = f"""You are a professional news translator producing Spanish (Spain) copy for a daily reader.
+TRANSLATE_PROMPT = """You are a professional news translator producing Spanish (Spain) copy for a daily reader.
 Translate each item from English to Spanish.
 
 Guidelines:
 - Write natural, fluent, idiomatic Spanish — never a literal word-for-word rendering.
 - Use a journalistic register: clear, concise, neutral news tone. Titles stay punchy like real headlines.
 - Keep proper nouns untranslated: team names, club names, player names, place names, brands,
-  product names and company names (e.g. Scarlets, Bellingcat, Cardiff, Hacker News).
+  product names and company names (e.g. Scarlets, Bellingcat, Cardiff, Hacker News). Use the
+  standard Spanish exonym for countries (e.g. Mexico->México, South Africa->Sudáfrica).
 - Translate sports, tech and security/OSINT terminology the way Spanish-language media actually
   uses it; keep widely-used English terms (e.g. ransomware, hacker, try, scrum) when that is the norm.
 - Preserve meaning and any numbers, scores and dates exactly.
@@ -235,37 +214,78 @@ Return ONLY a valid JSON array — no markdown, no code fences, no explanation, 
 Each object must have exactly these keys: id, title_es, summary_es.
 
 Items to translate:
-{json.dumps(to_translate, ensure_ascii=False)}"""
+"""
 
+
+def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
+    """Translate one chunk in place. Returns number of items actually changed."""
+    to_translate = [
+        {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
+        for item in chunk
+    ]
+    prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=8000,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    raw = response.content[0].text.strip()
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+    raw = raw.strip()
+
+    translations = json.loads(raw)
+    translation_map = {t["id"]: t for t in translations}
+
+    changed = 0
+    for item in chunk:
+        t = translation_map.get(item["id"], {})
+        item["title_es"] = t.get("title_es", item["title_en"])
+        item["summary_es"] = t.get("summary_es", item["summary_en"])
+        if item["title_es"] != item["title_en"]:
+            changed += 1
+    return changed
+
+
+def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
+    """
+    Translate titles and summaries to Spanish via Claude, in small chunks
+    (better per-item fidelity than one big call) with English fallback on
+    failure and a single targeted retry pass over anything left in English.
+    """
+    print("Translating to Spanish via Claude...")
+
+    # English fallback up front; successful chunks overwrite it
+    for item in items:
+        item["title_es"] = item["title_en"]
+        item["summary_es"] = item["summary_en"]
+
+    CHUNK_SIZE = 8
+    for start in range(0, len(items), CHUNK_SIZE):
+        chunk = items[start:start + CHUNK_SIZE]
         try:
-            response = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=8000,
-                messages=[{"role": "user", "content": prompt}]
-            )
-            raw = response.content[0].text.strip()
-
-            # Strip markdown fences if present
-            if raw.startswith("```"):
-                raw = raw.split("```")[1]
-                if raw.startswith("json"):
-                    raw = raw[4:]
-            raw = raw.strip()
-
-            translations = json.loads(raw)
-            translation_map = {t["id"]: t for t in translations}
-
-            for item in chunk:
-                t = translation_map.get(item["id"], {})
-                item["title_es"] = t.get("title_es", item["title_en"])
-                item["summary_es"] = t.get("summary_es", item["summary_en"])
-
-            translated_count += len(translations)
+            _translate_chunk(chunk, client)
             print(f"  ✓ Translated {start + 1}–{start + len(chunk)}")
         except Exception as e:
             print(f"  ✗ Chunk {start + 1}–{start + len(chunk)} failed: {e}")
 
-    print(f"  Translated {translated_count}/{len(items)} items")
+    # Targeted retry: re-translate items still identical to English (model
+    # sometimes echoes terse headlines). Idempotent for true proper-noun items.
+    leftovers = [i for i in items if i["title_es"] == i["title_en"]]
+    if leftovers:
+        print(f"  Retrying {len(leftovers)} items left in English...")
+        for start in range(0, len(leftovers), CHUNK_SIZE):
+            chunk = leftovers[start:start + CHUNK_SIZE]
+            try:
+                _translate_chunk(chunk, client)
+            except Exception as e:
+                print(f"  ✗ Retry chunk failed: {e}")
+
+    translated = sum(1 for i in items if i["title_es"] != i["title_en"])
+    print(f"  Translated {translated}/{len(items)} items")
     return items
 
 
