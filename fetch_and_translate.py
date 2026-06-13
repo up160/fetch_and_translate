@@ -235,13 +235,27 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
     raw = raw.strip()
 
     translations = json.loads(raw)
-    translation_map = {t["id"]: t for t in translations}
+    # Match by id (coerced to str). The model sometimes returns the translated
+    # text under the *input* key names ("title"/"summary") instead of the
+    # requested "title_es"/"summary_es" — accept either, or fall back positionally.
+    by_id = {str(t.get("id")): t for t in translations}
+
+    def pick(t, primary, secondary):
+        v = t.get(primary)
+        if v is None:
+            v = t.get(secondary)
+        return v
 
     changed = 0
-    for item in chunk:
-        t = translation_map.get(item["id"], {})
-        item["title_es"] = t.get("title_es", item["title_en"])
-        item["summary_es"] = t.get("summary_es", item["summary_en"])
+    for idx, item in enumerate(chunk):
+        t = by_id.get(str(item["id"]))
+        if t is None and idx < len(translations):
+            t = translations[idx]
+        t = t or {}
+        title_es = pick(t, "title_es", "title")
+        summary_es = pick(t, "summary_es", "summary")
+        item["title_es"] = title_es if title_es else item["title_en"]
+        item["summary_es"] = summary_es if summary_es is not None else item["summary_en"]
         if item["title_es"] != item["title_en"]:
             changed += 1
     return changed
