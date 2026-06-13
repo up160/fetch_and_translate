@@ -283,6 +283,32 @@
     @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
     @keyframes fadeUpRead { to { opacity: 0.45; transform: translateY(0); } }
 
+    /* ── Card thumbnail ── */
+    .item-thumb {
+      margin: -1.25rem -1.25rem 1rem;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+      background: var(--bg);
+      aspect-ratio: 16 / 9;
+      position: relative;
+    }
+    .item-thumb::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 55%, rgba(8,11,15,0.55));
+      pointer-events: none;
+    }
+    .item-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: saturate(0.85) contrast(1.05);
+      transition: filter 0.2s ease, transform 0.4s ease;
+    }
+    .item:hover .item-thumb img { filter: saturate(1.1) contrast(1.1); transform: scale(1.04); }
+
     .item-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; }
 
     .item-source {
@@ -336,7 +362,15 @@
     .item-title a { color: inherit; text-decoration: none; transition: color 0.15s; }
     .item-title a:hover { color: var(--accent); }
 
-    .item-summary { font-size: 0.8rem; line-height: 1.7; color: var(--text-dim); }
+    .item-summary {
+      font-size: 0.8rem;
+      line-height: 1.7;
+      color: var(--text-dim);
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
 
     .w {
       cursor: pointer;
@@ -817,6 +851,7 @@
 
     return `
       <article class="item${isRead ? ' read' : ''}" data-id="${item.id}" style="animation-delay:${Math.min(index * 30, 300)}ms">
+        ${item.image ? `<div class="item-thumb"><img loading="lazy" src="${escHtml(item.image)}" alt="" onerror="this.closest('.item-thumb').remove()"></div>` : ''}
         <div class="item-top">
           <div class="item-source">${escHtml(item.source)}</div>
           <div class="item-controls">

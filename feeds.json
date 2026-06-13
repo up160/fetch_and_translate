@@ -17,8 +17,16 @@
     { "category": "News",      "name": "BBC News",                   "url": "http://feeds.bbci.co.uk/news/rss.xml" },
     { "category": "News",      "name": "The Guardian",               "url": "https://www.theguardian.com/uk/rss" },
 
-    { "category": "Football",  "name": "Wales Football (BBC)",       "url": "https://feeds.bbci.co.uk/sport/football/welsh/rss.xml" },
+    { "category": "Security",  "name": "Krebs on Security",          "url": "https://krebsonsecurity.com/feed/" },
+    { "category": "Security",  "name": "Bellingcat",                 "url": "https://www.bellingcat.com/feed/" },
+    { "category": "Security",  "name": "Nixintel",                   "url": "https://nixintel.info/feed/" },
 
-    { "category": "Rugby",     "name": "Wales Rugby (BBC)",          "url": "https://feeds.bbci.co.uk/sport/rugby-union/welsh/rss.xml" }
+    { "category": "Football",  "name": "Wales Football (BBC)",       "url": "https://feeds.bbci.co.uk/sport/football/welsh/rss.xml" },
+    { "category": "Football",  "name": "Wales Football (WalesOnline)", "url": "https://www.walesonline.co.uk/all-about/wales-football-team?service=rss" },
+
+    { "category": "Rugby",     "name": "Wales Rugby (BBC)",          "url": "https://feeds.bbci.co.uk/sport/rugby-union/welsh/rss.xml" },
+    { "category": "Rugby",     "name": "Squidge Rugby (YouTube)",    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCu2oaGQ6Dds6g9lqfexUFbQ" },
+    { "category": "Rugby",     "name": "Inside Welsh Rugby",         "url": "https://walesrugby.substack.com/feed" },
+    { "category": "Rugby",     "name": "Scarlets",                   "url": "https://www.scarlets.wales/feed/" }
   ]
 }
