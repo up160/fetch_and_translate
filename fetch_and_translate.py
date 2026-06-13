@@ -205,9 +205,6 @@ Guidelines:
 - Translate sports, tech and security/OSINT terminology the way Spanish-language media actually
   uses it; keep widely-used English terms (e.g. ransomware, hacker, try, scrum) when that is the norm.
 - Preserve meaning and any numbers, scores and dates exactly.
-- Always produce a Spanish title and summary, even for short, casual or tech/social-post headlines.
-  Only individual proper nouns stay in their original language — never return the English text
-  unchanged just because it is brief.
 - If a summary is empty, return an empty string for summary_es.
 
 Return ONLY a valid JSON array — no markdown, no code fences, no explanation, no preamble.
