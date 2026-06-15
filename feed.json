@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-06-14T09:49:26.583747+00:00",
-  "item_count": 82,
+  "generated_at": "2026-06-15T07:20:31.648506+00:00",
+  "item_count": 84,
   "items": [
-    {
-      "id": "wca9ee4288",
-      "title_en": "Mexico 2–0 South Africa",
-      "summary_en": "Group Stage · GROUP_A. Played on 2026-06-11.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-11T19:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "México 2–0 Sudáfrica",
-      "summary_es": "Fase de grupos · GRUPO_A. Jugado el 11 de junio de 2026."
-    },
     {
       "id": "wce4b62398",
       "title_en": "South Korea 2–1 Czechia",
@@ -23,20 +11,8 @@
       "published": "2026-06-12T02:00:00Z",
       "category": "Mundial",
       "source": "Resultados del Mundial",
-      "title_es": "Corea del Sur 2–1 Chequia",
-      "summary_es": "Fase de grupos · GRUPO_A. Jugado el 12 de junio de 2026."
-    },
-    {
-      "id": "wc6e2df121",
-      "title_en": "Canada 1–1 Bosnia-Herzegovina",
-      "summary_en": "Group Stage · GROUP_B. Played on 2026-06-12.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-12T19:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Canadá 1–1 Bosnia-Herzegovina",
-      "summary_es": "Fase de grupos · GRUPO_B. Disputado el 12 de junio de 2026."
+      "title_es": "Corea del Sur 2–1 República Checa",
+      "summary_es": "Fase de grupos · GRUPO A. Disputado el 12 de junio de 2026."
     },
     {
       "id": "wc057350ac",
@@ -48,7 +24,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Estados Unidos 4–1 Paraguay",
-      "summary_es": "Fase de grupos · GRUPO_D. Jugado el 13 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO D. Disputado el 13 de junio de 2026."
     },
     {
       "id": "wcbc88e1f7",
@@ -59,8 +35,8 @@
       "published": "2026-06-13T19:00:00Z",
       "category": "Mundial",
       "source": "Resultados del Mundial",
-      "title_es": "Catar 1–1 Switzerland",
-      "summary_es": "Fase de grupos · GRUPO_B. Jugado el 13 de junio de 2026."
+      "title_es": "Catar 1–1 Suiza",
+      "summary_es": "Fase de grupos · GRUPO B. Disputado el 13 de junio de 2026."
     },
     {
       "id": "wc35b1e24f",
@@ -72,7 +48,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Brasil 1–1 Marruecos",
-      "summary_es": "Fase de grupos · GRUPO_C. Jugado el 13 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO C. Disputado el 13 de junio de 2026."
     },
     {
       "id": "wc38f1c6be",
@@ -83,8 +59,8 @@
       "published": "2026-06-14T01:00:00Z",
       "category": "Mundial",
       "source": "Resultados del Mundial",
-      "title_es": "Haití 0–1 Scotland",
-      "summary_es": "Fase de grupos · GRUPO_C. Disputado el 14 de junio de 2026."
+      "title_es": "Haití 0–1 Escocia",
+      "summary_es": "Fase de grupos · GRUPO C. Disputado el 14 de junio de 2026."
     },
     {
       "id": "wc26ee8696",
@@ -96,247 +72,307 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Australia 2–0 Turquía",
-      "summary_es": "Fase de grupos · GRUPO_D. Jugado el 14 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO D. Disputado el 14 de junio de 2026."
     },
     {
-      "id": "828435219e",
-      "title_en": "World Cup 2026: Scotland react to first victory in 36 years as Australia beat Turkey – live",
-      "summary_en": "News, buildup and reaction from North AmericaPlayer guide | Bracketology | Wallchart | Mail us hereHow Group D stands after the opening games…Group D also continued today, with Australia earning a 2-0 win over Turkey in Vancouver. You can recap the action below. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/fd9c8b5764e20c33e31d89bd0804c2ee72c24425/510_219_4715_3772/master/4715.jpg?width=140&quality=85&auto=format&fit=max&s=10c4e8d9ea7ed7b6c86014d41449fedc",
-      "link": "https://www.theguardian.com/football/live/2026/jun/14/world-cup-2026-news-scotland-react-to-first-world-cup-victory-in-36-years-as-australia-beat-turkey",
-      "published": "Sun, 14 Jun 2026 09:42:29 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Mundial 2026: Escocia celebra su primera victoria en 36 años mientras Australia derrota a Turquía – en directo",
-      "summary_es": "Noticias, previa y reacciones desde Norteamérica. Guía de jugadores | Bracketology | Cuadro del torneo | Escríbenos aquí. Así queda el Grupo D tras los primeros partidos… El Grupo D también tuvo acción hoy, con Australia imponiéndose 2-0 a Turquía en Vancouver. Repasa todo lo ocurrido a continuación."
-    },
-    {
-      "id": "7dc1bfd52e",
-      "title_en": "Socceroos stun Turkey as Australia’s youngsters shine in opening World Cup win",
-      "summary_en": "Nestory Irankunda ran to the corner flag like Tim Cahill, punching and ducking and weaving, after sending the Socceroos on their way to a stunning 2-0 upset victory over Turkey in Vancouver. The one act pulled past and future together on a night when Australia’s next generation delivered one of their best World Cup victories, to start their 2026 campaign in style.They can thank a trio of young stars, all of whom were considered unlikely to start the match. Irankunda finished a brilliant end-to-end attack with a goal in the 27th minute, assisted by midfielder Paul Okon-Engstler. Young goalkeeper Patrick Beach – thrust into the starting side in a pre-match selection shock – pulled off a series of dazzling parries, including one in the first half that will be a contender for save of the tournament. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/0a8c2263c86af7f8e281946309137ba1b86d58a8/218_0_4467_3576/master/4467.jpg?width=140&quality=85&auto=format&fit=max&s=1c8c386f7ce677d812da0da85f256e9e",
-      "link": "https://www.theguardian.com/football/2026/jun/14/australia-socceroos-turkey-world-cup-2026-group-d-match-report",
-      "published": "Sun, 14 Jun 2026 05:57:52 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Los Socceroos sorprenden a Turquía: los jóvenes de Australia brillan en su debut mundialista",
-      "summary_es": "Nestory Irankunda corrió hacia el banderín de córner al estilo de Tim Cahill, con puñetazos y fintas, tras poner a los Socceroos en camino hacia una impactante victoria por 2-0 ante Turquía en Vancouver. Ese gesto simbólico unió pasado y futuro en una noche en que la nueva generación australiana firmó uno de sus mejores partidos en un Mundial, arrancando la campaña de 2026 con gran autoridad. El equipo puede agradecer a un trío de jóvenes figuras —ninguno de los cuales se esperaba que fuera titular— su actuación estelar. Irankunda culminó un brillante ataque colectivo con un gol en el minuto 27, con asistencia del centrocampista Paul Okon-Engstler. El joven portero Patrick Beach —convocado en el once inicial como sorpresa de última hora— realizó una serie de paradas deslumbrantes, incluida una en la primera parte que ya se perfila como candidata a mejor intervención del torneo."
-    },
-    {
-      "id": "761fc6fa7e",
-      "title_en": "Scotland victorious on World Cup return after McGinn strike helps clinch win over Haiti",
-      "summary_en": "This all proved rather difficult to evaluate as the dust settled. Scotland’s fifth win at a World Cup finals should have been a cause for epic celebration. Victory over Haiti meant this is a team not guaranteed to receive a bloody nose against lesser nations after all. More than 10,000 days after limping out of the World Cup in France, Scotland returned to the biggest stage in football and claimed three points. They top Group C.Yet in the Boston Stadium, the counter narrative was more than a feeling. With Morocco and Brazil to come, this single goal success may prove insufficient as Scotland look to emerge from the group phase for the first time. This regressed into an unconvincing display from Steve Clarke’s team. Haiti lacked the composure to punish that. Still, those who would blindly celebrate Scotland’s win are probably ignoring a bigger picture that should matter. John McGinn’s goa",
-      "image": "https://i.guim.co.uk/img/media/88c823667cbd7930a06f92384dc846908cb45bc5/302_118_1866_1493/master/1866.jpg?width=140&quality=85&auto=format&fit=max&s=c682449cbb44709457a820df30608fe3",
-      "link": "https://www.theguardian.com/football/2026/jun/14/haiti-scotland-world-cup-match-report",
-      "published": "Sun, 14 Jun 2026 03:25:19 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Escocia regresa al Mundial con victoria: el gol de McGinn doblega a Haití",
-      "summary_es": "Todo resultó difícil de valorar cuando se asentó el polvo. La quinta victoria de Escocia en una fase final de un Mundial debería haber sido motivo de celebración épica. El triunfo ante Haití demostró que este equipo no está condenado a tropezar con rivales de menor nivel. Más de 10.000 días después de su amarga despedida del Mundial de Francia, Escocia regresó al mayor escenario del fútbol y se hizo con tres puntos. Lidera el Grupo C. Sin embargo, en el Boston Stadium, la narrativa contraria era más que una sensación. Con Marruecos y Brasil por delante, esta victoria por la mínima podría resultar insuficiente si Escocia aspira a superar la fase de grupos por primera vez en su historia. El conjunto de Steve Clarke ofreció una imagen poco convincente, aunque Haití no tuvo la compostura necesaria para aprovecharlo. Con todo, quienes celebren el triunfo escocés a ciegas probablemente estén ignorando un panorama más amplio que no conviene perder de vista. El gol de John McGinn..."
-    },
-    {
-      "id": "52fa56b2ea",
-      "title_en": "Brazil find that everything good flows through Vini of New Jersey",
-      "summary_en": "The Real Madrid star was his country’s best player in their World Cup opener on Saturday. They’ll need more of the same if they are to make a deep run Vinícius Júnior is not wearing the famous Brazil No 10 at this World Cup. For now, the hallowed shirt of Pelé, Zico, Rivellino, Rivaldo, Ronaldinho and all the rest belongs to Neymar.Or at least it belongs to a man faintly resembling Neymar. Now 34, he showed just enough at Santos to make Carlo Ancelotti’s squad after two lucrative but mostly wasted years in Saudi Arabia. Ancelotti could have chosen João Pedro or Richarlison or Savinho or Gabriel Jesus or Igor Jesus or, hell, even Antony, but he took Neymar. Who is injured again – a calf problem this time – and whose fitness will loom over the Brazilian campaign, just as it has at some point during every one of his four World Cups. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/44ed6ae34870c24e2977343511549e0888cc8704/77_0_4846_3876/master/4846.jpg?width=140&quality=85&auto=format&fit=max&s=e3027e5656302723560c60520a89dbce",
-      "link": "https://www.theguardian.com/football/2026/jun/14/vinicius-junior-brazil-world-cup-2026",
-      "published": "Sun, 14 Jun 2026 07:00:37 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Brasil descubre que todo fluye a través del Vini de Nueva Jersey",
-      "summary_es": "La estrella del Real Madrid fue el mejor jugador de su selección en el debut mundialista del sábado. Brasil necesitará más de lo mismo si quiere llegar lejos en el torneo. Vinícius Júnior no viste el legendario dorsal 10 de Brasil en este Mundial. Por ahora, la mítica camiseta de Pelé, Zico, Rivellino, Rivaldo, Ronaldinho y tantos otros pertenece a Neymar. O al menos a alguien que recuerda vagamente a Neymar. Con 34 años ya cumplidos, mostró lo justo en Santos para colarse en la convocatoria de Carlo Ancelotti tras dos lucrativas pero en gran medida decepcionantes temporadas en Arabia Saudí. Ancelotti podría haber elegido a João Pedro, Richarlison, Savinho, Gabriel Jesus, Igor Jesus o incluso Antony, pero se decantó por Neymar, quien está lesionado de nuevo —esta vez una sobrecarga en el gemelo— y cuya forma física planeará sobre la campaña brasileña, como ha ocurrido en algún momento de cada uno de sus cuatro Mundiales."
-    },
-    {
-      "id": "001068d0b7",
-      "title_en": "England get rapturous welcome as they settle in to sprawling Kansas City home",
-      "summary_en": "England’s squad arrived at Swope Soccer Village, their World Cup base, to find locals (and the local police) out in forceBefore Thomas Tuchel and his England players departed for the United States, there was talk about their World Cup training ground in Kansas City being too open. It was motivated, in part, by the Southampton spygate scandal. Would England’s rivals be able to steal a glance at them? Tuchel even said that the Football Association would look to erect protective fences.The nine-pitch facility at Swope Soccer Village is certainly sprawling but here’s the thing. Nobody is getting on site without going past the armed police officers at the entrance. There was a throwaway line from a steward on Saturday as England trained on the complex’s showpiece pitch after flying in from Florida after their pre-tournament camp. “You guys see spying,” he said. “We see personal security.” The",
-      "image": "https://i.guim.co.uk/img/media/4a0df9bc05e2b6ca234999552cdb9a36d3ebfc53/13_0_4701_3761/master/4701.jpg?width=140&quality=85&auto=format&fit=max&s=ba4d171ceb93a462e8878d5754a98dc3",
-      "link": "https://www.theguardian.com/football/2026/jun/14/england-world-cup-training-base-kansas-city-swope",
-      "published": "Sun, 14 Jun 2026 04:04:28 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Inglaterra recibe una bienvenida apoteósica en su amplia base de Kansas City",
-      "summary_es": "La selección inglesa llegó a Swope Soccer Village, su cuartel general mundialista, para encontrarse con una multitud de vecinos —y de policías locales— esperándoles. Antes de que Thomas Tuchel y sus jugadores partieran hacia Estados Unidos, hubo debate sobre si el campo de entrenamiento de Kansas City era demasiado accesible, en parte avivado por el escándalo de espionaje del Southampton. ¿Podrían los rivales de Inglaterra echar un vistazo a sus sesiones? El propio Tuchel llegó a decir que la Federación Inglesa de Fútbol valoraría levantar vallas protectoras. Las nueve canchas de Swope Soccer Village conforman un complejo verdaderamente extenso, pero nadie entra al recinto sin pasar ante los agentes armados apostados en la entrada. Un acomodador del estadio soltó una frase reveladora el sábado, cuando Inglaterra entrenaba en el campo principal del complejo tras llegar desde Florida, donde celebró su concentración previa al torneo. «Ustedes hablan de espionaje», dijo. «Nosotros hablamos de seguridad personal»."
-    },
-    {
-      "id": "db4ce30708",
-      "title_en": "Why Haiti v Scotland was antidote to the ills of world football",
-      "summary_en": "It might have been nervy. It might not have been pretty. But Scotland are here. And Scotland have won. Tom English reports from Boston.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e63/live/af1c92f0-67ab-11f1-8e1d-bbbb1017d210.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cdjkdmel292o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 04:54:15 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "Por qué Haití-Escocia fue el antídoto contra los males del fútbol mundial",
-      "summary_es": "Quizás fue un partido de nervios. Quizás no fue bonito. Pero Escocia está aquí. Y Escocia ha ganado. Tom English informa desde Boston."
-    },
-    {
-      "id": "9098f15467",
-      "title_en": "Has Vinicius Jr brilliance just papered over the Brazilian cracks?",
-      "summary_en": "Vinicius Jr scores a wonder goal to rescue his side but Brazil's performance against Morocco raises more questions than answers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ad9/live/cba907c0-6790-11f1-b55c-7599ca5b0a48.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cjdge0dr9rgo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 01:56:24 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "¿El genio de Vinicius Jr. no ha hecho más que tapar las grietas de Brasil?",
-      "summary_es": "Vinicius Jr. marca un golazo para salvar a los suyos, pero la actuación de Brasil ante Marruecos genera más dudas que certezas."
-    },
-    {
-      "id": "a2189f3aa4",
-      "title_en": "Refugee who quit Bayern to create Aussie World Cup dream",
-      "summary_en": "Nestory Irankunda was born as a refugee in Tanzania before becoming Australian record breaker with goal in victory over Turkey.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b919/live/59c7e700-67c4-11f1-8ca6-eb07b94f604c.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c33y424vv4zo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 07:41:05 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "El refugiado que dejó el Bayern para hacer realidad el sueño mundialista de Australia",
-      "summary_es": "Nestory Irankunda nació como refugiado en Tanzania antes de convertirse en el máximo goleador histórico de Australia con su tanto ante Turquía."
-    },
-    {
-      "id": "c0869aff6e",
-      "title_en": "McGinn fires Scotland to first World Cup win for 36 years",
-      "summary_en": "John McGinn's goal was enough as Scotland beat Haiti 1-0 at the Boston Stadium to record their first win at a World Cup for 36 years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6641/live/b3f832b0-679d-11f1-b1db-af71d47507d6.jpg",
-      "link": "https://www.bbc.com/sport/football/videos/cvgq4j59rw1o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 04:06:52 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "McGinn lleva a Escocia a su primera victoria en un Mundial en 36 años",
-      "summary_es": "El gol de John McGinn fue suficiente para que Escocia derrotara a Haití 1-0 en el Boston Stadium y lograse su primera victoria en un Mundial en 36 años."
-    },
-    {
-      "id": "89927ec55e",
-      "title_en": "Clinical Australia upset Turkey in World Cup opener",
-      "summary_en": "Watch highlights as Australia beat Turkey in their opening match, with 20-year-old Nestory Irankunda becoming the Socceroos's youngest ever World Cup goalscorer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a760/live/aea29840-67bc-11f1-8546-8f19e4fe30f4.jpg",
-      "link": "https://www.bbc.com/sport/football/videos/cgk6j2r6p7mo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 07:16:45 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "Una Australia contundente elimina a Turquía en su debut mundialista",
-      "summary_es": "Revive los mejores momentos del partido en que Australia venció a Turquía en su primer encuentro del torneo, con Nestory Irankunda, de 20 años, convirtiéndose en el goleador mundialista más joven de la historia de los Socceroos."
-    },
-    {
-      "id": "52211d3067",
-      "title_en": "Finally got to play a few games for the first time in a while",
-      "summary_en": "Anybody else finally get to the point where you can play a couple games when the baby goes to bed? This was Forza 6 lol &#32; submitted by &#32; /u/BullyMog [link] &#32; [comments]",
-      "image": "https://preview.redd.it/zvroqy63767h1.jpeg?width=640&crop=smart&auto=webp&s=2f989d7c0bba8d07d5cabde72eabc06b62e1e373",
-      "link": "https://www.reddit.com/r/daddit/comments/1u5akga/finally_got_to_play_a_few_games_for_the_first/",
-      "published": "2026-06-14T03:47:23+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Por fin pude echar unas partidas después de mucho tiempo",
-      "summary_es": "¿A alguien más le pasa que solo puede jugar un rato cuando el bebé se queda dormido? Esto fue en Forza 6, jaja. Enviado por /u/BullyMog [enlace] [comentarios]"
-    },
-    {
-      "id": "15389ddca5",
-      "title_en": "Pro tip: get one of these",
-      "summary_en": "So I’ve been carrying around one of these in my bag for the day I get thrown up on or have a nappy leak on me. Finally came in useful as my kid’s nappy leaked all over my torso while in her carrier. They’re squeezed down to a package 2”x2”, so hardly take up any space at all. Sadly, you’ll never get it back down to that size, so it’s a “one time use”, so to speak. Of course you can wear the shirt again afterwards, and it’s quite a nice cotton! &#32; submitted by &#32; /u/sabretoooth [link] &#32; [comments]",
-      "image": "https://preview.redd.it/moazbmr1a77h1.jpeg?width=640&crop=smart&auto=webp&s=4d215efcab2930bf3287b9e8d355b17db28a9eb3",
-      "link": "https://www.reddit.com/r/daddit/comments/1u5elu1/pro_tip_get_one_of_these/",
-      "published": "2026-06-14T07:25:45+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Consejo de oro: hazte con uno de estos",
-      "summary_es": "Llevo un tiempo cargando uno de estos en el bolso por si algún día me vomitan encima o me moja un pañal. Por fin me resultó útil cuando el pañal de mi hija se le escurrió por todo mi torso mientras la llevaba en el portabebés. Vienen comprimidos en un paquetito de unos 5x5 cm, así que apenas ocupan espacio. Eso sí, una vez abiertos no hay forma de devolverlos a ese tamaño, así que son de «un solo uso», por así decirlo. Claro que la camiseta se puede volver a usar después, ¡y encima es de un algodón bastante agradable! Enviado por /u/sabretoooth [enlace] [comentarios]"
-    },
-    {
-      "id": "2f8657d62b",
-      "title_en": "I don’t think my 9 yo has stopped talking since before 2pm today. It is closing in on 7pm.",
-      "summary_en": "Yes. I marked this as Support. Send help. &#32; submitted by &#32; /u/gmasterson [link] &#32; [comments]",
+      "id": "wcba22cdbb",
+      "title_en": "Germany 7–1 Curaçao",
+      "summary_en": "Group Stage · GROUP_E. Played on 2026-06-14.",
       "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1u55kyk/i_dont_think_my_9_yo_has_stopped_talking_since/",
-      "published": "2026-06-13T23:39:58+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Creo que mi hijo de 9 años no ha parado de hablar desde antes de las 14:00. Ya son casi las 19:00.",
-      "summary_es": "Sí, he marcado esto como petición de apoyo. Manden ayuda. Enviado por /u/gmasterson [enlace] [comentarios]"
+      "link": "",
+      "published": "2026-06-14T17:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Alemania 7–1 Curaçao",
+      "summary_es": "Fase de grupos · GRUPO E. Disputado el 14 de junio de 2026."
     },
     {
-      "id": "e66946c737",
-      "title_en": "Proud dad moment",
-      "summary_en": "Wanted to share this as it warmed my heart. Bit of backstory: my youngest (16 months) went for an overnight visit at her grandparents last night for the first time ever, which meant we had just our oldest (2.5 years) for the first time since his sister was born. She did great, and we had a fun day with just the three of us, but we definitely missed her presence. Fast-forward to tonight, I bring her home and our oldest immediately runs over and gives her a huge hug, and tells her he missed her. They then run around and play together for a while my wife and I talked about the plan for the night. At one point the kids dissappear into the youngest's room, so I make my way over to see what they're doing. As I get closer, I realized that I was hearing what sounded like Eric Carle's &quot;Brown Bear, Brown Bear,&quot; and when I peek in the door my oldest is &quot;reading&quot; the book​ to his",
-      "image": "https://preview.redd.it/4vswofsoc57h1.jpeg?width=640&crop=smart&auto=webp&s=4a0fc0e803d11635f0b30e7677fd94f612277138",
-      "link": "https://www.reddit.com/r/daddit/comments/1u596jw/proud_dad_moment/",
-      "published": "2026-06-14T02:37:11+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Un momento del que sentirse orgulloso como padre",
-      "summary_es": "Quería compartir esto porque me llegó al alma. Un poco de contexto: mi hija pequeña (16 meses) pasó anoche su primera noche en casa de los abuelos, lo que significó que por primera vez desde que nació ella nos quedamos solos con nuestro mayor (2 años y medio). La pequeña lo llevó genial, y nosotros tuvimos un día estupendo con él, aunque la echamos mucho de menos. Al llegar la noche, fui a buscarla y en cuanto entró en casa su hermano corrió a darle un abrazo enorme y le dijo que la había echado de menos. Después estuvieron un rato corriendo y jugando juntos mientras mi mujer y yo comentábamos el plan para esa noche. En un momento dado los niños desaparecieron en el cuarto de la pequeña, así que me acerqué a ver qué tramaban. Al acercarme, empecé a escuchar lo que sonaba como «Brown Bear, Brown Bear» de Eric Carle, y al asomarme por la puerta vi que mi hijo mayor le estaba «leyendo» el libro a su"
-    },
-    {
-      "id": "50c92ba6a7",
-      "title_en": "Went to a pool party where a kid kept pretending he was drowning and would call to other parents for help.",
-      "summary_en": "Big party for a lot of kids, all of whom could swim. Including this kid. He was jumping into the deep end, going the whole length, etc. No adults were in the pool but everyone was close and watching all the kids. At some point this kid’s mom left the party so he was by himself. My wife was standing near the ladder in the deep end and heard him call for help and say he didn’t know how to swim. She panicked and tried to grab him but he kept pretending to go under and flail away from her hand. Then she was yelling at him to just grab the ladder because he was right next to is. A bunch of us were now watching and got confused because we had literally just been watching him swim. He finally realized no one was buying it and went back to playing with other kids. He did this multiple times over the next few hours. A few of us yelled at him about as strictly as we would if it was our kids. He’d ",
+      "id": "wc60d23357",
+      "title_en": "Netherlands 2–2 Japan",
+      "summary_en": "Group Stage · GROUP_F. Played on 2026-06-14.",
       "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1u59rdx/went_to_a_pool_party_where_a_kid_kept_pretending/",
-      "published": "2026-06-14T03:06:27+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Fui a una fiesta en la piscina donde un niño no paraba de fingir que se ahogaba y pedía ayuda a otros padres.",
-      "summary_es": "Era una fiesta grande con muchos niños, todos ellos nadadores. Incluido este crío. Saltaba al fondo, cruzaba la piscina entera a nado, etc. Ningún adulto estaba dentro del agua, pero todos estábamos cerca vigilando a los niños. En un momento dado, la madre del niño se fue de la fiesta y él se quedó solo. Mi mujer estaba junto a la escalerilla en el lado hondo cuando lo oyó pedir ayuda diciendo que no sabía nadar. Se asustó e intentó agarrarlo, pero él seguía fingiendo que se hundía y se escurría de su mano. Entonces ella le gritaba que se agarrase a la escalerilla, que la tenía justo al lado. Varios estábamos ya mirando, confundidos, porque literalmente acabábamos de verle nadar. Al final el niño se dio cuenta de que nadie se lo tragaba y volvió a jugar con los demás. Lo repitió varias veces a lo largo de las horas siguientes. Algunos le regañamos con la misma firmeza con la que lo haríamos con nuestros propios hijos. Él..."
+      "link": "",
+      "published": "2026-06-14T20:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Países Bajos 2–2 Japón",
+      "summary_es": "Fase de grupos · GRUPO F. Disputado el 14 de junio de 2026."
     },
     {
-      "id": "c55d76cd1d",
-      "title_en": "Phoenix LiveView 1.2 Released",
+      "id": "wc638a7030",
+      "title_en": "Ivory Coast 1–0 Ecuador",
+      "summary_en": "Group Stage · GROUP_E. Played on 2026-06-14.",
+      "image": "",
+      "link": "",
+      "published": "2026-06-14T23:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Costa de Marfil 1–0 Ecuador",
+      "summary_es": "Fase de grupos · GRUPO E. Disputado el 14 de junio de 2026."
+    },
+    {
+      "id": "wc27995a0d",
+      "title_en": "Sweden 5–1 Tunisia",
+      "summary_en": "Group Stage · GROUP_F. Played on 2026-06-15.",
+      "image": "",
+      "link": "",
+      "published": "2026-06-15T02:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Suecia 5–1 Túnez",
+      "summary_es": "Fase de grupos · GRUPO F. Disputado el 15 de junio de 2026."
+    },
+    {
+      "id": "e3e4ea987b",
+      "title_en": "Two-goal Yasin Ayari combines with Sweden stars to sweep aside error-prone Tunisia",
+      "summary_en": "When they picture a messiah, few perhaps imagine a mild-mannered 51-year-old with a greying beard who used to play at left-back for York City. Certainly Chelsea and West Ham fans don’t. But the degree to which Graham Potter is loved in Sweden has to be seen to be believed. He was a down-on-his-luck manager seeking a new start; they were a country who didn’t win a single game in World Cup qualifying. And somehow they were perfect for each other. By the standards of what Potter has achieved over the past nine months, a comfortable win over a self-destructive Tunisia barely registers, but it is the continuation of a remarkable process of renewal.Sweden were awful in qualifying. They had a lot of injuries, it’s true, but two defeats to both Switzerland and Kosovo and two draws against Slovenia are not usually a route to the World Cup. Jon Dahl Tomasson was sacked as coach and Potter brought ",
+      "image": "https://i.guim.co.uk/img/media/bd39d18f6c5cd67a55ff44c50f9e84d744c9b0b7/0_0_4614_3693/master/4614.jpg?width=140&quality=85&auto=format&fit=max&s=115c496d704bce4ec9027ae2f1df3aa0",
+      "link": "https://www.theguardian.com/football/2026/jun/15/sweden-tunisia-world-cup-match-report",
+      "published": "Mon, 15 Jun 2026 04:15:58 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Yasin Ayari marca dos goles y se combina con las estrellas de Suecia para arrollar a una Túnez plagada de errores",
+      "summary_es": "Pocos imaginan a un mesías como un discreto hombre de 51 años con barba entrecana que jugó de lateral izquierdo en el York City. Desde luego, los aficionados del Chelsea y del West Ham no lo harían. Pero el grado en que Graham Potter es adorado en Suecia hay que verlo para creerlo. Él era un entrenador sin suerte en busca de un nuevo comienzo; ellos, un país que no ganó ni un solo partido en la fase de clasificación para el Mundial. Y de algún modo, encajaron a la perfección. En el contexto de lo que Potter ha conseguido en los últimos nueve meses, una cómoda victoria ante una Túnez que se hundió por sus propios errores apenas llama la atención, pero representa la continuación de un notable proceso de renovación. Suecia fue desastrosa en la clasificación. Hubo muchas lesiones, es cierto, pero encajar dos derrotas tanto ante Suiza como ante Kosovo, y empatar dos veces con Eslovenia, no es el camino habitual hacia un Mundial. Jon Dahl Tomasson fue destituido y Potter tomó las riendas."
+    },
+    {
+      "id": "bdfe3da2ef",
+      "title_en": "Amad Diallo scores 90th-minute winner as Côte d’Ivoire leave it late to sink Ecuador",
+      "summary_en": "The substitute Amad Diallo struck in the 90th minute to give Côte d’Ivoire a 1-0 win over Ecuador in their ⁠Group E opener.Diallo’s first-time strike of Wilfried Singo’s cross gave the Ivorians their first World Cup victory over South American opposition and ⁠halted Ecuador’s unbeaten run ​at 19 matches. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/f8bce3a786d82f4819c617fd9d5330afe65aa0ba/309_46_2626_2102/master/2626.jpg?width=140&quality=85&auto=format&fit=max&s=07903410eb70a3a66e7c1a6483e98525",
+      "link": "https://www.theguardian.com/football/2026/jun/15/cote-d-ivoire-ecuador-world-cup-2026-match-report",
+      "published": "Mon, 15 Jun 2026 01:21:44 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Amad Diallo marca en el minuto 90 y da el triunfo agónico a Costa de Marfil ante Ecuador",
+      "summary_es": "El suplente Amad Diallo anotó en el minuto 90 para darle a Costa de Marfil una victoria por 1-0 sobre Ecuador en su debut en el Grupo E. El disparo a primera intención de Diallo, tras un centro de Wilfried Singo, dio a los marfileños su primera victoria mundialista ante una selección sudamericana y cortó la racha invicta de Ecuador, que se extendía a 19 partidos."
+    },
+    {
+      "id": "ddec115990",
+      "title_en": "Fortune favours Kamada as Japan rescue World Cup draw with Netherlands",
+      "summary_en": "The World Cup continues to produce the unexpected. On a throbbingly hot afternoon in the low flat plains outside Dallas the Netherlands and Japan played out a high-grade, ultimately thrilling Group F game, Daichi Kamada scoring an 89th-minute equaliser to make it 2-2 just as the Dutch looked like taking an early hold on one of the tougher groups.Sport does love to spring surprises. As the entire bib-clad Japanese bench emptied on to the pitch to celebrate Kamada’s deflected goal, as the Japan fans writhed and roared and fell over themselves in the stands, it was tempting to wonder if perhaps the unthinkable is happening. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/11c106490ec8aebb4dfe4dcbb9273a5b949777ec/213_0_1871_1497/master/1871.jpg?width=140&quality=85&auto=format&fit=max&s=5aea95e20b1b42da7b5f98fe9f7b77e6",
+      "link": "https://www.theguardian.com/football/2026/jun/14/netherlands-japan-world-cup-match-report",
+      "published": "Sun, 14 Jun 2026 22:22:03 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "La fortuna sonríe a Kamada: Japón rescata un empate ante Países Bajos en el Mundial",
+      "summary_es": "El Mundial sigue deparando sorpresas. En una sofocante tarde en las llanuras a las afueras de Dallas, Países Bajos y Japón protagonizaron un partido de alto nivel en el Grupo F que terminó siendo emocionante: Daichi Kamada anotó el empate en el minuto 89 para establecer el 2-2, justo cuando los neerlandeses parecían a punto de consolidar su dominio en uno de los grupos más exigentes. El deporte siempre tiene algo guardado en la manga. Mientras el banquillo japonés al completo, con sus petos puestos, irrumpía en el campo para celebrar el gol con desvío de Kamada, y los aficionados nipones se deshacían de emoción en las gradas, era difícil no preguntarse si acaso lo impensable está empezando a ocurrir."
+    },
+    {
+      "id": "2e5830f247",
+      "title_en": "Curaçao enjoy their moment but Havertz and ruthless Germany show no mercy",
+      "summary_en": "The net rippled and Curaçao’s bench exploded in every conceivable direction, their giddiness underpinned by a firm awareness of the goal’s place in history. Livano Comenencia had just equalised against Germany and an island of about 158,000 inhabitants, represented here by an accomplished group born almost entirely in the Netherlands, could revel disbelievingly in the moment it had dreamed of.Reality eventually bit, Julian Nagelsmann’s side declaring on seven goals and easily avoiding an embarrassment that would have far outdone their group-stage exits in the previous two World Cups. Germany will surely reach the knockouts this time and could have made absolutely certain by adding several more. Nagelsmann will be pleased that threats emanated from all around the pitch, half a dozen scorers bearing testament to that, but it should go without saying that more accurate tests of strength wil",
+      "image": "https://i.guim.co.uk/img/media/4d92d3c23965214465413a16d409c7e4bb6bdbbd/438_0_3942_3154/master/3942.jpg?width=140&quality=85&auto=format&fit=max&s=1f65973060a0ed748dc4fe16b00d1c73",
+      "link": "https://www.theguardian.com/football/2026/jun/14/germany-curacao-world-cup-match-report",
+      "published": "Sun, 14 Jun 2026 19:17:07 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Curaçao disfruta su momento, pero Havertz y una implacable Alemania no dan tregua",
+      "summary_es": "La red se agitó y el banquillo de Curaçao estalló en todas direcciones, con una euforia teñida de plena conciencia del peso histórico del gol. Livano Comenencia acababa de empatar ante Alemania, y una isla de unos 158.000 habitantes, representada aquí por un grupo de jugadores nacidos casi en su totalidad en Países Bajos, pudo saborear incrédula el momento con el que llevaba tiempo soñando. La realidad acabó imponiéndose: el equipo de Julian Nagelsmann se marchó con siete goles y evitó sin apuros una humillación que habría superado sus eliminaciones en fase de grupos en los dos últimos Mundiales. Alemania llegará casi con toda seguridad a la fase eliminatoria y podría haber sentenciado con varios goles más. Nagelsmann se mostrará satisfecho por el peligro generado desde distintas zonas del campo, avalado por media docena de goleadores, aunque está claro que le esperan pruebas de fuego más exigentes."
+    },
+    {
+      "id": "331423e183",
+      "title_en": "‘We all love him’: Henderson says Bellingham can be England’s X-factor",
+      "summary_en": "Midfielder expects Madrid man to have major impactHenderson: ‘He’s a huge player for us in this tournament’Jordan Henderson says Jude Bellingham is loved by his teammates and will be England’s X-factor at the World Cup.Bellingham, who is vying with Morgan Rogers to start at No 10 against Croatia on Wednesday, has been the subject of plenty of debate at international level during the past two years. There has been speculation about the Real Madrid star’s relationship with Thomas Tuchel, but Henderson is close with the midfielder and insists there is no issue with his attitude. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/1303729c8d3c860d120c58f787f735b0fa99711e/414_374_1740_1390/master/1740.jpg?width=140&quality=85&auto=format&fit=max&s=1c13e3f75bce165d2a59174039248920",
+      "link": "https://www.theguardian.com/football/2026/jun/15/england-world-cup-jordan-henderson-jude-bellingham-x-factor",
+      "published": "Mon, 15 Jun 2026 02:22:30 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "'Todos le queremos': Henderson asegura que Bellingham puede ser el factor X de Inglaterra",
+      "summary_es": "El centrocampista espera que el jugador del Madrid cause un gran impacto. Henderson: 'Es un jugador fundamental para nosotros en este torneo'. Jordan Henderson afirma que Jude Bellingham cuenta con el cariño de todos sus compañeros y será el factor X de Inglaterra en el Mundial. Bellingham, que compite con Morgan Rogers por la titularidad como mediapunta ante Croacia el miércoles, ha protagonizado numerosos debates en el ámbito internacional durante los últimos dos años. Ha habido especulaciones sobre la relación del estrella del Real Madrid con Thomas Tuchel, pero Henderson, que mantiene una estrecha relación con el centrocampista, insiste en que no hay ningún problema con su actitud."
+    },
+    {
+      "id": "81816ea520",
+      "title_en": "From last-chance saloon to World Cup redemption for Potter",
+      "summary_en": "For a manager who was dismissed by West Ham in September after failing at Chelsea before that, few would have expected Graham Potter to be steering a nation to a winning start in the World Cup this summer.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1862/live/da3e4990-687a-11f1-be92-f5f7087bcfc7.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/c77y88076n1o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 06:31:28 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "De la última oportunidad a la redención mundialista: la resurrección de Potter",
+      "summary_es": "Para un entrenador despedido por el West Ham en septiembre tras su fracaso previo en el Chelsea, pocos habrían apostado por ver a Graham Potter liderar a una selección con una victoria en el arranque del Mundial este verano."
+    },
+    {
+      "id": "d16dc61ec4",
+      "title_en": "Political tension has undermined World Cup joy, says Iran striker",
+      "summary_en": "Iran's striker Mehdi Taremi said the country's political predicament \"undermines the joy of the World Cup\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2510/live/09d80cf0-685c-11f1-9d77-3b5ce99c1396.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/c9d2ep375nzo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 06:50:46 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "La tensión política «socava la alegría del Mundial», dice el delantero iraní",
+      "summary_es": "El delantero de Irán Mehdi Taremi afirmó que la situación política del país «socava la alegría del Mundial»."
+    },
+    {
+      "id": "ef7333f568",
+      "title_en": "Wirtz, Isak & Diomande shine at World Cup as Iraola plots Liverpool revival",
+      "summary_en": "Florian Wirtz, Alexander Isak and Yan Diomande all shine as the World Cup provides a perfect scouting opportunity for new Liverpool boss Andoni Iraola, says Phil McNulty.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c967/live/282ae1b0-6874-11f1-a665-99f3cd4d7f70.png",
+      "link": "https://www.bbc.com/sport/football/articles/c1lypn1zl1mo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 04:48:30 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "Wirtz, Isak y Diomande brillan en el Mundial mientras Iraola planea la reconstrucción del Liverpool",
+      "summary_es": "Florian Wirtz, Alexander Isak y Yan Diomande deslumbran en el Mundial, que se convierte en una oportunidad de scouting perfecta para el nuevo entrenador del Liverpool, Andoni Iraola, según Phil McNulty."
+    },
+    {
+      "id": "64f9a885c4",
+      "title_en": "Gyokeres & Isak score as Sweden put five past Tunisia",
+      "summary_en": "Watch highlights as Sweden get their World Cup campaign off to an emphatic start, scoring five goals in a win over Group F opponents Tunisia.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab4/live/9bd1f7c0-6874-11f1-b1db-af71d47507d6.jpg",
+      "link": "https://www.bbc.com/sport/football/videos/c20ymjjl8yko?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 05:27:28 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "Gyokeres e Isak marcan en la goleada de Suecia por cinco goles ante Túnez",
+      "summary_es": "Suecia arranca su campaña mundialista con autoridad y golea por cinco tantos a Túnez, rival del Grupo F."
+    },
+    {
+      "id": "b2ae0506dd",
+      "title_en": "'Hard to read' Bellingham criticism - Henderson",
+      "summary_en": "England's Jordan Henderson says he finds it \"hard to read\" what is written about Jude Bellingham but believes the midfielder can be the team's \"X-factor\" at the World Cup.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f429/live/131577d0-685c-11f1-9d77-3b5ce99c1396.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/cly08nzl773o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 03:29:05 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "Henderson: «Me cuesta leer» las críticas a Bellingham",
+      "summary_es": "El inglés Jordan Henderson asegura que le resulta «difícil leer» lo que se escribe sobre Jude Bellingham, aunque cree que el centrocampista puede ser el «factor X» de Inglaterra en el Mundial."
+    },
+    {
+      "id": "a1949b601e",
+      "title_en": "My children's 1st R-rated movie. Terminator 2: Judgement Day.",
+      "summary_en": "11f and 9m watched their first R rated movie and loved it. Handled it great. They were more weirded out by the stabby stabby as opposed to the shooty shooty. I asked them how the movie made them feel. They loved the actual story. They said they felt a bunch of emotions like happiness, excitement, fear, and sadness. But they loved that the movie made them feel all sorts of ways. What was your kid's first R rated movie experience like? &#32; submitted by &#32; /u/cjh10881 [link] &#32; [comments]",
+      "image": "https://preview.redd.it/62ww96ehgc7h1.jpeg?width=640&crop=smart&auto=webp&s=5d021c03e00c397ae9489c6192cfac8c46a91b74",
+      "link": "https://www.reddit.com/r/daddit/comments/1u61vof/my_childrens_1st_rrated_movie_terminator_2/",
+      "published": "2026-06-15T00:50:43+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "La primera película para adultos de mis hijos: Terminator 2: El juicio final",
+      "summary_es": "Mi hija de 11 años y mi hijo de 9 vieron su primera película para mayores y les encantó. Lo llevaron genial. Les impactó más la violencia con arma blanca que los tiroteos. Les pregunté cómo les había hecho sentir la película y dijeron que experimentaron todo tipo de emociones: alegría, emoción, miedo y tristeza. Les gustó especialmente que la película les hiciera sentir tantas cosas a la vez. ¿Cómo fue la primera experiencia de vuestros hijos con una película para adultos?"
+    },
+    {
+      "id": "4229f8e2f3",
+      "title_en": "Just told my five-year old that he cannot hit his little brother, and his response produced an Apple Watch warning.",
+      "summary_en": "He is currently in his room yelling through the closed door that I am &quot;fired&quot; as his dad. &#32; submitted by &#32; /u/Good_Policy3529 [link] &#32; [comments]",
+      "image": "https://preview.redd.it/nagn63fxgb7h1.jpeg?width=640&crop=smart&auto=webp&s=b80d76e14f987ba26a8c74ea3e7e1e3eb7b9c3af",
+      "link": "https://www.reddit.com/r/daddit/comments/1u5xekw/just_told_my_fiveyear_old_that_he_cannot_hit_his/",
+      "published": "2026-06-14T21:32:11+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Le dije a mi hijo de cinco años que no podía pegar a su hermano pequeño, y su respuesta disparó una alerta en mi Apple Watch",
+      "summary_es": "Ahora mismo está en su habitación gritando a través de la puerta cerrada que estoy «despedido» como padre."
+    },
+    {
+      "id": "d397f5babb",
+      "title_en": "Guys, things are bad. Didn’t see it going this way.",
+      "summary_en": "Currently have a hotel for the night. My wife and I have had struggles for a while. 4 kids under ten. 1 special needs. Typical arguments but I’ve just been unable to compromise or “give in” to keep the peace lately. I’m hyper responsive to criticism now, and her saying I don’t do enough is getting me down to where I want to leave permanently. I wake up and from the time I get up until go to bed it’s nothing but family things, work, cleaning, bills, doctor, sports, therapies, tutoring, etc……. Not to mention no bedroom life for years. I was understanding while the kids were super young, my youngest is 6 now and we’ve probably had sex less than I can count on one hand in the time my youngest has been born. Currently in therapy, have tried it before too. I just don’t think she cares to have a relationship, or it’s just not a priority. The kids come first no matter what. Anything comes first ",
+      "image": "",
+      "link": "https://www.reddit.com/r/daddit/comments/1u678oc/guys_things_are_bad_didnt_see_it_going_this_way/",
+      "published": "2026-06-15T05:16:09+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Chicos, las cosas van mal. No esperaba llegar a esto",
+      "summary_es": "Esta noche estoy en un hotel. Mi mujer y yo llevamos tiempo pasándolo mal. Tenemos 4 hijos menores de diez años, uno con necesidades especiales. Son discusiones habituales, pero últimamente soy incapaz de ceder para mantener la paz. Soy muy sensible a las críticas y que ella me diga que no hago suficiente me hunde hasta el punto de querer irme para siempre. Me levanto y desde que abro los ojos hasta que me acuesto todo es familia, trabajo, limpieza, facturas, médicos, deporte, terapias, clases particulares… Por no hablar de que llevamos años sin vida íntima. Lo entendí cuando los niños eran muy pequeños, pero el menor ya tiene 6 años y desde que nació puedo contar con los dedos de una mano las veces que hemos tenido relaciones. Estoy en terapia, y no es la primera vez que lo intento. Simplemente no creo que a ella le importe tener una relación de pareja, o al menos no es una prioridad. Los niños siempre son lo primero, pase lo que pase."
+    },
+    {
+      "id": "7054d0b8a2",
+      "title_en": "To the Dad I saw in the grocery store",
+      "summary_en": "this guy had 2 kids in tow - a girl maybe 5 and a boy maybe 7. The boy was non verbal autistic and was a ball of energy. They had a service animal, as well who was just a good boy as you can imagine. This dad was on it. he was patient, kind, firm - he was taking time for his daughter and his son - not just trying to get thru it but teaching the kids as he went. The boy was high needs as you can expect - he is on the floor he is trying to grab things, throw things - a handful. The girl was made of questions and requests. This dad was there for it all. On his own, one minute at a time, patient as you can imagine. I’ll bet life is really hard sometimes, but you are handling being Dad in a way that I noticed and admired. Respect. &#32; submitted by &#32; /u/Dangling__Fury [link] &#32; [comments]",
+      "image": "",
+      "link": "https://www.reddit.com/r/daddit/comments/1u5wu9v/to_the_dad_i_saw_in_the_grocery_store/",
+      "published": "2026-06-14T21:09:20+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Al padre que vi en el supermercado",
+      "summary_es": "Este hombre iba con dos hijos: una niña de unos 5 años y un niño de unos 7, autista no verbal y con una energía desbordante. También llevaban a un perro de asistencia, que se portó de maravilla, como era de esperar. Ese padre estaba en todo. Era paciente, amable y firme; se ocupaba de su hija y de su hijo por igual, no intentaba salir del paso a toda prisa sino que iba enseñándoles cosas por el camino. El niño tenía altas necesidades, como cabía imaginar: se tiraba al suelo, intentaba agarrar y lanzar cosas. La niña era una fuente inagotable de preguntas y peticiones. Y ese padre estuvo ahí para todo, solo, minuto a minuto, con una paciencia admirable. Seguro que a veces la vida se le hace muy dura, pero ejerce de padre de una manera que no he podido dejar de notar y admirar. Todo mi respeto."
+    },
+    {
+      "id": "1ec5248738",
+      "title_en": "My 7 year old has been asking deep philosophical questions at bedtime for three weeks and I am not equipped for this",
+      "summary_en": "It started with &quot;dad, what happens after we die.&quot; I handled that one okay I think, gave him a vague but reassuring answer, he seemed satisfied and went to sleep. The next night: &quot;but what was there before the universe.&quot; I was tired, I said nobody really knows, he stared at the ceiling for a while and then fell asleep. Fine. Last week he asked me if I think fish know they're fish. Then two nights ago he asked &quot;if I'm always changing, am I still the same me from when I was a baby.&quot; I'm 36 years old, I have a project management job, I coach his soccer team on Saturdays. I am not prepared to discuss the ship of Theseus at 8:45pm on a Tuesday. I've started sitting on the edge of his bed after lights out with a kind of low-grade anxiety about what's coming. Last night he just said &quot;goodnight dad&quot; and went to sleep and I felt genuinely relieved. I don't k",
+      "image": "",
+      "link": "https://www.reddit.com/r/daddit/comments/1u5kfsa/my_7_year_old_has_been_asking_deep_philosophical/",
+      "published": "2026-06-14T12:55:10+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Mi hijo de 7 años lleva tres semanas haciéndome preguntas filosóficas a la hora de dormir y no estoy preparado para esto",
+      "summary_es": "Todo empezó con «papá, qué pasa después de morir». Esa la resolví más o menos bien: le di una respuesta vaga pero tranquilizadora, pareció satisfecho y se durmió. La noche siguiente: «pero qué había antes del universo». Estaba cansado, le dije que nadie lo sabe realmente, se quedó mirando el techo un rato y se durmió. Bien. La semana pasada me preguntó si creo que los peces saben que son peces. Hace dos noches me preguntó: «si estoy cambiando siempre, ¿sigo siendo el mismo yo de cuando era bebé?». Tengo 36 años, trabajo en gestión de proyectos y entreno a su equipo de fútbol los sábados. No estoy preparado para debatir la paradoja del barco de Teseo a las 8:45 de la noche de un martes. He empezado a sentarme al borde de su cama después de apagar la luz con una especie de ansiedad de bajo grado por lo que pueda venir. Anoche simplemente dijo «buenas noches, papá» y se durmió, y sentí un alivio genuino. No sé"
+    },
+    {
+      "id": "ea939e3691",
+      "title_en": "Your ePub Is fine",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released",
-      "published": "Sun, 14 Jun 2026 04:53:51 +0000",
+      "link": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/",
+      "published": "Sun, 14 Jun 2026 22:54:55 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Lanzamiento de Phoenix LiveView 1.2",
-      "summary_es": ""
-    },
-    {
-      "id": "91c3ed3d9a",
-      "title_en": "Honda Civics and the Evil Valet",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://juniperspring.org/posts/honda-evil-valet/",
-      "published": "Sun, 14 Jun 2026 00:49:46 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Honda Civics y el aparcacoches malicioso",
+      "title_es": "Tu ePub está bien",
       "summary_es": "Comentarios"
     },
     {
-      "id": "49631f3bf3",
-      "title_en": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
+      "id": "5f4ec4072a",
+      "title_en": "Even more batteries included with Emacs",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://sqltoerdiagram.com/",
-      "published": "Sun, 14 Jun 2026 03:43:30 +0000",
+      "link": "https://karthinks.com/software/even-more-batteries-included-with-emacs/",
+      "published": "Mon, 15 Jun 2026 02:30:25 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Herramienta gratuita SQL→ diagrama ER, funciona en el navegador, sin subida de datos",
+      "title_es": "Emacs incorpora aún más funcionalidades de serie",
       "summary_es": "Comentarios"
     },
     {
-      "id": "f2cdd4cdc7",
-      "title_en": "GLM 5.2 Is Out",
+      "id": "f4dad738a8",
+      "title_en": "Curl will not accept vulnerability reports during July 2026",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://twitter.com/jietang/status/2065784751345287314",
-      "published": "Sat, 13 Jun 2026 16:18:31 +0000",
+      "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "published": "Mon, 15 Jun 2026 06:02:57 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "GLM 5.2 ya está disponible",
+      "title_es": "Curl no aceptará informes de vulnerabilidades durante julio de 2026",
       "summary_es": "Comentarios"
     },
     {
-      "id": "55e84a6f47",
-      "title_en": "Noise infusion banned from statistical products published by Census Bureau",
+      "id": "7764511894",
+      "title_en": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://desfontain.es/blog/banning-noise.html",
-      "published": "Sat, 13 Jun 2026 13:54:56 +0000",
+      "link": "https://github.com/tamnd/kage",
+      "published": "Sun, 14 Jun 2026 17:25:38 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "La Oficina del Censo prohíbe la infusión de ruido en sus publicaciones estadísticas",
+      "title_es": "Show HN: Kage – convierte cualquier sitio web en un único binario para consultarlo sin conexión",
       "summary_es": "Comentarios"
+    },
+    {
+      "id": "22c8018cf3",
+      "title_en": "Bitsy",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://bitsy.org/",
+      "published": "Thu, 11 Jun 2026 20:56:30 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Bitsy",
+      "summary_es": "Comentarios"
+    },
+    {
+      "id": "cd29d5c009",
+      "title_en": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
+      "summary_en": "University of Leicester historian thinks Eilmer of Malmesbury saw two different comets: in 1018 and 1066",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/eilmer-1152x648-1781448851.jpg",
+      "link": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
+      "published": "Sun, 14 Jun 2026 16:02:53 +0000",
+      "category": "Tech",
+      "source": "Ars Technica",
+      "title_es": "¿Vio un monje medieval volador el cometa Halley dos veces? La respuesta no es sencilla",
+      "summary_es": "Un historiador de la Universidad de Leicester cree que Eilmer of Malmesbury observó dos cometas distintos: en 1018 y en 1066."
     },
     {
       "id": "77cc79f7af",
@@ -347,8 +383,8 @@
       "published": "Sat, 13 Jun 2026 17:17:44 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Crítica: Disclosure Day apuesta por la acción y escatima en ideas",
-      "summary_es": "Sin novedades ni sorpresas, pero sigue siendo un filme entretenido firmado por uno de nuestros mejores directores."
+      "title_es": "Crítica: Disclosure Day apuesta por la acción pero escasea en ideas",
+      "summary_es": "No hay nada nuevo ni sorprendente, pero sigue siendo una película entretenida firmada por uno de los grandes directores de nuestra época."
     },
     {
       "id": "6adfb72252",
@@ -359,8 +395,8 @@
       "published": "Sat, 13 Jun 2026 11:18:42 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Los filamentos de las redes fúngicas subterráneas son lo bastante largos como para superar los límites del Sistema Solar",
-      "summary_es": "Un equipo de investigadores ha cuantificado a escala global la longitud y la masa de las redes de hongos micorrícicos arbusculares."
+      "title_es": "Los filamentos de las redes fúngicas subterráneas son tan largos que superan los límites del Sistema Solar",
+      "summary_es": "Investigadores han cuantificado la longitud y la masa de las redes de hongos micorrícicos arbusculares a escala global."
     },
     {
       "id": "c592597bc9",
@@ -372,7 +408,7 @@
       "category": "Tech",
       "source": "Ars Technica",
       "title_es": "Anthropic cierra los modelos Fable y Mythos por orden de la administración Trump",
-      "summary_es": "El Departamento de Comercio teme que un \"jailbreak\" de Fable 5 pueda convertirse en una amenaza para la seguridad nacional."
+      "summary_es": "El Departamento de Comercio teme que un 'jailbreak' de Fable 5 pueda convertirse en una amenaza para la seguridad nacional."
     },
     {
       "id": "81bd3e46a0",
@@ -383,140 +419,128 @@
       "published": "Fri, 12 Jun 2026 22:20:06 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "SpaceX debuta en bolsa valorada por su potencial en IA: ¿qué viene ahora?",
-      "summary_es": "A partir de hoy, SpaceX está en manos de inversores que exigirán rentabilidad."
+      "title_es": "SpaceX ya cotiza en bolsa con una valoración ligada a su potencial en IA: ¿qué viene ahora?",
+      "summary_es": "A partir de hoy, SpaceX está en manos de inversores que esperan que la compañía genere beneficios."
     },
     {
-      "id": "6e9cc34dd8",
-      "title_en": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
-      "summary_en": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1867844462-1152x648.jpg",
-      "link": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
-      "published": "Fri, 12 Jun 2026 19:26:47 +0000",
-      "category": "Tech",
-      "source": "Ars Technica",
-      "title_es": "Un fallo de día cero en PeopleSoft roba gigabytes de datos de cientos de organizaciones",
-      "summary_es": "La vulnerabilidad detectada en el software PeopleSoft, propiedad de Oracle, es de las más críticas que se han visto."
-    },
-    {
-      "id": "39fc826759",
-      "title_en": "UK armed forces board Russian shadow fleet oil tanker in English Channel, PM says",
-      "summary_en": "Royal Marine Commandos and NCA officers boarded the vessel in a six-hour operation in the early hours of Sunday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea2d/live/420c51a0-67d3-11f1-9c4b-77e30dd66647.png",
-      "link": "https://www.bbc.com/news/articles/clyek039l2vo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 09:27:45 GMT",
+      "id": "88d16c50ad",
+      "title_en": "Trump heralds Iran deal but questions - and risks - remain",
+      "summary_en": "The announcement of an Iran deal was a welcome birthday gift for the president – but its success or failure may hinge on the details.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/842c/live/8b1a8670-6880-11f1-8e1d-bbbb1017d210.jpg",
+      "link": "https://www.bbc.com/news/articles/c9824e0rz75o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 02:41:25 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Las fuerzas armadas británicas abordan en el Canal de la Mancha un petrolero de la flota fantasma rusa, según el primer ministro",
-      "summary_es": "Comandos de la Royal Marine y agentes de la NCA tomaron el control del buque en una operación de seis horas en la madrugada del domingo."
+      "title_es": "Trump anuncia un acuerdo con Irán, pero persisten las dudas y los riesgos",
+      "summary_es": "El anuncio del acuerdo llegó como un bienvenido regalo de cumpleaños para el presidente, aunque su éxito o fracaso podría depender de los detalles."
     },
     {
-      "id": "262ac0234a",
-      "title_en": "Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing",
-      "summary_en": "The US president's comments come as Iran says an exact date has not been decided.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4ff/live/e53f0010-674d-11f1-8546-8f19e4fe30f4.jpg",
-      "link": "https://www.bbc.com/news/articles/cvglmn49xz0o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 07:55:16 GMT",
+      "id": "0164f0a85e",
+      "title_en": "OnlyFans 'agents' control and threaten creators while taking half their earnings, BBC finds",
+      "summary_en": "Dozens of women on OnlyFans describe being exploited by managers who promised to help maximise profits.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7fd/live/0293ddf0-6683-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.com/news/articles/c932gpk2l1do?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 05:00:09 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Trump afirma que el acuerdo entre EE. UU. e Irán se firmará el domingo mientras Teherán pone en duda el calendario",
-      "summary_es": "Las declaraciones del presidente estadounidense llegan cuando Irán asegura que aún no se ha fijado una fecha concreta."
+      "title_es": "La BBC destapa cómo 'agentes' de OnlyFans controlan y amenazan a las creadoras y se quedan con la mitad de sus ingresos",
+      "summary_es": "Decenas de mujeres en OnlyFans denuncian haber sido explotadas por gestores que prometieron ayudarlas a maximizar sus ganancias."
     },
     {
-      "id": "c614c11b92",
-      "title_en": "Molly Russell's dad says PM rushing social media restrictions 'deplorable'",
-      "summary_en": "Father of a teenager who took her own life after viewing harmful content says plans appear to have been brought forward for a \"political reason\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b593/live/15325220-6750-11f1-8e1d-bbbb1017d210.jpg",
-      "link": "https://www.bbc.com/news/articles/cwykw759v3po?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 13 Jun 2026 21:27:50 GMT",
+      "id": "dd4054ce76",
+      "title_en": "Norwegian crown princess's son found guilty of two counts of rape",
+      "summary_en": "Marius Borg Høiby, the 29-year-old son of Norway's Crown Princess Mette Marit, has been found guilty of two counts of rape and given four years in jail.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc45/live/e93a3c90-fc70-11f0-9f00-a7fda7ef067e.jpg",
+      "link": "https://www.bbc.com/news/articles/cly9d10l5p4o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 07:06:29 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "El padre de Molly Russell califica de 'deplorable' que el primer ministro acelere las restricciones en redes sociales",
-      "summary_es": "El progenitor de la joven que se quitó la vida tras ver contenido dañino en internet afirma que los planes parecen haberse adelantado por 'motivos políticos'."
+      "title_es": "El hijo de la princesa heredera de Noruega, declarado culpable de dos cargos de violación",
+      "summary_es": "Marius Borg Høiby, de 29 años e hijo de la princesa heredera noruega Mette Marit, ha sido declarado culpable de dos cargos de violación y condenado a cuatro años de prisión."
     },
     {
-      "id": "f08b96bd2e",
-      "title_en": "Two men charged over theft of England World Cup kit",
-      "summary_en": "Two men are charged for stealing $18,000 worth of property from England at their Kansas City training base.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1217/live/3d2f00d0-67b8-11f1-8e1d-bbbb1017d210.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cm2r35lk8ejo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 14 Jun 2026 06:15:50 GMT",
+      "id": "4032ecae94",
+      "title_en": "Russian strikes kill nine in Ukraine and damage historic cathedral, officials say",
+      "summary_en": "A Ukrainian drone attack in the Russian city of Tula, south of Moscow, killed three people and wounded three others.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d435/live/7fd13ea0-6883-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 04:08:58 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Dos hombres acusados por el robo del equipamiento de la selección inglesa para el Mundial",
-      "summary_es": "Los dos detenidos están acusados de sustraer material valorado en 18.000 dólares de la base de entrenamiento de Inglaterra en Kansas City."
+      "title_es": "Ataques rusos matan a nueve personas en Ucrania y dañan una catedral histórica, según las autoridades",
+      "summary_es": "Un ataque ucraniano con drones sobre la ciudad rusa de Tula, al sur de Moscú, causó tres muertos y tres heridos."
     },
     {
-      "id": "bd743b0b51",
-      "title_en": "Norway braces for verdict in rape trial of crown princess's son Høiby",
-      "summary_en": "Marius Borg Høiby will appear via video link, almost three months after his trial came to an end on 40 charges, including four counts of rape.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b782/live/b3f93840-6699-11f1-80bb-fb4d08542828.jpg",
-      "link": "https://www.bbc.com/news/articles/cd95xvk4vn2o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 13 Jun 2026 23:11:28 GMT",
+      "id": "b4114d2872",
+      "title_en": "US musician Oliver Tree dies in helicopter collision in Brazil",
+      "summary_en": "The singer-songwriter is among six people presumed dead in air crash over Rio de Janeiro on Sunday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd84/live/4e40a990-687c-11f1-ad29-ebc8ba5e9f31.jpg",
+      "link": "https://www.bbc.com/news/articles/cqj1dd5rgnzo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 06:47:23 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Noruega aguarda el veredicto del juicio por violación contra Høiby, hijo de la princesa heredera",
-      "summary_es": "Marius Borg Høiby comparecerá por videoconferencia casi tres meses después de que concluyera su juicio, en el que se enfrenta a 40 cargos, entre ellos cuatro delitos de violación."
+      "title_es": "El músico estadounidense Oliver Tree muere en una colisión de helicópteros en Brasil",
+      "summary_es": "El cantautor es una de las seis personas que se dan por muertas tras el accidente aéreo ocurrido el domingo sobre Río de Janeiro."
     },
     {
-      "id": "83991a1ad9",
-      "title_en": "As Donald Trump turns 80, he faces a foe he can never defeat: Father Time. That’s a problem for us all",
-      "summary_en": "Alarm over the judgment and behaviour of the world’s most powerful man, and the consequent risks to the world, can only get worseThe main Nuremberg trial ended, Winston Churchill warned of an iron curtain descending across Europe, It’s a Wonderful Life received its premiere and, at Jamaica hospital in the borough of Queens, New York, Donald John Trump was born.It was 1946, also the birth year of George W Bush and Bill Clinton, but on Sunday the current US president celebrates his 80th birthday in a style uniquely his own. Trump will stage a night of cage fighting on the once-pristine White House south lawn as part of events marking the 250th anniversary of US independence. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/af5060eb9fe4e7ffd10a2d67eae5e45628ba15f5/0_542_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=f8da8bcb862741277a4847e14d87d2af",
-      "link": "https://www.theguardian.com/news/ng-interactive/2026/jun/14/donald-trump-turns-80-faces-foe-father-time",
-      "published": "Sun, 14 Jun 2026 05:00:33 GMT",
+      "id": "523d7b9d54",
+      "title_en": "‘I’m setting myself free from shame’: Laverne Cox on her brutal childhood and life as a trans woman in Trump’s America",
+      "summary_en": "Before Orange Is the New Black made her a star, Cox endured bullying, abuse, harassment and violence. She talks about the bad old days – and her fears they’re on their way backTwo days before she spoke to me, Laverne Cox had been at the premiere of a new, animated Animal Farm, in which she voices Snowball. The film is wildly controversial, for its absolutely unOrwellian, childish tone, complete with happy ending, but Cox had bigger things on her mind than film criticism.“If we don’t wake up and don’t understand, trans people will be exterminated,” she said that day in April. “People’s rights are being taken away, people are losing their jobs, people are losing healthcare, people are being detransitioned in prison, gender-affirming care is being attacked, not just for children but also for adults. It’s never been about protecting women – it’s always been about creating a permission struct",
+      "image": "https://i.guim.co.uk/img/media/725d8b8d29787126a544409020ccc858f97f4efa/0_0_2400_1920/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=e7c34ed8bc268a6b35822e4bd32884ac",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/jun/15/free-from-shame-laverne-cox-trans-woman-in-trump-america",
+      "published": "Mon, 15 Jun 2026 04:00:02 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Al cumplir 80 años, Donald Trump se enfrenta a un adversario que nunca podrá vencer: el tiempo. Y eso nos afecta a todos",
-      "summary_es": "La preocupación por el juicio y el comportamiento del hombre más poderoso del mundo, y los riesgos que ello conlleva, no hará sino crecer. En 1946 —año en que también nacieron George W. Bush y Bill Clinton— concluyó el juicio de Núremberg, Churchill advirtió del telón de acero, se estrenó ¡Qué bello es vivir! y, en el hospital Jamaica del barrio neoyorquino de Queens, nació Donald John Trump. Este domingo, el actual presidente de EE. UU. celebra su 80 cumpleaños a su manera: con una velada de lucha en jaula en el histórico jardín sur de la Casa Blanca, como parte de los actos del 250 aniversario de la independencia estadounidense."
+      "title_es": "'Me libero de la vergüenza': Laverne Cox sobre su brutal infancia y su vida como mujer trans en la América de Trump",
+      "summary_es": "Antes de que Orange Is the New Black la convirtiera en estrella, Cox sufrió acoso, maltrato, hostigamiento y violencia. Habla de aquellos tiempos oscuros y del temor a que estén regresando. Dos días antes de su conversación con este periódico, Laverne Cox había asistido al estreno de una nueva versión animada de Animal Farm, en la que presta su voz al personaje de Snowball. La película ha generado una enorme polémica por su tono infantil y ajeno al espíritu de Orwell, con final feliz incluido, pero Cox tenía preocupaciones mucho mayores que la crítica cinematográfica. \"Si no despertamos y no comprendemos lo que está pasando, las personas trans serán exterminadas\", declaró en abril. \"Se están arrebatando derechos, la gente está perdiendo su empleo y su acceso a la sanidad, se está forzando la detransición en las cárceles, y la atención de afirmación de género está siendo atacada, no solo para menores sino también para adultos. Nunca ha sido cuestión de proteger a las mujeres; siempre ha sido una excusa para construir una estructura de permiso...\""
     },
     {
-      "id": "f30b4b4ca7",
-      "title_en": "How Brexit has made Britain poorer – in charts",
-      "summary_en": "Forecasters were wrong about an immediate recession but right that we would be worse off outside the EUAs the 10th anniversary of the Brexit vote approaches, the verdict on Britain’s economic performance is clear: voting to leave has resulted in severe costs for households and businesses.The immediate recession predicted in the Treasury forecasts ordered by George Osborne – dubbed “project fear” by the Leave campaign – did not happen. The impact from the Covid pandemic, wars in Ukraine and Iran, and Donald Trump’s trade battles also cloud the picture. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/0a1611680023ea3860f13a894f6a703d50f0d790/2133_345_6059_4849/master/6059.jpg?width=140&quality=85&auto=format&fit=max&s=ab7a59463bda1b27fa64a05ba8efae97",
-      "link": "https://www.theguardian.com/politics/2026/jun/14/how-uk-economy-changed-since-brexit-vote-charts",
-      "published": "Sun, 14 Jun 2026 05:00:34 GMT",
+      "id": "0c7067132c",
+      "title_en": "‘His last kiss to the world’: David Hockney’s return to Yorkshire triggered a glorious reawakening",
+      "summary_en": "When the artist came home from LA, it seemed like a retirement. But it heralded an astonishing new chapter. Our critic remembers their thrilling dinners together – and the dazzling new works that arrived in his inbox every morningIt was springtime in Paris and I was floating among young green leaves and white blossom – but I was not in a park. I was on an upper floor of the Fondation Louis Vuitton delighting, wallowing in several of David Hockney’s iPad paintings of his garden in Normandy. In one room, this green oasis was shown by the light of the silvery moon: the darkened chamber was alive with shining white lunar discs, blue clouds and the shadowy fingers of tree branches.It was early April last year and this was the opening of David Hockney 25, a blockbuster show, curated with his close involvement, covering his entire career – but with an emphasis on his work this century. What a b",
+      "image": "https://i.guim.co.uk/img/media/ca83380df6dfa08fa7f1ba113696695222b84ed9/711_406_2520_2016/master/2520.jpg?width=140&quality=85&auto=format&fit=max&s=e1b09a9e47ffcae086a59b234838abec",
+      "link": "https://www.theguardian.com/artanddesign/2026/jun/15/david-hockneys-return-yorkshire-glorious-reawakening",
+      "published": "Mon, 15 Jun 2026 04:00:04 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Cómo el Brexit ha empobrecido a Gran Bretaña, en gráficos",
-      "summary_es": "Los analistas se equivocaron al predecir una recesión inmediata, pero acertaron al advertir que el país estaría peor fuera de la UE. Al acercarse el décimo aniversario del referéndum del Brexit, el balance económico es inequívoco: votar por la salida ha supuesto un coste enorme para hogares y empresas. La recesión inmediata que auguraban las previsiones del Tesoro encargadas por George Osborne —tachadas de 'política del miedo' por la campaña del Leave— nunca llegó, y la pandemia de covid, las guerras en Ucrania e Irán y las disputas comerciales de Donald Trump complican aún más la lectura del panorama."
+      "title_es": "'Su último beso al mundo': el regreso de David Hockney a Yorkshire desencadenó un glorioso renacimiento",
+      "summary_es": "Cuando el artista volvió a casa desde Los Ángeles, parecía una retirada. Pero anunciaba un capítulo nuevo y asombroso. Nuestro crítico rememora las apasionantes cenas que compartieron y las deslumbrantes obras nuevas que llegaban a su bandeja de entrada cada mañana. Era primavera en París y yo flotaba entre jóvenes hojas verdes y flores blancas, aunque no estaba en ningún parque. Me encontraba en una planta superior de la Fondation Louis Vuitton, disfrutando y sumergiéndome en varias pinturas para iPad que David Hockney hizo de su jardín en Normandía. En una de las salas, ese oasis verde se contemplaba a la luz de la plateada luna: la estancia en penumbra cobraba vida con brillantes discos lunares blancos, nubes azules y los dedos en sombra de las ramas de los árboles. Era a principios de abril del año pasado y aquello era la inauguración de David Hockney 25, una exposición monumental comisariada con su estrecha participación, que abarcaba toda su carrera, con especial énfasis en su obra de este siglo."
     },
     {
-      "id": "3ea6a3e4cb",
-      "title_en": "Russia is losing the war in Ukraine, and Putin is desperate. But that’s when he’s at his most dangerous | Simon Tisdall",
-      "summary_en": "Don’t expect the Russian president to pursue peace. Instead, he could continue to expand the war beyond Ukraine’s borders – with dire risks for us allJust about everyone reckons Vladimir Putin is in deep trouble in Ukraine. Everyone – meaning Volodymyr Zelenskyy, his European backers and western military analysts and commentators – seems to believe Russia’s dictator is heading for humiliation. They could all be wrong, of course. But what if they’re right? How might a desperate, cornered Putin, fearful for his policy and person, react to the prospect of defeat? On past form, he will escalate, not capitulate. His options range from trolling YouTube to waging nuclear war.For Ukraine, the latest news is mostly good. Using sophisticated Ukrainian-made drones and missiles, it has forced the invaders on to the back foot. Russia’s tally of dead and wounded is said to be running to 30,000 each mo",
-      "image": "https://i.guim.co.uk/img/media/141711dfb4c15fc07445c5b71cbb03e5a2107cc2/451_0_4626_3702/master/4626.jpg?width=140&quality=85&auto=format&fit=max&s=a0216de1826c994c88a0c729027b432c",
-      "link": "https://www.theguardian.com/commentisfree/2026/jun/14/vladimir-putin-ukraine-war-borders-russian-president",
-      "published": "Sun, 14 Jun 2026 07:00:36 GMT",
+      "id": "6092a7756c",
+      "title_en": "‘The Antarctic is the last frontier’: the quest to save Shackleton’s Endurance",
+      "summary_en": "Amid fears the wreck will be more accessible to explorers – and new species – as the climate warms, conservationists want to create the region’s first underwater protected areaThe harsh temperatures, treacherous currents and shifting pack ice of the Antarctic’s Weddell Sea, which crushed and sank his ship, Endurance, in 1915, led Ernest Shackleton to describe it as the “worst portion of the worst sea in the world”.For more than a century, the inhospitable conditions, which present a challenge even for modern icebreaker ships, helped to protect the lost wreck, which was discovered in 2022, its structure still largely intact. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/ed11a7094ec4cb428910143cfb3f906253a57ad6/1010_191_1721_1378/master/1721.jpg?width=140&quality=85&auto=format&fit=max&s=bd04c741a898ade3c067cecd22034f46",
+      "link": "https://www.theguardian.com/environment/2026/jun/15/shackleton-endurance-shipwrecks-global-heating-antarctic-underwater-protected-area",
+      "published": "Mon, 15 Jun 2026 06:00:04 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Rusia está perdiendo la guerra en Ucrania y Putin está desesperado. Pero es entonces cuando resulta más peligroso | Simon Tisdall",
-      "summary_es": "No esperen que el presidente ruso busque la paz. Al contrario, podría seguir expandiendo la guerra más allá de las fronteras de Ucrania, con riesgos gravísimos para todos. Casi todo el mundo cree que Vladimir Putin está en serios apuros en Ucrania. Volodymyr Zelenskyy, sus respaldos europeos y los analistas y comentaristas militares occidentales parecen convencidos de que el dictador ruso avanza hacia la humillación. Todos podrían estar equivocados, claro. Pero ¿y si tienen razón? ¿Cómo podría reaccionar un Putin desesperado y acorralado, temeroso por su política y por su propia persona, ante la perspectiva de la derrota? Según sus antecedentes, escalará, no capitulará. Sus opciones van desde el trolleo en YouTube hasta la guerra nuclear. Para Ucrania, las últimas noticias son en su mayoría alentadoras. Con sofisticados drones y misiles de fabricación ucraniana, ha logrado poner a los invasores a la defensiva. Se estima que las bajas rusas entre muertos y heridos ascienden a 30.000 al mes."
+      "title_es": "'La Antártida es la última frontera': la carrera para salvar el Endurance de Shackleton",
+      "summary_es": "Ante el temor de que el pecio sea cada vez más accesible para exploradores y nuevas especies a medida que el clima se calienta, los conservacionistas quieren crear la primera zona de protección submarina de la región. Las gélidas temperaturas, las traicioneras corrientes y los movedizos bloques de hielo del mar de Weddell antártico, que aplastaron y hundieron el barco de Ernest Shackleton, el Endurance, en 1915, llevaron al explorador a describirlo como la \"peor parte del peor mar del mundo\". Durante más de un siglo, esas condiciones inhóspitas —un desafío incluso para los modernos rompehielos— contribuyeron a proteger el naufragio perdido, descubierto en 2022 con su estructura en gran medida intacta."
     },
     {
-      "id": "b565237218",
-      "title_en": "Oudh 1722, London SE1: ‘Finickety food, yes, but still a blowout feast’ – restaurant review | Grace Dent on restaurants",
-      "summary_en": "It may be obviously Michelin-chasing, but it’s also resolutely midriff-expandingOudh 1722 is chef Aktar Islam’s first foray into London, following his barnstorming ascent in Birmingham with the likes of Opheem. Brum’s love for Islam is resolutely misty-eyed, while Opheem’s 10-course tasting menu has garnered two Michelin stars. It is the ultimate special-occasion spot within a 100-mile radius, more akin to L’Enclume in vibe than its fellow two Michelin-starred Indian Gymkhana in Mayfair. Islam, however, is not taking this snoozily. Instead, he has taken on a listed Victorian townhouse near Borough Market in south-east London and opened a restaurant that’s pretty solemn in its approach to Awadhi cooking.A laughably brief catch-up on the tradition: the Nawabi era began in 1722, thus the restaurant’s name. The cuisine was luxurious, and defined by slow, thoughtful cooking, sealed pots, arom",
-      "image": "https://i.guim.co.uk/img/media/2d8baccffcc62c3aa6fbafa66ce0b65c86f4d553/226_0_5417_4333/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=7765683bc40c2d731e0468d3ee77b5de",
-      "link": "https://www.theguardian.com/food/2026/jun/14/oudh-1722-london-se1-grace-dent-restaurant-review",
-      "published": "Sun, 14 Jun 2026 05:00:34 GMT",
+      "id": "157a238742",
+      "title_en": "Europe is starting to break up with US big tech. But it’s still abiding by the Silicon Valley rulebook | Max von Thun",
+      "summary_en": "The European Commission has unveiled its plans for digital sovereignty. Its proposals betray a disappointing lack of visionBeti Hohler is a Slovenian national who lives in the Netherlands. Like tens of millions of other Europeans, she uses Apple’s app store and has an Amazon account. When she travels for work or leisure, she may want to book a place on Airbnb or Booking, using a credit card issued by Visa or Mastercard, perhaps through PayPal.But when the Trump administration sanctioned her last year for her work as a judge at the international criminal court (ICC), her ability to use any of these services vanished overnight. Her credit cards, her accounts with US companies – all gone. The sanctions against Hohler and some of her colleagues mean they live in “constant uncertainty”, she said.Max von Thun is the director of Open Markets Institute Europe, an anti-monopoly thinktank Continue",
+      "image": "https://i.guim.co.uk/img/media/c834292a8d0e7327998292af9484eadaacbbab91/210_0_3326_2661/master/3326.jpg?width=140&quality=85&auto=format&fit=max&s=07100cfd16b695669a0132aa2091504c",
+      "link": "https://www.theguardian.com/commentisfree/2026/jun/15/europe-us-big-tech-silicon-valley-european-commission",
+      "published": "Mon, 15 Jun 2026 04:00:03 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Oudh 1722, Londres SE1: 'Cocina minuciosa, sí, pero también un festín sin medida' – crítica gastronómica | Grace Dent",
-      "summary_es": "Puede que su aspiración a la estrella Michelin sea evidente, pero también es decididamente contundente. Oudh 1722 es la primera incursión londinense del chef Aktar Islam, tras su meteórico ascenso en Birmingham con restaurantes como Opheem. El cariño de Birmingham hacia Islam es profundo y sin fisuras, y el menú degustación de diez platos de Opheem le ha valido dos estrellas Michelin. Es el destino por excelencia para ocasiones especiales en un radio de 160 kilómetros, más cercano en espíritu a L'Enclume que al también biestrellas Indian Gymkhana de Mayfair. Sin embargo, Islam no se duerme en los laureles. Ha tomado una casa señorial victoriana protegida cerca de Borough Market, en el sureste de Londres, y ha abierto un restaurante que aborda la cocina awadhi con una seriedad notable. Un repaso fugaz a la tradición: la era nawab comenzó en 1722, de ahí el nombre del restaurante. La cocina era lujosa y se definía por elaboraciones lentas y cuidadosas, ollas selladas y aromas…"
+      "title_es": "Europa empieza a romper con las grandes tecnológicas estadounidenses, pero sigue jugando según las reglas de Silicon Valley | Max von Thun",
+      "summary_es": "La Comisión Europea ha presentado sus planes de soberanía digital, pero las propuestas revelan una decepcionante falta de visión. Beti Hohler es una ciudadana eslovena residente en los Países Bajos. Como decenas de millones de europeos, utiliza la App Store de Apple y tiene una cuenta en Amazon. Cuando viaja por trabajo o por placer, puede que quiera reservar alojamiento en Airbnb o Booking, pagando con una tarjeta de crédito de Visa o Mastercard, quizás a través de PayPal. Sin embargo, cuando la administración Trump la sancionó el año pasado por su labor como jueza en el Tribunal Penal Internacional (TPI), su acceso a todos esos servicios desapareció de la noche a la mañana: sus tarjetas de crédito y sus cuentas en empresas estadounidenses, todo cancelado. Las sanciones contra Hohler y algunos de sus colegas les obligan a vivir en \"una incertidumbre constante\", según declaró. Max von Thun es director de Open Markets Institute Europe, un think tank antimonopolio."
     },
     {
-      "id": "b967dcdd9b",
-      "title_en": "Knicks beat Spurs to win their first NBA title since 1973 as brilliant Brunson shines again",
-      "summary_en": "Brunson scores 45 points to seal 4-1 series victory‘He is him’: NBA finals MVP Brunson quiets doubtersPhotos: Ecstasy and chaos grip NYC after Knicks winAs it happened: Knicks 94–90 SpursGood things come to those who wait for a long, long time. The New York Knicks clinched their first NBA championship in 53 years with another thrilling late comeback win over the San Antonio Spurs on Saturday.Three days after grabbing a 3-1 NBA finals series lead by completing the largest comeback in finals history at Madison Square Garden, the Knicks sealed the deal on the road with another epic display of resilience and recovery, stunning the Spurs at Frost Bank Center. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/457ec1025c2f4bb229f946022a137c5968cf8a73/939_0_4693_3755/master/4693.jpg?width=140&quality=85&auto=format&fit=max&s=c5bd54ebfd5c6e1da129817f9e69ff09",
-      "link": "https://www.theguardian.com/sport/2026/jun/13/new-york-knicks-win-nba-title-san-antonio-spurs",
-      "published": "Sun, 14 Jun 2026 03:43:54 GMT",
+      "id": "83f60d8fbb",
+      "title_en": "‘More relevant now than ever’: how Virginia Woolf recaptured the cultural zeitgeist",
+      "summary_en": "With an adaptation of Night and Day hitting cinemas, the pioneering author’s work continues to inspire audiencesShe’s long been admired by students of English literature, but 85 years after her death, Virginia Woolf has broken out of the seminar room to become an unexpected cultural phenomenon.The author of Mrs Dalloway and To the Lighthouse, whose innovative prose helped redefine the modern novel, is finding a new audience through a string of high-profile adaptations. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/9df9433eb6c81611cf4bc0136acf63b79a9f0447/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=81c2f805b1cb42ca06d354b4c0970dd4",
+      "link": "https://www.theguardian.com/books/2026/jun/15/virginia-woolf-cultural-zeitgeist-night-and-day-adaptation",
+      "published": "Mon, 15 Jun 2026 05:00:04 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Los Knicks vencen a los Spurs y conquistan su primer título de la NBA desde 1973 gracias a un brillante Brunson",
-      "summary_es": "Brunson anota 45 puntos para sellar la victoria de la serie por 4-1. 'Es él': Brunson, MVP de las finales de la NBA, acalla a los escépticos. Fotos: Euforia y caos se apoderan de Nueva York tras el triunfo de los Knicks. Así fue: Knicks 94–90 Spurs. Las cosas buenas llegan para quienes esperan mucho, mucho tiempo. Los New York Knicks conquistaron su primer campeonato de la NBA en 53 años con otra emocionante remontada en los instantes finales ante los San Antonio Spurs, el sábado. Tres días después de ponerse 3-1 en la serie completando la mayor remontada en la historia de las finales en el Madison Square Garden, los Knicks cerraron el título a domicilio con otra épica demostración de resistencia y capacidad de reacción, dejando helados a los Spurs en el Frost Bank Center."
+      "title_es": "'Más vigente que nunca': cómo Virginia Woolf ha vuelto a conquistar el espíritu de la época",
+      "summary_es": "Con una adaptación de Night and Day próxima a llegar a los cines, la obra de esta pionera de las letras sigue cautivando al público. Admirada desde hace mucho por los estudiantes de literatura inglesa, 85 años después de su muerte Virginia Woolf ha trascendido el aula universitaria para convertirse en un inesperado fenómeno cultural. La autora de Mrs Dalloway y Al faro, cuya innovadora prosa contribuyó a redefinir la novela moderna, está conquistando a nuevas audiencias gracias a una serie de adaptaciones de gran repercusión."
     },
     {
       "id": "f447457215",
@@ -528,7 +552,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "¿Quién dirige el grupo de ransomware 'The Gentlemen'?",
-      "summary_es": "Un grupo de ciberdelincuentes conocido como The Gentlemen se ha convertido en la segunda banda de ransomware más activa por número de víctimas, atrayendo rápidamente a un grupo de hackers de talento mediante una agresiva estrategia de captación que promete a sus afiliados el 90% de cualquier rescate pagado por las víctimas. Este artículo analiza las pistas que apuntan a la identidad real del administrador del grupo de ransomware The Gentlemen."
+      "summary_es": "Un grupo de ciberdelincuentes conocido como The Gentlemen ha emergido como la segunda banda de ransomware más activa por número de víctimas, captando rápidamente a un nutrido grupo de hackers mediante una agresiva estrategia de reclutamiento que promete a sus afiliados el 90% de cualquier rescate pagado. Este artículo analiza las pistas que apuntan a la identidad real del administrador del grupo."
     },
     {
       "id": "213876dbb1",
@@ -540,7 +564,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "Un Patch Tuesday de junio de 2026 para los récords",
-      "summary_es": "Microsoft publicó hoy actualizaciones de software para tapar cerca de 200 agujeros de seguridad en sus sistemas operativos Windows y en el software compatible, una cifra récord de parches para el ciclo mensual Patch Tuesday de la compañía. Casi tres docenas de esos fallos recibieron la calificación más grave de Microsoft, 'crítica', y el código de explotación de al menos tres de las vulnerabilidades ya está disponible públicamente."
+      "summary_es": "Microsoft ha publicado actualizaciones de software para parchear casi 200 agujeros de seguridad en sus sistemas operativos Windows y en el software compatible, una cifra récord en el ciclo mensual del Patch Tuesday de la compañía. Casi tres docenas de esos fallos han recibido la calificación más grave de Microsoft, \"crítica\", y el código de explotación de al menos tres de ellos ya está disponible públicamente."
     },
     {
       "id": "95a5003f75",
@@ -552,7 +576,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "Unos hackers utilizaron el bot de soporte de IA de Meta para apoderarse de cuentas de Instagram",
-      "summary_es": "Las cuentas de Instagram de la Casa Blanca de Obama y del Sargento Mayor Jefe de la Fuerza Espacial de EE. UU. fueron brevemente alteradas con imágenes y mensajes pro-iraníes durante el fin de semana, después de que comenzaran a circular en Telegram instrucciones para engañar al bot 'asistente de soporte de IA' de Meta y conseguir que restableciera las contraseñas de las cuentas."
+      "summary_es": "Las cuentas de Instagram de la Casa Blanca de Obama y del Sargento Mayor Jefe de la Fuerza Espacial de EE. UU. fueron alteradas brevemente durante el fin de semana con imágenes y mensajes pro-iraníes, después de que comenzaran a circular en Telegram instrucciones sobre cómo engañar al bot \"asistente de soporte con IA\" de Meta para que restableciera las contraseñas de las cuentas."
     },
     {
       "id": "f25cc14e26",
@@ -563,8 +587,8 @@
       "published": "Mon, 25 May 2026 13:21:49 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "Los Países Bajos incautan 800 servidores y detienen a 2 personas por facilitar ciberataques",
-      "summary_es": "Las autoridades neerlandesas han detenido a los copropietarios de dos empresas de alojamiento web relacionadas entre sí por operar infraestructura informática utilizada por Rusia para llevar a cabo ciberataques, operaciones de influencia y campañas de desinformación dentro de la Unión Europea. Los dos hombres fueron objeto de un reportaje de KrebsOnSecurity en 2025 sobre cómo sus empresas de hosting habían asumido el control de la infraestructura técnica de Stark Industries Solutions, un proveedor de servicios de internet sancionado el año pasado por la UE por ser una plataforma habitual para las actividades cibernéticas maliciosas de los servicios de inteligencia rusos."
+      "title_es": "Países Bajos incauta 800 servidores y detiene a 2 personas por facilitar ciberataques",
+      "summary_es": "Las autoridades de Países Bajos han arrestado a los copropietarios de dos empresas de alojamiento de internet relacionadas entre sí por operar infraestructura informática utilizada por Rusia para llevar a cabo ciberataques, operaciones de influencia y campañas de desinformación dentro de la Unión Europea. Ambos hombres fueron el centro de un reportaje publicado en 2025 por KrebsOnSecurity sobre cómo sus empresas de hosting habían tomado el control de la infraestructura técnica de Stark Industries Solutions, un proveedor de servicios de internet sancionado el año pasado por la UE por ser un escenario habitual de actividades cibernéticas maliciosas de los servicios de inteligencia rusos."
     },
     {
       "id": "8222c28695",
@@ -576,7 +600,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "Legisladores exigen explicaciones mientras CISA intenta contener una filtración de datos",
-      "summary_es": "Legisladores de ambas cámaras del Congreso estadounidense están exigiendo explicaciones a la Agencia de Ciberseguridad e Infraestructura (CISA) después de que KrebsOnSecurity informara esta semana de que un contratista de CISA publicó deliberadamente claves de AWS GovCloud y un gran volumen de otros secretos de la agencia en una cuenta pública de GitHub. La investigación llega mientras CISA aún lucha por contener la brecha e invalidar las credenciales filtradas."
+      "summary_es": "Legisladores de ambas cámaras del Congreso de Estados Unidos reclaman respuestas a la Agencia de Ciberseguridad e Infraestructura (CISA) tras la información publicada esta semana por KrebsOnSecurity, según la cual un contratista de la agencia publicó intencionadamente claves de AWS GovCloud y una gran cantidad de secretos internos en una cuenta pública de GitHub. La investigación se produce mientras CISA sigue tratando de contener la brecha e invalidar las credenciales filtradas."
     },
     {
       "id": "2030efbe7a",
@@ -588,7 +612,7 @@
       "category": "Security",
       "source": "Bellingcat",
       "title_es": "Nueva técnica permite rastrear la expansión del contrabando de grano hacia Libia",
-      "summary_es": "El 15 de febrero de 2026, el granelero Grumant (IMO: 9385879) fue fotografiado en el ocupado puerto ucraniano de Feodosia, en la península de Crimea. Las imágenes satelitales sugieren que llevaba ya varios días allí. Al parecer, cargó grano antes de partir en un viaje de dos meses que concluyó con su atraque en el puerto de Bengasi. El artículo apareció originalmente en Bellingcat."
+      "summary_es": "El 15 de febrero de 2026, el granelero Grumant (IMO: 9385879) fue fotografiado en el puerto ucraniano ocupado de Feodosia, en la península de Crimea. Las imágenes satelitales sugieren que el barco llevaba ya varios días allí. Al parecer cargó grano antes de partir en un viaje de dos meses que concluyó con su atraque en el puerto de Benghazi. El artículo apareció originalmente en Bellingcat."
     },
     {
       "id": "676814f3ef",
@@ -599,8 +623,8 @@
       "published": "Thu, 04 Jun 2026 12:27:02 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Los vínculos digitales entre Viory y Ruptly, al descubierto",
-      "summary_es": "«En la era de la desinformación, la frontera entre la realidad y la ficción es más difusa que nunca». «Para quienes trabajamos en vídeo informativo, la verificación no es un lujo, es una necesidad. Es lo que protege las historias que ayudamos a contar y lo que nos permite ganarnos y mantener la confianza en un ecosistema informativo cada vez más caótico», afirma la agencia registrada en Abu Dabi. El artículo apareció originalmente en Bellingcat."
+      "title_es": "Rastreando los vínculos digitales entre Viory y Ruptly",
+      "summary_es": "«En la era de la desinformación, la línea entre los hechos y la ficción es más borrosa que nunca». «Para quienes trabajamos en vídeo informativo, la verificación no es un extra: es una necesidad. Es la forma en que protegemos las historias que ayudamos a contar y como ganamos y mantenemos la confianza en un ecosistema informativo cada vez más caótico», afirma la empresa registrada en Abu Dabi. El artículo apareció originalmente en Bellingcat."
     },
     {
       "id": "fb244ed720",
@@ -611,8 +635,8 @@
       "published": "Wed, 27 May 2026 09:41:49 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Los pueblos 'perdidos' de Rakáin, en Myanmar",
-      "summary_es": "«Un río de sangre»: así describió la escena un superviviente en el oeste de Myanmar. «Vi disparos. Vi una matanza masiva». Otro testigo relató ante el Alto Comisionado de las Naciones Unidas para los Derechos Humanos (ACNUDH) cómo 20 familiares suyos, incluidos tres niños, murieron en el ataque de 2024 contra la aldea de Htan Shauk Khan. Human Rights Watch (HRW) señaló anteriormente que... El artículo apareció originalmente en Bellingcat."
+      "title_es": "Las aldeas 'perdidas' de Rakhine, en Myanmar",
+      "summary_es": "«Un río de sangre»: así describió la escena en el oeste de Myanmar uno de los supervivientes. «Vi disparos. Vi una matanza masiva». Otro testigo relató ante la Alta Comisionada de la ONU para los Derechos Humanos (ACNUDH) cómo 20 familiares suyos, entre ellos tres niños, murieron en el ataque de 2024 contra la aldea de Htan Shauk Khan. Human Rights Watch (HRW) señaló anteriormente [...]. El artículo apareció originalmente en Bellingcat."
     },
     {
       "id": "f467439afa",
@@ -624,7 +648,7 @@
       "category": "Security",
       "source": "Bellingcat",
       "title_es": "Hallan submuniciones rusas prohibidas tras los ataques aéreos anunciados por el ejército de Malí",
-      "summary_es": "Esta investigación es una colaboración entre Bellingcat y Jeune Afrique. El artículo de Jeune Afrique puede leerse en francés en su sitio web. Se han encontrado bombetas de munición en racimo de fabricación rusa sin explotar, así como daños compatibles con el impacto de ese tipo de artefactos, en una aldea del norte de Malí, a pesar de que el país de África Occidental es estado parte de la Convención sobre... El artículo apareció originalmente en Bellingcat."
+      "summary_es": "Esta investigación es fruto de una colaboración entre Bellingcat y Jeune Afrique. El artículo de Jeune Afrique puede leerse en francés en su sitio web. Se han encontrado bombetas de munición en racimo de fabricación rusa sin explotar, así como daños compatibles con el impacto de este tipo de artefactos, en una aldea del norte de Malí, a pesar de que el país de África Occidental es signatario de la Convención sobre Municiones en Racimo. El artículo apareció originalmente en Bellingcat."
     },
     {
       "id": "5953beb565",
@@ -635,8 +659,8 @@
       "published": "Thu, 14 May 2026 09:39:28 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Imágenes satelitales revelan demoliciones en curso en el sur del Líbano",
-      "summary_es": "El frágil alto el fuego acordado el mes pasado entre Israel y Hezbollah se mantiene. Sin embargo, las imágenes satelitales muestran que al menos 46 de los 54 municipios situados dentro de la llamada «Línea Amarilla» de las Fuerzas de Defensa de Israel (IDF) en el sur del Líbano han sufrido graves daños o han sido arrasados por completo. Gran parte de la destrucción y las demoliciones se ha producido... El artículo apareció originalmente en Bellingcat."
+      "title_es": "Imágenes satelitales revelan demoliciones continuas en el sur del Líbano",
+      "summary_es": "El frágil alto el fuego acordado el mes pasado entre Israel y Hezbollah se mantiene. Sin embargo, las imágenes satelitales muestran que al menos 46 de las 54 localidades situadas dentro de la denominada «Línea Amarilla» de las Fuerzas de Defensa de Israel (IDF) en el sur del Líbano han sufrido graves daños o, en algunos casos, han sido arrasadas por completo. Gran parte de la destrucción y las demoliciones se han producido [...]. El artículo apareció originalmente en Bellingcat."
     },
     {
       "id": "2a8c21e2ae",
@@ -648,7 +672,7 @@
       "category": "Security",
       "source": "Nixintel",
       "title_es": "Cómo calcular la antigüedad de una web y rastrear sus cambios con URL Dater",
-      "summary_es": "¿Cómo determinar con fiabilidad la antigüedad de una página web? URL Dater recurre a una variedad de fuentes para ofrecer una imagen precisa."
+      "summary_es": "¿Cómo determinar de forma fiable la antigüedad de una página web? URL Dater recurre a diversas fuentes para ofrecer una imagen precisa."
     },
     {
       "id": "7e4d545513",
@@ -659,8 +683,8 @@
       "published": "Sat, 22 Mar 2025 10:32:46 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Cómo usar certificados SSL para identificar la infraestructura de actores de amenazas",
-      "summary_es": "En el SANS OSINT Summit del mes pasado ofrecí una charla sobre la utilidad de los certificados SSL para los investigadores de inteligencia de fuentes abiertas. La ponencia analiza tres casos recientes en los que la información extraída de los registros de transparencia de certificados permitió descubrir, atribuir y desenmascarar infraestructuras de actores de amenazas. El vídeo de la charla ya está disponible."
+      "title_es": "Cómo usar certificados SSL para identificar infraestructuras de actores de amenazas",
+      "summary_es": "En la cumbre SANS OSINT del mes pasado ofrecí una charla sobre la utilidad de los certificados SSL para investigadores de inteligencia de fuentes abiertas. La charla analiza tres ejemplos recientes de cómo la información de los registros de transparencia de certificados puede emplearse para descubrir, atribuir y desenmascarar infraestructuras de actores de amenazas. El vídeo de la charla ya está disponible y puede [...]"
     },
     {
       "id": "999f9064e5",
@@ -671,8 +695,8 @@
       "published": "Sun, 17 Nov 2024 18:57:41 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Telegram para investigadores de ciberamenazas",
-      "summary_es": "Telegram es una de las plataformas más importantes para los investigadores de OSINT. Participé en el podcast Needlestack para hablar sobre el funcionamiento de Telegram y compartir consejos prácticos de OSINT."
+      "title_es": "Telegram para investigadores de ciberinteligencia",
+      "summary_es": "Telegram es una de las plataformas más importantes para los investigadores de OSINT. Participé en el podcast Needlestack para hablar sobre el funcionamiento de Telegram y compartí consejos prácticos de OSINT a lo largo de la conversación."
     },
     {
       "id": "93b31e8393",
@@ -683,8 +707,8 @@
       "published": "Mon, 31 Jul 2023 21:50:10 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Radiografía de la infraestructura de desinformación rusa",
-      "summary_es": "La desinformación y la propaganda han sido uno de los elementos clave de la guerra entre Rusia y Ucrania. Entre los numerosos grupos surgidos para difundir narrativas propagandísticas prorrusas destaca una pequeña organización hacktivista llamada Beregini. Este artículo de Givi Gigitashvili ofrece una introducción útil a los métodos de Beregini mediante el análisis [...]"
+      "title_es": "Un vistazo a fondo a la infraestructura de desinformación rusa",
+      "summary_es": "La desinformación y la propaganda han sido uno de los elementos centrales de la guerra entre Rusia y Ucrania. Entre los numerosos grupos surgidos para difundir narrativas propagandísticas pro-rusas destaca una pequeña organización hacktivista llamada Beregini. Este artículo de Givi Gigitashvili ofrece una introducción útil a los métodos de Beregini mediante el análisis de [...]"
     },
     {
       "id": "9883e8138d",
@@ -696,7 +720,19 @@
       "category": "Security",
       "source": "Nixintel",
       "title_es": "Verifica tu identidad en línea con Keybase",
-      "summary_es": "La reciente decisión de Twitter de retirar las marcas de verificación azules de cuentas anteriormente verificadas plantea varios problemas tanto para la plataforma como para sus usuarios. El más evidente tiene que ver con la autenticidad de la identidad. Sin verificación, ¿cómo saber que una cuenta determinada pertenece realmente a la persona u organización que lo afirma? [...]"
+      "summary_es": "La reciente decisión de Twitter de retirar las marcas de verificación azules de cuentas previamente verificadas plantea varios problemas tanto para la plataforma como para sus usuarios. El más evidente tiene que ver con la autenticidad de la identidad. Sin verificación, ¿cómo saber si una cuenta pertenece realmente a la persona u organización que dice [...]"
+    },
+    {
+      "id": "2b80e12e55",
+      "title_en": "All Whites' Stamenic aims to do late father proud",
+      "summary_en": "Swansea City's Marko Stamenic will be thinking of his inspirational dad as New Zealand begin their World Cup campaign.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b69d/live/43f30ac0-6659-11f1-9afd-55fafa742f4a.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/c759x045x7qo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 04:47:13 GMT",
+      "category": "Football",
+      "source": "Wales Football (BBC)",
+      "title_es": "Stamenic, de los All Whites, quiere honrar la memoria de su padre",
+      "summary_es": "El jugador del Swansea City Marko Stamenic tendrá en mente a su inspirador padre cuando Nueva Zelanda inicie su andadura en el Mundial."
     },
     {
       "id": "4aaf2510b2",
@@ -707,8 +743,8 @@
       "published": "Sat, 13 Jun 2026 10:19:00 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Las jugadoras galesas sin club se muestran ante posibles fichadores",
-      "summary_es": "Rhian Wilkinson asegura que sus internacionales sin equipo demostraron su valía a los posibles pretendientes al ayudar a Gales a terminar primera de su grupo de clasificación para el Mundial Femenino."
+      "title_es": "Las internacionales galesas sin equipo se muestran ante posibles pretendientes",
+      "summary_es": "Rhian Wilkinson asegura que sus internacionales sin contrato demostraron su valía a los clubes interesados al ayudar a Gales a terminar primera en su grupo de clasificación para el Mundial femenino."
     },
     {
       "id": "e7a738483c",
@@ -719,8 +755,20 @@
       "published": "Fri, 12 Jun 2026 21:30:51 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Jones, leyenda de Gales y del Spurs con 91 años, recibe la MBE",
-      "summary_es": "Cliff Jones, leyenda de Gales y del Tottenham Hotspur, recibe la MBE en la lista de honores del cumpleaños del Rey."
+      "title_es": "La leyenda del Gales y el Spurs Jones, 91 años, recibe el MBE",
+      "summary_es": "La leyenda del Gales y del Tottenham Hotspur Cliff Jones recibe el MBE en la lista de honores del cumpleaños del Rey."
+    },
+    {
+      "id": "1b2b635db5",
+      "title_en": "Leicester close in on ex-Swans boss Martin",
+      "summary_en": "Russell Martin, who led Southampton into the Premier League in 2024, has been out of work since being sacked by Rangers in October.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c82/live/6b772600-67dd-11f1-b1db-af71d47507d6.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/c621e1jnp73o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 14 Jun 2026 10:21:33 GMT",
+      "category": "Football",
+      "source": "Wales Football (BBC)",
+      "title_es": "Leicester se acerca al exentrenador del Swans Martin",
+      "summary_es": "Russell Martin, quien ascendió al Southampton a la Premier League en 2024, lleva sin trabajo desde que fue destituido por el Rangers en octubre."
     },
     {
       "id": "165a9b5140",
@@ -731,32 +779,8 @@
       "published": "Fri, 12 Jun 2026 10:00:05 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Muere Jackett, exinternacional galés y extécnico del Swans",
-      "summary_es": "Kenny Jackett, leyenda del Watford y exinternacional con Gales, fallece a los 64 años."
-    },
-    {
-      "id": "c5364d0ba4",
-      "title_en": "Merthyr Town - from near relegation to remarkable rise",
-      "summary_en": "Merthyr Town's up and down history mirrors the struggles of the surrounding area but the football club hopes it is now well placed for success.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/935b/live/d24f8e20-65ae-11f1-9fd1-0b44a7e33c3f.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cj9pjlmpzx7o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 12 Jun 2026 06:03:50 GMT",
-      "category": "Football",
-      "source": "Wales Football (BBC)",
-      "title_es": "Merthyr Town: del descenso inminente a un ascenso extraordinario",
-      "summary_es": "La agitada historia del Merthyr Town refleja las dificultades de la zona que lo rodea, pero el club confía en estar ahora bien posicionado para el éxito."
-    },
-    {
-      "id": "cf04c36152",
-      "title_en": "Wales bosses lobbying Uefa to expand Women's Euros",
-      "summary_en": "The Football Association of Wales wants Uefa to expand the Women's European Championship from 16 to 24 teams, in line with the men's competition.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04e7/live/dd3e6540-657c-11f1-9f01-693d064aea27.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c8r2jxy7v31o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 11 Jun 2026 10:18:03 GMT",
-      "category": "Football",
-      "source": "Wales Football (BBC)",
-      "title_es": "Los dirigentes galeses presionan a la Uefa para ampliar la Eurocopa Femenina",
-      "summary_es": "La Football Association of Wales quiere que la Uefa amplíe el Campeonato de Europa Femenino de 16 a 24 equipos, en línea con la competición masculina."
+      "title_es": "Muere Jackett, exinternacional con Gales y exentrenador del Swansea",
+      "summary_es": "Kenny Jackett, leyenda del Watford e internacional con Gales, fallece a los 64 años."
     },
     {
       "id": "ce0d8e3fa1",
@@ -767,8 +791,8 @@
       "published": "Sat, 13 Jun 2026 06:12:46 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "El exdirector de la WRU Roger Lewis, reconocido por el rey Carlos junto a otras figuras del deporte galés",
-      "summary_es": "La lista de honores del cumpleaños del Rey ha reconocido a varios deportistas galeses destacados por sus logros."
+      "title_es": "El rey Carlos honra al exdirector de la WRU Roger Lewis entre los deportistas galeses reconocidos",
+      "summary_es": "La lista de honores del cumpleaños del Rey ha distinguido a varios deportistas galeses por sus logros"
     },
     {
       "id": "2236669529",
@@ -779,8 +803,8 @@
       "published": "Fri, 12 Jun 2026 15:17:00 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Gabby Logan rechaza dos invitaciones de la Familia Real para recoger su OBE",
-      "summary_es": "Gabby Logan ha vivido dos contratiempos por sus compromisos como presentadora de la BBC en el Mundial 2026, lo que ha provocado un inusual rechazo hacia la Familia Real"
+      "title_es": "Gabby Logan rechaza dos invitaciones de la familia real para recoger su OBE",
+      "summary_es": "Gabby Logan ha sufrido dos contratiempos por sus compromisos como presentadora de la BBC en el Mundial 2026, lo que ha provocado un inusual rechazo hacia la familia real"
     },
     {
       "id": "196ef45f47",
@@ -792,7 +816,7 @@
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
       "title_es": "Muere a los 64 años Kenny Jackett, exentrenador del Swansea City e internacional con Gales",
-      "summary_es": "Las muestras de tributo se han multiplicado tras el fallecimiento del exentrenador Kenny Jackett a los 64 años"
+      "summary_es": "Los homenajes se han multiplicado tras el fallecimiento del exentrenador Kenny Jackett a los 64 años"
     },
     {
       "id": "c853582157",
@@ -803,7 +827,7 @@
       "published": "Wed, 10 Jun 2026 09:48:44 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Una estrella firma su renovación con el Tottenham mientras se confirman 11 salidas, entre ellas la de un jugador de 30 millones",
+      "title_es": "Una estrella firma un sorprendente acuerdo con el Tottenham mientras se confirman 11 salidas, incluida la de un jugador de 30 millones",
       "summary_es": "El veterano ha estampado su firma en un nuevo contrato con el Spurs"
     },
     {
@@ -815,8 +839,8 @@
       "published": "Tue, 9 Jun 2026 13:10:38 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Ojeadores de la Champions League acuden a ver a la estrella del Cardiff City en una decisión ya inevitable",
-      "summary_es": "El defensa de los Bluebirds firmó una brillante primera temporada en el fútbol profesional y está atrayendo miradas y un interés considerable"
+      "title_es": "Ojeadores de la Champions League acuden a ver a una estrella del Cardiff City en una decisión ya inevitable",
+      "summary_es": "El defensa de los Bluebirds firmó una primera temporada en el fútbol profesional y está atrayendo miradas y una atención de primer nivel"
     },
     {
       "id": "f5f6162132",
@@ -827,8 +851,8 @@
       "published": "Fri, 12 Jun 2026 14:00:34 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Ospreys ficha al centro australiano Foketi",
-      "summary_es": "El centro australiano Lalakai Foketi se unirá a sus compatriotas Ryan Smith y Liam Wright en la plantilla de Ospreys para la temporada 2026-27."
+      "title_es": "Los Ospreys fichan al centro australiano Foketi",
+      "summary_es": "El centro australiano Lalakai Foketi se unirá a sus compatriotas Ryan Smith y Liam Wright en la plantilla de los Ospreys para la temporada 2026-27."
     },
     {
       "id": "0b1ad30bdf",
@@ -839,8 +863,20 @@
       "published": "Fri, 12 Jun 2026 11:59:29 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "La pareja de Joyce tiene algo que demostrar a su regreso a Gales",
-      "summary_es": "El dúo internacional asegura que mantiene su ambición tanto en el club como en la selección tras confirmar que jugarán al rugby en Gales la próxima temporada."
+      "title_es": "La pareja de Joyce tiene cuentas pendientes a su regreso a Gales",
+      "summary_es": "El dúo internacional asegura que mantiene ambiciones tanto con su club como con la selección tras confirmar que jugará en Gales la próxima temporada."
+    },
+    {
+      "id": "31ad1c8675",
+      "title_en": "Trailfinders stun Gloucester-Hartpury to reach PWR final",
+      "summary_en": "Trailfinders hold off Gloucester-Hartpury as they beat reigning champions 29-26 to reach their first Premiership Women's Rugby final.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8419/live/78427b50-6819-11f1-a177-65e13786d3a5.jpg",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c992yevvpe9o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 14 Jun 2026 15:52:45 GMT",
+      "category": "Rugby",
+      "source": "Wales Rugby (BBC)",
+      "title_es": "Trailfinders sorprende a Gloucester-Hartpury y alcanza la final de la PWR",
+      "summary_es": "Trailfinders aguanta el envite de Gloucester-Hartpury y derrota a las campeonas vigentes por 29-26 para alcanzar su primera final de la Premiership Women's Rugby."
     },
     {
       "id": "319bcf252d",
@@ -851,8 +887,8 @@
       "published": "Fri, 12 Jun 2026 05:05:58 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Pivac sale de la semijubilación para iniciar una nueva etapa en Italia",
-      "summary_es": "El destino de Pivac podría haber sido muy distinto si su etapa como seleccionador de Gales hubiera salido bien, pero pagó el precio de perder en casa ante Georgia en 2022."
+      "title_es": "Pivac sale de su semirretiro para asumir el reto de Italia",
+      "summary_es": "El destino de Pivac habría sido muy distinto si su etapa al frente de Gales hubiera salido bien, pero pagó el precio de caer en casa ante Georgia en 2022."
     },
     {
       "id": "83ef7321b2",
@@ -863,20 +899,8 @@
       "published": "Fri, 12 Jun 2026 09:18:33 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "El Principality Stadium se pasa a las energías renovables con 3.000 paneles solares en su cubierta",
-      "summary_es": "La WRU afirma que los nuevos paneles solares le permitirán ahorrar hasta 400.000 libras al año en costes energéticos."
-    },
-    {
-      "id": "edb1a625e3",
-      "title_en": "Ospreys and Scarlets merger could have changed Welsh rugby",
-      "summary_en": "Ex-Wales coach Wayne Pivac tells Scrum V that Welsh rugby missed a trick in 2019 by not combining Ospreys with his Scarlets side to create a super region.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8a5/live/e0819aa0-6582-11f1-b1db-af71d47507d6.jpg",
-      "link": "https://www.bbc.com/sport/rugby-union/videos/c0rynwleke4o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 12 Jun 2026 05:05:04 GMT",
-      "category": "Rugby",
-      "source": "Wales Rugby (BBC)",
-      "title_es": "La posible fusión entre Ospreys y Scarlets que pudo haber cambiado el rugby galés",
-      "summary_es": "El exseleccionador de Gales Wayne Pivac afirma en Scrum V que el rugby galés desaprovechó una gran oportunidad en 2019 al no fusionar los Ospreys con sus Scarlets para crear una súper región."
+      "title_es": "El Principality Stadium se pasa a la energía solar con 3.000 paneles en su cubierta",
+      "summary_es": "La WRU asegura que los nuevos paneles solares le permitirán ahorrar hasta 400.000 libras al año en costes energéticos."
     },
     {
       "id": "d4e101f269",
@@ -887,8 +911,8 @@
       "published": "2026-05-27T16:30:03+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "¿Cómo se convirtió España en la nación más apasionante del rugby? | Vista previa del Mundial de Rugby 2027",
-      "summary_es": "Hace diez años, la pregunta más habitual sobre el rugby español era: «¿España tiene equipo de rugby?». Hace cinco, era: «¿Qué han hecho ahora?». Sin embargo, a año y medio de su primer Mundial masculino en casi 30 años, la historia es bien distinta: así es como España se convirtió en la nueva nación más emocionante de todo el rugby."
+      "title_es": "¿Cómo se ha convertido España en la nación más emocionante del rugby? | Vista previa RWC 2027",
+      "summary_es": "Hace diez años, la pregunta más habitual sobre el rugby español era: «¿España tiene equipo de rugby?». Hace cinco años era: «¿Y ahora qué han hecho?». Hoy, a año y medio de su primer Mundial masculino en casi 30 años, todo ha cambiado: esta es la historia de cómo España se convirtió en la nación más apasionante del rugby mundial."
     },
     {
       "id": "33dfca4d83",
@@ -900,7 +924,7 @@
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
       "title_es": "¿Cómo dominó Bordeaux a Leinster? | ANÁLISIS | Final de la Champions Cup 2026",
-      "summary_es": "Union Bordeaux-Begles es bicampeón de Europa (y de Sudáfrica). Una actuación dominante y contundente que aplastó a un Leinster que sigue sin conquistar esa quinta estrella. Analizamos en profundidad cómo Bordeaux controló el partido, qué falló en Leinster y hasta dónde puede llegar este equipo de UBB."
+      "summary_es": "Union Bordeaux-Bègle es bicampeón de Europa (y de Sudáfrica). Una actuación dominante y contundente que aplastó a un Leinster todavía en busca de su quinta estrella. Analizamos en profundidad cómo Bordeaux controló el partido, qué falló en Leinster y hasta qué punto es grande este equipo de UBB."
     },
     {
       "id": "1de53c0c86",
@@ -911,8 +935,8 @@
       "published": "2026-05-24T09:00:01+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "Por qué Owen Farrell no está en la convocatoria de Inglaterra",
-      "summary_es": "Steve Borthwick va por buen camino."
+      "title_es": "Por qué Owen Farrell no está en la selección de Inglaterra",
+      "summary_es": "Steve Borthwick tiene algo entre manos."
     },
     {
       "id": "888daef2e8",
@@ -924,7 +948,7 @@
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
       "title_es": "Cómo ha cambiado la defensa de Leinster esta temporada",
-      "summary_es": "Jacques Nienaber está moviendo ficha."
+      "summary_es": "Jacques Nienaber está moviendo fichas."
     },
     {
       "id": "137a8895d8",
@@ -936,7 +960,7 @@
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
       "title_es": "¿Puede Leinster superar a Bordeaux? | Previa de la Final de la Champions Cup 2026",
-      "summary_es": "Bilbao acoge una gran final. Leinster se medirá a Bordeaux-Begles en el desenlace de la Champions Cup 2025/26. La pregunta es si el conjunto irlandés será capaz de dar la sorpresa."
+      "summary_es": "Bilbao acoge una final mayúscula. Leinster se medirá a Bordeaux-Bègle en el partido definitivo de la Champions Cup 2025/26. La pregunta es si los irlandeses serán capaces de imponerse."
     },
     {
       "id": "21844267bd",
@@ -947,8 +971,8 @@
       "published": "Tue, 15 Nov 2022 11:04:05 +0000",
       "category": "Rugby",
       "source": "Scarlets",
-      "title_es": "Josh Macleod, convocado con Gales para enfrentarse a Georgia",
-      "summary_es": "El ala de los Scarlets Josh Macleod está a punto de debutar con Gales tras ser incluido en el XV titular para el tercer partido de la Autumn Nations Series ante Georgia. El jugador de Pembrokeshire, de 26 años, vio frustradas dos oportunidades anteriores por sendas lesiones, pero tendrá su merecida oportunidad ante los Lelos el sábado al mediodía (13:00 h, Amazon Prime)."
+      "title_es": "Josh Macleod debuta con Gales ante Georgia",
+      "summary_es": "El ala de los Scarlets Josh Macleod está a punto de debutar con Gales tras ser incluido en el XV titular para enfrentarse a Georgia en el tercer partido de la Autumn Nations Series. El jugador de Pembrokeshire, de 26 años, se había visto privado de esta oportunidad en dos ocasiones anteriores por sendas lesiones, pero tendrá su merecida oportunidad ante los Lelos el sábado a mediodía (1pm, Amazon Prime). Macleod es... Leer más"
     },
     {
       "id": "7e1e66fdff",
@@ -959,8 +983,8 @@
       "published": "Thu, 12 Aug 2021 09:07:14 +0000",
       "category": "Rugby",
       "source": "Scarlets",
-      "title_es": "Confirmadas las sedes de los partidos de Cymru en 2021",
-      "summary_es": "El Parc y Scarlets de Llanelli y el Cardiff City Stadium acogerán los primeros partidos de Cymru en la fase de clasificación para la Copa del Mundo Femenina de la FIFA 2023. El equipo de Gemma Grainger arrancará la campaña en el Parc y Scarlets ante Kazajistán el viernes 17 de septiembre. Un mes después, Cymru visitará el Cardiff City Stadium para medirse a Estonia el martes 26 de octubre."
+      "title_es": "Confirmados los estadios de Cymru para los partidos de 2021",
+      "summary_es": "El Parc y Scarlets de Llanelli y el Cardiff City Stadium acogerán los primeros partidos de Cymru en la fase de clasificación para la Copa Mundial Femenina de la FIFA 2023. El equipo de Gemma Grainger arrancará la campaña en el Parc y Scarlets ante Kazajistán el viernes 17 de septiembre. Un mes después, Cymru visitará el Cardiff City Stadium para medirse a Estonia el martes 26 de octubre... Leer más"
     },
     {
       "id": "f9048131ab",
@@ -972,7 +996,7 @@
       "category": "Rugby",
       "source": "Scarlets",
       "title_es": "¡Participa en nuestro último concurso!",
-      "summary_es": "Para destacar la sostenibilidad del Cordero y la Ternera galeses y los numerosos beneficios de comprar productos de origen local y producción ética, los Scarlets se han asociado con Hybu Cig Cymru – Meat Promotion Wales para ofrecerte la oportunidad de ganar una lujosa cesta de productos cárnicos y una camiseta de los Scarlets firmada por Wyn Jones. ¿Tu carnicería local ofrece..."
+      "summary_es": "Para destacar la sostenibilidad del cordero y la ternera galeses y los beneficios de adquirir productos de proximidad elaborados de forma ética, los Scarlets se han unido a Hybu Cig Cymru – Meat Promotion Wales para ofrecerte la oportunidad de ganar una cesta de lujo con productos cárnicos y una camiseta de los Scarlets firmada por Wyn Jones. ¿Tu carnicería local ofrece... Leer más"
     },
     {
       "id": "51959dfbf6",
@@ -983,8 +1007,8 @@
       "published": "Wed, 08 Jan 2020 09:59:43 +0000",
       "category": "Rugby",
       "source": "Scarlets",
-      "title_es": "Los Scarlets se preparan para el gran duelo en el 'Derby Day, tercera parte'",
-      "summary_es": "Esta tarde se disputa el Derby Day: Tercera Parte, con los Scarlets enfrentándose al Cardiff Blues en el Arms Park (19:35). Antes del sold-out en la Guinness PRO14, charlamos con el entrenador de delanteros Ioan Cunningham para conocer su opinión sobre lo que promete ser un apasionante partido entre dos equipos repletos de talento. Ioan, para empezar, debiste de estar encantado..."
+      "title_es": "Los Scarlets se preparan para la batalla en el terreno en el 'Derby Day Parte III'",
+      "summary_es": "Esta tarde llega el Derby Day: Parte III con el enfrentamiento entre los Scarlets y Cardiff Blues en el Arms Park (7.35h). Antes del sold-out en el Guinness PRO14, charlamos con el entrenador de delanteros Ioan Cunningham para conocer su opinión sobre lo que promete ser un duelo apasionante entre dos equipos repletos de talento. Ioan, ante todo debes de haber estado encantado... Leer más"
     }
   ]
 }
