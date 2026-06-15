@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T09:35:38.578532+00:00",
-  "item_count": 109,
+  "generated_at": "2026-06-15T09:50:31.505344+00:00",
+  "item_count": 105,
   "items": [
     {
       "id": "wce4b62398",
@@ -11,8 +11,20 @@
       "published": "2026-06-12T02:00:00Z",
       "category": "Mundial",
       "source": "Resultados del Mundial",
-      "title_es": "Corea del Sur 2–1 Chequia",
-      "summary_es": "Fase de grupos · GRUPO A. Disputado el 12 de junio de 2026."
+      "title_es": "Corea del Sur 2–1 República Checa",
+      "summary_es": "Fase de grupos · GRUPO_A. Disputado el 12 de junio de 2026."
+    },
+    {
+      "id": "wc6e2df121",
+      "title_en": "Canada 1–1 Bosnia-Herzegovina",
+      "summary_en": "Group Stage · GROUP_B. Played on 2026-06-12.",
+      "image": "",
+      "link": "",
+      "published": "2026-06-12T19:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Canadá 1–1 Bosnia-Herzegovina",
+      "summary_es": "Fase de grupos · GRUPO_B. Disputado el 12 de junio de 2026."
     },
     {
       "id": "wc057350ac",
@@ -24,7 +36,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Estados Unidos 4–1 Paraguay",
-      "summary_es": "Fase de grupos · GRUPO D. Disputado el 13 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO_D. Disputado el 13 de junio de 2026."
     },
     {
       "id": "wcbc88e1f7",
@@ -36,7 +48,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Catar 1–1 Suiza",
-      "summary_es": "Fase de grupos · GRUPO B. Disputado el 13 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO_B. Disputado el 13 de junio de 2026."
     },
     {
       "id": "wc35b1e24f",
@@ -48,7 +60,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Brasil 1–1 Marruecos",
-      "summary_es": "Fase de grupos · GRUPO C. Disputado el 13 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO_C. Disputado el 13 de junio de 2026."
     },
     {
       "id": "wc38f1c6be",
@@ -60,7 +72,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Haití 0–1 Escocia",
-      "summary_es": "Fase de grupos · GRUPO C. Disputado el 14 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO_C. Disputado el 14 de junio de 2026."
     },
     {
       "id": "wc26ee8696",
@@ -72,7 +84,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Australia 2–0 Turquía",
-      "summary_es": "Fase de grupos · GRUPO D. Disputado el 14 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO_D. Disputado el 14 de junio de 2026."
     },
     {
       "id": "wcba22cdbb",
@@ -84,7 +96,7 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Alemania 7–1 Curaçao",
-      "summary_es": "Fase de grupos · GRUPO E. Disputado el 14 de junio de 2026."
+      "summary_es": "Fase de grupos · GRUPO_E. Disputado el 14 de junio de 2026."
     },
     {
       "id": "wc60d23357",
@@ -124,15 +136,15 @@
     },
     {
       "id": "5478b67d4b",
-      "title_en": "World Cup 2026: teams hit back at Ceferin over ‘uninteresting’ jibe; Iran arrive in US amid protests – live",
+      "title_en": "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – live",
       "summary_en": "⚽️ Iran’s Taremi says tension ‘undermines joy’⚽️ Player guide | Bracketology | Wallchart | Mail SarahSometimes a team needs a player to have some standout performances to jump start a tournament and Jordan Henderson believes that player for England will be Jude Bellingham. Henderson said:I’m sure he will have a big impact for us in this tournament. I can remember five years ago I gave him his first cap, it was away at Middlesbrough. How much he’s grown, as a player and as a person since then, is incredible really. I had a good idea when I first saw him playing and training, and the way he was.I think everybody forgets how young he is. We do rondos and it’s the youngest in, and there’s people that I think should be going in before him, but he’s always one of the first in the middle to go in. It just reminds us how young he is. I honestly couldn’t speak highly enough of him. Continue readi",
       "image": "https://i.guim.co.uk/img/media/0b83d1ae434663eff7b67d175d101a6c914931c7/108_0_3008_2407/master/3008.jpg?width=140&quality=85&auto=format&fit=max&s=709e104bb9104a35cf1b3823714382c7",
       "link": "https://www.theguardian.com/football/live/2026/jun/15/world-cup-2026-news-iran-arrive-in-us-amid-protests-spain-belgium-egypt-enter-tournament-live",
-      "published": "Mon, 15 Jun 2026 09:10:27 GMT",
+      "published": "Mon, 15 Jun 2026 09:27:18 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Mundial 2026: los equipos responden a Ceferin tras su comentario sobre partidos 'poco interesantes'; Irán llega a EE. UU. entre protestas – en directo",
-      "summary_es": "⚽️ Taremi (Irán) advierte de que la tensión 'arruina la alegría'⚽️ Guía de jugadores | Bracketology | Cuadro del torneo | Escríbele a SarahA veces un equipo necesita que un jugador destaque para encender la mecha de un torneo, y Jordan Henderson cree que ese jugador para Inglaterra será Jude Bellingham. Henderson declaró: «Estoy seguro de que tendrá un gran impacto en este torneo. Recuerdo que hace cinco años le di su primera convocatoria, fue fuera de casa en Middlesbrough. El crecimiento que ha tenido, como jugador y como persona desde entonces, es realmente increíble. Tuve una buena corazonada la primera vez que lo vi jugar y entrenar, y por cómo era. Creo que todo el mundo olvida lo joven que es. Hacemos rondos y entra el más joven, y hay gente que creo que debería entrar antes que él, pero siempre es de los primeros en ir al centro. Eso nos recuerda lo joven que es. Sinceramente, no tengo palabras para elogiarlo lo suficiente»."
+      "title_es": "Mundial 2026: la FIFA presionada para apartar a un oficial por un gesto con la mano; las selecciones responden a Ceferin; Irán llega a EE. UU. – en directo",
+      "summary_es": "⚽️ Taremi, de Irán, avisa de que la tensión 'socava la alegría'⚽️ Guía de jugadores | Bracketology | Wallchart | Escríbele a SarahA veces un equipo necesita que un jugador brille para que el torneo arranque de verdad, y Jordan Henderson cree que ese jugador para Inglaterra será Jude Bellingham. Henderson declaró: «Estoy seguro de que tendrá un gran impacto para nosotros en este torneo. Recuerdo que hace cinco años le di su primer partido con la selección, fue fuera en Middlesbrough. Lo mucho que ha crecido, como jugador y como persona desde entonces, es realmente increíble. Tuve una buena intuición la primera vez que le vi jugar y entrenar, y por cómo era. Creo que todo el mundo olvida lo joven que es. Hacemos rondos y el que entra en el medio es el más joven, y hay gente que debería entrar antes que él, pero siempre es de los primeros en quedarse en el centro. Eso nos recuerda lo joven que es. Sinceramente, no podría hablar lo suficientemente bien de él»."
     },
     {
       "id": "e816c50fdb",
@@ -143,8 +155,8 @@
       "published": "Mon, 15 Jun 2026 09:00:17 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Dejar a Henderson fuera de la Eurocopa 2024 fue el error fatal de Inglaterra — ahora su liderazgo puede ser clave",
-      "summary_es": "Gareth Southgate miraba al futuro cuando prescindió del centrocampista, pero, como reconoce el propio Jude Bellingham, su influencia es imprescindibleEl secreto ya está al descubierto. Nadie esperaba que la conversación fuera tan reveladora cuando Jude Bellingham y Morgan Rogers se sentaron en el sofá de Lions' Den la semana pasada. Un espacio controlado por la Football Association era el último lugar donde Bellingham parecía dispuesto a soltar algunas verdades incómodas, pero el centrocampista inglés no tuvo reparos cuando llegó el momento de hablar sobre su experiencia en la Eurocopa 2024. «No había ningún tipo de jerarquía», dijo el jugador de 22 años. «Creo que en la Eurocopa nos equivocamos en algunas cosas fuera del campo. No siento que el grupo conectara tan bien como podría haberlo hecho, por varias razones»."
+      "title_es": "Dejar fuera a Henderson en la Eurocopa 2024 fue el error fatal de Inglaterra: ahora su liderazgo puede ser decisivo",
+      "summary_es": "Gareth Southgate miraba al futuro cuando prescindió del centrocampista, pero, como reconoce Jude Bellingham, la influencia del veterano es imprescindibleEl secreto está más que destapado. Nadie esperaba que la conversación fuera tan reveladora cuando Jude Bellingham y Morgan Rogers se sentaron en el sofá de Lions' Den la semana pasada. Un espacio controlado por la Football Association era el último lugar donde Bellingham iba a soltar unas cuantas verdades incómodas, pero el centrocampista inglés no tuvo reparos en hablar claro sobre su experiencia en la Eurocopa 2024. «No sentí que hubiera ningún tipo de jerarquía», dijo el jugador de 22 años. «Creo que en la Eurocopa nos equivocamos en algunas cosas fuera del campo. No siento que el grupo conectara tan bien como podría haberlo hecho, por varias razones»."
     },
     {
       "id": "e3e4ea987b",
@@ -155,8 +167,8 @@
       "published": "Mon, 15 Jun 2026 04:15:58 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Doblete de Yasin Ayari y exhibición sueca para liquidar a una errática Túnez",
-      "summary_es": "Cuando la gente imagina a un mesías, pocos piensan en un hombre tranquilo de 51 años, barba entrecana y pasado como lateral izquierdo en el York City. Desde luego, no los aficionados del Chelsea ni del West Ham. Sin embargo, la devoción que despierta Graham Potter en Suecia hay que verla para creerla. Era un entrenador sin suerte que buscaba un nuevo comienzo; ellos, un país que no ganó ni un solo partido en la fase de clasificación para el Mundial. Y, de algún modo, fueron el uno para el otro. En el contexto de lo que Potter ha logrado en los últimos nueve meses, una victoria cómoda ante una Túnez que se hundió sola apenas si merece mención, aunque representa la continuación de un proceso de renovación extraordinario. Suecia fue un desastre en la clasificación. Las lesiones fueron numerosas, es cierto, pero dos derrotas ante Suiza y Kosovo, y dos empates contra Eslovenia, no suelen ser el camino al Mundial. Jon Dahl Tomasson fue destituido como seleccionador y Potter llegó para cambiarlo todo."
+      "title_es": "Yasin Ayari marca dos goles y combina con las estrellas de Suecia para arrollar a una errática Túnez",
+      "summary_es": "Cuando la gente imagina a un mesías, pocos piensan en un hombre tranquilo de 51 años, con barba entrecana, que jugó de lateral izquierdo en el York City. Desde luego, los aficionados del Chelsea y del West Ham no lo harían. Pero la devoción que despierta Graham Potter en Suecia hay que verla para creerla. Él llegaba como un técnico sin suerte en busca de un nuevo comienzo; ellos eran un país que no había ganado un solo partido en la clasificación para el Mundial. Y de algún modo resultaron perfectos el uno para el otro. Comparado con lo que Potter ha logrado en los últimos nueve meses, una victoria cómoda ante una Túnez que se autodestruyó apenas merece mención, pero supone la continuación de un proceso de renovación extraordinario. Suecia fue muy mal en la clasificación. Tuvo muchas bajas por lesión, es cierto, pero dos derrotas tanto ante Suiza como ante Kosovo y dos empates frente a Eslovenia no suelen ser el camino al Mundial. Jon Dahl Tomasson fue destituido como seleccionador y Potter llegó para tomar el relevo."
     },
     {
       "id": "bdfe3da2ef",
@@ -167,8 +179,8 @@
       "published": "Mon, 15 Jun 2026 01:21:44 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Amad Diallo marca en el minuto 90 y Costa de Marfil deja el susto para el final ante Ecuador",
-      "summary_es": "El suplente Amad Diallo anotó en el minuto 90 para dar a Costa de Marfil una victoria por 1-0 ante Ecuador en su debut en el Grupo E. El disparo a primer toque de Diallo, tras el centro de Wilfried Singo, otorgó a los marfileños su primera victoria mundialista ante una selección sudamericana y frenó la racha invicta de Ecuador, que llegaba a 19 partidos."
+      "title_es": "Amad Diallo marca en el minuto 90 y da el triunfo agónico a Costa de Marfil ante Ecuador",
+      "summary_es": "El suplente Amad Diallo anotó en el minuto 90 para dar a Costa de Marfil una victoria por 1-0 sobre Ecuador en su debut en el Grupo E. El disparo a primera intención de Diallo, tras el centro de Wilfried Singo, otorgó a los marfileños su primera victoria mundialista ante una selección sudamericana y puso fin a la racha de 19 partidos invictos de Ecuador."
     },
     {
       "id": "ddec115990",
@@ -179,8 +191,20 @@
       "published": "Sun, 14 Jun 2026 22:22:03 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "La fortuna sonríe a Kamada: Japón rescata un empate ante Países Bajos en el Mundial",
-      "summary_es": "El Mundial sigue deparando sorpresas. En una tarde de calor sofocante en las llanuras a las afueras de Dallas, Países Bajos y Japón protagonizaron un partido de alta intensidad en el Grupo F que acabó resultando apasionante: Daichi Kamada marcó el empate en el minuto 89 para establecer el 2-2, justo cuando los neerlandeses parecían a punto de hacerse con el control de uno de los grupos más exigentes. El deporte adora los giros inesperados. Mientras todo el banquillo japonés, con los chalecos puestos, se lanzaba al césped para celebrar el gol de Kamada —desviado en su trayectoria—, y los aficionados japoneses saltaban, gritaban y se abrazaban en las gradas, era difícil no preguntarse si quizás lo impensable está ocurriendo."
+      "title_es": "La fortuna sonríe a Kamada y Japón rescata un empate ante Países Bajos",
+      "summary_es": "El Mundial sigue deparando lo inesperado. En una sofocante tarde en las llanuras al norte de Dallas, Países Bajos y Japón protagonizaron un partido de alto nivel en el Grupo F que acabó siendo emocionante: Daichi Kamada marcó el empate en el minuto 89 para sentenciar el 2-2 justo cuando los neerlandeses parecían encaminados a tomar las riendas de uno de los grupos más exigentes. El deporte adora las sorpresas. Mientras todo el banquillo japonés, con sus petos de entrenamiento, saltaba al campo para celebrar el gol desviado de Kamada, y los aficionados nipones enloquecían en las gradas, era tentador preguntarse si acaso lo impensable estaba ocurriendo."
+    },
+    {
+      "id": "acf197859a",
+      "title_en": "World Cup hydration breaks - who are the winners and losers?",
+      "summary_en": "They have become a regular feature at World Cup games - but who are the winners and who are losers of the mandatory hydration breaks?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2e4/live/fbf59390-6825-11f1-bbd5-b558f35f2fef.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/c621620wr77o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 09:34:25 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "Pausas de hidratación en el Mundial: ¿quién gana y quién pierde?",
+      "summary_es": "Se han convertido en una constante en los partidos del Mundial, pero ¿quién sale beneficiado y quién perjudicado con las pausas obligatorias de hidratación?"
     },
     {
       "id": "81816ea520",
@@ -191,8 +215,8 @@
       "published": "Mon, 15 Jun 2026 06:31:28 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Del abismo al milagro mundialista: la redención de Potter",
-      "summary_es": "Despedido por el West Ham en septiembre tras haber fracasado antes en el Chelsea, pocos habrían apostado por que Graham Potter lideraría a una selección hacia una victoria en la primera jornada de un Mundial."
+      "title_es": "De la última oportunidad a la redención mundialista para Potter",
+      "summary_es": "Para un técnico despedido por el West Ham en septiembre tras su fracaso previo en el Chelsea, pocos habrían imaginado que Graham Potter estaría guiando a su selección a un debut victorioso en el Mundial este verano."
     },
     {
       "id": "ef7333f568",
@@ -215,20 +239,8 @@
       "published": "Mon, 15 Jun 2026 06:46:48 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "La noche en que la Tartan Army tomó el icónico Fenway Park",
-      "summary_es": "Scott Mullen, de BBC Scotland, se encuentra en Fenway Park mientras el legendario estadio de los Boston Red Sox es conquistado por la Tartan Army."
-    },
-    {
-      "id": "d16dc61ec4",
-      "title_en": "Political tension has undermined World Cup joy, says Iran striker",
-      "summary_en": "Iran's striker Mehdi Taremi said the country's political predicament \"undermines the joy of the World Cup\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2510/live/09d80cf0-685c-11f1-9d77-3b5ce99c1396.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c9d2ep375nzo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 15 Jun 2026 06:50:46 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "La tensión política empaña la alegría del Mundial, según el delantero de Irán",
-      "summary_es": "El delantero iraní Mehdi Taremi afirmó que la situación política del país «empaña la alegría del Mundial»."
+      "title_es": "La noche en que el Tartan Army tomó el mítico Fenway Park",
+      "summary_es": "Scott Mullen, de BBC Scotland, se encuentra en Fenway Park, el legendario estadio de los Boston Red Sox, tomado por el Tartan Army."
     },
     {
       "id": "b2ae0506dd",
@@ -239,8 +251,8 @@
       "published": "Mon, 15 Jun 2026 03:29:05 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Las críticas a Bellingham son difíciles de entender, según Henderson",
-      "summary_es": "El inglés Jordan Henderson admite que le cuesta «entender» lo que se escribe sobre Jude Bellingham, aunque confía en que el centrocampista pueda ser el jugador «comodín» de Inglaterra en el Mundial."
+      "title_es": "Henderson: \"Me cuesta leer las críticas a Bellingham\"",
+      "summary_es": "El inglés Jordan Henderson afirma que le resulta \"difícil de leer\" lo que se escribe sobre Jude Bellingham, aunque cree que el centrocampista puede ser el jugador \"comodín\" del equipo en el Mundial."
     },
     {
       "id": "a1949b601e",
@@ -251,8 +263,8 @@
       "published": "2026-06-15T00:50:43+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "La primera película para mayores de mis hijos: Terminator 2: El juicio final.",
-      "summary_es": "Mi hija de 11 años y mi hijo de 9 vieron su primera película para mayores y les encantó. Lo llevaron de maravilla. Les resultaron más perturbadoras las escenas de apuñalamientos que los tiroteos. Cuando les pregunté cómo les había hecho sentir la película, dijeron que habían experimentado emociones muy distintas: alegría, emoción, miedo y tristeza, pero que precisamente eso les había gustado. ¿Cómo fue la primera experiencia de vuestros hijos con una película para adultos?"
+      "title_es": "La primera película para adultos de mis hijos: Terminator 2: El juicio final",
+      "summary_es": "Mi hija de 11 años y mi hijo de 9 vieron su primera película no apta para menores y les encantó. La llevaron muy bien. Les resultaron más perturbadoras las escenas de apuñalamientos que los tiroteos. Les pregunté cómo les había hecho sentir la película. Les encantó la historia en sí. Dijeron que sintieron muchas emociones: alegría, emoción, miedo y tristeza. Pero les gustó que la película les hiciera sentir tantas cosas a la vez. ¿Cómo fue la primera experiencia de vuestros hijos con una película para adultos?"
     },
     {
       "id": "d397f5babb",
@@ -263,8 +275,8 @@
       "published": "2026-06-15T05:16:09+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "Las cosas van mal. No esperaba que llegara a esto.",
-      "summary_es": "Esta noche estoy en un hotel. Mi mujer y yo llevamos tiempo pasándola mal. Tenemos 4 hijos menores de diez años, uno con necesidades especiales. Hay discusiones típicas de pareja, pero últimamente soy incapaz de ceder para mantener la paz. Soy muy sensible a las críticas y cuando ella me dice que no hago suficiente me hundo hasta el punto de querer irme para siempre. Me levanto y desde que abro los ojos hasta que me acuesto no hay más que obligaciones familiares, trabajo, limpieza, facturas, médicos, deportes, terapias, clases… Sin mencionar que llevamos años sin vida íntima. Lo entendí cuando los niños eran muy pequeños, pero el menor ya tiene 6 años y desde que nació apenas hemos tenido relaciones, las puedo contar con los dedos de una mano. Estoy en terapia, ya lo intenté antes. Simplemente no creo que a ella le importe mantener una relación de pareja, o al menos no es su prioridad. Los niños siempre son lo primero, por encima de todo."
+      "title_es": "Las cosas van mal. No esperaba que acabara así",
+      "summary_es": "Esta noche estoy en un hotel. Mi mujer y yo llevamos tiempo pasándola mal. Tenemos 4 hijos menores de diez años, uno con necesidades especiales. Son las discusiones de siempre, pero últimamente soy incapaz de ceder o hacer concesiones para mantener la paz. Ahora soy muy sensible a las críticas, y cuando ella dice que no hago suficiente me hunde tanto que me dan ganas de irme para siempre. Me levanto y desde que abro los ojos hasta que me acuesto no hay más que cosas de la familia, trabajo, limpieza, facturas, médicos, deporte, terapias, clases particulares… Sin mencionar que llevamos años sin vida íntima. Lo entendí cuando los niños eran muy pequeños, pero mi hijo menor ya tiene 6 años y desde que nació podría contar con los dedos de una mano las veces que hemos tenido relaciones. Estoy en terapia ahora y también lo intenté antes. Sencillamente no creo que a ella le importe mantener una relación de pareja, o simplemente no es una prioridad. Los niños son lo primero, pase lo que pase. Todo va antes que nuestra relación."
     },
     {
       "id": "4229f8e2f3",
@@ -275,8 +287,8 @@
       "published": "2026-06-14T21:32:11+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "Le dije a mi hijo de cinco años que no podía pegarle a su hermanito, y su respuesta activó una alerta del Apple Watch.",
-      "summary_es": "Ahora mismo está en su habitación gritando desde detrás de la puerta cerrada que estoy «despedido» como padre."
+      "title_es": "Le acabo de decir a mi hijo de cinco años que no puede pegar a su hermanito, y su respuesta ha disparado una alerta en mi Apple Watch",
+      "summary_es": "Ahora mismo está en su habitación gritando desde detrás de la puerta cerrada que estoy \"despedido\" como padre."
     },
     {
       "id": "7054d0b8a2",
@@ -288,7 +300,7 @@
       "category": "Parenting",
       "source": "r/daddit",
       "title_es": "Al padre que vi en el supermercado",
-      "summary_es": "Este hombre iba con dos hijos: una niña de unos 5 años y un niño de unos 7, con autismo no verbal y con muchísima energía. También llevaban a un perro de asistencia, que se portó de forma ejemplar, como cabe imaginar. Ese padre era increíble: paciente, cariñoso, firme, atento tanto a su hija como a su hijo, sin limitarse a salir del paso sino enseñando a los niños sobre la marcha. El niño era muy demandante —se tiraba al suelo, intentaba agarrar cosas, lanzarlas— un torbellino. La niña no paraba de hacer preguntas y peticiones. Y ese padre estuvo ahí para todo, solo, minuto a minuto, con una paciencia admirable. Seguramente hay días muy duros, pero estás ejerciendo de padre de una manera que no ha pasado desapercibida. Todo mi respeto."
+      "summary_es": "Este hombre llevaba a sus dos hijos: una niña de unos 5 años y un niño de unos 7. El niño tenía autismo no verbal y era un torbellino de energía. También iban acompañados de un animal de servicio, que se portó de maravilla, como cabría esperar. Este padre estaba completamente entregado: paciente, amable y firme a la vez. Le dedicaba tiempo tanto a su hija como a su hijo, sin limitarse a sobrevivir el momento, sino enseñándoles a cada paso. El niño requería mucha atención: se tiraba al suelo, intentaba agarrar cosas, lanzarlas... todo un reto. La niña era una fuente inagotable de preguntas y peticiones. Y este padre estuvo ahí para todo. Solo, minuto a minuto, con una paciencia admirable. Supongo que la vida debe ser muy dura a veces, pero estás ejerciendo de padre de una manera que no pasó desapercibida y que me llenó de admiración. Todo mi respeto. &#32; Publicado por &#32; /u/Dangling__Fury [enlace] &#32; [comentarios]"
     },
     {
       "id": "2b6b192de6",
@@ -299,8 +311,8 @@
       "published": "2026-06-15T07:21:52+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "Papás, lo he conseguido",
-      "summary_es": "Con la ayuda de un par de amigos logramos montar esto para mis dos hijos de 3 años y 19 meses. Decir que mis pequeños están emocionados se queda corto. 10/10, jamás querré volver a hacerlo. Enviado por /u/darmadoth [enlace] [comentarios]"
+      "title_es": "Compañeros padres: lo he conseguido",
+      "summary_es": "Con la ayuda de un par de amigos logramos montar esto para mis dos hijos de 3 años y 19 meses. Decir que mis pequeños están emocionados se queda corto. Un 10/10 que no tengo ninganas ganas de repetir jamás. &#32; Publicado por &#32; /u/darmadoth [enlace] &#32; [comentarios]"
     },
     {
       "id": "28de857ee3",
@@ -312,7 +324,7 @@
       "category": "Interesante",
       "source": "Atlas Obscura",
       "title_es": "Twin Peaks Drive In en Hood River, Oregón",
-      "summary_es": "La mayoría de las hamburgueserías se conforman con buenas vistas. Twin Peaks Drive-In cuenta con dos volcanes y espectáculos aéreos. Este glorioso y discreto cobertizo de madera se encuentra al final de la pista del aeropuerto de Hood River, tan cerca que los comensales en la terraza exterior interrumpen regularmente su bocado para ver planeadores, biplanos y avionetas rozar las copas de los árboles. El monte Hood domina al sur; el monte Adams, al norte. Y en algún punto entre ambos, una hamburguesa de carne fresca chisporrotea en la plancha. Nadie se pone de acuerdo en cuándo abrió exactamente Twin Peaks —en algún momento de los años cincuenta es lo más preciso que llega la historia—, pero el moldeado a mano de filetes nunca congelados cada mañana aparentemente no ha cesado nunca. En una época en que la mayoría de los drive-ins estadounidenses pasaron discretamente a la carne preformada congelada sin que nadie dijera nada, Twin Peaks siguió haciéndolo a la antigua. El local se encuentra en el Hood River Fruit Loop, rodeado de huertos."
+      "summary_es": "La mayoría de los locales de hamburguesas se conforman con una buena vista. Twin Peaks Drive-In tiene dos volcanes y un espectáculo aéreo. Esta sencilla y encantadora cabaña de madera se encuentra al final de la pista del aeropuerto de Hood River, tan cerca que los comensales de la terraza exterior interrumpen regularmente su bocado para ver cómo planeadores, biplanos y avionetas rozan las copas de los árboles justo encima de sus cabezas. El monte Hood domina al sur. El monte Adams ancla el norte. Y en algún punto entre medias, una hamburguesa de carne fresca chisporrotea en la plancha. Nadie se pone de acuerdo en cuándo abrió exactamente Twin Peaks —en algún momento de los años 50 es lo más preciso que llega la historia—, pero el amasado a mano de las hamburguesas con carne nunca congelada, cada mañana sin excepción, parece que no se ha interrumpido jamás. En una época en que la mayoría de los drive-ins estadounidenses pasaron discretamente a la carne preformada y congelada sin que nadie dijera nada, Twin Peaks siguió haciéndolo a la antigua usanza. El local se encuentra en la Hood River Fruit Loop, rodeado de o"
     },
     {
       "id": "7f92d5f391",
@@ -324,7 +336,7 @@
       "category": "Interesante",
       "source": "Atlas Obscura",
       "title_es": "El Famoso Oso Parlante de Oakhurst, California",
-      "summary_es": "En las estribaciones de la Sierra Nevada se encuentra la pequeña localidad de Oakhurst, California. Antigua parada ganadera y maderera, Oakhurst se hizo conocida más recientemente como sede de Sierra On-Line, pionera de la industria del videojuego. Oakhurst es también la puerta de entrada al acceso sur del Parque Nacional de Yosemite y se autodenomina la «Capital Mundial del Oso Tallado». La mayoría de sus osos están tallados en madera reutilizada de árboles perdidos por la sequía o por plagas de escarabajos descortezadores. Sin embargo, su habitante ursino más notable puede ser «The World Famous Talking Bear». Esta estatua de oso grizzly moldeada en fibra de vidrio reforzada con acero fue fabricada por Alpine Fiberglass Menagerie Co. de Alpine, California, empresa reconocida por crear grandes estatuas usadas como atracciones de carretera. El oso está representado con la boca abierta mostrando los dientes y una pata delantera levantada en ademán de zarpazo."
+      "summary_es": "En las estribaciones de la sierra Nevada se encuentra la pequeña localidad de Oakhurst, California. Antiguo punto de paso ganadero y maderero, Oakhurst se hizo conocida en tiempos más recientes como sede de Sierra On-Line, una empresa pionera en la industria de los videojuegos. Oakhurst es también puerta de entrada al acceso sur del Parque Nacional de Yosemite y se autodenomina la «Capital Mundial del Oso Tallado». La mayoría de los osos de Oakhurst están tallados en madera reutilizada de árboles perdidos por la sequía o la plaga del escarabajo descortezador. Sin embargo, su habitante ursino más destacado podría ser «The World Famous Talking Bear». Esta estatua de oso grizzly de fibra de vidrio moldeada y reforzada con acero fue fabricada por Alpine Fiberglass Menagerie Co., de Alpine, California, una empresa reconocida por crear grandes estatuas utilizadas como atracciones de carretera. El Oso Parlante aparece en pose amenazante, con la boca abierta mostrando los dientes y una zarpa delantera levantada para golpear, mientras"
     },
     {
       "id": "ef049f3a15",
@@ -335,8 +347,8 @@
       "published": "Fri, 12 Jun 2026 12:00:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "El castillo de Yarm en Stockton-on-Tees, Inglaterra",
-      "summary_es": "El castillo de Yarm fue construido en piedra gris en la década de 1880 por el vecino David Doughty, quien vivía en la casa contigua. Años más tarde, su hijo amplió el conjunto levantando el ayuntamiento de Yarm. El edificio cuenta con torreones, almenas y ventanas emplomadas de colores que en su día se iluminaban con luz de gas. No espere encontrar puentes levadizos ni fosos, y es posible que tenga que buscar un poco lo que probablemente se describe mejor como una folly, una construcción ornamental sin uso práctico."
+      "title_es": "Yarm Castle en Stockton-on-Tees, Inglaterra",
+      "summary_es": "Yarm Castle fue construido en piedra gris en la década de 1880 por un vecino de la zona llamado David Doughty, que vivía en la casa contigua. Años más tarde, su hijo amplió el conjunto levantando el ayuntamiento de Yarm. El edificio cuenta con torretas, almenas y ventanas emplomadas de colores que antaño se iluminaban con luz de gas. No espere encontrar puentes levadizos ni fosos; además, tendrá que buscarlo un poco, pues lo que tiene delante se describe mejor como una folly."
     },
     {
       "id": "793c8b220f",
@@ -348,7 +360,7 @@
       "category": "Interesante",
       "source": "Atlas Obscura",
       "title_es": "Mermaid Tale Trail en Brooksville, Florida",
-      "summary_es": "Repartido por todo el condado de Hernando, el Mermaid Tale Trail es una gran gymkana compuesta por estatuas de sirenas pintadas por artistas locales. El proyecto se creó para celebrar el 75.º aniversario de Weeki Wachee Springs State Park, la famosa atracción de Florida donde las artistas ofrecen espectáculos subacuáticos de sirenas desde 1947. El recorrido comenzó con 26 estatuas inauguradas en 2022 y desde entonces ha crecido hasta superar las 35 sirenas repartidas por Brooksville, Weeki Wachee, Hernando Beach y otros puntos. Cada estatua parte de la misma forma de fibra de vidrio: una sirena de metro ochenta moldeada a partir del molde facial de una antigua intérprete de Weeki Wachee llamada Kristy. A partir de ahí, los artistas locales las transforman en personajes radicalmente distintos. Algunas están pintadas con la fauna y los manglares de la vieja Florida, mientras que otras se adentran de lleno en la fantasía, el folclore o las paletas de colores psicodélicas. Los visitantes siguen mapas y pasaportes digitales para encontrarlas."
+      "summary_es": "Distribuida por todo el condado de Hernando, la Mermaid Tale Trail es una gran búsqueda del tesoro compuesta por estatuas de sirenas pintadas por artistas locales. El proyecto se creó para celebrar el 75.º aniversario de Weeki Wachee Springs State Park, la famosa atracción de Florida donde las artistas ofrecen espectáculos submarinos de sirenas desde 1947. El recorrido arrancó con 26 estatuas inauguradas en 2022 y desde entonces ha crecido hasta superar las 35 sirenas repartidas por Brooksville, Weeki Wachee, Hernando Beach y sus alrededores. Cada estatua parte de la misma base de fibra de vidrio: una sirena de casi dos metros de altura moldeada a partir del vaciado facial de una antigua artista de Weeki Wachee llamada Kristy. A partir de ahí, los artistas locales las transforman en personajes completamente distintos. Algunas están pintadas con la fauna y los manglares de la vieja Florida, mientras que otras se adentran de lleno en la fantasía, el folclore o paletas de colores psicodélicos. Los visitantes siguen mapas y pasaportes digitales"
     },
     {
       "id": "38f5a62dd0",
@@ -359,8 +371,8 @@
       "published": "Fri, 12 Jun 2026 11:49:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "El árbol memorial de carillones en Spring Hill, Florida",
-      "summary_es": "Junto a un carril bici cerca de Spring Hill, Florida, hay una encina viva que canta cuando el viento la atraviesa. El Wind Chime Tree se alza cerca del Suncoast Trail, junto al Anderson Snow Park, con ramas adornadas con una creciente colección de carillones de viento. El concejal escolar y empresario local Gus Guadagnino colgó los primeros en memoria de su madre en 1998, y otros vecinos fueron añadiendo los suyos con el tiempo. El árbol es hoy un lugar al que cualquiera puede acudir para honrar a sus seres queridos. A lo largo de los años se han colgado cientos de carillones en sus ramas, desde pequeños de apenas quince centímetros hasta otros con tubos de varios metros de longitud. También pueden encontrarse otros objetos conmemorativos como cruces, joyas, carteles artesanales y animales de peluche. El resultado es en parte santuario popular de carretera, en parte escultura sonora accidental. Ciclistas y paseantes se topan ahora con una encina cuyas ramas relucen con adornos metálicos."
+      "title_es": "El Árbol de los Carillones en Spring Hill, Florida",
+      "summary_es": "Justo al lado de un carril bici cerca de Spring Hill, Florida, hay una encina viva que canta cuando el viento la recorre. El Wind Chime Tree se alza junto al Suncoast Trail, al lado del Anderson Snow Park, con ramas engalanadas con una colección cada vez mayor de carillones de viento. El concejal escolar y empresario local Gus Guadagnino colgó los primeros en 1998 en memoria de su madre, y con el tiempo otros fueron añadiendo los suyos. El árbol se ha convertido en un lugar al que cualquiera puede acudir para honrar a sus seres queridos. A lo largo de los años se han colgado en sus ramas cientos de carillones, desde pequeños de apenas quince centímetros hasta otros con tubos de varios palmos de largo. También pueden encontrarse otros objetos conmemorativos, como cruces, joyas, carteles artesanales y peluches, sobre y alrededor de la encina. El resultado es algo a medio camino entre un santuario popular de carretera y una escultura sonora surgida por accidente. Ciclistas y peatones se topan ahora con una encina cuyas ramas brillan con adornos metálicos"
     },
     {
       "id": "c735f26349",
@@ -372,7 +384,7 @@
       "category": "Interesante",
       "source": "Damn Interesting",
       "title_es": "Veinte años",
-      "summary_es": "En 2005, YouTube, reddit y Facebook eran aún criaturas recién nacidas y chillando. Google, con su lema «Don't Be Evil», acababa de destronar a Yahoo! como el motor de búsqueda más popular del planeta (AskJeeves no estaba disponible para hacer declaraciones). Nickelback estaba en la cima de su fama. Internet Explorer era el navegador más utilizado."
+      "summary_es": "En 2005, YouTube, reddit y Facebook eran todavía criaturas recién nacidas que daban sus primeros berridos. Google, bajo el lema «Don't Be Evil», acababa de destronar a Yahoo! como el motor de búsqueda más popular del planeta (AskJeeves no estaba disponible para hacer declaraciones). Nickelback estaba en la cima de su fama. Internet Explorer era el navegador web más utilizado, [...]"
     },
     {
       "id": "bc0a3354b5",
@@ -383,8 +395,8 @@
       "published": "Sat, 06 Sep 2025 14:50:32 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "Había una vez un hombre llamado Curley",
-      "summary_es": "En el pueblo de Bellewstown, a unos 25 kilómetros al norte de Dublín, Irlanda, todavía se habla de lo que hizo Barney Curley en 1975. Todo ocurrió durante una carrera de caballos en la colina de Crockafotha. Era una simple carrera de jinetes aficionados en un perezoso día de verano en una localidad tranquila y apartada; no estaba destinada a pasar a la historia."
+      "title_es": "Érase una vez un hombre llamado Curley",
+      "summary_es": "En el pueblo de Bellewstown, a unos 25 kilómetros al norte de Dublín, Irlanda, todavía se habla de lo que hizo Barney Curley en 1975. Todo ocurrió durante una carrera de caballos en la colina de Crockafotha. Era simplemente una carrera de jinetes aficionados en una tranquila tarde de verano en un pueblo apartado y somnoliento; no estaba destinada a [...]"
     },
     {
       "id": "4926177e65",
@@ -396,7 +408,7 @@
       "category": "Interesante",
       "source": "Damn Interesting",
       "title_es": "Omiword, un juego de palabras",
-      "summary_es": "Omiword, un juego de palabras: En ciertos dialectos del chino, el japonés, el coreano y el vietnamita, la palabra que designa el número 'cuatro' suena de forma muy similar a la palabra para 'muerte'. Por ello, muchas personas en los países del Este asiático consideran que el número 4 trae mala suerte. No es raro que los edificios de esa región omitan el número 4 al etiquetar sus plantas, al igual que [...]"
+      "summary_es": "En ciertos dialectos del chino, el japonés, el coreano y el vietnamita, la palabra que designa el número 'cuatro' suena muy parecida a la palabra que significa 'muerte'. En consecuencia, muchas personas en los países del este asiático consideran que el número 4 trae mala suerte. No es raro que los edificios de esa región omitan el número 4 al numerar sus plantas, al igual que [...]"
     },
     {
       "id": "7a96f91369",
@@ -407,8 +419,8 @@
       "published": "Mon, 23 Jun 2025 12:51:39 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "Mucho ruido por los adenoides",
-      "summary_es": "Mucho ruido por los adenoides: Edmund Lawall debió de sentirse maldito. A finales del siglo XIX había trasladado a su familia a Nueva York para continuar el negocio de su padre como farmacéutico, pero el destino —o quizás la propia ciudad— parecía empeñado en expulsarle. La salud de Lawall había empeorado desde su llegada, y la enfermedad renal de su esposa se había agravado [...]"
+      "title_es": "Todo un drama por unas adenoides",
+      "summary_es": "Edmund Lawall debió de sentirse maldito. Había traído a su familia a Nueva York a finales del siglo XIX para continuar el negocio de su padre como farmacéutico, pero el destino —o quizás la propia ciudad— parecía empeñado en expulsarle. La salud de Lawall había ido deteriorándose desde su llegada, y la enfermedad renal de su esposa había empeorado [...]"
     },
     {
       "id": "76b30164ca",
@@ -419,68 +431,8 @@
       "published": "Thu, 21 Mar 2024 12:50:03 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "Una pista sin rastro",
-      "summary_es": "Una pista sin rastro: Islandia es conocida en el resto del mundo como la tierra de los vikingos y los volcanes, una isla atrapada entre continentes en los confines del mapa. Remota y comparativamente inhóspita, no fue colonizada hasta el siglo IX y desde entonces ha registrado muy poca inmigración adicional. Todavía hoy, más del 90 por ciento [...]"
-    },
-    {
-      "id": "4e40a482c8",
-      "title_en": "100 Objects #4: Lowe’s Gas Bag",
-      "summary_en": "In 1861, one man and a &#8220;gas bag&#8221; filled with hydrogen sparked America&#8217;s obsession with going higher, farther, into the unknown. In this episode, Roman and journalist Jack Hitt tell the story of Thaddeus Lowe &#8212; showman, scientist, and dreamer &#8212; whose balloon flight from Cincinnati went wildly off course and straight into the Civil",
-      "image": "https://99percentinvisible.org/wp-content/uploads/2026/06/100-objects-4-lowe-gas-bag-600x338.png",
-      "link": "https://99percentinvisible.org/episode/100-objects-004-lowes-gas-bag/",
-      "published": "Fri, 12 Jun 2026 07:00:25 +0000",
-      "category": "Interesante",
-      "source": "99% Invisible",
-      "title_es": "100 objetos n.º 4: el globo de gas de Lowe",
-      "summary_es": "En 1861, un hombre y un 'globo de gas' relleno de hidrógeno despertaron la obsesión de América por llegar más alto y más lejos, hacia lo desconocido. En este episodio, Roman y el periodista Jack Hitt narran la historia de Thaddeus Lowe —showman, científico y soñador— cuyo vuelo en globo desde Cincinnati se desvió de forma espectacular y fue a parar directamente a la Guerra Civil."
-    },
-    {
-      "id": "3a8e1e553b",
-      "title_en": "MAPLaylist: Tune in for Some of the Greatest CanCon Hits",
-      "summary_en": "To accompany our recent episode about Canadian content policy, producer max collins made a playlist of every artist that came up during the reporting process. You can find the full playlist on Spotify or on Amazon Music. Below, max has included some footnotes and fun facts about some of the notable bands that made the",
-      "image": "https://99percentinvisible.org/wp-content/uploads/2026/05/Screenshot-23-600x529.png",
-      "link": "https://99percentinvisible.org/article/maplaylist-tune-in-for-cancon-hits/",
-      "published": "Tue, 09 Jun 2026 17:59:52 +0000",
-      "category": "Interesante",
-      "source": "99% Invisible",
-      "title_es": "MAPLaylist: los grandes éxitos del contenido canadiense",
-      "summary_es": "Para acompañar nuestro reciente episodio sobre la política de contenido canadiense, el productor max collins elaboró una lista de reproducción con todos los artistas que surgieron durante el proceso de documentación. Puedes encontrar la lista completa en Spotify o en Amazon Music. A continuación, max incluye algunas notas y curiosidades sobre algunas de las bandas más destacadas que aparecieron."
-    },
-    {
-      "id": "ed6dcad3b6",
-      "title_en": "Karaoke Videos",
-      "summary_en": "Before YouTube, before streaming, before anyone thought too hard about what to put on a screen while a drunk person sang &#8220;Benny and the Jets,&#8221; a small army of scrappy filmmakers was quietly getting paid to make weird little movies. Nobody was really watching them. Nobody was asking for them. And yet, for about a",
-      "image": "https://99percentinvisible.org/wp-content/uploads/2026/06/WEBSITE-600x314.png",
-      "link": "https://99percentinvisible.org/episode/670-karaoke-videos/",
-      "published": "Tue, 09 Jun 2026 08:00:34 +0000",
-      "category": "Interesante",
-      "source": "99% Invisible",
-      "title_es": "Vídeos de karaoke",
-      "summary_es": "Antes de YouTube, antes del streaming, antes de que alguien se planteara en serio qué poner en una pantalla mientras un borracho cantaba 'Benny and the Jets', un pequeño ejército de cineastas intrépidos cobraba en silencio por hacer extrañas películas de bajo presupuesto. Nadie las veía realmente. Nadie las pedía. Y sin embargo, durante aproximadamente una [...]"
-    },
-    {
-      "id": "c3d7780f74",
-      "title_en": "100 Objects #3: The Pension Files",
-      "summary_en": "A stack of dusty paperwork, teeming with unheard voices. What do Civil War pension files reveal about one of the most successful slave rebellions in American history? In this episode, Roman and historian Edda Fields-Black trace a story of fire, flight, and freedom. It begins on a South Carolina rice plantation in 1863, as an",
-      "image": "https://99percentinvisible.org/wp-content/uploads/2026/05/003-100objects-pension-files-art-1920x10801-1-600x338.png",
-      "link": "https://99percentinvisible.org/episode/100-objects-003-the-pension-files/",
-      "published": "Fri, 05 Jun 2026 07:00:59 +0000",
-      "category": "Interesante",
-      "source": "99% Invisible",
-      "title_es": "100 objetos n.º 3: los expedientes de pensiones",
-      "summary_es": "Una pila de papeles polvorientos repleta de voces silenciadas. ¿Qué revelan los expedientes de pensiones de la Guerra Civil sobre una de las rebeliones de esclavos más exitosas de la historia de Estados Unidos? En este episodio, Roman y la historiadora Edda Fields-Black reconstruyen una historia de fuego, huida y libertad. Todo comienza en una plantación de arroz de Carolina del Sur en 1863, cuando un [...]"
-    },
-    {
-      "id": "5fe3c3a28b",
-      "title_en": "The MAPL Test",
-      "summary_en": "NOTE: During the production of this episode, over 120 Canadian musicians were mentioned in conversation with guests and sources&#8212;way too many to fit into an episode. As a way to shine a spotlight on the vast landscape of Canadian music, we have put together a playlist of these musicians for listeners. Listen on Spotify or",
-      "image": "https://99percentinvisible.org/wp-content/uploads/2026/06/669-the-mapl-test-600x314.jpeg",
-      "link": "https://99percentinvisible.org/episode/669-the-mapl-test/",
-      "published": "Tue, 02 Jun 2026 12:30:28 +0000",
-      "category": "Interesante",
-      "source": "99% Invisible",
-      "title_es": "La prueba MAPL",
-      "summary_es": "NOTA: Durante la producción de este episodio se mencionaron más de 120 músicos canadienses en conversaciones con invitados y fuentes —demasiados para incluirlos en un solo programa—. Como forma de dar visibilidad al vasto panorama de la música canadiense, hemos elaborado una lista de reproducción con estos artistas para nuestros oyentes. Escúchala en Spotify o [...]"
+      "title_es": "Un rastro perdido en el tiempo",
+      "summary_es": "Islandia es conocida en el mundo como la tierra de los vikingos y los volcanes, una isla atrapada entre continentes en los confines del mapa. Remota y comparativamente inhóspita, no fue colonizada hasta el siglo IX y desde entonces ha registrado escasa inmigración adicional. Incluso hoy, más del 90 por ciento [...]"
     },
     {
       "id": "b99fc13a18",
@@ -491,8 +443,8 @@
       "published": "2026-06-12T21:38:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "El primer trillonario del mundo es un asesino. «Hace un año...»",
-      "summary_es": "El primer trillonario del mundo es un asesino. «Hace un año, las acciones de Musk llevaron directamente a la muerte de cientos de miles de personas. Lo hizo a sabiendas. Y, lo que es peor, con regocijo.»"
+      "title_es": "El primer trillonario del mundo es un asesino. \"Hace un año...\"",
+      "summary_es": "El primer trillonario del mundo es un asesino. \"Hace un año, las acciones de Musk condujeron directamente a la muerte de cientos de miles de personas. Lo hizo a sabiendas. Y, lo que es peor, con regodeo.\""
     },
     {
       "id": "8dee2644be",
@@ -503,8 +455,8 @@
       "published": "2026-06-12T19:00:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "Dos pensamientos contradictorios (¿?) que no podía quitarme de la cabeza...",
-      "summary_es": "Dos pensamientos contradictorios (¿?) me rondaban la cabeza mientras leía esto: «Ni una celebrity como Emily Ratajkowski es capaz de encontrar un hombre decente con quien salir» y «Una celebrity como Emily Ratajkowski es precisamente quien menos puede encontrar un hombre decente con quien salir»."
+      "title_es": "Dos pensamientos contradictorios (¿o no?) que no dejaban de rondarme la cabeza...",
+      "summary_es": "Dos pensamientos contradictorios (¿o no?) me rondaban la cabeza mientras leía esto: \"Ni una celebridad como Emily Ratajkowski es capaz de encontrar un hombre decente con quien salir\" y \"Una celebridad como Emily Ratajkowski es precisamente la que menos puede encontrar un hombre decente con quien salir\"."
     },
     {
       "id": "6f651d3e8f",
@@ -515,8 +467,8 @@
       "published": "2026-06-12T17:07:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "Joe «Handyman» Negri, rostro habitual de Mister Rogers' Neighborhood, fallece a los 99 años",
-      "summary_es": "Joe «Handyman» Negri, personaje entrañable de Mister Rogers' Neighborhood, ha muerto a los 99 años. «Era exactamente como ese vecino amable que uno podría encontrarse paseando por el barrio. Era una persona de una ternura extraordinaria, y lo mismo se notaba en él como músico.»"
+      "title_es": "Muere a los 99 años Joe \"Handyman\" Negri, figura icónica de Mister Rogers' Neighborhood",
+      "summary_es": "Joe \"Handyman\" Negri, personaje habitual de Mister Rogers' Neighborhood, ha fallecido a los 99 años. \"Era realmente como ese vecino amable que uno podría encontrarse paseando por el barrio. Era una persona increíblemente apacible, y también lo era como músico.\""
     },
     {
       "id": "e287fa93e8",
@@ -527,8 +479,8 @@
       "published": "2026-06-12T16:10:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "Las autoridades investigan un enorme grabado con el número '8647' en los jardines del National Mall",
-      "summary_es": "Las autoridades estadounidenses investigan la aparición de un enorme grabado con el número '8647' en los jardines del National Mall. Ja. Que lo declaren nuevo Tesoro Nacional. Un portavoz del Departamento de Interior calificó con evidente hipérbole el hecho de «amenaza contra el presidente». 🙄"
+      "title_es": "Las autoridades estadounidenses investigan una enorme inscripción con el número '8647' en los jardines del National Mall",
+      "summary_es": "Las autoridades estadounidenses investigan una enorme inscripción con el número '8647' grabada en los jardines del National Mall. Menudo detalle. Que la declaren nuevo tesoro nacional. Un portavoz del Departamento de Interior la calificó con notable hipérbole de \"amenaza contra el presidente\". 🙄"
     },
     {
       "id": "a88ffcbf32",
@@ -539,8 +491,8 @@
       "published": "2026-06-12T15:39:16Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "Muere David Hockney, el icónico artista británico conocido por sus paisajes y escenas de piscina, a los 88 años",
-      "summary_es": "David Hockney, el icónico artista británico célebre por sus coloridos paisajes y escenas de piscina, ha fallecido a los 88 años. «Su obra es admirada —y amada no es una palabra demasiado fuerte— por los millones de personas que, en todo el mundo, acuden en masa a verla, porque presupone una promesa de placer.»"
+      "title_es": "Muere David Hockney, el icónico artista británico conocido por sus paisajes y escenas de piscinas, a los 88 años",
+      "summary_es": "David Hockney, el icónico artista británico conocido por sus coloridos paisajes y escenas de piscinas, ha fallecido a los 88 años. «Su obra es admirada —y amada no es una palabra demasiado fuerte— por los millones de personas que, en todo el mundo, acuden en masa a contemplarla, porque presupone una expectativa de placer.»"
     },
     {
       "id": "78d1fbe276",
@@ -551,8 +503,8 @@
       "published": "Sun, 14 Jun 2026 15:34:29 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "La USMNT ganó con estilo. ¿Podrá ganar cuando toque sufrir?",
-      "summary_es": "La primera jornada del Grupo D del Mundial deparó varios hallazgos reveladores, en lo que ya se empieza a conocer como el Grupo de los Sordos. Tal fue el torrente de elogios casi histéricos que recayó sobre la selección estadounidense tras su paliza casi ritual a Paraguay el viernes por la noche. Ningún equipo de EE. UU. había sido tan dominante en la historia de los Mundiales, y ninguno había contado con semejante nivel de histeria semioperiodística y de marketing para subrayarlo. En otras palabras, rara vez una victoria por 4-1 ha parecido tan 4-1. https://www.youtube.com/watch?v=BXD1_mhODBU El problema de sacar conclusiones a partir de un solo partido es que aporta menos información útil de lo que parece. ¿Y si la revelación silenciosa de ese encuentro es, en realidad, que Paraguay sencillamente no es un equipo muy bueno? Lo cierto es que los estadounidenses parecían físicamente superiores..."
+      "title_es": "La USMNT ganó con brillantez. ¿Podrá ganar cuando el partido se complique?",
+      "summary_es": "La primera jornada del Grupo D del Mundial deparó hallazgos más que interesantes, en lo que ya se empieza a conocer como el Grupo de los Sordos. Tal fue el torrente de elogios casi histéricos vertidos sobre la selección estadounidense tras su paliza —casi de manual— a Paraguay el viernes por la noche. Ningún equipo de EE. UU. había sido tan dominador en la historia de los Mundiales, y ningún equipo había recibido semejante nivel de histeria semioperiodística y de marketing para subrayar ese hecho. En otras palabras, pocas veces una victoria por 4-1 ha parecido tan 4-1. Ahora bien, el problema de sacar conclusiones a partir de un solo partido es que aporta menos información útil de lo que parece. Por ejemplo: ¿y si la verdadera revelación silenciosa del encuentro es que Paraguay, sencillamente, no es un equipo demasiado bueno? Lo cierto es que los estadounidenses dieron la impresión de ser físicamente superiores..."
     },
     {
       "id": "541a106000",
@@ -563,8 +515,8 @@
       "published": "Sun, 14 Jun 2026 14:50:09 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "Estampas de la calle tras el título de los Knicks",
-      "summary_es": "Los días de humedad habían dado paso por fin a una tormenta la noche anterior. Los brasileños inundaban el Midtown, preparándose para su partido del Mundial. Banderas de Puerto Rico y del Orgullo ondeaban por todas partes. «Knicks in five» había dejado de ser un guiño o una predicción; era ya el saludo habitual de la ciudad. Era un glorioso sábado para salir a la calle en Nueva York. Las reuniones para ver el partido surgieron de forma espontánea. Alguien proyectando el partido en la fachada de un edificio, o una tienda sintonizando su pantalla LED de la vitrina en ABC en lugar de mostrar fotos de sándwiches. Cerca de donde yo estaba, en Smith Street, un hombre había empezado colocando un televisor en el maletero de su coche aparcado y poniendo unas sillas de jardín; para el quinto partido, aquello se había convertido en el punto de encuentro del barrio. Todos los bares de la ciudad parecían llenos. Todas las zonas de visionado oficiales se agotaron en segundos. Pero si querías ver el partido acompañado, no hacía falta ningún plan. Bastaba con salir a la calle."
+      "title_es": "Estampas callejeras tras el título de los Knicks",
+      "summary_es": "Días de humedad que por fin habían cedido gracias a una tormenta eléctrica la noche anterior. Brasileños por todo Midtown, preparándose para el partido de su selección en el Mundial. Banderas de Puerto Rico y del Orgullo por todas partes. «Knicks en cinco» había dejado de ser una contraseña o una profecía; era ya el saludo habitual de la ciudad. Un glorioso sábado para estar en las calles de Nueva York. Las concentraciones para ver el partido habían surgido de forma espontánea. Alguien proyectando el juego en la fachada de un edificio, una tienda de ultramarinos sintonizando su pantalla LED del escaparate en ABC en lugar de mostrar fotos de sándwiches. Cerca de mí, en Smith Street, un hombre había empezado sacando un televisor al maletero de su coche aparcado y colocando unas sillas de jardín; para el quinto partido, aquello se había convertido en el punto de encuentro del barrio. Todos los bares de la ciudad parecían llenos. Cada concentración oficial se agotó en cuestión de segundos. Pero si querías ver el partido acompañado, no necesitabas ningún plan. Simplemente salías a la calle."
     },
     {
       "id": "044f236445",
@@ -576,7 +528,7 @@
       "category": "Interesante",
       "source": "Defector",
       "title_es": "Ya no puede ir mejor que esto",
-      "summary_es": "Las brigadas de limpieza de Gotham, sus verdaderos héroes, siguen recogiendo los cuerpos aturdidos, delirantes y desorientados de las calles de la ciudad, y la tarea se prolongará bien entrada la noche. Luego tendrán que repetirlo el jueves, tras el obligatorio desfile etílico con sus inevitables desmanes. Estos New York Knicks han dejado por fin de ser los Knicks de antaño, y la ciudad que se había acostumbrado a verlos como una obra en permanente progreso, retroceso y ocasional ridículo, tiene una certeza menos en la que apoyarse. Esa pérdida de identidad comenzará después del desfile, cuando aproximadamente cincuenta gazumpty-skillion personas colapsen y ensucien las calles de Manhattan para rendir homenaje a los herederos naturales de las coronas que lucieron por última vez Walt Frazier, Willis Reed, Bill Bradley, Harthorne Wingo y Red Holzman. El medio siglo largo de sufrimiento —a menudo más teatral que real— ha llegado por fin a su fin, y los Knicks..."
+      "summary_es": "Los verdaderos héroes de Gotham, sus brigadas de limpieza, siguen recogiendo de las calles los cuerpos aturdidos, delirantes y desorientados de sus vecinos, una tarea que les llevará hasta bien entrada la tarde. Y luego tendrán que repetirlo todo el jueves, tras el preceptivo juergazo semi-violento disfrazado de desfile. Estos New York Knicks han dejado atrás definitivamente a los Knicks de antaño, y la ciudad que había aprendido a contar con ellos como una obra en permanente construcción, regresión y ocasional descomposición, tiene una verdad eterna menos en la que apoyarse. Esa pérdida de identidad comienza después del desfile, cuando aproximadamente 50 gazillones de personas colapsen y ensucien las calles de Manhattan para rendir homenaje a los herederos lógicos de las coronas que por última vez lucieron Walt Frazier, Willis Reed, Bill Bradley, Harthorne Wingo y Red Holzman. Medio siglo y algo más de sufrimiento, a menudo impostado, ha llegado por fin a su fin, y los Knicks..."
     },
     {
       "id": "453070c608",
@@ -587,8 +539,8 @@
       "published": "Sun, 14 Jun 2026 13:09:04 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "Jalen Brunson, el exorcista de Nueva York",
-      "summary_es": "Con una victoria por 94-90 en el quinto partido, otra épica remontada y una actuación descomunal de Jalen Brunson, los New York Knicks son campeones de la NBA. Es algo desconcertante e insólito de proclamar, precisamente porque hablamos de los New York Knicks. Ser seguidor de los Knicks ha sido, históricamente, sinónimo de sufrimiento. Pero sufrir en compañía sigue siendo una experiencia colectiva. Gran parte de las conversaciones en Nueva York durante estos dos últimos meses han girado en torno a demostrar y compartir méritos como aficionado y, dado su historial, eso se traduce en presumir de todas las formas en que los Knicks nos han hecho sufrir. Era una competición de desgracias en la que todos perdían. El partido de Charles Smith. ¿Ah sí? ¿Y el partido de Reggie Miller? ¿Ah sí? Yo viví la era de Eddy Curry. ¿Ah sí? Pues yo creí en Frank Ntilikina. ¿Ah sí? Yo pensé que Kevin Knox iba a ser una superestrella. Ese tipo de cosas. (No creo en los presagios, pero Knox y su traje de Fortnite...)"
+      "title_es": "Jalen Brunson es el exorcista de Nueva York",
+      "summary_es": "Con una victoria por 94-90 en el quinto partido, otra tenaz remontada y una actuación superlativa de Jalen Brunson al tomar el mando, los New York Knicks son campeones de la NBA. Es algo desconcertante e insólito de decir, precisamente porque son los New York Knicks. Ser hincha de los Knicks ha sido, históricamente, sinónimo de sufrir. Pero sufrir juntos sigue siendo una experiencia colectiva. Gran parte de las conversaciones en Nueva York durante estos dos últimos meses ha girado en torno a demostrar y compartir credenciales como aficionado, y dado su historial, eso adopta la forma de presumir de todas las maneras en que los Knicks nos han hecho sufrir. Era un juego en el que todos perdían. El partido de Charles Smith. ¿Ah, sí? ¿Y el partido de Reggie Miller? ¿Ah, sí? Yo viví la era de Eddy Curry. ¿Ah, sí? Pues yo creí en Frank Ntilikina. ¿Ah, sí? Yo pensaba que Kevin Knox iba a ser una superestrella. Ese tipo de cosas. (No creo en los presagios, pero Knox y su traje de Fortnite mi...)"
     },
     {
       "id": "3ab0792587",
@@ -599,8 +551,8 @@
       "published": "Fri, 12 Jun 2026 17:56:42 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "Es difícil encontrar el lado positivo de Alexander Zverev",
-      "summary_es": "El pasado domingo, Alexander Zverev conquistó su primer grande. En apariencia, la victoria del jugador de 29 años en Roland-Garros es la historia de un tenista que, tras casi una década cargando con grandes expectativas, logró el hito más importante de su deporte favorecido por lesiones y eliminaciones tempranas que despejaron su camino en el cuadro masculino. Quizás es la historia de un deportista de élite que triunfa a pesar de que le diagnosticaron diabetes tipo 1 en la infancia, lo que le obliga a controlar sus niveles de glucosa durante los partidos; o la de un jugador que por fin venció los nervios que antes lastraban su talento al llegar a las rondas finales de un grande. Sin embargo, para muchos periodistas y una amplia parte del público tenístico, es también la historia de un jugador contra quien dos excompañeras han formulado denuncias por violencia doméstica. La primera acusadora, Olya Sharypova, llevó su caso..."
+      "title_es": "Es difícil encontrar el lado entrañable de Alexander Zverev",
+      "summary_es": "El pasado domingo, Alexander Zverev conquistó su primer grand slam. En apariencia, la victoria en Roland-Garros del tenista de 29 años es la historia de un jugador que, tras cerca de una década cargando con grandes expectativas, logró el hito más importante de su deporte aprovechando las lesiones y las eliminaciones prematuras que despejaron su camino en el cuadro masculino. Quizá sea la historia de un deportista de élite que triunfa a pesar de haber sido diagnosticado en la infancia con diabetes tipo 1, una enfermedad que le obliga a controlar sus niveles de glucosa durante la competición, o la de un jugador que por fin venció los nervios que antes saboteaban su talento cuando llegaba a las fases decisivas de un grande. Pero para muchos periodistas y una amplia franja del público seguidor del tenis, es también la historia de un jugador al que dos exparejas han acusado de violencia doméstica. La primera acusadora, Olya Sharypova, presentó su..."
     },
     {
       "id": "ea939e3691",
@@ -612,7 +564,7 @@
       "category": "Tech",
       "source": "Hacker News",
       "title_es": "Tu ePub está bien",
-      "summary_es": ""
+      "summary_es": "Comentarios"
     },
     {
       "id": "c91a3e687b",
@@ -627,18 +579,6 @@
       "summary_es": "Comentarios"
     },
     {
-      "id": "162df317e6",
-      "title_en": "What the Fuck Happened to Nerds",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://mrmarket.lol/what-the-fuck-happened-to-nerds/",
-      "published": "Mon, 15 Jun 2026 08:23:52 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Qué diablos les pasó a los frikis",
-      "summary_es": ""
-    },
-    {
       "id": "5f4ec4072a",
       "title_en": "Even more batteries included with Emacs",
       "summary_en": "Comments",
@@ -647,8 +587,8 @@
       "published": "Mon, 15 Jun 2026 02:30:25 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Emacs, ahora con aún más funciones de serie",
-      "summary_es": ""
+      "title_es": "Emacs incorpora aún más funciones de serie",
+      "summary_es": "Comentarios"
     },
     {
       "id": "f4dad738a8",
@@ -659,8 +599,20 @@
       "published": "Mon, 15 Jun 2026 06:02:57 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Curl no aceptará informes de vulnerabilidades durante julio de 2026",
-      "summary_es": ""
+      "title_es": "Curl no aceptará informes de vulnerabilidades en julio de 2026",
+      "summary_es": "Comentarios"
+    },
+    {
+      "id": "162df317e6",
+      "title_en": "What the Fuck Happened to Nerds",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://mrmarket.lol/what-the-fuck-happened-to-nerds/",
+      "published": "Mon, 15 Jun 2026 08:23:52 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Qué diablos les pasó a los nerds",
+      "summary_es": "Comentarios"
     },
     {
       "id": "cd29d5c009",
@@ -671,8 +623,8 @@
       "published": "Sun, 14 Jun 2026 16:02:53 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "¿Vio un monje volador medieval el cometa Halley dos veces? La respuesta no es sencilla",
-      "summary_es": "Un historiador de la Universidad de Leicester cree que Eilmer de Malmesbury observó dos cometas distintos: uno en 1018 y otro en 1066"
+      "title_es": "¿Avistó un monje volador medieval el cometa Halley dos veces? La historia es complicada",
+      "summary_es": "Un historiador de la University of Leicester cree que Eilmer of Malmesbury vio dos cometas distintos: uno en 1018 y otro en 1066"
     },
     {
       "id": "77cc79f7af",
@@ -683,7 +635,7 @@
       "published": "Sat, 13 Jun 2026 17:17:44 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Crítica: 'Disclosure Day' apuesta por la acción a costa de las ideas",
+      "title_es": "Crítica: 'Disclosure Day', cargada de acción pero escasa de ideas",
       "summary_es": "Sin nada nuevo ni sorprendente, sigue siendo una película entretenida firmada por uno de nuestros mejores directores."
     },
     {
@@ -695,8 +647,8 @@
       "published": "Sat, 13 Jun 2026 11:18:42 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Las redes de hongos subterráneos son tan largas que superan los límites del Sistema Solar",
-      "summary_es": "Investigadores han cuantificado a escala global la longitud y la masa de las redes de hongos micorrízicos arbusculares."
+      "title_es": "Los filamentos de las redes fúngicas subterráneas son tan largos que superarían el Sistema Solar",
+      "summary_es": "Investigadores han cuantificado a escala global la longitud y la masa de las redes de hongos micorrícicos arbusculares."
     },
     {
       "id": "c592597bc9",
@@ -708,7 +660,7 @@
       "category": "Tech",
       "source": "Ars Technica",
       "title_es": "Anthropic cierra los modelos Fable y Mythos por orden de la administración Trump",
-      "summary_es": "El Departamento de Comercio teme que un 'jailbreak' de Fable 5 pueda suponer una amenaza para la seguridad nacional."
+      "summary_es": "El Departamento de Comercio teme que un 'jailbreak' de Fable 5 pueda convertirse en una amenaza para la seguridad nacional."
     },
     {
       "id": "81bd3e46a0",
@@ -720,7 +672,7 @@
       "category": "Tech",
       "source": "Ars Technica",
       "title_es": "SpaceX ya cotiza en bolsa valorada por su potencial en IA: ¿qué viene ahora?",
-      "summary_es": "A partir de hoy, SpaceX está en manos de inversores que esperarán que la compañía genere beneficios."
+      "summary_es": "A partir de hoy, SpaceX pertenece a inversores que esperarán ver rentabilidad."
     },
     {
       "id": "9488c27b7c",
@@ -731,8 +683,8 @@
       "published": "Mon, 15 Jun 2026 09:00:25 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "¿Cuándo entra en vigor la prohibición de redes sociales y qué plataformas afecta?",
-      "summary_es": "Las medidas bloquearán aplicaciones como TikTok y Snapchat para los adolescentes británicos a principios de 2027."
+      "title_es": "¿Cuándo entrará en vigor la prohibición de redes sociales y qué plataformas afecta?",
+      "summary_es": "Las medidas bloquearán aplicaciones como TikTok y Snapchat para los adolescentes del Reino Unido a principios de 2027."
     },
     {
       "id": "88d16c50ad",
@@ -743,7 +695,7 @@
       "published": "Mon, 15 Jun 2026 02:41:25 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Trump anuncia un acuerdo con Irán, pero persisten las dudas y los riesgos",
+      "title_es": "Trump celebra el acuerdo con Irán, pero persisten dudas y riesgos",
       "summary_es": "El anuncio del acuerdo con Irán fue un bienvenido regalo de cumpleaños para el presidente, aunque su éxito o fracaso podría depender de los detalles."
     },
     {
@@ -755,8 +707,8 @@
       "published": "Mon, 15 Jun 2026 05:00:09 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "La BBC destapa cómo 'agentes' de OnlyFans controlan y amenazan a creadoras mientras se quedan la mitad de sus ganancias",
-      "summary_es": "Decenas de mujeres en OnlyFans denuncian haber sido explotadas por gestores que prometían ayudarlas a maximizar sus ingresos."
+      "title_es": "La BBC destapa cómo los 'agentes' de OnlyFans controlan y amenazan a las creadoras mientras se quedan con la mitad de sus ingresos",
+      "summary_es": "Decenas de mujeres en OnlyFans denuncian haber sido explotadas por mánagers que prometieron ayudarlas a maximizar sus ganancias."
     },
     {
       "id": "dd4054ce76",
@@ -764,23 +716,23 @@
       "summary_en": "Marius Borg Høiby, the 29-year-old son of Norway's Crown Princess Mette Marit, has been found guilty of two counts of rape and given four years in jail.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc45/live/e93a3c90-fc70-11f0-9f00-a7fda7ef067e.jpg",
       "link": "https://www.bbc.com/news/articles/cly9d10l5p4o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 15 Jun 2026 09:14:45 GMT",
+      "published": "Mon, 15 Jun 2026 09:44:18 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "El hijo de la princesa heredera de Noruega es declarado culpable de dos delitos de violación",
-      "summary_es": "Marius Borg Høiby, hijo de 29 años de la princesa heredera noruega Mette Marit, ha sido declarado culpable de dos delitos de violación y condenado a cuatro años de prisión."
+      "title_es": "El hijo de la princesa heredera de Noruega, declarado culpable de dos cargos de violación",
+      "summary_es": "Marius Borg Høiby, de 29 años e hijo de la princesa heredera noruega Mette Marit, ha sido declarado culpable de dos cargos de violación y condenado a cuatro años de prisión."
     },
     {
-      "id": "b4114d2872",
-      "title_en": "US musician Oliver Tree dies as two helicopters crash mid-air",
-      "summary_en": "The singer-songwriter is among six people presumed dead in air crash over Rio de Janeiro on Sunday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd84/live/4e40a990-687c-11f1-ad29-ebc8ba5e9f31.jpg",
-      "link": "https://www.bbc.com/news/articles/cqj1dd5rgnzo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 15 Jun 2026 06:47:23 GMT",
+      "id": "9bfc3f2c2e",
+      "title_en": "Award-winning investigative journalist Roger Cook dies aged 83",
+      "summary_en": "The New Zealand-born reporter was credited with having invented the doorstep interview technique.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e044/live/70bd89e0-689d-11f1-b9ac-e71b9be292bd.jpg",
+      "link": "https://www.bbc.com/news/articles/ckg48qqwkd2o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 15 Jun 2026 09:28:13 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Muere el músico estadounidense Oliver Tree en una colisión entre dos helicópteros",
-      "summary_es": "El cantautor es una de las seis personas que se dan por muertas tras el accidente aéreo registrado el domingo sobre Río de Janeiro."
+      "title_es": "Muere a los 83 años el galardonado periodista de investigación Roger Cook",
+      "summary_es": "Al reportero nacido en Nueva Zelanda se le atribuye haber inventado la técnica de la entrevista a pie de puerta."
     },
     {
       "id": "523d7b9d54",
@@ -791,8 +743,8 @@
       "published": "Mon, 15 Jun 2026 04:00:02 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "'Me libero de la vergüenza': Laverne Cox habla de su dura infancia y su vida como mujer trans en la América de Trump",
-      "summary_es": "Antes de que Orange Is the New Black la convirtiera en estrella, Cox sufrió acoso, abusos, hostigamiento y violencia. Ahora habla de aquellos tiempos oscuros y del miedo a que regresen. Dos días antes de hablar con nosotros, Laverne Cox había asistido al estreno de una nueva versión animada de Animal Farm, en la que pone voz a Snowball. La película ha desatado una gran polémica por su tono infantil y nada orwelliano, con final feliz incluido, pero Cox tenía preocupaciones más urgentes que la crítica cinematográfica. «Si no despertamos y no comprendemos lo que está pasando, las personas trans serán exterminadas», declaró aquel día de abril. «Se están arrebatando derechos, la gente está perdiendo su empleo, su sanidad, se está forzando la detransición en las cárceles, la atención de afirmación de género está siendo atacada, no solo para menores sino también para adultos. Nunca ha tratado de proteger a las mujeres; siempre ha buscado crear una estructura de permiso»."
+      "title_es": "'Me libero de la vergüenza': Laverne Cox sobre su dura infancia y su vida como mujer trans en la América de Trump",
+      "summary_es": "Antes de que Orange Is the New Black la convirtiera en estrella, Cox soportó acoso, abusos, hostigamiento y violencia. Habla de los peores tiempos y del miedo a que estén regresando. Dos días antes de su encuentro con esta redacción, Laverne Cox había asistido al estreno de una nueva versión animada de Animal Farm, en la que presta su voz a Snowball. La película es profundamente polémica por su tono infantil y alejado del espíritu de Orwell, con final feliz incluido, pero Cox tenía preocupaciones mucho mayores que la crítica cinematográfica. «Si no despertamos y no comprendemos lo que está pasando, las personas trans serán exterminadas», declaró ese día de abril. «Se están arrebatando derechos, la gente pierde su empleo, pierde la sanidad, en las cárceles se está forzando la detransición, la atención de afirmación de género está siendo atacada, no solo para menores sino también para adultos. Nunca se ha tratado de proteger a las mujeres: siempre ha sido una cuestión de crear una estructura de permiso»."
     },
     {
       "id": "fc1bc39175",
@@ -804,7 +756,7 @@
       "category": "News",
       "source": "The Guardian",
       "title_es": "Aunque la guerra con Irán haya terminado, ha dejado huella: el miedo, la muerte y el caos se normalizaron | Nesrine Malik",
-      "summary_es": "Mientras el mundo aguardaba respuestas racionales de actores irracionales, quienes sufrían los bombardeos se veían obligados a asumir el terror como parte de su vida cotidiana. «Los seres humanos aguantan mucho antes de morir», escribió Frank McCourt en Las cenizas de Ángela. Por sombría que resulte la frase, McCourt hablaba de resiliencia, de cuánta pobreza y sufrimiento puede soportar una persona y aun así sobrevivir. Pero la otra cara de esa capacidad humana para el dolor es cuánto puede imponérsenos hasta volverse algo normal. Resulta desconcertante cómo la guerra —tan impactante e intolerable al principio— acaba convirtiéndose en algo rutinario. Pocos conflictos lo han evidenciado con tanta crudeza como la guerra contra Irán. Durante meses se sucedieron los ataques de baja intensidad, la retórica encendida y fría a partes iguales, y los acuerdos de paz que nunca llegaban a materializarse. La crisis política aguda se tradujo en penuria y convulsión constante para la población. Ahora hay un acuerdo de paz, y por ello hay que ser agradecidos, pero conviene reflexionar sobre lo ocurrido."
+      "summary_es": "Mientras el mundo esperaba respuestas racionales de actores irracionales, quienes sufrían los bombardeos se vieron obligados a asumir el terror como parte de su vida cotidiana. «Los humanos aguantan mucho antes de morir», escribió Frank McCourt en Angela's Ashes. Por sombría que sea la frase, McCourt hablaba de resiliencia, de cuánta pobreza y sufrimiento puede soportar una persona y aun así sobrevivir. Pero la otra cara de la capacidad humana para el dolor es cuánto puede imponérsenos hasta convertirse en algo normal. Es desconcertante cómo la guerra —al principio escandalosa e intolerable— se convierte rápidamente en algo rutinario. Pocos conflictos lo han demostrado con tanta crudeza como la guerra contra Irán. Durante meses se vivió entre ataques de baja intensidad, retórica encendida y fría, y acuerdos de paz que nunca llegaban a materializarse. La crisis política aguda se tradujo en privaciones y convulsión constante para la población. Ahora hay un acuerdo de paz, y eso merece gratitud, pero conviene reflexionar sobre lo que ha dejado atrás."
     },
     {
       "id": "0c7067132c",
@@ -816,7 +768,7 @@
       "category": "News",
       "source": "The Guardian",
       "title_es": "'Su último beso al mundo': el regreso de David Hockney a Yorkshire desencadenó un glorioso renacimiento",
-      "summary_es": "Cuando el artista volvió a casa desde Los Ángeles, pareció una retirada. Pero en realidad anunciaba un capítulo nuevo y asombroso. Nuestro crítico rememora las apasionantes cenas que compartieron con él y las deslumbrantes obras que llegaban cada mañana a su bandeja de entrada. Era primavera en París y yo flotaba entre hojas verde tierno y flores blancas, aunque no estaba en ningún parque. Me encontraba en una planta superior de la Fondation Louis Vuitton, disfrutando y sumergiéndome en varias pinturas sobre iPad de David Hockney que mostraban su jardín en Normandía. En una de las salas, ese oasis verde se contemplaba a la luz de la plateada luna: la estancia en penumbra cobraba vida con brillantes discos lunares blancos, nubes azules y los dedos espectrales de las ramas de los árboles. Era principios de abril del año pasado y aquello era la inauguración de David Hockney 25, una exposición monumental comisariada con su estrecha participación, que abarcaba toda su trayectoria, con especial énfasis en su obra de este siglo."
+      "summary_es": "Cuando el artista volvió a casa desde Los Ángeles, parecía una retirada. Pero fue el inicio de un capítulo asombroso. Nuestro crítico rememora las emocionantes cenas que compartieron y las deslumbrantes obras nuevas que llegaban a su bandeja de entrada cada mañana. Era primavera en París y yo flotaba entre hojas verdes tiernas y flores blancas, aunque no estaba en ningún parque. Me encontraba en una planta superior de la Fondation Louis Vuitton, deleitándome y sumergiéndome en las pinturas sobre iPad que David Hockney hizo de su jardín en Normandía. En una sala, ese oasis verde se contemplaba a la luz plateada de la luna: la estancia en penumbra cobraba vida con resplandecientes discos lunares blancos, nubes azules y los dedos espectrales de las ramas de los árboles. Era a principios de abril del año pasado, con motivo de la inauguración de David Hockney 25, una exposición monumental comisariada con su estrecha colaboración que abarcaba toda su trayectoria, aunque con especial énfasis en su obra de este siglo."
     },
     {
       "id": "6092a7756c",
@@ -828,7 +780,7 @@
       "category": "News",
       "source": "The Guardian",
       "title_es": "'La Antártida es la última frontera': la carrera por salvar el Endurance de Shackleton",
-      "summary_es": "Ante el temor de que el naufragio sea cada vez más accesible a exploradores —y a nuevas especies— a medida que el clima se calienta, los conservacionistas quieren crear la primera zona marina protegida de la región. Las gélidas temperaturas, las traicioneras corrientes y los bloques de hielo en movimiento del Mar de Weddell antártico, que aplastaron y hundieron el Endurance en 1915, llevaron a Ernest Shackleton a describirlo como «la peor parte del peor mar del mundo». Durante más de un siglo, esas condiciones inhóspitas —un desafío incluso para los modernos rompehielos— contribuyeron a proteger el pecio desaparecido, descubierto en 2022 con su estructura todavía en gran medida intacta."
+      "summary_es": "Ante el temor de que el naufragio sea cada vez más accesible para exploradores —y nuevas especies— a medida que el clima se calienta, los conservacionistas quieren crear la primera zona marina protegida de la región. Las gélidas temperaturas, las traicioneras corrientes y los cambiantes bancos de hielo del Mar de Weddell, en la Antártida, que aplastaron y hundieron el barco de Ernest Shackleton, el Endurance, en 1915, llevaron al explorador a describirlo como la «peor parte del peor mar del mundo». Durante más de un siglo, esas condiciones inhóspitas —un desafío incluso para los modernos rompehielos— contribuyeron a proteger el pecio, descubierto en 2022 con su estructura todavía en gran parte intacta."
     },
     {
       "id": "83f60d8fbb",
@@ -839,8 +791,8 @@
       "published": "Mon, 15 Jun 2026 05:00:04 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "'Más vigente que nunca': cómo Virginia Woolf ha vuelto a conquistar el espíritu de los tiempos",
-      "summary_es": "Con una adaptación de Night and Day llegando a los cines, la obra de la escritora pionera sigue inspirando al público. Admirada desde hace mucho tiempo por los estudiantes de literatura inglesa, 85 años después de su muerte Virginia Woolf ha trascendido las aulas universitarias para convertirse en un fenómeno cultural inesperado. La autora de Mrs Dalloway y Al faro, cuya prosa innovadora contribuyó a redefinir la novela moderna, está encontrando un nuevo público gracias a una serie de adaptaciones de gran repercusión."
+      "title_es": "'Más vigente que nunca': cómo Virginia Woolf ha vuelto a conquistar el espíritu de la época",
+      "summary_es": "Con una adaptación de Night and Day en camino a los cines, la obra de esta autora pionera sigue inspirando al público. Admirada durante décadas por los estudiantes de literatura inglesa, Virginia Woolf ha roto los límites del aula universitaria 85 años después de su muerte para convertirse en un inesperado fenómeno cultural. La autora de Mrs Dalloway y To the Lighthouse, cuya innovadora prosa contribuyó a redefinir la novela moderna, está captando a un nuevo público gracias a una serie de adaptaciones de gran repercusión."
     },
     {
       "id": "f447457215",
@@ -852,7 +804,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "¿Quién dirige el grupo de ransomware 'The Gentlemen'?",
-      "summary_es": "Un grupo de ciberdelincuentes conocido como The Gentlemen se ha convertido en el segundo colectivo de ransomware más activo por número de víctimas, atrayendo rápidamente a un nutrido grupo de hackers gracias a una agresiva estrategia de reclutamiento que promete a sus afiliados el 90% de cada rescate pagado. Este artículo analiza las pistas que apuntan a la identidad real del administrador del grupo de ransomware The Gentlemen."
+      "summary_es": "Un grupo de ciberdelincuentes conocido como The Gentlemen se ha convertido en la segunda banda de ransomware más activa por número de víctimas, captando rápidamente a un nutrido grupo de hackers mediante una agresiva estrategia de reclutamiento que promete a sus afiliados el 90% de cada rescate pagado. Este artículo analiza las pistas que apuntan a la identidad real del administrador del grupo de ransomware The Gentlemen."
     },
     {
       "id": "213876dbb1",
@@ -864,7 +816,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "Un Patch Tuesday de junio de 2026 para los récords",
-      "summary_es": "Microsoft ha publicado hoy actualizaciones de software para corregir casi 200 vulnerabilidades de seguridad en sus sistemas operativos Windows y aplicaciones compatibles, una cifra récord en el ciclo mensual de Patch Tuesday de la compañía. Casi una treintena de esos fallos han recibido la calificación más grave de Microsoft —«crítica»— y el código de explotación de al menos tres de las vulnerabilidades ya está disponible públicamente."
+      "summary_es": "Microsoft publicó hoy actualizaciones de software para corregir casi 200 vulnerabilidades de seguridad en sus sistemas operativos Windows y otros programas compatibles, la cifra más alta registrada en su ciclo mensual de Patch Tuesday. Casi tres decenas de esos fallos recibieron la calificación más grave de Microsoft, «crítico», y el código de explotación de al menos tres de ellos ya es de acceso público."
     },
     {
       "id": "95a5003f75",
@@ -875,8 +827,8 @@
       "published": "Mon, 01 Jun 2026 17:32:50 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "Hackers usaron el bot de IA de Meta para secuestrar cuentas de Instagram",
-      "summary_es": "Las cuentas de Instagram de la Casa Blanca de Obama y del Sargento Mayor Jefe de la Fuerza Espacial de EE. UU. fueron vandalizadas brevemente durante el fin de semana con imágenes y mensajes proiraníes, después de que comenzaran a circular en Telegram instrucciones para engañar al bot «asistente de soporte de IA» de Meta y lograr que restableciera las contraseñas de las cuentas."
+      "title_es": "Unos hackers usaron el bot de IA de Meta para apoderarse de cuentas de Instagram",
+      "summary_es": "Las cuentas de Instagram de la Casa Blanca de Obama y del Sargento Mayor Jefe de la Fuerza Espacial de EE. UU. fueron brevemente vandalizadas con imágenes y mensajes proiraníes durante el fin de semana, después de que comenzaran a circular en Telegram instrucciones para engañar al bot «asistente de soporte con IA» de Meta y conseguir que restableciera las contraseñas de las cuentas."
     },
     {
       "id": "f25cc14e26",
@@ -888,7 +840,7 @@
       "category": "Security",
       "source": "Krebs on Security",
       "title_es": "Países Bajos incauta 800 servidores y detiene a 2 personas por facilitar ciberataques",
-      "summary_es": "Las autoridades neerlandesas han arrestado a los copropietarios de dos empresas de alojamiento web relacionadas entre sí por operar infraestructura informática utilizada por Rusia para llevar a cabo ciberataques, operaciones de influencia y campañas de desinformación dentro de la Unión Europea. Los dos hombres fueron protagonistas de un reportaje de KrebsOnSecurity en 2025 sobre cómo sus empresas de hosting habían asumido el control de la infraestructura técnica de Stark Industries Solutions, un proveedor de servicios de internet sancionado el año pasado por la UE por ser una plataforma habitual para las actividades cibernéticas maliciosas de los servicios de inteligencia rusos."
+      "summary_es": "Las autoridades neerlandesas han arrestado a los copropietarios de dos empresas de alojamiento de servidores relacionadas entre sí por operar infraestructura informática utilizada por Rusia para ejecutar ciberataques, operaciones de influencia y campañas de desinformación dentro de la Unión Europea. Ambos hombres fueron objeto de un reportaje de KrebsOnSecurity en 2025 sobre cómo sus empresas de hosting habían asumido el control de la infraestructura técnica de Stark Industries Solutions, un proveedor de servicios de Internet sancionado el año pasado por la UE por ser una plataforma habitual de actividades maliciosas de las agencias de inteligencia rusas."
     },
     {
       "id": "8222c28695",
@@ -899,8 +851,8 @@
       "published": "Fri, 22 May 2026 16:34:24 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "Legisladores exigen explicaciones mientras la CISA intenta contener una filtración de datos",
-      "summary_es": "Legisladores de ambas cámaras del Congreso de EE. UU. exigen explicaciones a la Agencia de Ciberseguridad e Infraestructura (CISA) tras informar KrebsOnSecurity esta semana de que un contratista de la agencia publicó deliberadamente claves de AWS GovCloud y una gran cantidad de secretos internos en una cuenta pública de GitHub. La petición llega mientras la CISA todavía lucha por contener la brecha e invalidar las credenciales filtradas."
+      "title_es": "El Congreso exige explicaciones mientras CISA intenta contener una filtración de datos",
+      "summary_es": "Legisladores de ambas cámaras del Congreso de EE. UU. han reclamado explicaciones a la Agencia de Ciberseguridad e Infraestructura (CISA) después de que KrebsOnSecurity informara esta semana de que un contratista de la agencia publicó deliberadamente claves de AWS GovCloud y un extenso conjunto de secretos de la agencia en una cuenta pública de GitHub. La investigación llega en un momento en que CISA todavía lucha por contener la brecha e invalidar las credenciales filtradas."
     },
     {
       "id": "2030efbe7a",
@@ -911,8 +863,8 @@
       "published": "Fri, 12 Jun 2026 08:51:52 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Una nueva técnica permite rastrear la expansión del contrabando de cereales hacia Libia",
-      "summary_es": "El 15 de febrero de 2026, el granelero Grumant (IMO: 9385879) fue fotografiado en el puerto ucraniano ocupado de Feodosia, en la península de Crimea. Las imágenes satelitales sugieren que el buque llevaba ya varios días allí. Todo indica que cargó cereal antes de emprender un viaje de dos meses que culminó con su atraque en el puerto de Bengasi. Este artículo apareció originalmente en bellingcat."
+      "title_es": "Nueva técnica para rastrear la expansión del contrabando de grano hacia Libia",
+      "summary_es": "El 15 de febrero de 2026, el granelero Grumant (IMO: 9385879) fue fotografiado en el puerto ucraniano ocupado de Feodosia, en la península de Crimea. Las imágenes de satélite indican que el buque llevaba ya varios días allí. Todo apunta a que cargó grano antes de partir en un viaje de dos meses que concluyó con su atraque en el puerto de Bengasi. El artículo apareció por primera vez en bellingcat."
     },
     {
       "id": "676814f3ef",
@@ -924,7 +876,7 @@
       "category": "Security",
       "source": "Bellingcat",
       "title_es": "Rastreando los vínculos digitales entre Viory y Ruptly",
-      "summary_es": "«En la era de la desinformación, la línea entre los hechos y la ficción es más difusa que nunca». «Para quienes trabajamos en vídeo periodístico, la verificación no es un lujo, sino una necesidad. Es la forma en que protegemos las historias que ayudamos a contar y como nos ganamos y mantenemos la confianza en un ecosistema informativo cada vez más caótico», afirma la empresa registrada en Abu Dabi. Este artículo apareció originalmente en bellingcat."
+      "summary_es": "«En la era de la desinformación, la línea entre la realidad y la ficción es más difusa que nunca. Para quienes trabajamos en vídeo informativo, la verificación no es un lujo: es una necesidad. Es la forma en que protegemos las historias que ayudamos a contar y cómo nos ganamos y mantenemos la confianza en un ecosistema informativo cada vez más caótico», señala la agencia registrada en Abu Dabi [...] El artículo Rastreando los vínculos digitales entre Viory y Ruptly apareció primero en Bellingcat."
     },
     {
       "id": "fb244ed720",
@@ -935,8 +887,8 @@
       "published": "Wed, 27 May 2026 09:41:49 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Los pueblos 'desaparecidos' de Rakhine, en Birmania",
-      "summary_es": "«Un río de sangre» fue la descripción que hizo un superviviente de la escena en el oeste de Birmania. «Vi disparos. Vi una matanza masiva». Otro testigo relató ante el Alto Comisionado de las Naciones Unidas para los Derechos Humanos (ACNUDH) cómo 20 familiares suyos, entre ellos tres niños, murieron en el ataque de 2024 contra la aldea de Htan Shauk Khan. Human Rights Watch (HRW) señaló anteriormente... Este artículo apareció originalmente en bellingcat."
+      "title_es": "Los pueblos 'desaparecidos' de Rakáin, en Myanmar",
+      "summary_es": "«Un río de sangre»: así describió la escena un superviviente en el oeste de Myanmar. «Vi disparos. Vi una matanza masiva». Otro testimonio relató ante la Alta Comisionada de las Naciones Unidas para los Derechos Humanos (ACNUDH) cómo 20 familiares suyos, entre ellos tres niños, murieron en el ataque de 2024 contra la aldea de Htan Shauk Khan. Human Rights Watch (HRW) señaló anteriormente [...] El artículo Los pueblos 'desaparecidos' de Rakáin, en Myanmar apareció primero en Bellingcat."
     },
     {
       "id": "f467439afa",
@@ -947,8 +899,8 @@
       "published": "Tue, 26 May 2026 17:01:39 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Hallan submuniciones rusas prohibidas tras los bombardeos anunciados por el Ejército de Malí",
-      "summary_es": "Esta investigación es una colaboración entre Bellingcat y Jeune Afrique. El artículo de Jeune Afrique puede leerse en francés en su web. Se han encontrado bombetas de munición en racimo de fabricación rusa sin explotar, así como daños compatibles con el impacto de estas bombetas, en una aldea del norte de Malí, a pesar de que el país de África Occidental es Estado parte del Convenio sobre... Este artículo apareció originalmente en bellingcat."
+      "title_es": "Hallan submuniciones rusas prohibidas tras anunciar el ejército de Malí ataques aéreos",
+      "summary_es": "Esta investigación es fruto de una colaboración entre Bellingcat y Jeune Afrique. El artículo de Jeune Afrique puede leerse en francés aquí. Se han encontrado bombetas de munición en racimo de fabricación rusa sin detonar, así como daños compatibles con el impacto de este tipo de proyectiles, en una localidad del norte de Malí, pese a que el país de África Occidental es Estado parte del Convenio sobre [...] El artículo Hallan submuniciones rusas prohibidas tras anunciar el ejército de Malí ataques aéreos apareció primero en Bellingcat."
     },
     {
       "id": "5953beb565",
@@ -959,8 +911,8 @@
       "published": "Thu, 14 May 2026 09:39:28 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Imágenes satelitales revelan demoliciones continuas en el sur del Líbano",
-      "summary_es": "El frágil alto el fuego acordado entre Israel y Hezbollah el mes pasado se mantiene. Sin embargo, las imágenes satelitales muestran que al menos 46 de las 54 localidades situadas dentro de la «Línea Amarilla» de las Fuerzas de Defensa de Israel (IDF) en el sur del Líbano han sufrido graves daños o han sido arrasadas por completo. Gran parte de la destrucción y las demoliciones se ha producido... Este artículo apareció originalmente en bellingcat."
+      "title_es": "Imágenes satelitales revelan demoliciones en curso en el sur del Líbano",
+      "summary_es": "El frágil alto el fuego acordado el mes pasado entre Israel y Hezbollah se mantiene. Sin embargo, las imágenes satelitales muestran que al menos 46 de las 54 localidades situadas dentro de la «Línea Amarilla» de las Fuerzas de Defensa de Israel (IDF) en el sur del Líbano han sufrido graves daños o han sido arrasadas por completo. Gran parte de la destrucción y las demoliciones han tenido lugar [...] El artículo Imágenes satelitales revelan demoliciones en curso en el sur del Líbano apareció primero en Bellingcat."
     },
     {
       "id": "2a8c21e2ae",
@@ -972,7 +924,7 @@
       "category": "Security",
       "source": "Nixintel",
       "title_es": "Cómo calcular la antigüedad de una web y rastrear sus cambios con URL Dater",
-      "summary_es": "¿Cómo determinar con fiabilidad la edad de una página web? URL Dater recurre a diversas fuentes para ofrecer una imagen precisa."
+      "summary_es": "¿Cómo determinar de forma fiable la antigüedad de una página web? URL Dater recurre a diversas fuentes para ofrecer una imagen precisa."
     },
     {
       "id": "7e4d545513",
@@ -983,8 +935,8 @@
       "published": "Sat, 22 Mar 2025 10:32:46 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Cómo usar certificados SSL para localizar la infraestructura de actores de amenazas",
-      "summary_es": "En la pasada edición de la SANS OSINT Summit ofrecí una charla sobre la utilidad de los certificados SSL para investigadores de inteligencia en fuentes abiertas. La ponencia analiza tres ejemplos recientes de cómo la información de los registros de transparencia de certificados puede emplearse para descubrir, atribuir y desenmascarar la infraestructura de actores de amenazas. El vídeo de la charla ya está disponible."
+      "title_es": "Uso de certificados SSL para identificar infraestructuras de actores de amenazas",
+      "summary_es": "En el SANS OSINT Summit del mes pasado ofrecí una charla sobre la utilidad de los certificados SSL para investigadores de inteligencia de fuentes abiertas. La presentación analiza tres ejemplos recientes de cómo la información procedente de los registros de transparencia de certificados puede emplearse para descubrir, atribuir y desenmascarar infraestructuras de actores de amenazas. El vídeo de la charla ya está disponible y puede consultarse [...]"
     },
     {
       "id": "999f9064e5",
@@ -995,8 +947,8 @@
       "published": "Sun, 17 Nov 2024 18:57:41 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Telegram para investigadores de ciberinteligencia",
-      "summary_es": "Telegram es una de las plataformas más importantes para los investigadores de OSINT. Participé en el podcast Needlestack para hablar sobre el funcionamiento de Telegram y compartir consejos prácticos de OSINT."
+      "title_es": "Telegram para investigadores de ciberseguridad",
+      "summary_es": "Telegram es una de las plataformas más importantes para los investigadores de OSINT. Participé en el pódcast Needlestack para explicar cómo funciona Telegram y compartir algunos consejos prácticos de OSINT."
     },
     {
       "id": "93b31e8393",
@@ -1008,7 +960,7 @@
       "category": "Security",
       "source": "Nixintel",
       "title_es": "Radiografía de la infraestructura de desinformación rusa",
-      "summary_es": "La desinformación y la propaganda han sido uno de los elementos centrales de la guerra entre Rusia y Ucrania. Entre los numerosos grupos surgidos para difundir narrativas propagandísticas prorrusas destaca una pequeña organización hacktivista llamada Beregini. Este artículo de Givi Gigitashvili ofrece una introducción reveladora a los métodos de Beregini a través del análisis de sus actividades."
+      "summary_es": "La desinformación y la propaganda han sido uno de los elementos centrales de la guerra entre Rusia y Ucrania. Uno de los numerosos grupos surgidos para difundir narrativas propagandísticas pro-rusas es una pequeña organización hacktivist llamada Beregini. Este artículo de Givi Gigitashvili ofrece una útil visión introductoria sobre los métodos de Beregini mediante el análisis de [...]"
     },
     {
       "id": "9883e8138d",
@@ -1019,8 +971,8 @@
       "published": "Fri, 21 Apr 2023 16:11:40 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Verifica tu identidad en línea con Keybase",
-      "summary_es": "La reciente decisión de Twitter de retirar las marcas de verificación azules a cuentas previamente verificadas plantea varios problemas para la plataforma y sus usuarios. El más evidente tiene que ver con la autenticidad de la identidad: sin verificación, ¿cómo saber si una cuenta pertenece realmente a la persona u organización que dice representarla?"
+      "title_es": "Verifica tu identidad en internet con Keybase",
+      "summary_es": "La reciente decisión de Twitter de retirar las marcas de verificación azules de las cuentas que había certificado anteriormente genera varios problemas para la plataforma y sus usuarios. Uno de los más evidentes tiene que ver con la autenticidad de la identidad. Sin verificación, ¿cómo saber si una cuenta pertenece realmente a la persona u organización que dice ser? [...]"
     },
     {
       "id": "2b80e12e55",
@@ -1031,8 +983,8 @@
       "published": "Mon, 15 Jun 2026 04:47:13 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Stamenic, de los All Whites, quiere honrar la memoria de su padre",
-      "summary_es": "Marko Stamenic, del Swansea City, tendrá en mente a su inspirador padre cuando Nueva Zelanda inicie su campaña en el Mundial."
+      "title_es": "Stamenic quiere honrar la memoria de su padre con los All Whites",
+      "summary_es": "El jugador de Swansea City Marko Stamenic tendrá muy presente a su inspirador padre cuando Nueva Zelanda inicie su campaña en el Mundial."
     },
     {
       "id": "4aaf2510b2",
@@ -1043,8 +995,8 @@
       "published": "Sat, 13 Jun 2026 10:19:00 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Las internacionales galesas sin club se muestran ante posibles equipos fichadores",
-      "summary_es": "Rhian Wilkinson asegura que sus jugadoras sin contrato demostraron su valía a los clubs interesados al ayudar a Gales a terminar primera en su grupo de clasificación para el Mundial femenino."
+      "title_es": "Las jugadoras galesas sin club se muestran ante posibles pretendientes",
+      "summary_es": "Rhian Wilkinson asegura que sus internacionales sin equipo demostraron su valía a los clubes interesados al ayudar a Gales a terminar primera en su grupo de clasificación para la Copa del Mundo femenina."
     },
     {
       "id": "e7a738483c",
@@ -1055,8 +1007,8 @@
       "published": "Fri, 12 Jun 2026 21:30:51 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "La leyenda del Gales y el Tottenham Hotspur Cliff Jones, de 91 años, recibe la MBE",
-      "summary_es": "La leyenda del Gales y del Tottenham Hotspur Cliff Jones recibe la distinción MBE en la lista de honores del cumpleaños del Rey."
+      "title_es": "La leyenda de Gales y el Spurs Jones, 91 años, recibe la MBE",
+      "summary_es": "La leyenda de Gales y del Tottenham Hotspur Cliff Jones recibe la MBE en la lista de honores del cumpleaños del Rey."
     },
     {
       "id": "1b2b635db5",
@@ -1067,8 +1019,8 @@
       "published": "Sun, 14 Jun 2026 10:21:33 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Leicester se acerca al exentrenador del Swansea Martin",
-      "summary_es": "Russell Martin, quien ascendió al Southampton a la Premier League en 2024, lleva sin trabajo desde que fue destituido por el Rangers en octubre."
+      "title_es": "Leicester se acerca al exentrenador del Swans Martin",
+      "summary_es": "Russell Martin, que ascendió al Southampton a la Premier League en 2024, lleva sin trabajo desde que Rangers lo destituyó en octubre."
     },
     {
       "id": "165a9b5140",
@@ -1079,8 +1031,20 @@
       "published": "Fri, 12 Jun 2026 10:00:05 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Fallece Jackett, exinternacional con Gales y exentrenador del Swansea",
-      "summary_es": "Kenny Jackett, leyenda del Watford y exinternacional con Gales, muere a los 64 años."
+      "title_es": "Muere Jackett, exinternacional galés y exentrenador del Swans",
+      "summary_es": "Kenny Jackett, leyenda del Watford y exinternacional con Gales, fallece a los 64 años."
+    },
+    {
+      "id": "bebd8a6746",
+      "title_en": "Leeds United now favourites to sign Harry Wilson as massive factor emerges",
+      "summary_en": "Leeds are now firmly among the favourites to sign Wilson, who is out of contract this summer",
+      "image": "https://i2-prod.football.london/incoming/article34084849.ece/ALTERNATES/s615/0_GettyImages-1241298775.jpg",
+      "link": "https://www.walesonline.co.uk/sport/football/transfer-news/leeds-united-now-favourites-sign-34121386",
+      "published": "Mon, 15 Jun 2026 09:29:04 +0000",
+      "category": "Football",
+      "source": "Wales Football (WalesOnline)",
+      "title_es": "Leeds United, favorito para fichar a Harry Wilson tras surgir un factor determinante",
+      "summary_es": "Leeds se sitúa ahora entre los principales favoritos para hacerse con Wilson, cuyo contrato expira este verano."
     },
     {
       "id": "ce0d8e3fa1",
@@ -1091,7 +1055,7 @@
       "published": "Sat, 13 Jun 2026 06:12:46 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "El rey Carlos condecora al exdirigente de la WRU Roger Lewis entre varios deportistas galeses reconocidos",
+      "title_es": "El rey Carlos reconoce al exdirector de la WRU Roger Lewis entre varias figuras del deporte galés",
       "summary_es": "La lista de honores del cumpleaños del Rey ha incluido a varios deportistas galeses distinguidos por sus logros."
     },
     {
@@ -1104,7 +1068,7 @@
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
       "title_es": "Gabby Logan rechaza dos invitaciones de la familia real para recoger su OBE",
-      "summary_es": "Gabby Logan ha tenido que declinar dos veces la invitación debido a sus compromisos como presentadora de la BBC en el Mundial 2026, lo que supone un rechazo inusual para la familia real."
+      "summary_es": "Gabby Logan ha sufrido dos contratiempos por sus compromisos como presentadora de la BBC en el Mundial 2026, lo que ha llevado a la familia real a recibir un rechazo poco habitual"
     },
     {
       "id": "196ef45f47",
@@ -1115,8 +1079,8 @@
       "published": "Fri, 12 Jun 2026 09:43:36 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Muere a los 64 años Kenny Jackett, exentrenador del Swansea City e internacional con Gales",
-      "summary_es": "Las muestras de homenaje no han dejado de llegar tras el fallecimiento del exentrenador Kenny Jackett a los 64 años."
+      "title_es": "Muere a los 64 años Kenny Jackett, exentrenador de Swansea City y exjugador internacional con Gales",
+      "summary_es": "Los homenajes se han multiplicado tras conocerse la muerte del exentrenador Kenny Jackett a los 64 años"
     },
     {
       "id": "c853582157",
@@ -1127,20 +1091,8 @@
       "published": "Wed, 10 Jun 2026 09:48:44 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Una estrella firma un inesperado acuerdo con el Tottenham mientras se confirman 11 salidas, entre ellas la de un jugador de 30 millones",
-      "summary_es": "El veterano ha renovado su contrato con el Spurs."
-    },
-    {
-      "id": "e297fb90bf",
-      "title_en": "Champions League scouts turn up to watch Cardiff City star as decision now unavoidable",
-      "summary_en": "The Bluebirds defender enjoyed a stellar first season in senior football and he is turning heads and attracting some real attention",
-      "image": "https://i2-prod.walesonline.co.uk/incoming/article34089687.ece/ALTERNATES/s615/0_JS401253660-1.jpg",
-      "link": "https://www.walesonline.co.uk/sport/football/transfer-news/champions-league-scouts-turn-up-34089030",
-      "published": "Tue, 9 Jun 2026 13:10:38 +0000",
-      "category": "Football",
-      "source": "Wales Football (WalesOnline)",
-      "title_es": "Ojeadores de la Champions League acuden a ver al astro del Cardiff City en una decisión que ya no puede postergarse",
-      "summary_es": "El defensa de los Bluebirds firmó una brillante primera temporada en el fútbol absoluto y está atrayendo miradas y un interés considerable."
+      "title_es": "Una estrella firma un sorprendente contrato con Tottenham mientras se confirman 11 salidas, entre ellas la de un jugador de 30 millones",
+      "summary_es": "El veterano ha estampado su firma en un nuevo contrato con Spurs"
     },
     {
       "id": "8594bd6a72",
@@ -1151,8 +1103,8 @@
       "published": "Mon, 15 Jun 2026 09:05:09 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "El pilar galés Assiratti, descartado para la serie de verano",
-      "summary_es": "El pilar Keiron Assiratti se ha caído de los partidos de verano de Gales por una lesión en el gemelo."
+      "title_es": "El pilar galés Assiratti se pierde la serie de verano",
+      "summary_es": "El pilar Keiron Assiratti no podrá disputar los partidos de verano de Gales por una lesión en el gemelo."
     },
     {
       "id": "f5f6162132",
@@ -1164,7 +1116,7 @@
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
       "title_es": "Ospreys ficha al centro australiano Foketi",
-      "summary_es": "El centro australiano Lalakai Foketi se unirá a sus compatriotas Ryan Smith y Liam Wright en la plantilla de Ospreys para la temporada 2026-27."
+      "summary_es": "El centro australiano Lalakai Foketi se unirá a sus compatriotas Ryan Smith y Liam Wright en el equipo de Ospreys para la temporada 2026-27."
     },
     {
       "id": "0b1ad30bdf",
@@ -1175,8 +1127,8 @@
       "published": "Fri, 12 Jun 2026 11:59:29 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "El dúo de Joyce tiene algo que demostrar a su regreso a Gales",
-      "summary_es": "Los dos internacionales aseguran que mantienen sus ambiciones tanto con sus clubes como con la selección tras confirmar que jugarán en Gales la próxima temporada."
+      "title_es": "La pareja de Joyce tiene algo que demostrar a su regreso a Gales",
+      "summary_es": "El dúo internacional asegura que mantiene su ambición con el club y con la selección tras confirmar que jugarán en Gales la próxima temporada."
     },
     {
       "id": "31ad1c8675",
@@ -1187,8 +1139,8 @@
       "published": "Sun, 14 Jun 2026 15:52:45 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Trailfinders apea a Gloucester-Hartpury y alcanza la final de la PWR",
-      "summary_es": "Trailfinders aguantó el empuje de Gloucester-Hartpury y venció a las campeonas defensoras por 29-26 para alcanzar su primera final de la Premiership Women's Rugby."
+      "title_es": "Trailfinders sorprende a Gloucester-Hartpury y alcanza la final de la PWR",
+      "summary_es": "Trailfinders supera a Gloucester-Hartpury al imponerse a las campeonas vigentes por 29-26 y alcanza su primera final de la Premiership Women's Rugby."
     },
     {
       "id": "319bcf252d",
@@ -1199,8 +1151,8 @@
       "published": "Fri, 12 Jun 2026 05:05:58 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Pivac sale de la semirretirada para un nuevo capítulo en Italia",
-      "summary_es": "Las cosas podrían haber sido muy distintas para Pivac si su etapa como seleccionador de Gales hubiera funcionado, pero pagó el precio de la derrota en casa ante Georgia en 2022."
+      "title_es": "Pivac sale de su semirretiro para asumir un nuevo reto en Italia",
+      "summary_es": "Todo podría haber sido muy diferente para Pivac si su etapa como seleccionador de Gales hubiera dado mejores frutos, pero pagó el precio de perder en casa ante Georgia en 2022."
     },
     {
       "id": "d4e101f269",
@@ -1211,8 +1163,8 @@
       "published": "2026-05-27T16:30:03+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "¿Cómo se convirtió España en la nación más emocionante del rugby? | Vista previa Rugby World Cup 2027",
-      "summary_es": "¡Hola! Visita https://squarespace.com/squidgerugby para ahorrar un 10% en tu primera compra de un sitio web o dominio con el código SQUIDGERUGBY. Hace diez años, la pregunta más habitual sobre el rugby español era «¿Cómo que España tiene equipo de rugby?». Hace cinco años era «¿Qué han hecho ahora?». Sin embargo, a tan solo dieciocho meses de su primer Mundial masculino en casi 30 años, la cosa ha cambiado bastante: esta es la historia de cómo España se convirtió en la nación emergente más emocionante de todo el rugby. Si disfrutas del contenido del canal, también puedes apoyar a Squidge Rugby en Patreon en https://www.patreon.com/SquidgeRugby."
+      "title_es": "¿Cómo se convirtió España en la nación más emocionante del rugby? | Vista previa del Mundial 2027",
+      "summary_es": "Hace diez años, la pregunta más habitual sobre el rugby español era: «¿España tiene equipo de rugby?». Hace cinco, era: «¿Qué han hecho ahora?». Sin embargo, a año y medio de su primer Mundial masculino en casi 30 años, la historia ha cambiado por completo: así es como España se convirtió en la nueva gran potencia del rugby mundial."
     },
     {
       "id": "33dfca4d83",
@@ -1223,8 +1175,8 @@
       "published": "2026-05-24T11:00:30+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "¿Cómo DOMINÓ Bordeaux a Leinster? | ANÁLISIS | Final Champions Cup 2026",
-      "summary_es": "Union Bordeaux-Bègles es el campeón de Europa (y Sudáfrica) por segundo año consecutivo. Una actuación dominante y contundente que aplastó a un Leinster que sigue sin poder levantar esa quinta estrella. Analizamos en profundidad cómo Bordeaux controló el partido, qué falló en Leinster y hasta qué punto es bueno este equipo UBB."
+      "title_es": "¿Cómo dominó Bordeaux a Leinster? | ANÁLISIS | Final de la Champions Cup 2026",
+      "summary_es": "Union Bordeaux-Begles es el campeón consecutivo de Europa (y de Sudáfrica). Una actuación dominante y contundente que aplastó a un Leinster que seguía persiguiendo su quinta estrella. Analizamos en profundidad cómo Bordeaux controló el partido, qué falló Leinster y hasta qué punto es bueno este equipo de UBB."
     },
     {
       "id": "1de53c0c86",
@@ -1236,7 +1188,7 @@
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
       "title_es": "Por qué Owen Farrell no está en la convocatoria de Inglaterra",
-      "summary_es": "Steve Borthwick tiene algo entre manos."
+      "summary_es": "Steve Borthwick lleva razón en algo."
     },
     {
       "id": "888daef2e8",
@@ -1248,7 +1200,7 @@
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
       "title_es": "Cómo ha cambiado la defensa de Leinster esta temporada",
-      "summary_es": "Jacques Nienaber está moviendo ficha."
+      "summary_es": "Jacques Nienaber está moviendo fichas."
     },
     {
       "id": "137a8895d8",
@@ -1260,7 +1212,7 @@
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
       "title_es": "¿Puede Leinster superar a Bordeaux? | Previa de la Final de la Champions Cup 2026",
-      "summary_es": "Una gran final aguarda en Bilbao. Leinster se medirá a Bordeaux-Begles en el partido definitivo de la Champions Cup 2025/26. Si disfrutas del contenido del canal, también puedes apoyar a Squidge Rugby en Patreon visitando https://www.patreon.com/SquidgeRugby. Las anguilas son caras."
+      "summary_es": "Bilbao acoge una final mayúscula. Leinster se enfrentará a Bordeaux-Begles en el partido decisivo de la Champions Cup 2025/26. ¿Será capaz el conjunto irlandés de dar la sorpresa?"
     },
     {
       "id": "21844267bd",
@@ -1271,8 +1223,8 @@
       "published": "Tue, 15 Nov 2022 11:04:05 +0000",
       "category": "Rugby",
       "source": "Scarlets",
-      "title_es": "Josh Macleod, convocado en el XV titular de Gales para enfrentarse a Georgia",
-      "summary_es": "El ala de los Scarlets Josh Macleod está a punto de debutar con Gales tras ser incluido en el XV inicial para medirse a Georgia en el tercer partido de la Autumn Nations Series. El jugador de Pembrokeshire, de 26 años, había visto truncadas sus oportunidades anteriores por dos lesiones de mala fortuna, pero se gana una merecida oportunidad frente a los Lelos el sábado a mediodía (13:00, Amazon Prime). Macleod es..."
+      "title_es": "Josh Macleod, convocado con Gales para enfrentarse a Georgia",
+      "summary_es": "El flanker de Scarlets Josh Macleod está a punto de debutar con Gales tras ser incluido en el XV titular para medirse a Georgia en el tercer partido de la Autumn Nations Series. El jugador de Pembrokeshire, de 26 años, había visto truncadas sus opciones anteriores por dos crueles lesiones, pero ahora tiene una merecida oportunidad ante los Lelos el sábado a mediodía (13:00 h, Amazon Prime)."
     },
     {
       "id": "7e1e66fdff",
@@ -1283,8 +1235,8 @@
       "published": "Thu, 12 Aug 2021 09:07:14 +0000",
       "category": "Rugby",
       "source": "Scarlets",
-      "title_es": "Confirmadas las sedes de los partidos de Cymru en 2021",
-      "summary_es": "El Parc y Scarlets de Llanelli y el Cardiff City Stadium acogerán los primeros encuentros de Cymru en la fase de clasificación para la Copa Mundial Femenina de la FIFA 2023. El equipo de Gemma Grainger arrancará la campaña en el Parc y Scarlets ante Kazajistán el viernes 17 de septiembre. Un mes después, Cymru visitará el Cardiff City Stadium para enfrentarse a Estonia el martes 26 de octubre..."
+      "title_es": "Confirmadas las sedes para los partidos de Cymru en 2021",
+      "summary_es": "Parc y Scarlets, en Llanelli, y el Cardiff City Stadium acogerán los primeros partidos de Cymru en la fase de clasificación para la Copa Mundial Femenina de la FIFA 2023. El equipo de Gemma Grainger arrancará la campaña en Parc y Scarlets ante Kazajistán el viernes 17 de septiembre. Un mes después, Cymru visitará el Cardiff City Stadium para enfrentarse a Estonia el martes 26 de octubre."
     },
     {
       "id": "f9048131ab",
@@ -1296,7 +1248,7 @@
       "category": "Rugby",
       "source": "Scarlets",
       "title_es": "¡Participa en nuestro último concurso!",
-      "summary_es": "Para destacar la sostenibilidad del Cordero y la Ternera galeses y las ventajas de adquirir productos de origen local elaborados de forma ética, los Scarlets se han aliado con Hybu Cig Cymru – Meat Promotion Wales para ofrecerte la oportunidad de ganar una cesta de lujo con productos cárnicos y una camiseta de los Scarlets firmada por Wyn Jones."
+      "summary_es": "Para poner en valor la sostenibilidad del cordero y la ternera galeses y las ventajas de comprar productos de proximidad elaborados de forma ética, Scarlets se ha asociado con Hybu Cig Cymru – Meat Promotion Wales para ofrecer la posibilidad de ganar una cesta de lujo con productos cárnicos y una camiseta de Scarlets firmada por Wyn Jones."
     },
     {
       "id": "51959dfbf6",
@@ -1307,8 +1259,8 @@
       "published": "Wed, 08 Jan 2020 09:59:43 +0000",
       "category": "Rugby",
       "source": "Scarlets",
-      "title_es": "Los Scarlets se preparan para una intensa batalla en el ruck en el 'Derby Day III'",
-      "summary_es": "Esta noche llega el Derby Day: Parte III, con los Scarlets enfrentándose al Cardiff Blues en el Arms Park (19:35). Antes del agotado encuentro de la Guinness PRO14, hablamos con el entrenador de delanteros Ioan Cunningham sobre lo que promete ser un duelo apasionante entre dos equipos repletos de talento."
+      "title_es": "Los Scarlets, preparados para la batalla en el 'Derby Day Parte III'",
+      "summary_es": "Esta tarde se disputa el Derby Day: Parte III, con los Scarlets enfrentándose a los Cardiff Blues en el Arms Park (19.35 h). Antes del sold-out en el Guinness PRO14, hablamos con el entrenador de delanteros Ioan Cunningham sobre lo que promete ser un duelo apasionante entre dos equipos repletos de talento. Ioan, ante todo debes de haber estado encantado... Leer más"
     }
   ]
 }
