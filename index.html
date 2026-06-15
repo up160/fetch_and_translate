@@ -253,6 +253,11 @@
     main { max-width: 1100px; margin: 0 auto; padding: 2rem; }
 
     .section-header { display: flex; align-items: center; gap: 1rem; margin: 2rem 0 1rem; }
+    .feed-section .section-header { cursor: pointer; user-select: none; }
+    .feed-section .section-header:hover .section-label { color: var(--accent); }
+    .section-chevron { color: var(--accent2); font-size: 0.7rem; transition: transform 0.2s ease; }
+    .feed-section.collapsed .section-chevron { transform: rotate(-90deg); }
+    .feed-section.collapsed .feed-grid { display: none; }
     .section-label {
       font-family: var(--condensed);
       font-weight: 800;
@@ -764,6 +769,7 @@
 
   let readItems  = new Set(JSON.parse(localStorage.getItem('senal_read') || '[]'));
   let hiddenSrcs = new Set(JSON.parse(localStorage.getItem('senal_hidden_srcs') || '[]'));
+  let collapsedCats = new Set(JSON.parse(localStorage.getItem('senal_collapsed') || '[]'));
   const wordCache = JSON.parse(localStorage.getItem('senal_wordcache') || '{}');
   // savedVocab: { "es:palabra": { word, trans, lang, added } }
   let savedVocab = JSON.parse(localStorage.getItem('senal_vocab') || '{}');
@@ -920,19 +926,33 @@
 
     let html = '';
     for (const [cat, items] of Object.entries(groups)) {
+      const collapsed = collapsedCats.has(cat);
       html += `
-        <div class="section-header">
-          <div class="section-label">${cat}</div>
-          <div class="section-line"></div>
-          <div class="section-count">${items.length} ART.</div>
-        </div>
-        <div class="feed-grid">
-          ${items.map((item, i) => renderItem(item, i)).join('')}
-        </div>`;
+        <section class="feed-section${collapsed ? ' collapsed' : ''}" data-cat="${escHtml(cat)}">
+          <div class="section-header" onclick="toggleSection(this)">
+            <span class="section-chevron">▾</span>
+            <div class="section-label">${cat}</div>
+            <div class="section-line"></div>
+            <div class="section-count">${items.length} ART.</div>
+          </div>
+          <div class="feed-grid">
+            ${items.map((item, i) => renderItem(item, i)).join('')}
+          </div>
+        </section>`;
     }
 
     container.innerHTML = html;
     attachWordHandlers();
+  }
+
+  function toggleSection(headerEl) {
+    const sec = headerEl.closest('.feed-section');
+    if (!sec) return;
+    const cat = sec.dataset.cat;
+    if (collapsedCats.has(cat)) collapsedCats.delete(cat);
+    else collapsedCats.add(cat);
+    localStorage.setItem('senal_collapsed', JSON.stringify([...collapsedCats]));
+    sec.classList.toggle('collapsed');
   }
 
   function renderItem(item, index) {

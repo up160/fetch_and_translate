@@ -2,7 +2,11 @@ name: Update feed
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # daily, 6:00 UTC (7am UK in summer)
+    # GitHub's scheduled triggers are best-effort and drop/delay top-of-hour
+    # slots under load. Use off-peak minutes and run twice so a missed
+    # morning slot is covered by the afternoon one.
+    - cron: "23 6 * * *"    # ~6:23 UTC (morning UK)
+    - cron: "23 14 * * *"   # ~14:23 UTC (afternoon safety net)
   workflow_dispatch:        # allow manual runs from the Actions tab
 
 permissions:
