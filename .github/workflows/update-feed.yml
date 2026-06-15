@@ -2,11 +2,11 @@ name: Update feed
 
 on:
   schedule:
-    # GitHub's scheduled triggers are best-effort and drop/delay top-of-hour
-    # slots under load. Use off-peak minutes and run twice so a missed
-    # morning slot is covered by the afternoon one.
-    - cron: "23 6 * * *"    # ~6:23 UTC (morning UK)
-    - cron: "23 14 * * *"   # ~14:23 UTC (afternoon safety net)
+    # GitHub's scheduled triggers are best-effort and frequently delay/drop
+    # individual slots under load. Run every 6 hours (off-peak minute) so a
+    # missed slot is covered within hours and World Cup scores refresh through
+    # the day. The job only commits when feed.json actually changes.
+    - cron: "23 0,6,12,18 * * *"   # 00:23 / 06:23 / 12:23 / 18:23 UTC
   workflow_dispatch:        # allow manual runs from the Actions tab
 
 permissions:
