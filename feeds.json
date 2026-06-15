@@ -6,6 +6,12 @@
 
     { "category": "Parenting", "name": "r/daddit",                   "url": "https://www.reddit.com/r/daddit/.rss" },
 
+    { "category": "Interesante", "name": "r/todayilearned",          "url": "https://www.reddit.com/r/todayilearned/.rss" },
+    { "category": "Interesante", "name": "r/Damnthatsinteresting",   "url": "https://www.reddit.com/r/Damnthatsinteresting/.rss" },
+    { "category": "Interesante", "name": "r/InternetIsBeautiful",    "url": "https://www.reddit.com/r/InternetIsBeautiful/.rss" },
+    { "category": "Interesante", "name": "Atlas Obscura",            "url": "https://www.atlasobscura.com/feeds/latest" },
+    { "category": "Interesante", "name": "Damn Interesting",         "url": "https://www.damninteresting.com/feed/" },
+
     { "category": "Tech",      "name": "Hacker News",                "url": "https://news.ycombinator.com/rss" },
     { "category": "Tech",      "name": "Ars Technica",               "url": "https://feeds.arstechnica.com/arstechnica/index" },
 
