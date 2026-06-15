@@ -1003,6 +1003,8 @@
     }).join('');
   }
 
+  let globalPopupListeners = false;
+  let popupScrollAnchor = 0;
   function attachWordHandlers() {
     document.querySelectorAll('.w').forEach(el => {
       el.addEventListener('click', async (e) => {
@@ -1012,10 +1014,23 @@
       });
     });
 
+    // Global dismiss listeners are attached once, not per render — otherwise
+    // they stack up on every re-render.
+    if (globalPopupListeners) return;
+    globalPopupListeners = true;
+
     document.addEventListener('click', (e) => {
       if (!e.target.closest('#word-popup') && !e.target.classList.contains('w')) hidePopup();
     });
-    document.addEventListener('scroll', hidePopup, { passive: true });
+    // Only dismiss on a deliberate scroll. A plain tap on mobile often fires a
+    // tiny scroll (rubber-banding / address-bar resize), which previously closed
+    // the popup the instant it opened, making taps look like they did nothing.
+    document.addEventListener('scroll', () => {
+      const popup = document.getElementById('word-popup');
+      if (popup.style.display !== 'block') return;
+      const y = window.scrollY || document.scrollingElement.scrollTop;
+      if (Math.abs(y - popupScrollAnchor) > 60) hidePopup();
+    }, { passive: true });
   }
 
   async function showWordPopup(el, word, lang) {
@@ -1030,6 +1045,7 @@
     popup.innerHTML = `<div class="wp-word">${escHtml(word)}</div><div class="wp-loading">traduciendo<span class="blink">_</span></div>`;
     positionPopup(popup, el);
     popup.style.display = 'block';
+    popupScrollAnchor = window.scrollY || document.scrollingElement.scrollTop;
 
     let translation = wordCache[cacheKey];
 
@@ -1165,12 +1181,47 @@
   }
 
   // ── Text-to-speech (pronunciation) ───────────────────────────────
+  // Voices load asynchronously, so cache the best match per language.
+  const voiceCache = {};
+  function pickVoice(lang) {
+    if (voiceCache[lang]) return voiceCache[lang];
+    const voices = speechSynthesis.getVoices();
+    if (!voices.length) return null;
+    const prefix = lang === 'en' ? 'en' : 'es';
+    const candidates = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+    if (!candidates.length) return null;
+    // Apple ships a set of low-quality "novelty" voices that also match es-*/en-*;
+    // never prefer these over the standard or enhanced system voices.
+    const novelty = /^(albert|bad news|bahh|bells|boing|bubbles|cellos|eddy|flo|good news|grandma|grandpa|jester|junior|kathy|organ|reed|rocko|sandy|shelley|superstar|trinoids|whisper|wobble|zarvox)\b/i;
+    // Prefer natural / neural / cloud voices over the robotic OS default.
+    const score = v => {
+      let s = 0;
+      const n = (v.name || '').toLowerCase();
+      if (novelty.test(n)) s -= 10;
+      if (/natural|neural|premium|enhanced|wavenet|siri/.test(n)) s += 5;
+      if (/google|microsoft/.test(n)) s += 3;
+      if (!v.localService) s += 2; // cloud voices generally sound better
+      // Prefer regional Spanish/English flavours we actually want.
+      if (lang === 'es' && /es-es/i.test(v.lang)) s += 1;
+      if (lang === 'en' && /en-gb/i.test(v.lang)) s += 1;
+      return s;
+    };
+    candidates.sort((a, b) => score(b) - score(a));
+    voiceCache[lang] = candidates[0];
+    return candidates[0];
+  }
+  if ('speechSynthesis' in window) {
+    speechSynthesis.onvoiceschanged = () => { voiceCache.es = null; voiceCache.en = null; };
+  }
   function speak(text, lang) {
     if (!('speechSynthesis' in window) || !text) return;
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = lang === 'en' ? 'en-GB' : 'es-ES';
+    const v = pickVoice(lang);
+    if (v) { u.voice = v; u.lang = v.lang; }
     u.rate = 0.95;
+    u.pitch = 1.0;
     speechSynthesis.speak(u);
   }
   function speakCard(e, lang) {
