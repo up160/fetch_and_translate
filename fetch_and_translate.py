@@ -80,7 +80,13 @@ def extract_image(entry, raw_html: str) -> str:
 def fetch_feed(feed_config: dict) -> list[dict]:
     """Fetch and parse a single RSS feed."""
     try:
-        parsed = feedparser.parse(feed_config["url"])
+        url = feed_config["url"]
+        parsed = feedparser.parse(url)
+        # Reddit rate-limits bursts of requests (HTTP 429) and returns an empty
+        # feed; back off briefly and retry once.
+        if not parsed.entries and "reddit.com" in url:
+            time.sleep(6)
+            parsed = feedparser.parse(url)
         items = []
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = entry.get("title", "").strip()
