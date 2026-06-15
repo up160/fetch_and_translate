@@ -36,6 +36,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY")
 
 SUMMARY_CAP = 900  # max chars of summary kept for translation
+STALE_FEED_DAYS = 45  # warn if a feed's newest item is older than this
 
 # ─── Fetch Feeds ─────────────────────────────────────────────────────────────
 
@@ -77,6 +78,22 @@ def extract_image(entry, raw_html: str) -> str:
     return ""
 
 
+def newest_entry_age_days(parsed) -> Optional[float]:
+    """Age in days of the most recent entry in a parsed feed, or None if no
+    entry carries a usable date."""
+    newest = None
+    for entry in parsed.entries:
+        t = entry.get("published_parsed") or entry.get("updated_parsed")
+        if not t:
+            continue
+        dt = datetime(*t[:6], tzinfo=timezone.utc)
+        if newest is None or dt > newest:
+            newest = dt
+    if newest is None:
+        return None
+    return (datetime.now(timezone.utc) - newest).total_seconds() / 86400
+
+
 def fetch_feed(feed_config: dict) -> list[dict]:
     """Fetch and parse a single RSS feed."""
     try:
@@ -87,6 +104,13 @@ def fetch_feed(feed_config: dict) -> list[dict]:
         if not parsed.entries and "reddit.com" in url:
             time.sleep(6)
             parsed = feedparser.parse(url)
+
+        # Surface feeds that have quietly gone stale (like the old Scarlets feed
+        # that hadn't updated since 2022) so they can be pruned.
+        age = newest_entry_age_days(parsed)
+        if age is not None and age > STALE_FEED_DAYS:
+            print(f"  ⚠ STALE: {feed_config['name']} — newest item {int(age)} days old")
+
         items = []
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = entry.get("title", "").strip()
@@ -220,30 +244,25 @@ Items to translate:
 """
 
 
-def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
-    """Translate one chunk in place. Returns number of items actually changed."""
-    to_translate = [
-        {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
-        for item in chunk
-    ]
-    prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
-
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=8000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = response.content[0].text.strip()
+def _strip_code_fence(raw: str) -> str:
+    """Remove a leading ```json / ``` fence the model sometimes adds."""
+    raw = raw.strip()
     if raw.startswith("```"):
         raw = raw.split("```")[1]
         if raw.startswith("json"):
             raw = raw[4:]
-    raw = raw.strip()
+    return raw.strip()
 
-    translations = json.loads(raw)
-    # Match by id (coerced to str). The model sometimes returns the translated
-    # text under the *input* key names ("title"/"summary") instead of the
-    # requested "title_es"/"summary_es" — accept either, or fall back positionally.
+
+def _apply_translations(chunk: list[dict], translations: list[dict]) -> int:
+    """
+    Apply a parsed translation array onto a chunk in place.
+    Pure (no network) so it can be unit-tested. Returns items actually changed.
+
+    Match by id (coerced to str). The model sometimes returns the translated
+    text under the *input* key names ("title"/"summary") instead of the
+    requested "title_es"/"summary_es" — accept either, or fall back positionally.
+    """
     by_id = {str(t.get("id")): t for t in translations}
 
     def pick(t, primary, secondary):
@@ -265,6 +284,61 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
         if item["title_es"] != item["title_en"]:
             changed += 1
     return changed
+
+
+def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
+    """Translate one chunk in place. Returns number of items actually changed."""
+    to_translate = [
+        {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
+        for item in chunk
+    ]
+    prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=8000,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    translations = json.loads(_strip_code_fence(response.content[0].text))
+    return _apply_translations(chunk, translations)
+
+
+def load_translation_cache(path: str) -> dict:
+    """
+    Load translations from the previous feed.json so unchanged items don't get
+    re-translated on every run (the job runs several times a day). Returns a
+    map of item id -> previous item dict. Missing/invalid file -> {}.
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return {it["id"]: it for it in data.get("items", []) if it.get("id")}
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
+def apply_cached_translations(items: list[dict], cache: dict) -> list[dict]:
+    """
+    Reuse a previous Spanish translation for any item whose id and English title
+    are unchanged. Mutates matching items in place and returns the list of items
+    that still need translating.
+    """
+    pending = []
+    for item in items:
+        prev = cache.get(item["id"])
+        if (
+            prev
+            and prev.get("title_en") == item["title_en"]
+            and prev.get("summary_en") == item["summary_en"]
+            and prev.get("title_es")
+        ):
+            item["title_es"] = prev["title_es"]
+            item["summary_es"] = prev.get("summary_es", item["summary_en"])
+        else:
+            pending.append(item)
+    print(f"Reused {len(items) - len(pending)} cached translations; "
+          f"{len(pending)} new to translate.")
+    return pending
 
 
 def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
@@ -314,8 +388,10 @@ def main():
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
-    # Fetch World Cup results first so they render as the top "Mundial" section
-    wc_items = fetch_world_cup_results()
+    # Fetch World Cup results first so they render as the top "Mundial" section.
+    # Seasonal: set "world_cup_results": false in feeds.json once the tournament
+    # is over so the dead API call is skipped.
+    wc_items = fetch_world_cup_results() if CONFIG.get("world_cup_results", True) else []
 
     # Fetch RSS feeds
     items = fetch_all_feeds()
@@ -326,8 +402,16 @@ def main():
         print("No items fetched. Exiting.")
         return
 
-    # Translate (World Cup results go through the same path as everything else)
-    items = translate_batch(items, client)
+    out_path = os.path.join(os.path.dirname(__file__), "feed.json")
+
+    # Reuse translations from the previous run for unchanged items, then only
+    # send genuinely new items to Claude.
+    cache = load_translation_cache(out_path)
+    pending = apply_cached_translations(items, cache)
+    if pending:
+        translate_batch(pending, client)
+    else:
+        print("All items already translated from cache — no Claude calls needed.")
 
     # Build output
     output = {
@@ -337,7 +421,6 @@ def main():
     }
 
     # Write feed.json to repo root (where index.html lives)
-    out_path = os.path.join(os.path.dirname(__file__), "feed.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
