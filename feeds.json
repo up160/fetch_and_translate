@@ -27,7 +27,6 @@
 
     { "category": "Rugby",     "name": "Wales Rugby (BBC)",          "url": "https://feeds.bbci.co.uk/sport/rugby-union/welsh/rss.xml" },
     { "category": "Rugby",     "name": "Squidge Rugby (YouTube)",    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCu2oaGQ6Dds6g9lqfexUFbQ" },
-    { "category": "Rugby",     "name": "Inside Welsh Rugby",         "url": "https://walesrugby.substack.com/feed" },
-    { "category": "Rugby",     "name": "Scarlets",                   "url": "https://www.scarlets.wales/feed/" }
+    { "category": "Rugby",     "name": "Inside Welsh Rugby",         "url": "https://walesrugby.substack.com/feed" }
   ]
 }
