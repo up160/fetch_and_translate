@@ -48,7 +48,7 @@ Commit the resulting `feed.json`, then push. The site will render immediately.
 
 ### 4. Let it run automatically
 
-The `Update feed` GitHub Action runs every 6 hours. You can also trigger it manually from the **Actions** tab → **Update feed** → **Run workflow**.
+The `Update feed` GitHub Action runs twice a day. You can also trigger it manually from the **Actions** tab → **Update feed** → **Run workflow**.
 
 Unchanged items are **not** re-translated: each run reuses the Spanish text from the previous `feed.json` and only sends genuinely new items to Claude, so the recurring schedule costs very little.
 
@@ -94,6 +94,17 @@ CI (`.github/workflows/ci.yml`) runs lint + tests on every pull request.
 
 ## Estimated Claude API cost
 
-~50 items × ~150 tokens each = ~7,500 tokens/day translated. With per-run
-translation caching only new items hit the API, so even running every 6 hours
-this stays well under $0.05/day at Sonnet pricing.
+Cost is dominated by **output** tokens (the generated Spanish), which are priced
+~5× higher than input. A full run translating all ~105 items is ~22K input +
+~21K output tokens.
+
+Three things keep the bill small:
+
+- **Per-run caching** — only genuinely new items are translated each run, not the
+  whole feed. After the first run a typical run translates a handful of items.
+- **Model** — translation uses `claude-haiku-4-5` ($1/$5 per 1M in/out), ~3× cheaper
+  than Sonnet and ample for news headlines/summaries.
+- **Twice-daily schedule** — limits how often new items are translated.
+
+With all three, expect roughly **$0.05–0.15/day**. (A naïve setup — re-translating
+every item, 4×/day, on Sonnet — runs ~$1.50/day, mostly output tokens.)

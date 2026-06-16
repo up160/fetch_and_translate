@@ -294,8 +294,11 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
     ]
     prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
 
+    # Haiku is ~3x cheaper than Sonnet on input/output and is more than capable
+    # of translating short news headlines and summaries. Output tokens dominate
+    # the bill, so this is the single biggest per-token cost lever.
     response = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-haiku-4-5",
         max_tokens=8000,
         messages=[{"role": "user", "content": prompt}],
     )
