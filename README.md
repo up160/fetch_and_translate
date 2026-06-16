@@ -48,9 +48,15 @@ Commit the resulting `feed.json`, then push. The site will render immediately.
 
 ### 4. Let it run automatically
 
-The `Update feed` GitHub Action runs twice a day. You can also trigger it manually from the **Actions** tab → **Update feed** → **Run workflow**.
+The `Update feed` GitHub Action runs four times a day — two slots in the early UK
+morning (06:23 / 07:23 BST), plus midday and evening — so World Cup scores are
+fresh for a morning read. You can also trigger it manually from the **Actions**
+tab → **Update feed** → **Run workflow**.
 
-Unchanged items are **not** re-translated: each run reuses the Spanish text from the previous `feed.json` and only sends genuinely new items to Claude, so the recurring schedule costs very little.
+Unchanged items are **not** re-translated: each run reuses the Spanish text from
+the previous `feed.json` and only sends genuinely new items to Claude. A run over
+an unchanged feed makes **zero** API calls, so the number of runs barely affects
+cost — only the number of genuinely new items does.
 
 ## Feeds Included
 
@@ -94,17 +100,37 @@ CI (`.github/workflows/ci.yml`) runs lint + tests on every pull request.
 
 ## Estimated Claude API cost
 
-Cost is dominated by **output** tokens (the generated Spanish), which are priced
-~5× higher than input. A full run translating all ~105 items is ~22K input +
-~21K output tokens.
+The bill is driven by one number: **how many genuinely new items get translated
+per day**. Because translations are cached (by item id + unchanged English text),
+re-running over the same items costs nothing — run frequency is irrelevant.
 
-Three things keep the bill small:
+**Per item** (~270-token English title+summary in, slightly longer Spanish out,
+prompt overhead amortised across chunks of 8) is roughly:
 
-- **Per-run caching** — only genuinely new items are translated each run, not the
-  whole feed. After the first run a typical run translates a handful of items.
-- **Model** — translation uses `claude-haiku-4-5` ($1/$5 per 1M in/out), ~3× cheaper
-  than Sonnet and ample for news headlines/summaries.
-- **Twice-daily schedule** — limits how often new items are translated.
+| | tokens/item | price (Haiku 4.5) | $/item |
+|---|---|---|---|
+| Input  | ~310 | $1 / 1M | $0.0003 |
+| Output | ~300 | $5 / 1M | $0.0015 |
+| **Total** | | | **~$0.0018** |
 
-With all three, expect roughly **$0.05–0.15/day**. (A naïve setup — re-translating
-every item, 4×/day, on Sonnet — runs ~$1.50/day, mostly output tokens.)
+**Per day** = new items × ~$0.0018:
+
+| Scenario | New items/day | Daily cost |
+|---|---|---|
+| Quiet day (no live football) | ~30 | **~$0.05** |
+| World Cup group stage (many results + news) | ~50–60 | **~$0.10** |
+| First run ever (translates all ~105 at once) | 105 | ~$0.19 (one-off) |
+
+So expect roughly **$0.05–0.12/day (~$1.50–3.50/month)** in steady state.
+
+What keeps it there:
+
+- **Per-run caching** — only genuinely new items are translated. A finished World
+  Cup result never changes its score, so it translates once and is reused forever.
+- **Model** — `claude-haiku-4-5` ($1/$5 per 1M in/out), ~3× cheaper than Sonnet and
+  ample for news headlines. Output tokens dominate, so this is the biggest lever.
+
+The earlier ~$1.50/day burn came from the *pre-caching* setup: re-translating
+**every** item, four times a day, on Sonnet — i.e. ~105 items × 4 runs × Sonnet
+pricing instead of ~40 new items × 1 × Haiku. Caching + Haiku, not fewer runs, is
+what fixed it.
