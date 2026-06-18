@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T05:11:11.720457+00:00",
-  "item_count": 102,
+  "generated_at": "2026-06-18T10:51:44.684212+00:00",
+  "item_count": 108,
   "items": [
     {
       "id": "wc27995a0d",
@@ -135,6 +135,18 @@
       "summary_es": "Group Stage · GROUP_L. Played on 2026-06-17."
     },
     {
+      "id": "wc8defcdce",
+      "title_en": "Ghana 1–0 Panama",
+      "summary_en": "Group Stage · GROUP_L. Played on 2026-06-17.",
+      "image": "",
+      "link": "",
+      "published": "2026-06-17T23:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Ghana 1–0 Panama",
+      "summary_es": "Group Stage · GROUP_L. Played on 2026-06-17."
+    },
+    {
       "id": "wcbccea7aa",
       "title_en": "Uzbekistan 1–3 Colombia",
       "summary_en": "Group Stage · GROUP_K. Played on 2026-06-18.",
@@ -147,16 +159,28 @@
       "summary_es": "Group Stage · GROUP_K. Played on 2026-06-18."
     },
     {
-      "id": "b70ee00bef",
-      "title_en": "England surge to thrilling opening win in World Cup cracker with Croatia",
-      "summary_en": "Thomas Tuchel made it plain that when the stress came with the serious business of World Cup matches, he believed his England team would thrive. What had gone before, especially in the friendlies, was little more than a distraction. Here in the Lone Star state, which tallies with what England have on their shirts, it was time to make a statement about that second star.There was a fair helping of stress against Croatia, the 11th best team in the world and the highest ranked pot two nation in the tournament – particularly in the first half. It was down to defending that was simply too open and generous. A seesaw opening 45 minutes ended 2-2, Harry Kane scoring England’s goals, the first from a retaken penalty. Martin Baturina and Petar Musa replied for Croatia. England were powerful on corners. The overall sense in open play was one of confusion. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/89b2a7564d5ec95f330593f5f1d8200749e55d5a/443_225_5864_4690/master/5864.jpg?width=140&quality=85&auto=format&fit=max&s=0194b7224c7208d4582034db02e732d2",
-      "link": "https://www.theguardian.com/football/2026/jun/17/england-croatia-world-cup-2026-group-l-match-report",
-      "published": "Wed, 17 Jun 2026 22:01:01 GMT",
+      "id": "8cfb683e73",
+      "title_en": "World Cup 2026: England’s Bellingham playing with ‘chip on shoulder’, Liverpool to sign Spain’s Muñoz for £34.5m – live",
+      "summary_en": "⚽ All the latest news from day eight of the tournament⚽ Player guide | Bracketology | Golden Boot | Mail usA fresh England line hot off the wires coming right up …If by some bizarre chance you missed it, here’s a gallery of some of the best images from England 4-2 Croatia: Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/ea55756a698281a6639cb783fff8148071448e8e/1098_520_3759_3007/master/3759.jpg?width=140&quality=85&auto=format&fit=max&s=e68c1fbbe6c41d2a56cb823da28d0782",
+      "link": "https://www.theguardian.com/football/live/2026/jun/18/world-cup-2026-england-croatia-fans-czechia-south-africa-switzerland-bosnia-and-herzegovina-canada-qatar-mexico-south-korea-live",
+      "published": "Thu, 18 Jun 2026 10:42:17 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "England surge to thrilling opening win in World Cup cracker with Croatia",
-      "summary_es": "Thomas Tuchel made it plain that when the stress came with the serious business of World Cup matches, he believed his England team would thrive. What had gone before, especially in the friendlies, was little more than a distraction. Here in the Lone Star state, which tallies with what England have on their shirts, it was time to make a statement about that second star.There was a fair helping of stress against Croatia, the 11th best team in the world and the highest ranked pot two nation in the tournament – particularly in the first half. It was down to defending that was simply too open and generous. A seesaw opening 45 minutes ended 2-2, Harry Kane scoring England’s goals, the first from a retaken penalty. Martin Baturina and Petar Musa replied for Croatia. England were powerful on corners. The overall sense in open play was one of confusion. Continue reading..."
+      "title_es": "World Cup 2026: England’s Bellingham playing with ‘chip on shoulder’, Liverpool to sign Spain’s Muñoz for £34.5m – live",
+      "summary_es": "⚽ All the latest news from day eight of the tournament⚽ Player guide | Bracketology | Golden Boot | Mail usA fresh England line hot off the wires coming right up …If by some bizarre chance you missed it, here’s a gallery of some of the best images from England 4-2 Croatia: Continue reading..."
+    },
+    {
+      "id": "266ff029bb",
+      "title_en": "Harry Kane reveals half-time Tuchel pep-talk inspired England to victory over Croatia",
+      "summary_en": "Storming second-half display comes after coach’s speechCoach tells team to ‘show the world what we can be’Harry Kane has revealed that a half-time speech from Thomas Tuchel when he told England “to show the world what we can be” inspired victory in their opening match of the 2026 World Cup.Croatia equalised twice before half-time after Kane had equalled Gary Lineker’s record for goals scored by an England player at the World Cup finals with a penalty and a header from Declan Rice’s corner. But a much-improved performance in the second half saw Jude Bellingham re-establish England’s lead before Marcus Rashford came off the bench to wrap up the victory late on. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/6da05e44569f665ca9e92298c43971c3aa25a77a/973_568_2790_2232/master/2790.jpg?width=140&quality=85&auto=format&fit=max&s=f46f2e5efecff5206bd89eb2449b0958",
+      "link": "https://www.theguardian.com/football/2026/jun/18/harry-kane-england-croatia-inspired-thomas-tuchel-speech",
+      "published": "Wed, 17 Jun 2026 23:32:27 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Harry Kane reveals half-time Tuchel pep-talk inspired England to victory over Croatia",
+      "summary_es": "Storming second-half display comes after coach’s speechCoach tells team to ‘show the world what we can be’Harry Kane has revealed that a half-time speech from Thomas Tuchel when he told England “to show the world what we can be” inspired victory in their opening match of the 2026 World Cup.Croatia equalised twice before half-time after Kane had equalled Gary Lineker’s record for goals scored by an England player at the World Cup finals with a penalty and a header from Declan Rice’s corner. But a much-improved performance in the second half saw Jude Bellingham re-establish England’s lead before Marcus Rashford came off the bench to wrap up the victory late on. Continue reading..."
     },
     {
       "id": "c7566e2896",
@@ -171,40 +195,28 @@
       "summary_es": "Lionel Messi and Kylian Mbappé are vying to become not just 2026 World Cup winners but also the greatest goalscorers in the history of the tournament. Here’s how they compare with others on the all-time listGolden Boot: World Cup 2026 top goalscorers Lionel Messi started his 2026 World Cup campaign with a hat-trick in a 3-0 win over Algeria.The trio of strikes gave him a career total of 16 World Cup goals, equalling the existing record held by Miroslav Klose. It’s reasonable to expect the Inter Miami player to set a new mark this summer but he is being chased hard by Kylian Mbappé. He scored twice in France’s opening match victory against Senegal, giving him a total of 14 goals since his competition debut eight years ago. Continue reading..."
     },
     {
+      "id": "517bd992fb",
+      "title_en": "The World Cup viewed from afar is more like ambient noise – a far cry from working at it | Jonathan Liew",
+      "summary_en": "Covering a tournament, my smartwatch showed my heart rate was 10-20 beats above normal. How luxurious to half-watchI fell asleep at some point during the Netherlands v Japan game. It had been a hot and drowsy day by the shores of Lake Annecy, a square and heavy heat, where the sun and the driving and the food and the boxed wine gently squeeze all the life from your body, like air being pressed out of a juice carton.I remember Virgil van Dijk angling a header into the far corner, and when I came to it was 2-1, and everyone was heading to bed, drunk on tiredness, drunk on life, drunk on drink. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/712d99f5774f5a047cf366bce6f76c8bf57bd871/521_0_4583_3666/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=5453ed203275082d408c9037b0c71320",
+      "link": "https://www.theguardian.com/football/2026/jun/18/world-cup-viewed-from-afar-like-ambient-noise",
+      "published": "Thu, 18 Jun 2026 07:00:04 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "The World Cup viewed from afar is more like ambient noise – a far cry from working at it | Jonathan Liew",
+      "summary_es": "Covering a tournament, my smartwatch showed my heart rate was 10-20 beats above normal. How luxurious to half-watchI fell asleep at some point during the Netherlands v Japan game. It had been a hot and drowsy day by the shores of Lake Annecy, a square and heavy heat, where the sun and the driving and the food and the boxed wine gently squeeze all the life from your body, like air being pressed out of a juice carton.I remember Virgil van Dijk angling a header into the far corner, and when I came to it was 2-1, and everyone was heading to bed, drunk on tiredness, drunk on life, drunk on drink. Continue reading..."
+    },
+    {
       "id": "5aa84586cc",
       "title_en": "Colombia squeeze past dogged Uzbekistan to open World Cup campaign with victory",
-      "summary_en": "Some very good things have come from Croydon, the often overlooked town in south London. The film director David Lean was born there, as was the singer Amy Winehouse, the actor Peggy Ashcroft and the sexologist Havelock Ellis. Roy Hodgson comes from Croydon. The Bill and Peep Show were filmed there, as was the title sequence of the 1980s sitcom Terry and June. For a long time it was a centre of brewing and leather production. It was on a suburban driveway there that Pickles found the Jules Rimet trophy after it had been stolen in 1966. And on Wednesday Croydon proved the crucible of the remarkable goal that gave Colombia the lead against Uzbekistan.Daniel Muñoz’s brilliant strike, created by Jefferson Lerma, set Colombia on their way to a victory that should never have been as edgy as it ended up being. It was, in truth, a game desperately in need of something special. In Lean’s greatest",
+      "summary_en": "Some very good things have come from Croydon, the often overlooked town in south London. The film director David Lean was born there, as was Roy Hodgson, the actor Peggy Ashcroft and the sexologist Havelock Ellis. Amy Winehouse studied in Croydon. The Bill and Peep Show were filmed there, as was the title sequence of the 1980s sitcom Terry and June. For a long time it was a centre of brewing and leather production. It was on a suburban driveway there that Pickles found the Jules Rimet trophy after it had been stolen in 1966. And on Wednesday Croydon proved the crucible of Colombia’s victory over Uzbekistan.Daniel Muñoz’s brilliant strike, created by Luis Díaz, set Colombia on heir way to a win that should never have been as edgy as it ended up being. But his Crystal Palace teammate Jefferson Lerma was a key figure in the centre of midfield, a controlling figure in Colombia’s domination o",
       "image": "https://i.guim.co.uk/img/media/cd9477f8d1015d76a293e837aa61adcd513b46d5/402_0_2839_2272/master/2839.jpg?width=140&quality=85&auto=format&fit=max&s=f379fdf226d95d6b0ad3dcce5a05ed48",
       "link": "https://www.theguardian.com/football/2026/jun/18/uzbekistan-colombia-world-cup-2026-group-k-match-report",
       "published": "Thu, 18 Jun 2026 04:22:57 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
       "title_es": "Colombia squeeze past dogged Uzbekistan to open World Cup campaign with victory",
-      "summary_es": "Some very good things have come from Croydon, the often overlooked town in south London. The film director David Lean was born there, as was the singer Amy Winehouse, the actor Peggy Ashcroft and the sexologist Havelock Ellis. Roy Hodgson comes from Croydon. The Bill and Peep Show were filmed there, as was the title sequence of the 1980s sitcom Terry and June. For a long time it was a centre of brewing and leather production. It was on a suburban driveway there that Pickles found the Jules Rimet trophy after it had been stolen in 1966. And on Wednesday Croydon proved the crucible of the remarkable goal that gave Colombia the lead against Uzbekistan.Daniel Muñoz’s brilliant strike, created by Jefferson Lerma, set Colombia on their way to a victory that should never have been as edgy as it ended up being. It was, in truth, a game desperately in need of something special. In Lean’s greatest"
-    },
-    {
-      "id": "c05b2bff5c",
-      "title_en": "Ghana grab vital World Cup victory over Panama after Caleb Yirenkyi’s last-gasp goal",
-      "summary_en": "A late goal from Caleb Yirenkyi gave Ghana a 1-0 win over Panama as they joined England at the top of Group L. Yirenkyi steered in Brandon Thomas-Asante’s cross in stoppage time to settle a match of few clear chances.Cecilio Waterman forced a good save from the Ghana goalkeeper Lawrence Ati-Zigi in the second minute as he met a cross from the right, but it was a rare opening in a cagey first half in the Toronto rain. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/ae1cf5709394c272f81a5892907f873128e07cf0/224_80_3260_2608/master/3260.jpg?width=140&quality=85&auto=format&fit=max&s=9f3a42ab0d2b5b7c88ad6ca1bc7871e2",
-      "link": "https://www.theguardian.com/football/2026/jun/18/ghana-panama-world-cup-2026-match-report-group-l",
-      "published": "Thu, 18 Jun 2026 01:31:33 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Ghana grab vital World Cup victory over Panama after Caleb Yirenkyi’s last-gasp goal",
-      "summary_es": "A late goal from Caleb Yirenkyi gave Ghana a 1-0 win over Panama as they joined England at the top of Group L. Yirenkyi steered in Brandon Thomas-Asante’s cross in stoppage time to settle a match of few clear chances.Cecilio Waterman forced a good save from the Ghana goalkeeper Lawrence Ati-Zigi in the second minute as he met a cross from the right, but it was a rare opening in a cagey first half in the Toronto rain. Continue reading..."
-    },
-    {
-      "id": "d7ee2a30d2",
-      "title_en": "Yoane Wissa gives DR Congo first ever World Cup point in draw with Portugal",
-      "summary_en": "The clock was about to hit 83 minutes when Roberto Martínez rolled the dice one last time. His team certainly needed extra movement up front so it hardly confounded logic that Gonçalo Ramos was stripped and ready. What made less sense was that Vitinha departed while Cristiano Ronaldo, peripheral save for two earlier half-chances, remained on and slogged his way towards the end of a draw that could check Portugal’s summer ambitions.Ronaldo’s baying followers, swathes of them with local accents and wearing his No 7 shirt, had done their best to cajole a meaningful contribution from their idol but ultimately they had to settle for being under the same roof. Perhaps they expected a repeat of Lionel Messi’s staggering performance the previous night but Ronaldo did little to assuage concerns that his presence, once glorious, is nowadays a dead weight. The watching Gianni Infantino could have b",
-      "image": "https://i.guim.co.uk/img/media/a4f1aeff95f4c0a82cec27a4146046a34e4bf452/297_0_5016_4013/master/5016.jpg?width=140&quality=85&auto=format&fit=max&s=e754b7e8a8c39e946f587aa978c837e3",
-      "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
-      "published": "Wed, 17 Jun 2026 19:28:06 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Yoane Wissa gives DR Congo first ever World Cup point in draw with Portugal",
-      "summary_es": "The clock was about to hit 83 minutes when Roberto Martínez rolled the dice one last time. His team certainly needed extra movement up front so it hardly confounded logic that Gonçalo Ramos was stripped and ready. What made less sense was that Vitinha departed while Cristiano Ronaldo, peripheral save for two earlier half-chances, remained on and slogged his way towards the end of a draw that could check Portugal’s summer ambitions.Ronaldo’s baying followers, swathes of them with local accents and wearing his No 7 shirt, had done their best to cajole a meaningful contribution from their idol but ultimately they had to settle for being under the same roof. Perhaps they expected a repeat of Lionel Messi’s staggering performance the previous night but Ronaldo did little to assuage concerns that his presence, once glorious, is nowadays a dead weight. The watching Gianni Infantino could have b"
+      "summary_es": "Some very good things have come from Croydon, the often overlooked town in south London. The film director David Lean was born there, as was Roy Hodgson, the actor Peggy Ashcroft and the sexologist Havelock Ellis. Amy Winehouse studied in Croydon. The Bill and Peep Show were filmed there, as was the title sequence of the 1980s sitcom Terry and June. For a long time it was a centre of brewing and leather production. It was on a suburban driveway there that Pickles found the Jules Rimet trophy after it had been stolen in 1966. And on Wednesday Croydon proved the crucible of Colombia’s victory over Uzbekistan.Daniel Muñoz’s brilliant strike, created by Luis Díaz, set Colombia on heir way to a win that should never have been as edgy as it ended up being. But his Crystal Palace teammate Jefferson Lerma was a key figure in the centre of midfield, a controlling figure in Colombia’s domination o"
     },
     {
       "id": "9e0d339b97",
@@ -217,6 +229,18 @@
       "source": "BBC Football",
       "title_es": "This was an England we haven't seen for years - and it was fun",
       "summary_es": "Fun to watch and full of intent - this was an England we have not seen for years, writes Phil McNulty."
+    },
+    {
+      "id": "8a56c3b496",
+      "title_en": "Tactical analysis: England look exciting but how can they tighten up?",
+      "summary_en": "England produced some exciting attacking football while beating Croatia 4-2 but why did they look so shaky defensively?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20ba/live/4d7a6b00-6afb-11f1-80a3-b70219ebe550.jpg",
+      "link": "https://www.bbc.com/sport/articles/c98256ypwy0o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 09:38:00 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "Tactical analysis: England look exciting but how can they tighten up?",
+      "summary_es": "England produced some exciting attacking football while beating Croatia 4-2 but why did they look so shaky defensively?"
     },
     {
       "id": "8c85ba4eae",
@@ -243,28 +267,16 @@
       "summary_es": "England make a winning start to their World Cup 2026 campaign, beating Croatia 4-2 in a thrilling match in Dallas."
     },
     {
-      "id": "19e72f3f17",
-      "title_en": "Fans boo, players adapt - the view on World Cup hydration breaks",
-      "summary_en": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecfe/live/41c55af0-6aaf-11f1-b0a8-bdf55820aa52.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cwye0zdm9j4o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 18 Jun 2026 02:21:20 GMT",
+      "id": "669e2ce34d",
+      "title_en": "Konate to join Real Madrid on four-year deal",
+      "summary_en": "Real Madrid agree a deal to sign Ibrahima Konate on a four-year contract when the France centre-back leaves Liverpool at the end of June.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25f5/live/553a0f80-6afb-11f1-80a3-b70219ebe550.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/crr8797ek15o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 10:05:33 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Fans boo, players adapt - the view on World Cup hydration breaks",
-      "summary_es": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways."
-    },
-    {
-      "id": "8eeec6b143",
-      "title_en": "'Chip on shoulder' may help Bellingham to best form",
-      "summary_en": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3a9/live/1d390750-6aa9-11f1-9a45-c56b5234f7dc.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 18 Jun 2026 00:12:10 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "'Chip on shoulder' may help Bellingham to best form",
-      "summary_es": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup."
+      "title_es": "Konate to join Real Madrid on four-year deal",
+      "summary_es": "Real Madrid agree a deal to sign Ibrahima Konate on a four-year contract when the France centre-back leaves Liverpool at the end of June."
     },
     {
       "id": "6708d93627",
@@ -279,18 +291,6 @@
       "summary_es": "I used to not mind having pets. I've had multiple throughout the years. We have 2 dogs now that we've had before having our 2 year old. &#x200b; But idk of I'm alone in this but I can't stand having pet dogs after having a kid. They still get fed, walked, vet visits, etc. But maaaaaan am I tired of doing it. &#x200b; Maybe it's because a 2yo can can destroy a house in no time then there's dog hair on top of that? I'm not sure but I'm over it. &#x200b; My wife and kid love them and that's fine. But I've mentioned thousands of times that I don't want anymore pets after these 2 &#x200b; Anybody else? &#32; submitted by &#32; /u/tigersmhs07 [link] &#32; [comments]"
     },
     {
-      "id": "b8cd7f337b",
-      "title_en": "If the current trend continues my son will be able sprint over 4,000 mph by 16.",
-      "summary_en": "Yesterday he was able to hit 6 mph, today 7 mph. At this rate by 16 he’ll peak at around Mach 5. &#32; submitted by &#32; /u/Hmmhowaboutthis [link] &#32; [comments]",
-      "image": "https://preview.redd.it/i1xmxuxf3v7h1.jpeg?width=640&crop=smart&auto=webp&s=df761de236558341fab24205622733c6598944c9",
-      "link": "https://www.reddit.com/r/daddit/comments/1u8dgnu/if_the_current_trend_continues_my_son_will_be/",
-      "published": "2026-06-17T15:31:28+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "If the current trend continues my son will be able sprint over 4,000 mph by 16.",
-      "summary_es": "Yesterday he was able to hit 6 mph, today 7 mph. At this rate by 16 he’ll peak at around Mach 5. &#32; submitted by &#32; /u/Hmmhowaboutthis [link] &#32; [comments]"
-    },
-    {
       "id": "49d6923b25",
       "title_en": "After 5 years, my son took his first steps",
       "summary_en": "My son was born with a very rare disorder that comes with many symptoms. Among them is ataxia and hypotonia, making it very difficult for kids with this condition to learn to walk. But after 5 years of tireless effort, he managed to take his first steps on December 11, 2025. And since then he's been a walking machine. I would say he can comfortably walk for up to 2-3 mins, sometimes even 5. He looks like a drunken sailor when he does, but he always has the biggest smile on his face. I made this video some months ago but just realize i could post it via a link (i can't post the raw video). &#32; submitted by &#32; /u/SunnyTechie [link] &#32; [comments]",
@@ -301,6 +301,18 @@
       "source": "r/daddit",
       "title_es": "After 5 years, my son took his first steps",
       "summary_es": "My son was born with a very rare disorder that comes with many symptoms. Among them is ataxia and hypotonia, making it very difficult for kids with this condition to learn to walk. But after 5 years of tireless effort, he managed to take his first steps on December 11, 2025. And since then he's been a walking machine. I would say he can comfortably walk for up to 2-3 mins, sometimes even 5. He looks like a drunken sailor when he does, but he always has the biggest smile on his face. I made this video some months ago but just realize i could post it via a link (i can't post the raw video). &#32; submitted by &#32; /u/SunnyTechie [link] &#32; [comments]"
+    },
+    {
+      "id": "b8cd7f337b",
+      "title_en": "If the current trend continues my son will be able sprint over 4,000 mph by 16.",
+      "summary_en": "Yesterday he was able to hit 6 mph, today 7 mph. At this rate by 16 he’ll peak at around Mach 5. &#32; submitted by &#32; /u/Hmmhowaboutthis [link] &#32; [comments]",
+      "image": "https://preview.redd.it/i1xmxuxf3v7h1.jpeg?width=640&crop=smart&auto=webp&s=df761de236558341fab24205622733c6598944c9",
+      "link": "https://www.reddit.com/r/daddit/comments/1u8dgnu/if_the_current_trend_continues_my_son_will_be/",
+      "published": "2026-06-17T15:31:28+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "If the current trend continues my son will be able sprint over 4,000 mph by 16.",
+      "summary_es": "Yesterday he was able to hit 6 mph, today 7 mph. At this rate by 16 he’ll peak at around Mach 5. &#32; submitted by &#32; /u/Hmmhowaboutthis [link] &#32; [comments]"
     },
     {
       "id": "94d88aa70c",
@@ -639,15 +651,27 @@
       "summary_es": "Comments"
     },
     {
-      "id": "c4683e58b2",
-      "title_en": "Lore – Open source version control system designed for scalability",
+      "id": "cd3f23036a",
+      "title_en": "I need your clothes, your boots, and your motorcycle",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://lore.org/",
-      "published": "Wed, 17 Jun 2026 14:30:27 +0000",
+      "link": "https://rbelmont.mameworld.info/?p=1725",
+      "published": "Thu, 18 Jun 2026 08:28:04 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Lore – Open source version control system designed for scalability",
+      "title_es": "I need your clothes, your boots, and your motorcycle",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "c514755e7e",
+      "title_en": "DeepSeek Introduces Vision",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://chat.deepseek.com/",
+      "published": "Thu, 18 Jun 2026 06:17:40 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "DeepSeek Introduces Vision",
       "summary_es": "Comments"
     },
     {
@@ -663,28 +687,28 @@
       "summary_es": "Comments"
     },
     {
-      "id": "2b2b66bd14",
-      "title_en": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+      "id": "c4683e58b2",
+      "title_en": "Lore – Open source version control system designed for scalability",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
-      "published": "Wed, 17 Jun 2026 03:55:16 +0000",
+      "link": "https://lore.org/",
+      "published": "Wed, 17 Jun 2026 14:30:27 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+      "title_es": "Lore – Open source version control system designed for scalability",
       "summary_es": "Comments"
     },
     {
-      "id": "77a679a09d",
-      "title_en": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://www.horg.com/horg/?page_id=921",
-      "published": "Wed, 17 Jun 2026 23:20:38 +0000",
+      "id": "f21568bf6d",
+      "title_en": "Hulk, Punisher join Peter Parker in Spider-Man: Brand New Day trailer",
+      "summary_en": "Peter Parker to Bruce Banner: \"I didn't know you could get that big.\"",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/brandnewday-1152x648.jpg",
+      "link": "https://arstechnica.com/culture/2026/06/hulk-punisher-join-peter-parker-in-spider-man-brand-new-day-trailer/",
+      "published": "Thu, 18 Jun 2026 06:37:59 +0000",
       "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
-      "summary_es": "Comments"
+      "source": "Ars Technica",
+      "title_es": "Hulk, Punisher join Peter Parker in Spider-Man: Brand New Day trailer",
+      "summary_es": "Peter Parker to Bruce Banner: \"I didn't know you could get that big.\""
     },
     {
       "id": "e92c7ce1f7",
@@ -735,76 +759,76 @@
       "summary_es": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet."
     },
     {
-      "id": "c767b5e1d4",
-      "title_en": "Tesco moving 40,000 server workloads off VMware amid Broadcom's “abusive conduct”",
-      "summary_en": "Tesco claimed Broadcom hiked its VMware prices by about 175 percent in UK court filings.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1265241057-1152x648.jpg",
-      "link": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
-      "published": "Wed, 17 Jun 2026 19:43:13 +0000",
-      "category": "Tech",
-      "source": "Ars Technica",
-      "title_es": "Tesco moving 40,000 server workloads off VMware amid Broadcom's “abusive conduct”",
-      "summary_es": "Tesco claimed Broadcom hiked its VMware prices by about 175 percent in UK court filings."
-    },
-    {
-      "id": "b467d38c24",
-      "title_en": "Watch: England fans cheer each goal in exhilarating opener",
-      "summary_en": "Supporters for both sides turned out in droves to watch England v Croatia in their opening match of the World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a50f/live/98df62f0-6aa9-11f1-8546-8f19e4fe30f4.jpg",
-      "link": "https://www.bbc.com/news/videos/cy4983lgmx7o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 18 Jun 2026 00:11:25 GMT",
+      "id": "f782b8e89d",
+      "title_en": "What's in the US-Iran agreement?",
+      "summary_en": "The 14-paragraph memo includes an end to fighting, an agreement that Iran will never have a nuclear weapon, and a $300bn redevelopment package for Iran.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f98a/live/6ca37a50-6af9-11f1-b1db-af71d47507d6.jpg",
+      "link": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 01:28:02 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Watch: England fans cheer each goal in exhilarating opener",
-      "summary_es": "Supporters for both sides turned out in droves to watch England v Croatia in their opening match of the World Cup."
-    },
-    {
-      "id": "a206903e77",
-      "title_en": "US and Iranian presidents sign deal aiming to end war",
-      "summary_en": "The fate of Iran's nuclear programme, a key reason cited by the US for starting the conflict, is still to be negotiated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f95/live/874d2760-6ac8-11f1-8cac-9967252eb7c4.jpg",
-      "link": "https://www.bbc.com/news/articles/crr8z4z2er9o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 18 Jun 2026 03:03:29 GMT",
-      "category": "News",
-      "source": "BBC News",
-      "title_es": "US and Iranian presidents sign deal aiming to end war",
-      "summary_es": "The fate of Iran's nuclear programme, a key reason cited by the US for starting the conflict, is still to be negotiated."
+      "title_es": "What's in the US-Iran agreement?",
+      "summary_es": "The 14-paragraph memo includes an end to fighting, an agreement that Iran will never have a nuclear weapon, and a $300bn redevelopment package for Iran."
     },
     {
       "id": "28c4e91a08",
-      "title_en": "Cervical cancer deaths in England fall to zero in young women given vaccine",
+      "title_en": "Young women now have 'close to zero' risk of cervical cancer death after HPV jab",
       "summary_en": "A new study finds that hundreds of lives have been saved since school-age girls were offered the HPV jab in 2008.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/05ea/live/bb292b00-697a-11f1-a63b-a7cb529e1ca8.png",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/baa4/live/3b93ba90-6add-11f1-8e1d-bbbb1017d210.jpg",
       "link": "https://www.bbc.com/news/articles/c621z28z138o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 17 Jun 2026 23:01:33 GMT",
+      "published": "Thu, 18 Jun 2026 08:14:34 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Cervical cancer deaths in England fall to zero in young women given vaccine",
+      "title_es": "Young women now have 'close to zero' risk of cervical cancer death after HPV jab",
       "summary_es": "A new study finds that hundreds of lives have been saved since school-age girls were offered the HPV jab in 2008."
     },
     {
-      "id": "4d3a263542",
-      "title_en": "Simpler, older version of Stonehenge found three miles from famous site",
-      "summary_en": "The structure consisted of two posts that lined up with the solstices 5,000 years ago.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b98b/live/ffa2acf0-6a5d-11f1-8115-ed1047107edc.jpg",
-      "link": "https://www.bbc.com/news/articles/clyxw8550y8o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 17 Jun 2026 23:11:29 GMT",
+      "id": "7ab6faa18c",
+      "title_en": "Church of England apologises for role in forced adoptions",
+      "summary_en": "Thousands of unmarried women were pressured to give up their babies between 1949 and 1976.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1587/live/45ff25b0-6aff-11f1-8e1d-bbbb1017d210.jpg",
+      "link": "https://www.bbc.com/news/articles/clywz07y942o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 10:00:07 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Simpler, older version of Stonehenge found three miles from famous site",
-      "summary_es": "The structure consisted of two posts that lined up with the solstices 5,000 years ago."
+      "title_es": "Church of England apologises for role in forced adoptions",
+      "summary_es": "Thousands of unmarried women were pressured to give up their babies between 1949 and 1976."
     },
     {
-      "id": "1e7e12fd80",
-      "title_en": "ChatGPT can be made to generate sexualised and violent images, researchers find",
-      "summary_en": "But researchers say its still possible to trick the AI chatbot into producing graphic content.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf33/live/1d5b0120-6a4f-11f1-9742-4f68b41a569d.jpg",
-      "link": "https://www.bbc.com/news/articles/c802ldjdklzo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 17 Jun 2026 23:07:40 GMT",
+      "id": "3d5bafa671",
+      "title_en": "Amber heat health alerts issued with UK temperatures set to soar above 30C",
+      "summary_en": "Very warm weather is set to return to parts of the UK with temperatures of 30C plus expected, as Europe experiences a 'heat dome'.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcad/live/c026e8b0-6ae0-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.com/weather/articles/c79y35nl719o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 09:17:50 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "ChatGPT can be made to generate sexualised and violent images, researchers find",
-      "summary_es": "But researchers say its still possible to trick the AI chatbot into producing graphic content."
+      "title_es": "Amber heat health alerts issued with UK temperatures set to soar above 30C",
+      "summary_es": "Very warm weather is set to return to parts of the UK with temperatures of 30C plus expected, as Europe experiences a 'heat dome'."
+    },
+    {
+      "id": "bbe2b4911b",
+      "title_en": "Moscow hit by largest Ukrainian attack since start of Russia's full-scale war",
+      "summary_en": "A refinery and a shopping centre were burning after almost 200 Ukrainian drones struck an area to the south-east of the Russian capital.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae2/live/ad91a090-6af5-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.com/news/articles/c98291g5rr1o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 09:47:47 GMT",
+      "category": "News",
+      "source": "BBC News",
+      "title_es": "Moscow hit by largest Ukrainian attack since start of Russia's full-scale war",
+      "summary_es": "A refinery and a shopping centre were burning after almost 200 Ukrainian drones struck an area to the south-east of the Russian capital."
+    },
+    {
+      "id": "a6d566bbb2",
+      "title_en": "The malignant rise of OnlyFans managers: ‘It’s exploiting. It’s grooming. It’s predatory’",
+      "summary_en": "As the pornography platform has exploded in popularity, a side industry has emerged: middlemen who encourage young women into the industry, then take a large cut of their earningsMarkuss Hussle wants his online students to understand one thing: he knows how to make money. There is no subtlety involved. He gives an hour-long presentation in one video, sitting next to his silver Lamborghini. In another, he splices his money-making tips with footage of a ski weekend with his friends in Courchevel, in the French Alps, including shots of private jets, helicopters and a girlfriend in a fur coat. He claims the trip cost $100,000 (£75,000). He shows off his watches and his swimming pool and talks about how his mother worked three jobs as a cleaner until he “retired her” and bought her a home by the sea.If you were not paying close attention to the spreadsheets and presentations interspersed with",
+      "image": "https://i.guim.co.uk/img/media/cbcf06589490e83e8e1b3f7031ae808101384b52/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=bcbd3a6eb9eac7e0b598812785688d4b",
+      "link": "https://www.theguardian.com/society/2026/jun/18/malignant-rise-onlyfans-managers-exploiting-grooming-predatory",
+      "published": "Thu, 18 Jun 2026 04:00:00 GMT",
+      "category": "News",
+      "source": "The Guardian",
+      "title_es": "The malignant rise of OnlyFans managers: ‘It’s exploiting. It’s grooming. It’s predatory’",
+      "summary_es": "As the pornography platform has exploded in popularity, a side industry has emerged: middlemen who encourage young women into the industry, then take a large cut of their earningsMarkuss Hussle wants his online students to understand one thing: he knows how to make money. There is no subtlety involved. He gives an hour-long presentation in one video, sitting next to his silver Lamborghini. In another, he splices his money-making tips with footage of a ski weekend with his friends in Courchevel, in the French Alps, including shots of private jets, helicopters and a girlfriend in a fur coat. He claims the trip cost $100,000 (£75,000). He shows off his watches and his swimming pool and talks about how his mother worked three jobs as a cleaner until he “retired her” and bought her a home by the sea.If you were not paying close attention to the spreadsheets and presentations interspersed with"
     },
     {
       "id": "e165c8e4a4",
@@ -819,52 +843,40 @@
       "summary_es": "Goal against Croatia in his side’s World Cup opener was an angry one with a rising sense of inevitabilityAnd breathe again. For the opening 45 minutes under the giant Victorian train station roof at the Dallas Stadium, England produced a performance that was a bit like watching one of those YouTube videos where an awkward and frightening Chinese robot has learned how to dance like Michael Jackson.Dogged and occasionally convincing, but the kind of spectacle that does generally end with the robot falling off the stage. England didn’t just play like machines in that first half. They played like faulty machines, scared machines, contributing almost zero free-form football to a 2-2 half-time score that included two Harry Kane set-piece goals; the first a set piece from a set piece, a penalty after a corner, set piece squared. Continue reading..."
     },
     {
-      "id": "b95a4eda2b",
-      "title_en": "Cross purposes: how the England flag got caught in a tug-of-war between rightwing nationalists and football fans",
-      "summary_en": "Last summer the St George’s cross was co-opted by anti-immigrant groups. Now, as the World Cup begins, some communities are reclaiming it as a symbol of a very different sort of prideAs I drove into London with my daughter a week ago, we passed a roadside pub festooned with dozens of England flags. Our eyes met in recognition: we were in one of those areas, we assumed. In the eyes of many, St George’s cross flags have become a kind of territorial marker in the English landscape, signifying a certain kind of identity, a certain kind of politics, not necessarily welcoming to all. As we got closer, though, we realised the pub was actually preparing for the start of the World Cup. Flags of other nations were also on display. We laughed at our mistake and relaxed a bit.It’s a feeling many Britons might have experienced. We’re gearing up for a summer of both exciting international football and",
-      "image": "https://i.guim.co.uk/img/media/1fd40571d71568820c9a2a4f0e5fd8d93611f9b9/870_325_7909_6328/master/7909.jpg?width=140&quality=85&auto=format&fit=max&s=1f4c46b7698415001af5dec0b7d29674",
-      "link": "https://www.theguardian.com/society/2026/jun/17/england-flag-rightwing-nationalists-football-fans-sheffield-kirby-estate-bermondsey-world-cup",
-      "published": "Wed, 17 Jun 2026 15:14:14 GMT",
+      "id": "a363237ed9",
+      "title_en": "Ten years on, we’re living with the ghosts of Brexit. Reform and Restore know that – the rest are playing catch-up | Aditya Chakrabortty",
+      "summary_en": "Starmer’s EU reset is aimed at the conference room. Meanwhile Farage and the hard right mine ethnic resentment on the streetsWhat story does Britain tell itself about Brexit, 10 years after the vote that transformed the country? Watch TV or read the papers and you find one of two viewpoints: from the common room or the conference room.The common room story is about chums and how they fall out. Friendships forged on hallowed playing fields and over Cotswold kitchen suppers, then dashed on the rocks of ambition. The new BBC documentary Brexit: A Very British Civil War is the latest in the genre, recounting what Dave said to Boris said to Michael said to Dom. It oohs at the deals struck over sets of tennis, and aahs at the then prime minister threatening dissenters with: “I will fuck you up for ever.” This is David Cameron as box office: the Scarface of the Bullingdon Club. And Brexit, you ",
+      "image": "https://i.guim.co.uk/img/media/4a6daca56f05c1d0109be76a56a3dc8667bbe6c8/0_1_5000_3999/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=56f4d51f929dfc145400e18d00327c31",
+      "link": "https://www.theguardian.com/commentisfree/2026/jun/18/brexit-ten-years-on-reform-restore-labour",
+      "published": "Thu, 18 Jun 2026 05:00:01 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Cross purposes: how the England flag got caught in a tug-of-war between rightwing nationalists and football fans",
-      "summary_es": "Last summer the St George’s cross was co-opted by anti-immigrant groups. Now, as the World Cup begins, some communities are reclaiming it as a symbol of a very different sort of prideAs I drove into London with my daughter a week ago, we passed a roadside pub festooned with dozens of England flags. Our eyes met in recognition: we were in one of those areas, we assumed. In the eyes of many, St George’s cross flags have become a kind of territorial marker in the English landscape, signifying a certain kind of identity, a certain kind of politics, not necessarily welcoming to all. As we got closer, though, we realised the pub was actually preparing for the start of the World Cup. Flags of other nations were also on display. We laughed at our mistake and relaxed a bit.It’s a feeling many Britons might have experienced. We’re gearing up for a summer of both exciting international football and"
+      "title_es": "Ten years on, we’re living with the ghosts of Brexit. Reform and Restore know that – the rest are playing catch-up | Aditya Chakrabortty",
+      "summary_es": "Starmer’s EU reset is aimed at the conference room. Meanwhile Farage and the hard right mine ethnic resentment on the streetsWhat story does Britain tell itself about Brexit, 10 years after the vote that transformed the country? Watch TV or read the papers and you find one of two viewpoints: from the common room or the conference room.The common room story is about chums and how they fall out. Friendships forged on hallowed playing fields and over Cotswold kitchen suppers, then dashed on the rocks of ambition. The new BBC documentary Brexit: A Very British Civil War is the latest in the genre, recounting what Dave said to Boris said to Michael said to Dom. It oohs at the deals struck over sets of tennis, and aahs at the then prime minister threatening dissenters with: “I will fuck you up for ever.” This is David Cameron as box office: the Scarface of the Bullingdon Club. And Brexit, you "
     },
     {
-      "id": "00869debd5",
-      "title_en": "Glengarry Glen Ross review – Mamet’s gender-swapped motormouths fail to close the deal",
-      "summary_en": "Old Vic theatre, LondonPatrick Marber’s perplexing revival of the salesmen classic amps up the comedy and the performance of masculinity but veers into Bugsy Malone territoryThere are few more masterly portraits of 1980s caveman capitalism than David Mamet’s drama about fast-talking Chicago real estate salesmen. Mamet is arguably the premier playwright for capturing American masculinity of this era, so it is surprising to learn that the idea to stage an all-female version came from him.This new production has the same director as last year’s all-male Broadway revival, Patrick Marber. The wardrobe underlines that the female ensemble are playing at being men, pitted against each other with unequal sales leads and driven to ever more unprincipled acts in the hope to come out on top. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/be115374c4982d35bac430e46834d008e7dfb37c/137_0_1366_1093/master/1366.jpg?width=140&quality=85&auto=format&fit=max&s=ae18933f4f4cdd81274a77b55c0d1c27",
-      "link": "https://www.theguardian.com/stage/2026/jun/18/glengarry-glen-ross-review-old-vic-theatre-david-mamet-patrick-marber",
-      "published": "Wed, 17 Jun 2026 23:01:47 GMT",
+      "id": "885a11457c",
+      "title_en": "Can ecosystems ‘malfunction’?",
+      "summary_en": "We are told the natural world is ‘breaking down’. But forests don’t work like aeroplanes or human heartsA version of this piece was originally published on Aeon as Why we need to think again about ecosystem failureThe Amazon rainforest, according to a 2021 study, is losing its capacity as a carbon sink and now emits more than it absorbs. In the tropics, marine scientists are reporting that coral reefs are in decline, threatening fish stocks. Equally concerning is research into the Atlantic Meridional Overturning Circulation (Amoc), a vast system of ocean currents that helps regulate the climate and is at risk of collapsing this century. The entire global ecosystem appears to be losing its ability to function.We find this view in newspapers, magazines, technical reports and the journals of learned societies.&nbsp;But thinking about the environment in terms of its functions is also how man",
+      "image": "https://i.guim.co.uk/img/media/3366fc7484a8382af5059e5c52d3c673c46a24b3/82_0_3063_2450/master/3063.jpg?width=140&quality=85&auto=format&fit=max&s=0e58f55d19cf7280b1fb1d1a3bae3e49",
+      "link": "https://www.theguardian.com/news/2026/jun/18/can-ecosystems-malfunction",
+      "published": "Thu, 18 Jun 2026 04:00:01 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Glengarry Glen Ross review – Mamet’s gender-swapped motormouths fail to close the deal",
-      "summary_es": "Old Vic theatre, LondonPatrick Marber’s perplexing revival of the salesmen classic amps up the comedy and the performance of masculinity but veers into Bugsy Malone territoryThere are few more masterly portraits of 1980s caveman capitalism than David Mamet’s drama about fast-talking Chicago real estate salesmen. Mamet is arguably the premier playwright for capturing American masculinity of this era, so it is surprising to learn that the idea to stage an all-female version came from him.This new production has the same director as last year’s all-male Broadway revival, Patrick Marber. The wardrobe underlines that the female ensemble are playing at being men, pitted against each other with unequal sales leads and driven to ever more unprincipled acts in the hope to come out on top. Continue reading..."
+      "title_es": "Can ecosystems ‘malfunction’?",
+      "summary_es": "We are told the natural world is ‘breaking down’. But forests don’t work like aeroplanes or human heartsA version of this piece was originally published on Aeon as Why we need to think again about ecosystem failureThe Amazon rainforest, according to a 2021 study, is losing its capacity as a carbon sink and now emits more than it absorbs. In the tropics, marine scientists are reporting that coral reefs are in decline, threatening fish stocks. Equally concerning is research into the Atlantic Meridional Overturning Circulation (Amoc), a vast system of ocean currents that helps regulate the climate and is at risk of collapsing this century. The entire global ecosystem appears to be losing its ability to function.We find this view in newspapers, magazines, technical reports and the journals of learned societies.&nbsp;But thinking about the environment in terms of its functions is also how man"
     },
     {
-      "id": "f7b51308bf",
-      "title_en": "Why did Russian warship fire warning shots in the Channel? – The Latest",
-      "summary_en": "Keir Starmer has called the firing of warning shots by a Russian warship at a British yacht sailing across the Channel on Tuesday ‘deeply concerning and reckless’.Russia’s defence ministry said the yacht was on a ‘dangerous course’ and several attempts were made to contact it – a claim disputed by the retired couple onboard the 40ft yacht.Nosheen Iqbal speaks to the Guardian’s defence and security editor, Dan Sabbagh Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/891db50296d05fcde6941938fd7f83e6cc91d457/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=23c64fa41fd02e57e95bb091ad7e604a",
-      "link": "https://www.theguardian.com/news/video/2026/jun/17/why-did-russia-warship-fire-warning-shots-in-the-channel-the-latest",
-      "published": "Wed, 17 Jun 2026 16:47:47 GMT",
+      "id": "a3f8d8dc3f",
+      "title_en": "‘You learn how to be idiotic artists’: Gilbert & George on fame, rebellion and their mystery new collaborator",
+      "summary_en": "The Britart mavericks have now teamed up with an unlikely artist. Is their odd throuple an elaborate prank – or are the duo passing down their legacy?‘Hello girls,” greets 82-year-old Gilbert Prousch, one half of art duo Gilbert &amp; George, as he shakes my hand when I arrive at his house with a very important guest in tow. He kisses his other guest on the cheek. Gilbert is Italian after all.“This way,” he says, ushering us into the four-storey, 18th-century Georgian townhouse in Fournier Street, Spitalfields, east London, where he and the other half of his duo, George Passmore, 84, have lived since the late 1960s. Back then, they rented the ground floor for £16 a month. Now, they own the whole house. I bet it costs a bit more now. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/15cd46ed840d2abad25728a6d8614da137ddfec2/211_0_3754_3003/master/3754.jpg?width=140&quality=85&auto=format&fit=max&s=cea705ffb258409f09e24679af3b44b4",
+      "link": "https://www.theguardian.com/artanddesign/2026/jun/18/gilbert-and-george-endless-interview-our-george-crompton",
+      "published": "Thu, 18 Jun 2026 07:00:04 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Why did Russian warship fire warning shots in the Channel? – The Latest",
-      "summary_es": "Keir Starmer has called the firing of warning shots by a Russian warship at a British yacht sailing across the Channel on Tuesday ‘deeply concerning and reckless’.Russia’s defence ministry said the yacht was on a ‘dangerous course’ and several attempts were made to contact it – a claim disputed by the retired couple onboard the 40ft yacht.Nosheen Iqbal speaks to the Guardian’s defence and security editor, Dan Sabbagh Continue reading..."
-    },
-    {
-      "id": "76d636f3b8",
-      "title_en": "The rightwing counter-revolution is gaining ground – and Labour’s softly-softly approach won’t stop it | Andy Beckett",
-      "summary_en": "Multiculturalism and hard-won equalities are being attacked on all fronts. Labour should look to London’s leaders, past and present, for how to stand against the tideNot for the first time, the UK is in the grip of a backlash against equality and diversity. Already disadvantaged parts of the population are having the existence of that disadvantage denied – and the limited legal redress for it, which has been won over decades, such as the 2010 Equality Act, threatened with repeal. Two of the largest political parties, much of the media, street protesters, online activists, opportunistic rioters and organised fascists are all working to erase aspects of British multiculturalism, by lawful means and otherwise. In the decade since the Brexit referendum – which awoke semi-dormant forces of social conservatism and nationalism – this reactionary campaign has gained more and more momentum.Its ta",
-      "image": "https://i.guim.co.uk/img/media/38c1a56b5e52735e7bd6949b59b8255339256eee/666_0_3338_2670/master/3338.jpg?width=140&quality=85&auto=format&fit=max&s=c971861a8beaad7660708175ed5e3c66",
-      "link": "https://www.theguardian.com/commentisfree/2026/jun/17/the-rightwing-counter-revolution-labour-multiculturalism-equality-london",
-      "published": "Wed, 17 Jun 2026 15:36:49 GMT",
-      "category": "News",
-      "source": "The Guardian",
-      "title_es": "The rightwing counter-revolution is gaining ground – and Labour’s softly-softly approach won’t stop it | Andy Beckett",
-      "summary_es": "Multiculturalism and hard-won equalities are being attacked on all fronts. Labour should look to London’s leaders, past and present, for how to stand against the tideNot for the first time, the UK is in the grip of a backlash against equality and diversity. Already disadvantaged parts of the population are having the existence of that disadvantage denied – and the limited legal redress for it, which has been won over decades, such as the 2010 Equality Act, threatened with repeal. Two of the largest political parties, much of the media, street protesters, online activists, opportunistic rioters and organised fascists are all working to erase aspects of British multiculturalism, by lawful means and otherwise. In the decade since the Brexit referendum – which awoke semi-dormant forces of social conservatism and nationalism – this reactionary campaign has gained more and more momentum.Its ta"
+      "title_es": "‘You learn how to be idiotic artists’: Gilbert & George on fame, rebellion and their mystery new collaborator",
+      "summary_es": "The Britart mavericks have now teamed up with an unlikely artist. Is their odd throuple an elaborate prank – or are the duo passing down their legacy?‘Hello girls,” greets 82-year-old Gilbert Prousch, one half of art duo Gilbert &amp; George, as he shakes my hand when I arrive at his house with a very important guest in tow. He kisses his other guest on the cheek. Gilbert is Italian after all.“This way,” he says, ushering us into the four-storey, 18th-century Georgian townhouse in Fournier Street, Spitalfields, east London, where he and the other half of his duo, George Passmore, 84, have lived since the late 1960s. Back then, they rented the ground floor for £16 a month. Now, they own the whole house. I bet it costs a bit more now. Continue reading..."
     },
     {
       "id": "f447457215",
@@ -927,6 +939,18 @@
       "summary_es": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials."
     },
     {
+      "id": "196454cee6",
+      "title_en": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
+      "summary_en": "This article was co-published with Signal Ohio and STAT. In high school, Ashley Delgado dreamed of becoming a doctor and one day buying her father a Rolls-Royce. “She wanted to heal people,” said her father, James Taylor. She had a high GPA, Taylor added, and did especially well in science and Latin. In her mid-20s, [&#8230;] The post Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown appeared first on bellingcat.",
+      "image": "https://www.bellingcat.com/app/uploads/2026/06/Ashley-Delgado-died-in-August-2023.jpeg",
+      "link": "https://www.bellingcat.com/news/2026/06/18/super-potent-synthetic-opioids-spread-across-us-amid-fentanyl-crackdown/",
+      "published": "Thu, 18 Jun 2026 08:59:59 +0000",
+      "category": "Security",
+      "source": "Bellingcat",
+      "title_es": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
+      "summary_es": "This article was co-published with Signal Ohio and STAT. In high school, Ashley Delgado dreamed of becoming a doctor and one day buying her father a Rolls-Royce. “She wanted to heal people,” said her father, James Taylor. She had a high GPA, Taylor added, and did especially well in science and Latin. In her mid-20s, [&#8230;] The post Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown appeared first on bellingcat."
+    },
+    {
       "id": "2030efbe7a",
       "title_en": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya",
       "summary_en": "On February 15, 2026, the bulk carrier, Grumant (IMO: 9385879) was pictured at the occupied Ukrainian Port of Feodosia on the Crimean peninsula. Satellite imagery suggests it had already been there for several days.&#160; It appeared to stock up on grain before departing on a two-month-long journey eventually docking at the Port of Benghazi in [&#8230;] The post Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya appeared first on bellingcat.",
@@ -973,18 +997,6 @@
       "source": "Bellingcat",
       "title_es": "Banned Russian Submunitions Found After Mali’s Military Announces Airstrikes",
       "summary_es": "This investigation is a collaboration between Bellingcat and Jeune Afrique. You can read Jeune Afrique’s article in French here. Unexploded Russian-made cluster munition bomblets, as well as damage consistent with bomblet impacts, have been found in a village in northern Mali – despite the West African country being a state party to the Convention on [&#8230;] The post Banned Russian Submunitions Found After Mali&#8217;s Military Announces Airstrikes appeared first on bellingcat."
-    },
-    {
-      "id": "5953beb565",
-      "title_en": "Satellite Imagery Shows Ongoing Demolitions Across Southern Lebanon",
-      "summary_en": "The fragile ceasefire agreed between Israel and Hezbollah last month is holding.&#160; But satellite imagery shows that at least 46 of 54 towns and villages within the Israel Defense Forces (IDF) “Yellow Line” in southern Lebanon have been heavily damaged or, in some cases, entirely flattened.&#160; Much of the destruction and demolition has taken place [&#8230;] The post Satellite Imagery Shows Ongoing Demolitions Across Southern Lebanon appeared first on bellingcat.",
-      "image": "https://www.bellingcat.com/app/uploads/2025/05/question-mark.png",
-      "link": "https://www.bellingcat.com/news/2026/05/14/satellite-imagery-shows-ongoing-demolitions-across-southern-lebanon/",
-      "published": "Thu, 14 May 2026 09:39:28 +0000",
-      "category": "Security",
-      "source": "Bellingcat",
-      "title_es": "Satellite Imagery Shows Ongoing Demolitions Across Southern Lebanon",
-      "summary_es": "The fragile ceasefire agreed between Israel and Hezbollah last month is holding.&#160; But satellite imagery shows that at least 46 of 54 towns and villages within the Israel Defense Forces (IDF) “Yellow Line” in southern Lebanon have been heavily damaged or, in some cases, entirely flattened.&#160; Much of the destruction and demolition has taken place [&#8230;] The post Satellite Imagery Shows Ongoing Demolitions Across Southern Lebanon appeared first on bellingcat."
     },
     {
       "id": "2a8c21e2ae",
@@ -1095,16 +1107,16 @@
       "summary_es": "The New Saints will face Sabah of Azerbaijan in the first round of Champions League qualifying as Connah's Quay, Caernarfon Town and Penybont discover their Conference League qualifying opponents."
     },
     {
-      "id": "d2af7f8e81",
-      "title_en": "Ex-Wales defender and coach Knill leaves Blades",
-      "summary_en": "Sheffield United announce a reshuffle of their coaching staff which sees the departure of long-term assistant Alan Knill and the arrival of former England defender Phil Jones.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4165/live/36ca9a30-6a63-11f1-b1db-af71d47507d6.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cz0j1g0dl0xo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 17 Jun 2026 15:35:46 GMT",
+      "id": "7859381d40",
+      "title_en": "Ex-Swansea and Wrexham forward Trundle joins Cwmbran Town",
+      "summary_en": "Former Swansea City, Wrexham and Bristol City forward Lee Trundle, 49, has sealed a move to Welsh third tier side Cwmbran Town.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a5f/live/f1a9b3e0-69af-11f1-9c9e-51a808d0c47c.jpg",
+      "link": "https://www.bbc.com/sport/football/articles/c1myerz4vn7o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 16 Jun 2026 19:03:59 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Ex-Wales defender and coach Knill leaves Blades",
-      "summary_es": "Sheffield United announce a reshuffle of their coaching staff which sees the departure of long-term assistant Alan Knill and the arrival of former England defender Phil Jones."
+      "title_es": "Ex-Swansea and Wrexham forward Trundle joins Cwmbran Town",
+      "summary_es": "Former Swansea City, Wrexham and Bristol City forward Lee Trundle, 49, has sealed a move to Welsh third tier side Cwmbran Town."
     },
     {
       "id": "8ee810758b",
@@ -1167,6 +1179,18 @@
       "summary_es": "The King's Birthday Honours list has seen a number of Welsh sporting figures recognised for their achievements"
     },
     {
+      "id": "f49416a71b",
+      "title_en": "Wales prop O'Connor signs new Scarlets deal",
+      "summary_en": "Wales tight-head prop Harri O'Connor signs a new contract with Scarlets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe51/live/8c3e3300-6afe-11f1-ab99-53604e92e9e6.jpg",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/c1mygl2pdj3o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 18 Jun 2026 10:22:21 GMT",
+      "category": "Rugby",
+      "source": "Wales Rugby (BBC)",
+      "title_es": "Wales prop O'Connor signs new Scarlets deal",
+      "summary_es": "Wales tight-head prop Harri O'Connor signs a new contract with Scarlets."
+    },
+    {
       "id": "76bfa37f7b",
       "title_en": "Van der Merwe and Dee start for Barbarians",
       "summary_en": "Barbarians pick Scotland wing Duhan van der Merwe and Wales hooker Elliot Dee in their starting line-up for Saturday's game with South Africa.",
@@ -1215,16 +1239,64 @@
       "summary_es": "Defence coach Tyrone Holmes insists there are encouraging signs despite Wales again finishing bottom of the Women's Six Nations."
     },
     {
-      "id": "51b0f1e424",
-      "title_en": "Callender back as Wales call up new faces",
-      "summary_en": "The 25-year-old missed Wales' Women's Six Nations campaign because of injury, but is set to return against Barbarians on 27 June.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96b8/live/3a5222f0-68a5-11f1-8570-238ff96d913c.jpg",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cwy0dqr2qyxo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 15 Jun 2026 11:07:55 GMT",
+      "id": "91bb592fc2",
+      "title_en": "So how deep is the Springbok squad?",
+      "summary_en": "Lekker! Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY The Springboks are the best team in the world. That much is not up for debate. Nor is the amount of talent at Rassie's disposal. But with the 2019 crew ageing out and the next generation still proving themselves, there is one question still remaining: Is this South Africa squad deep enough and ready enough to win the 2027 Rugby World Cup, and what can Erasmus do between now and then to get them ready? If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc",
+      "image": "https://i2.ytimg.com/vi/1S4L5mwfhQs/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=1S4L5mwfhQs",
+      "published": "2026-06-15T15:00:17+00:00",
       "category": "Rugby",
-      "source": "Wales Rugby (BBC)",
-      "title_es": "Callender back as Wales call up new faces",
-      "summary_es": "The 25-year-old missed Wales' Women's Six Nations campaign because of injury, but is set to return against Barbarians on 27 June."
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "So how deep is the Springbok squad?",
+      "summary_es": "Lekker! Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY The Springboks are the best team in the world. That much is not up for debate. Nor is the amount of talent at Rassie's disposal. But with the 2019 crew ageing out and the next generation still proving themselves, there is one question still remaining: Is this South Africa squad deep enough and ready enough to win the 2027 Rugby World Cup, and what can Erasmus do between now and then to get them ready? If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc"
+    },
+    {
+      "id": "d4e101f269",
+      "title_en": "So how did Spain become rugby's most exciting nation? | Rugby World Cup 2027 Team Preview",
+      "summary_en": "Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY Ten years ago, the most common question you heard about Spanish rugby was \"Wait, Spain have a rugby team?\". Five years ago, it was \"What have they done now?\". Yet now, eighteen months from their first men's World Cup in almost 30 years, it's rather different: This is the story of how Spain grew into the most exciting new nation in all of rugby... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc",
+      "image": "https://i1.ytimg.com/vi/DaLRnX527t8/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=DaLRnX527t8",
+      "published": "2026-05-27T16:30:03+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "So how did Spain become rugby's most exciting nation? | Rugby World Cup 2027 Team Preview",
+      "summary_es": "Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY Ten years ago, the most common question you heard about Spanish rugby was \"Wait, Spain have a rugby team?\". Five years ago, it was \"What have they done now?\". Yet now, eighteen months from their first men's World Cup in almost 30 years, it's rather different: This is the story of how Spain grew into the most exciting new nation in all of rugby... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc"
+    },
+    {
+      "id": "1de53c0c86",
+      "title_en": "Why Owen Farrell isn't in the England squad",
+      "summary_en": "Steve Borthwick is onto something",
+      "image": "https://i3.ytimg.com/vi/nrP2Ji17cO8/hqdefault.jpg",
+      "link": "https://www.youtube.com/shorts/nrP2Ji17cO8",
+      "published": "2026-05-24T09:00:01+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "Why Owen Farrell isn't in the England squad",
+      "summary_es": "Steve Borthwick is onto something"
+    },
+    {
+      "id": "888daef2e8",
+      "title_en": "How Leinster's defence has changed this season",
+      "summary_en": "Jacques Nienaber is making moves",
+      "image": "https://i4.ytimg.com/vi/_HVE6fSOTaU/hqdefault.jpg",
+      "link": "https://www.youtube.com/shorts/_HVE6fSOTaU",
+      "published": "2026-05-22T13:30:03+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "How Leinster's defence has changed this season",
+      "summary_es": "Jacques Nienaber is making moves"
+    },
+    {
+      "id": "960d3a9391",
+      "title_en": "The art of the jackle-assist",
+      "summary_en": "This is how it's done",
+      "image": "https://i4.ytimg.com/vi/KICWTGIMEtk/hqdefault.jpg",
+      "link": "https://www.youtube.com/shorts/KICWTGIMEtk",
+      "published": "2026-05-20T11:19:55+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "The art of the jackle-assist",
+      "summary_es": "This is how it's done"
     }
   ]
 }
