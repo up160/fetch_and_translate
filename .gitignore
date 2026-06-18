@@ -2,5 +2,6 @@
 # Local secrets — never commit
 .env
 
-# Local preview tooling
-.claude/
+# Local preview tooling (share the permission allowlist, keep the rest local)
+.claude/*
+!.claude/settings.json

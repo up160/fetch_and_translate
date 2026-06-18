@@ -1,5 +1,6 @@
 {
   "max_items_per_feed": 5,
+  "world_cup_results": true,
   "feeds": [
     { "category": "World Cup", "name": "World Cup 2026 (Guardian)",  "url": "https://www.theguardian.com/football/world-cup-2026/rss" },
     { "category": "World Cup", "name": "BBC Football",               "url": "http://feeds.bbci.co.uk/sport/football/rss.xml" },

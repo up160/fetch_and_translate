@@ -1,0 +1,10 @@
+# Lint config kept intentionally light: catch real errors (pyflakes F) and
+# obvious style issues (E/W) without churning the existing code style.
+line-length = 120
+
+[lint]
+select = ["E", "F", "W"]
+ignore = [
+  "E501",  # line length handled loosely
+  "E741",  # ambiguous names (as_) used deliberately
+]
