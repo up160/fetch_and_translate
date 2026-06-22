@@ -86,9 +86,48 @@ python fetch_and_translate.py
 - `qwen2.5:14b-instruct` — noticeably better fidelity, ~9 GB at Q4 (fits, tighter).
 - `aya-expanse:8b` — Cohere's translation-tuned multilingual model; excellent Spanish.
 
-To run the *whole pipeline* on the M1, point a GitHub Actions **self-hosted runner**
-at the box, or keep CI on GitHub and expose Ollama over a private network (e.g.
-Tailscale) by setting the `OLLAMA_HOST` secret to the box's tailnet address.
+### Wiring the M1 into the daily CI run (over Tailscale)
+
+CI stays on GitHub (fetching, the football API, the commit all run there) and only
+the translation calls are sent to the M1's Ollama over a private tailnet. If the M1
+is asleep or unreachable, translation falls back to Claude automatically.
+
+> ⚠️ Ollama's API has **no authentication** — never expose port 11434 to the public
+> internet. Tailscale keeps it private; do not port-forward it on your router.
+
+**On the M1 (one-time):**
+
+```bash
+brew install ollama
+ollama pull qwen2.5:7b-instruct
+
+# Keep Ollama always-on and reachable on the tailnet
+brew services start ollama                 # launchd: survives reboots
+launchctl setenv OLLAMA_HOST 0.0.0.0:11434 # listen on the tailnet iface, not just localhost
+sudo pmset -a sleep 0                       # don't sleep through the cron slots
+
+# Join the tailnet (installs the Tailscale app/CLI first if needed)
+tailscale up
+tailscale ip -4                             # note the address / MagicDNS name
+```
+
+**In the GitHub repo:**
+
+1. Create a **reusable, ephemeral** auth key at
+   [login.tailscale.com → Settings → Keys](https://login.tailscale.com/admin/settings/keys).
+2. **Settings → Secrets and variables → Actions → Secrets**, add:
+   - `TS_AUTHKEY` — the Tailscale auth key.
+   - `OLLAMA_HOST` — `http://<m1-magicdns-name>.<tailnet>.ts.net:11434`
+     (or `http://<tailnet-ip>:11434`).
+3. *(Optional)* under **Variables**, set `OLLAMA_MODEL` / `TRANSLATE_BACKEND` to
+   override the defaults (`qwen2.5:7b-instruct` / `auto`).
+
+The workflow's `Connect to Tailscale` step only runs when `OLLAMA_HOST` is set, so
+clearing that secret instantly reverts CI to a plain Claude-only run.
+
+To instead run the *whole pipeline* on the M1 (no tunnel; Ollama is localhost),
+register the box as a GitHub Actions **self-hosted runner** and change `runs-on`.
+Best once the M1 is a general home server — see commit history / issues.
 
 ## Feeds Included
 

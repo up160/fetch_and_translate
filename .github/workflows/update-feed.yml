@@ -15,6 +15,16 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Translation runs on the home M1's Ollama, reached over Tailscale, with Claude
+    # as automatic fallback if the box is asleep/unreachable. Clearing the
+    # OLLAMA_HOST secret skips the Tailscale step and reverts to a Claude-only run.
+    # See README → "Wiring the M1 into the daily CI run".
+    env:
+      TRANSLATE_BACKEND: ${{ vars.TRANSLATE_BACKEND || 'auto' }}
+      OLLAMA_HOST: ${{ secrets.OLLAMA_HOST }}
+      OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen2.5:7b-instruct' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_SECRET_KEY }}
+      FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -25,16 +35,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Join the tailnet so the runner can reach the home M1's Ollama at its
+      # private tailnet address. Skipped automatically when OLLAMA_HOST isn't
+      # configured, leaving a plain Claude-only run.
+      - name: Connect to Tailscale
+        if: env.OLLAMA_HOST != ''
+        uses: tailscale/github-action@v3
+        with:
+          authkey: ${{ secrets.TS_AUTHKEY }}
+          # Reusable + ephemeral key recommended; node auto-removed after the run.
+
       - name: Fetch and translate feeds
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_SECRET_KEY }}
-          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
-          # To translate locally for free, point at a reachable Ollama (e.g. a
-          # home M1 exposed over Tailscale) and uncomment. Claude above then acts
-          # as fallback. See README → "Translation backends".
-          # TRANSLATE_BACKEND: ollama
-          # OLLAMA_HOST: ${{ secrets.OLLAMA_HOST }}
-          # OLLAMA_MODEL: qwen2.5:7b-instruct
         run: python fetch_and_translate.py
 
       - name: Commit updated feed.json
