@@ -138,6 +138,30 @@ To instead run the *whole pipeline* on the M1 (no tunnel; Ollama is localhost),
 register the box as a GitHub Actions **self-hosted runner** and change `runs-on`.
 Best once the M1 is a general home server — see commit history / issues.
 
+## Working on the M1 from your phone (you + Claude)
+
+Once the M1 is on Tailscale you can shell into it from anywhere — and run Claude
+Code *on the box* so Claude has full local access to the repo and Ollama.
+
+> The hosted (web) Claude can't reach a home machine. "Claude on the M1" means a
+> Claude Code process running on the Mac, which you reach by SSHing in.
+
+```bash
+./scripts/setup-m1-remote-access.sh                  # Tailscale SSH + tmux
+INSTALL_CLAUDE=1 ./scripts/setup-m1-remote-access.sh # also install the Claude Code CLI
+```
+
+Then from the phone (Tailscale app + an SSH client such as Termius/Blink):
+
+```bash
+ssh <you>@<m1-magicdns-name>.<tailnet>.ts.net
+tmux new -s work        # durable session — survives a dropped mobile connection
+claude                  # drive Claude on the M1
+```
+
+Tailscale SSH authenticates via your tailnet identity (no keys to manage) and
+nothing is exposed to the public internet.
+
 ## Feeds Included
 
 | Category  | Source                   |
