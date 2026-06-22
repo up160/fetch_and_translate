@@ -47,9 +47,13 @@ Commit the resulting `feed.json`, then push. The site will render immediately.
 
 ### 4. Let it run automatically
 
-The GitHub Action (`update-feed.yml`) runs every 6 hours (00:23 / 06:23 / 12:23 /
-18:23 UTC) and only commits when `feed.json` actually changes. You can also trigger
-it manually from the **Actions** tab → **Update feed** → **Run workflow**.
+The primary updater is the **home M1**, running the whole pipeline locally and
+pushing `feed.json` *outbound* to GitHub on a schedule — nothing reaches into the
+Mac. See [Run the pipeline on the M1](#run-the-pipeline-on-the-m1-outbound-only).
+
+The GitHub Action (`update-feed.yml`) is a **manual break-glass fallback** only
+(no schedule, to avoid double-commits). If the M1 is down, trigger it from the
+**Actions** tab → **Run workflow** to refresh via the Claude API.
 
 ## Translation backends
 
@@ -66,101 +70,53 @@ the build never hard-fails — at worst an item is left in its original English.
 | `CLAUDE_MODEL`      | `claude-sonnet-4-6`      | Claude model used for the API backend/fallback. |
 | `ANTHROPIC_API_KEY` | —                        | Enables the Claude backend. |
 
-GitHub Actions sets none of the Ollama vars, so CI keeps using Claude unchanged.
-
-### Local translation on an M1 (free, no API credits)
-
-Run translation on a repurposed M1 / 16 GB box instead of paying per token:
-
-```bash
-# on the M1
-brew install ollama && ollama serve
-ollama pull qwen2.5:7b-instruct      # ~5 GB at Q4; fast and good Spanish
-export TRANSLATE_BACKEND=ollama
-# export ANTHROPIC_API_KEY=sk-ant-... # optional: Claude fallback if Ollama errors
-python fetch_and_translate.py
-```
+GitHub Actions runs Claude-only (manual fallback). The M1 runs Ollama (primary).
 
 **Model picks for 16 GB:**
 - `qwen2.5:7b-instruct` *(default)* — best speed/quality balance, plenty of headroom.
 - `qwen2.5:14b-instruct` — noticeably better fidelity, ~9 GB at Q4 (fits, tighter).
 - `aya-expanse:8b` — Cohere's translation-tuned multilingual model; excellent Spanish.
 
-### Wiring the M1 into the daily CI run (over Tailscale)
+## Run the pipeline on the M1 (outbound only)
 
-CI stays on GitHub (fetching, the football API, the commit all run there) and only
-the translation calls are sent to the M1's Ollama over a private tailnet. If the M1
-is asleep or unreachable, translation falls back to Claude automatically.
+The repurposed M1 is the production updater: it fetches feeds, translates locally
+with Ollama, and **pushes `feed.json` outbound to GitHub** on a schedule. Every
+connection is the Mac reaching *out* — nothing listens for inbound connections, so
+there's no port to forward, no tunnel, and no attack surface from the internet.
 
-> ⚠️ Ollama's API has **no authentication** — never expose port 11434 to the public
-> internet. Tailscale keeps it private; do not port-forward it on your router.
-
-**The easy path** — run the bundled script on the Mac; it does all of the below
-(install, always-on config, model pull, a Spanish smoke test) and prints the exact
-`OLLAMA_HOST` value to paste into the secret:
+Two one-time scripts, run on the Mac from the repo root:
 
 ```bash
+# 1. Install + configure Ollama (model pull, always-on service, Spanish smoke test)
 ./scripts/setup-m1-ollama.sh
-# or a higher-fidelity model:  OLLAMA_MODEL=qwen2.5:14b-instruct ./scripts/setup-m1-ollama.sh
+#    higher-fidelity model:  OLLAMA_MODEL=qwen2.5:14b-instruct ./scripts/setup-m1-ollama.sh
+
+# 2. Install the scheduled local updater (venv, a test run, a launchd timer)
+./scripts/setup-m1-local-pipeline.sh
 ```
 
-**Or do it by hand (one-time):**
+That installs a launchd timer that runs `scripts/run-pipeline.sh` at 07:30 / 12:30 /
+17:30 / 22:30 local time. Each run: `git pull` → translate via local Ollama → commit
+→ `git push` (only when `feed.json` changed). Prereqs: `git push` already works for
+this clone, and `sudo pmset -a sleep 0` so the Mac is awake at the scheduled times.
 
 ```bash
-brew install ollama
-ollama pull qwen2.5:7b-instruct
-
-# Keep Ollama always-on and reachable on the tailnet
-brew services start ollama                 # launchd: survives reboots
-launchctl setenv OLLAMA_HOST 0.0.0.0:11434 # listen on the tailnet iface, not just localhost
-sudo pmset -a sleep 0                       # don't sleep through the cron slots
-
-# Join the tailnet (installs the Tailscale app/CLI first if needed)
-tailscale up
-tailscale ip -4                             # note the address / MagicDNS name
+tail -f pipeline.log                 # watch runs
+launchctl start com.senal.feed       # run now
+launchctl list | grep com.senal.feed # check it's loaded
 ```
 
-**In the GitHub repo:**
+An optional Claude fallback (used only if Ollama errors) can be enabled per-machine:
+`echo 'ANTHROPIC_API_KEY=sk-ant-...' > ~/.senal.env`.
 
-1. Create a **reusable, ephemeral** auth key at
-   [login.tailscale.com → Settings → Keys](https://login.tailscale.com/admin/settings/keys).
-2. **Settings → Secrets and variables → Actions → Secrets**, add:
-   - `TS_AUTHKEY` — the Tailscale auth key.
-   - `OLLAMA_HOST` — `http://<m1-magicdns-name>.<tailnet>.ts.net:11434`
-     (or `http://<tailnet-ip>:11434`).
-3. *(Optional)* under **Variables**, set `OLLAMA_MODEL` / `TRANSLATE_BACKEND` to
-   override the defaults (`qwen2.5:7b-instruct` / `auto`).
+### Reaching the M1 yourself
 
-The workflow's `Connect to Tailscale` step only runs when `OLLAMA_HOST` is set, so
-clearing that secret instantly reverts CI to a plain Claude-only run.
-
-To instead run the *whole pipeline* on the M1 (no tunnel; Ollama is localhost),
-register the box as a GitHub Actions **self-hosted runner** and change `runs-on`.
-Best once the M1 is a general home server — see commit history / issues.
-
-## Working on the M1 from your phone (you + Claude)
-
-Once the M1 is on Tailscale you can shell into it from anywhere — and run Claude
-Code *on the box* so Claude has full local access to the repo and Ollama.
-
-> The hosted (web) Claude can't reach a home machine. "Claude on the M1" means a
-> Claude Code process running on the Mac, which you reach by SSHing in.
-
-```bash
-./scripts/setup-m1-remote-access.sh                  # Tailscale SSH + tmux
-INSTALL_CLAUDE=1 ./scripts/setup-m1-remote-access.sh # also install the Claude Code CLI
-```
-
-Then from the phone (Tailscale app + an SSH client such as Termius/Blink):
-
-```bash
-ssh <you>@<m1-magicdns-name>.<tailnet>.ts.net
-tmux new -s work        # durable session — survives a dropped mobile connection
-claude                  # drive Claude on the M1
-```
-
-Tailscale SSH authenticates via your tailnet identity (no keys to manage) and
-nothing is exposed to the public internet.
+On your home network, SSH in normally (**System Settings → General → Sharing →
+Remote Login**). Remote access from outside the LAN is intentionally **not** set up
+— nothing is exposed to the internet. If you later want phone access from anywhere
+*without* opening a port, `scripts/setup-m1-remote-access.sh` configures it over a
+private Tailscale tailnet (and can install the Claude Code CLI so Claude runs on the
+box). Until then, the box stays fully closed.
 
 ## Feeds Included
 

@@ -1,13 +1,14 @@
-name: Update feed
+name: Update feed (manual fallback)
 
+# The primary updater is the home M1: scripts/run-pipeline.sh runs on a launchd
+# timer, translates locally via Ollama, and pushes feed.json outbound to GitHub.
+# Nothing reaches into the M1.
+#
+# This workflow is a manual break-glass only — if the M1 is down, run it from the
+# Actions tab to refresh feed.json via the Claude API (needs ANTHROPIC_SECRET_KEY
+# with credit). It is intentionally NOT scheduled, to avoid double-commits.
 on:
-  schedule:
-    # GitHub's scheduled triggers are best-effort and frequently delay/drop
-    # individual slots under load. Run every 6 hours (off-peak minute) so a
-    # missed slot is covered within hours and World Cup scores refresh through
-    # the day. The job only commits when feed.json actually changes.
-    - cron: "23 0,6,12,18 * * *"   # 00:23 / 06:23 / 12:23 / 18:23 UTC
-  workflow_dispatch:        # allow manual runs from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,14 +16,8 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # Translation runs on the home M1's Ollama, reached over Tailscale, with Claude
-    # as automatic fallback if the box is asleep/unreachable. Clearing the
-    # OLLAMA_HOST secret skips the Tailscale step and reverts to a Claude-only run.
-    # See README → "Wiring the M1 into the daily CI run".
     env:
-      TRANSLATE_BACKEND: ${{ vars.TRANSLATE_BACKEND || 'auto' }}
-      OLLAMA_HOST: ${{ secrets.OLLAMA_HOST }}
-      OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen2.5:7b-instruct' }}
+      TRANSLATE_BACKEND: claude
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_SECRET_KEY }}
       FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
     steps:
@@ -34,16 +29,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      # Join the tailnet so the runner can reach the home M1's Ollama at its
-      # private tailnet address. Skipped automatically when OLLAMA_HOST isn't
-      # configured, leaving a plain Claude-only run.
-      - name: Connect to Tailscale
-        if: env.OLLAMA_HOST != ''
-        uses: tailscale/github-action@v3
-        with:
-          authkey: ${{ secrets.TS_AUTHKEY }}
-          # Reusable + ephemeral key recommended; node auto-removed after the run.
 
       - name: Fetch and translate feeds
         run: python fetch_and_translate.py

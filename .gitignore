@@ -4,3 +4,7 @@
 
 # Local preview tooling
 .claude/
+
+# M1 local pipeline runtime
+.venv/
+pipeline.log
