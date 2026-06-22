@@ -95,7 +95,16 @@ is asleep or unreachable, translation falls back to Claude automatically.
 > ⚠️ Ollama's API has **no authentication** — never expose port 11434 to the public
 > internet. Tailscale keeps it private; do not port-forward it on your router.
 
-**On the M1 (one-time):**
+**The easy path** — run the bundled script on the Mac; it does all of the below
+(install, always-on config, model pull, a Spanish smoke test) and prints the exact
+`OLLAMA_HOST` value to paste into the secret:
+
+```bash
+./scripts/setup-m1-ollama.sh
+# or a higher-fidelity model:  OLLAMA_MODEL=qwen2.5:14b-instruct ./scripts/setup-m1-ollama.sh
+```
+
+**Or do it by hand (one-time):**
 
 ```bash
 brew install ollama
