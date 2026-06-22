@@ -29,6 +29,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_SECRET_KEY }}
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          # To translate locally for free, point at a reachable Ollama (e.g. a
+          # home M1 exposed over Tailscale) and uncomment. Claude above then acts
+          # as fallback. See README → "Translation backends".
+          # TRANSLATE_BACKEND: ollama
+          # OLLAMA_HOST: ${{ secrets.OLLAMA_HOST }}
+          # OLLAMA_MODEL: qwen2.5:7b-instruct
         run: python fetch_and_translate.py
 
       - name: Commit updated feed.json
