@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T04:36:26.688594+00:00",
-  "item_count": 98,
+  "generated_at": "2026-06-23T10:08:05.305065+00:00",
+  "item_count": 104,
   "items": [
     {
       "id": "wc5eccc897",
@@ -159,71 +159,83 @@
       "summary_es": "Group Stage · GROUP_I. Played on 2026-06-23."
     },
     {
-      "id": "3bd475f3f2",
-      "title_en": "Jordan v Algeria: World Cup 2026 – live",
-      "summary_en": "⚽️ Kick-off time: 8pm local/1pm AEST/4am BST/11pm EDT⚽️ Player guide | Bracketology | Golden Boot | Mail MartinThe stadium is slowly starting to fill in San Francisco and the teams have checked out the pitch.Senegal are creating storm of activity on the field at the New Jersey/New York Stadium but in Philadelphia there was a real live storm that delayed France and Iraq by two hours. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/4afc8cb83d42f611002fde1cc05aa61767e53fd4/5_61_4333_3467/master/4333.jpg?width=140&quality=85&auto=format&fit=max&s=b4a3237dfa10ac00099101db22bf4801",
-      "link": "https://www.theguardian.com/football/live/2026/jun/23/fifa-world-cup-2026-live-jordan-v-algeria-updates-jor-v-alg-group-j-match-score-latest",
-      "published": "Tue, 23 Jun 2026 04:25:43 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Jordan v Algeria: World Cup 2026 – live",
-      "summary_es": "⚽️ Kick-off time: 8pm local/1pm AEST/4am BST/11pm EDT⚽️ Player guide | Bracketology | Golden Boot | Mail MartinThe stadium is slowly starting to fill in San Francisco and the teams have checked out the pitch.Senegal are creating storm of activity on the field at the New Jersey/New York Stadium but in Philadelphia there was a real live storm that delayed France and Iraq by two hours. Continue reading..."
+      "id": "wc2003cb79",
+      "title_en": "Jordan 1–2 Algeria",
+      "summary_en": "Group Stage · GROUP_J. Played on 2026-06-23.",
+      "image": "",
+      "link": "",
+      "published": "2026-06-23T03:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Jordan 1–2 Algeria",
+      "summary_es": "Group Stage · GROUP_J. Played on 2026-06-23."
     },
     {
-      "id": "766e7557c5",
-      "title_en": "‘He’s the best’: magical Messi becomes World Cup’s all-time leading scorer",
-      "summary_en": "Argentinian eclipses Klose to reach 18 goals at finalsCheck out the top scorers in men’s World Cup historyAn exhausted Lionel Messi savoured the “special” feeling of becoming the World Cup’s all-time record goalscorer after his double gave Argentina a 2-0 victory over Austria.Messi broke Germany striker Miroslav Klose’s record, set in 2014, by scoring his 17th goal on this stage seven minutes before half-time, adding another with the final action of the match. He had earlier missed a penalty and admitted his matchwinning contributions were necessary to wash away the taste of that aberration. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/4963dbaa5371fd06cba894b47d3acaa83574d870/205_0_1671_1336/master/1671.jpg?width=140&quality=85&auto=format&fit=max&s=9b9db3eec265ddf0889f75320233df2a",
-      "link": "https://www.theguardian.com/football/2026/jun/22/lionel-messi-breaks-men-world-cup-record-becomes-all-time-leading-scorer",
-      "published": "Mon, 22 Jun 2026 21:25:41 GMT",
+      "id": "10fe3fe651",
+      "title_en": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
+      "summary_en": "⚽ All the latest news from day 13 of the tournament⚽ Player guide | Bracketology | Golden Boot | Mail usOur man in the camp David Hytner goes under the hood (nailed it) of England’s preparations for the Black Stars.Thomas Tuchel shares his view on what Ghana will bring in Foxborough: “I expect more ball possession. I expect Ghana to rely on counterattacks because they are very physical, very fast and dangerous.” Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/d9daa25d7a0b4114b645aa7a282e25740cc542ea/0_0_2476_1981/master/2476.jpg?width=140&quality=85&auto=format&fit=max&s=b2af853d34268943c578883d0840bd5a",
+      "link": "https://www.theguardian.com/football/live/2026/jun/23/world-cup-2026-news-live-messi-mbappe-haaland-england-ghana-portugal-uzbekistan-panama-croatia-colombia-dr-congo",
+      "published": "Tue, 23 Jun 2026 10:01:49 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "‘He’s the best’: magical Messi becomes World Cup’s all-time leading scorer",
-      "summary_es": "Argentinian eclipses Klose to reach 18 goals at finalsCheck out the top scorers in men’s World Cup historyAn exhausted Lionel Messi savoured the “special” feeling of becoming the World Cup’s all-time record goalscorer after his double gave Argentina a 2-0 victory over Austria.Messi broke Germany striker Miroslav Klose’s record, set in 2014, by scoring his 17th goal on this stage seven minutes before half-time, adding another with the final action of the match. He had earlier missed a penalty and admitted his matchwinning contributions were necessary to wash away the taste of that aberration. Continue reading..."
+      "title_es": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
+      "summary_es": "⚽ All the latest news from day 13 of the tournament⚽ Player guide | Bracketology | Golden Boot | Mail usOur man in the camp David Hytner goes under the hood (nailed it) of England’s preparations for the Black Stars.Thomas Tuchel shares his view on what Ghana will bring in Foxborough: “I expect more ball possession. I expect Ghana to rely on counterattacks because they are very physical, very fast and dangerous.” Continue reading..."
+    },
+    {
+      "id": "49dbd79ec6",
+      "title_en": "Amine Gouiri pounces to give Algeria victory and condemn Jordan to early World Cup exit",
+      "summary_en": "Algeria stormed back to beat Jordan 2-1 and eliminate the World Cup debutants with a match to spare ⁠thanks to second-half goals ⁠from substitute Nadhir ​Benbouali and Amine Gouiri.Benbouali’s header cancelled out Nizar Al-Rashdan’s first-half opener and Gouiri poked home in a goalmouth scramble eight minutes from time to revive Algeria’s ⁠campaign after their opening 3-0 loss to Argentina. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/ec3834f8b92f92c5c2f5f9a6fac6aac5f34cdfe9/0_0_3807_3046/master/3807.jpg?width=140&quality=85&auto=format&fit=max&s=dbb8de70c184e24f1fa779b331299788",
+      "link": "https://www.theguardian.com/football/2026/jun/23/algeria-jordan-world-cup-group-j-match-report",
+      "published": "Tue, 23 Jun 2026 05:13:35 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Amine Gouiri pounces to give Algeria victory and condemn Jordan to early World Cup exit",
+      "summary_es": "Algeria stormed back to beat Jordan 2-1 and eliminate the World Cup debutants with a match to spare ⁠thanks to second-half goals ⁠from substitute Nadhir ​Benbouali and Amine Gouiri.Benbouali’s header cancelled out Nizar Al-Rashdan’s first-half opener and Gouiri poked home in a goalmouth scramble eight minutes from time to revive Algeria’s ⁠campaign after their opening 3-0 loss to Argentina. Continue reading..."
     },
     {
       "id": "9c0bd515c3",
       "title_en": "Two-hour storm break fails to stop France as Mbappé and Dembélé prove too good for Iraq",
-      "summary_en": "Could France do it on a hot, humid, waterlogged and lightning-threatened night in Pennsylvania? The answer was pretty straightforward. Despite an interruption of more than two hours after a chain of severe thunderstorms disrupted play at Philadelphia Stadium, France brushed past the physical challenge of Iraq, and furthered Kylian Mbappé’s personal duel with Lionel Messi in the process.The France captain got another two goals on the night of his 100th cap, the first a rip-snorter from outside the box after a period of dominance, the second a tap in after disastrous defending from Iraq. Ousmane Dembélé got the third, his first goal at a major tournament. Didier Deschamps, meanwhile, was able to confirm passage to the knockout rounds, rest players from his starting XI, and even retire Dembélé and Michael Olise on the hour, preserving them for more taxing contests. There were no clouds on t",
+      "summary_en": "Could France do it on a hot, humid, waterlogged and lightning-threatened night in Pennsylvania? The answer was pretty straightforward. Despite an interruption of more than two hours after a chain of severe thunderstorms disrupted play at Philadelphia Stadium, France brushed past the physical challenge of Iraq, and furthered Kylian Mbappé’s personal duel with Lionel Messi in the process.The France captain got another two goals on the night of his 100th cap, the first a rip-snorter from outside the box after a period of dominance, the second a tap in after calamitous defending from Iraq. Ousmane Dembélé got the third, his first goal at a major tournament. Didier Deschamps, meanwhile, was able to confirm passage to the knockout rounds, rest players from his starting XI, and even retire Dembélé and Michael Olise on the hour, preserving them for more taxing contests. There were no clouds on t",
       "image": "https://i.guim.co.uk/img/media/0673ec8ba23160e58c5b39359b3d906f7dc69d93/188_182_3273_2618/master/3273.jpg?width=140&quality=85&auto=format&fit=max&s=ce3d2e1c0104c1ed67522d7ff36c3cfb",
       "link": "https://www.theguardian.com/football/2026/jun/23/france-iraq-world-cup-group-i-match-report",
       "published": "Tue, 23 Jun 2026 01:05:39 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
       "title_es": "Two-hour storm break fails to stop France as Mbappé and Dembélé prove too good for Iraq",
-      "summary_es": "Could France do it on a hot, humid, waterlogged and lightning-threatened night in Pennsylvania? The answer was pretty straightforward. Despite an interruption of more than two hours after a chain of severe thunderstorms disrupted play at Philadelphia Stadium, France brushed past the physical challenge of Iraq, and furthered Kylian Mbappé’s personal duel with Lionel Messi in the process.The France captain got another two goals on the night of his 100th cap, the first a rip-snorter from outside the box after a period of dominance, the second a tap in after disastrous defending from Iraq. Ousmane Dembélé got the third, his first goal at a major tournament. Didier Deschamps, meanwhile, was able to confirm passage to the knockout rounds, rest players from his starting XI, and even retire Dembélé and Michael Olise on the hour, preserving them for more taxing contests. There were no clouds on t"
+      "summary_es": "Could France do it on a hot, humid, waterlogged and lightning-threatened night in Pennsylvania? The answer was pretty straightforward. Despite an interruption of more than two hours after a chain of severe thunderstorms disrupted play at Philadelphia Stadium, France brushed past the physical challenge of Iraq, and furthered Kylian Mbappé’s personal duel with Lionel Messi in the process.The France captain got another two goals on the night of his 100th cap, the first a rip-snorter from outside the box after a period of dominance, the second a tap in after calamitous defending from Iraq. Ousmane Dembélé got the third, his first goal at a major tournament. Didier Deschamps, meanwhile, was able to confirm passage to the knockout rounds, rest players from his starting XI, and even retire Dembélé and Michael Olise on the hour, preserving them for more taxing contests. There were no clouds on t"
     },
     {
-      "id": "6b20f2c27c",
-      "title_en": "Haaland doubles up again as Norway defeat Senegal and seal spot in World Cup last 32",
-      "summary_en": "At the final whistle in New Jersey Norway’s players collapsed on to the rain-drenched grass, tumbled over one another in a genuinely passionate celebratory embrace, then gathered to sit in close formation in front of their fans like primary school kids in a particularly cramped assembly hall.Off to one side Martin Ødegaard began to beat on a drum provided for the occasion, while the players and staff did the Viking-rowing-boat-plus-Icelandic-style-hu-cheer in concert with their fans, a routine the Norwegians have been rolling out at this World Cup. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/9a604e4077590277d9619119c62d634986f5aa7a/469_93_2684_2147/master/2684.jpg?width=140&quality=85&auto=format&fit=max&s=e7f6dc42b15d2291753dc2b305f9d6c6",
-      "link": "https://www.theguardian.com/football/2026/jun/23/senegal-norway-world-cup-group-i-match-report",
-      "published": "Tue, 23 Jun 2026 02:10:28 GMT",
+      "id": "a5ecc17db8",
+      "title_en": "Scottish fans’ friendly USA invasion exemplifies the joy of the World Cup | Philipp Lahm",
+      "summary_en": "Major tournaments bring people together and Scotland’s welcome presence adds to the case for a 48-team eventI could watch videos of the Scots online for hours. Wearing kilts, they marched through Boston playing bagpipes. In the stadium, the Tartan Army roared their team to victory against Haiti, their first World Cup win in 36 years.Afterwards they went to a baseball game and, singing and wearing knee-length red socks, turned a Boston Red Sox home game into part of the World Cup – and one of its highlights, too. In the stadium they had the rules of this sport, which we Europeans find difficult to understand, explained to them. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/c8a7a384b53024e9998b2f613df6d1dbc1874ee8/180_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e38f8fc80933f19024a34b202ad03c9d",
+      "link": "https://www.theguardian.com/football/2026/jun/23/scotland-fans-usa-world-cup-joy-fifa",
+      "published": "Tue, 23 Jun 2026 07:00:35 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Haaland doubles up again as Norway defeat Senegal and seal spot in World Cup last 32",
-      "summary_es": "At the final whistle in New Jersey Norway’s players collapsed on to the rain-drenched grass, tumbled over one another in a genuinely passionate celebratory embrace, then gathered to sit in close formation in front of their fans like primary school kids in a particularly cramped assembly hall.Off to one side Martin Ødegaard began to beat on a drum provided for the occasion, while the players and staff did the Viking-rowing-boat-plus-Icelandic-style-hu-cheer in concert with their fans, a routine the Norwegians have been rolling out at this World Cup. Continue reading..."
+      "title_es": "Scottish fans’ friendly USA invasion exemplifies the joy of the World Cup | Philipp Lahm",
+      "summary_es": "Major tournaments bring people together and Scotland’s welcome presence adds to the case for a 48-team eventI could watch videos of the Scots online for hours. Wearing kilts, they marched through Boston playing bagpipes. In the stadium, the Tartan Army roared their team to victory against Haiti, their first World Cup win in 36 years.Afterwards they went to a baseball game and, singing and wearing knee-length red socks, turned a Boston Red Sox home game into part of the World Cup – and one of its highlights, too. In the stadium they had the rules of this sport, which we Europeans find difficult to understand, explained to them. Continue reading..."
     },
     {
-      "id": "ddfce1ffbd",
-      "title_en": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
-      "summary_en": "Win over Ghana could secure top spot in the group‘We dropped too deep,’ Tuchel says of Croatia openerThomas Tuchel believes England were given a wake-up call by Croatia and must focus on improving their defensive structure as the World Cup progresses.England will qualify for the knockout stages from Group L with a game to spare if they beat Ghana in Boston on Tuesday night, and will top the group if Panama then fail to beat Croatia in the later game, but Tuchel is determined not to take ­anything for granted. The head coach has placed a heavy emphasis on aggressive football and has said his side were too quick to fall back during the first half of the 4-2 win over Croatia. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/cd267a330499c9dccdb158ffef1ab02a99e728e0/418_0_4183_3347/master/4183.jpg?width=140&quality=85&auto=format&fit=max&s=876069fe135c45f1af43e8190a72c4be",
-      "link": "https://www.theguardian.com/football/2026/jun/23/thomas-tuchel-england-ghana-world-cup-defence-improve",
-      "published": "Mon, 22 Jun 2026 23:30:24 GMT",
+      "id": "57571d1610",
+      "title_en": "Serbian TV pundit causes outrage with racist comment during Belgium game",
+      "summary_en": "Rade Bogdanovic made comments on public broadcasterFormer player and broadcaster apologises for statementThe former Yugoslavia and Atlético Madrid striker Rade Bogdanovic has sparked controversy on Serbian TV after saying that “Black players lack concentration beyond 60 to 80 minutes” during the Belgium v Iran World Cup match.Bogdanovic, 56, made the comment on a World Cup programme aired by Serbia’s public broadcaster (RTS) late on Sunday night while discussing the 66th-minute red card shown to the Belgium defender Nathan Ngoy. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/54fb0d81e3a4e3e0d2ce28ed3a0f318bed0abf7a/84_0_534_427/master/534.jpg?width=140&quality=85&auto=format&fit=max&s=e9808349a65bf6d424f577965141a3da",
+      "link": "https://www.theguardian.com/football/2026/jun/22/serbian-tv-pundit-rade-bogdanovic-causes-outrage-racist-comment-belgium-iran-world-cup-game",
+      "published": "Mon, 22 Jun 2026 21:00:28 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
-      "summary_es": "Win over Ghana could secure top spot in the group‘We dropped too deep,’ Tuchel says of Croatia openerThomas Tuchel believes England were given a wake-up call by Croatia and must focus on improving their defensive structure as the World Cup progresses.England will qualify for the knockout stages from Group L with a game to spare if they beat Ghana in Boston on Tuesday night, and will top the group if Panama then fail to beat Croatia in the later game, but Tuchel is determined not to take ­anything for granted. The head coach has placed a heavy emphasis on aggressive football and has said his side were too quick to fall back during the first half of the 4-2 win over Croatia. Continue reading..."
+      "title_es": "Serbian TV pundit causes outrage with racist comment during Belgium game",
+      "summary_es": "Rade Bogdanovic made comments on public broadcasterFormer player and broadcaster apologises for statementThe former Yugoslavia and Atlético Madrid striker Rade Bogdanovic has sparked controversy on Serbian TV after saying that “Black players lack concentration beyond 60 to 80 minutes” during the Belgium v Iran World Cup match.Bogdanovic, 56, made the comment on a World Cup programme aired by Serbia’s public broadcaster (RTS) late on Sunday night while discussing the 66th-minute red card shown to the Belgium defender Nathan Ngoy. Continue reading..."
     },
     {
-      "id": "cdc7cfa6a4",
+      "id": "b6c8e79d49",
       "title_en": "A Golden Boot race for the ages - but who will come out on top?",
       "summary_en": "It is fast turning into a Golden Boot race for the ages as the world's best strikers star at the World Cup. But who will come out on top?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
-      "link": "https://www.bbc.com/sport/football/articles/c5yz2enre06o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5yz2enre06o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 23 Jun 2026 03:56:28 GMT",
       "category": "World Cup",
       "source": "BBC Football",
@@ -231,11 +243,11 @@
       "summary_es": "It is fast turning into a Golden Boot race for the ages as the world's best strikers star at the World Cup. But who will come out on top?"
     },
     {
-      "id": "b8bf24f135",
+      "id": "03b7d05d56",
       "title_en": "From retirement to records - another immortal Messi moment",
       "summary_en": "Ten years after announcing he was quitting international football, Lionel Messi is still breaking records for reigning World Cup champions Argentina.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 21:43:58 GMT",
       "category": "World Cup",
       "source": "BBC Football",
@@ -243,23 +255,23 @@
       "summary_es": "Ten years after announcing he was quitting international football, Lionel Messi is still breaking records for reigning World Cup champions Argentina."
     },
     {
-      "id": "d5822f4342",
-      "title_en": "What France & Iraq did during 'mentally draining' two-hour weather delay",
-      "summary_en": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2661/live/810e39b0-6e9d-11f1-9007-ad3121b71ef1.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cy73y401ppjo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 23 Jun 2026 03:21:49 GMT",
+      "id": "ec7a826528",
+      "title_en": "How do you solve a problem like Ronaldo?",
+      "summary_en": "Portugal take on Uzbekistan with Cristiano Ronaldo in poor form for his country and a backlash raging on social media against his team-mates.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/234f/live/8a731010-6e58-11f1-b9d0-a3be33cbfa13.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2ly7gz8p0qo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 23 Jun 2026 09:30:00 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "What France & Iraq did during 'mentally draining' two-hour weather delay",
-      "summary_es": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it."
+      "title_es": "How do you solve a problem like Ronaldo?",
+      "summary_es": "Portugal take on Uzbekistan with Cristiano Ronaldo in poor form for his country and a backlash raging on social media against his team-mates."
     },
     {
-      "id": "a2c43aa63f",
+      "id": "88cace0c1d",
       "title_en": "Norway win five-goal thriller against Senegal to make last 32",
       "summary_en": "Erling Haaland scores twice as Norway book their place in the last 32 of the World Cup with a 3-2 victory over Senegal in New Jersey.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea32/live/4c124f00-6eaa-11f1-b1db-af71d47507d6.jpg",
-      "link": "https://www.bbc.com/sport/football/videos/cze9g17p6rlo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cze9g17p6rlo?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 23 Jun 2026 02:41:44 GMT",
       "category": "World Cup",
       "source": "BBC Football",
@@ -267,16 +279,16 @@
       "summary_es": "Erling Haaland scores twice as Norway book their place in the last 32 of the World Cup with a 3-2 victory over Senegal in New Jersey."
     },
     {
-      "id": "405d8ac84d",
-      "title_en": "England boss Tuchel not a fan of hydration breaks",
-      "summary_en": "England head coach Thomas Tuchel admits he is not a fan of the controversial hydration breaks being used at the World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1c8/live/d29407b0-6ea2-11f1-895f-31d43a4d39ba.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c4gyzknng1jo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 23 Jun 2026 01:39:34 GMT",
+      "id": "ae05cdd39e",
+      "title_en": "Who am I? Guess World Cup star No 16",
+      "summary_en": "Will you get today's player in as few attempts as possible?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f87f/live/73e17c20-64ed-11f1-b1db-af71d47507d6.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cnvp6y3yg0yo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 23 Jun 2026 05:35:17 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "England boss Tuchel not a fan of hydration breaks",
-      "summary_es": "England head coach Thomas Tuchel admits he is not a fan of the controversial hydration breaks being used at the World Cup."
+      "title_es": "Who am I? Guess World Cup star No 16",
+      "summary_es": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "28c74b2232",
@@ -303,6 +315,18 @@
       "summary_es": "My daughter (10) was at a sleep over. She has been to multiple sleep over and even one at this girls house with others around a year or two ago. Everything was fine until she called me around 8:30 asking me to make an excuse for her to come home and if i could come get her. After I got here I was asking her about why she wanted to come home. She said that her friend was acting weird and was bossing her around. She kept saying I will call your mom to come get you if we dont watch a movie together instead of playing outside. Then today 2 days later she told me as casually as can be that she had another reason for wanting to come home and that this girl had asked her to have sex and had kissed her leg while they were laying down. I have no idea how to handle this situation. Do I believe my daughter and confront the other child’s parents. Any advice greatly appreciated. &#32; submitted by &#"
     },
     {
+      "id": "30c360dc75",
+      "title_en": "Just wanted to share my first Father’s Day gift.",
+      "summary_en": "I don’t have many friends, so I figured I’d show off my Father’s Day gift here. This is the first one that my kid has ever made me. He’ll be five later this year. I’m not 58 btw… When he gave it to me, he told me that he couldn’t remember if I was 58 or 85. I’m 38. lol he was close. &#32; submitted by &#32; /u/map2photo [link] &#32; [comments]",
+      "image": "https://preview.redd.it/0b70m7ndjy8h1.jpg?width=140&height=105&auto=webp&s=05c909fefe4eaec4398ade14b5450f75aae4661f",
+      "link": "https://www.reddit.com/r/daddit/comments/1ud6qg9/just_wanted_to_share_my_first_fathers_day_gift/",
+      "published": "2026-06-23T04:10:18+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Just wanted to share my first Father’s Day gift.",
+      "summary_es": "I don’t have many friends, so I figured I’d show off my Father’s Day gift here. This is the first one that my kid has ever made me. He’ll be five later this year. I’m not 58 btw… When he gave it to me, he told me that he couldn’t remember if I was 58 or 85. I’m 38. lol he was close. &#32; submitted by &#32; /u/map2photo [link] &#32; [comments]"
+    },
+    {
       "id": "5d3f899bd1",
       "title_en": "Social media algorithms are genuinely terrifying when you have a teenage daughter",
       "summary_en": "caught my 13yo crying in her room last night over some stupid tiktok trend. looked over her shoulder and her entire fyp is just toxic &quot;what I eat in a day&quot; videos from influencers who are clearly struggling themselves. It honestly makes my blood boil how these massive tech companies just push this dangerous garbage to literal middle schoolers just to boost their engagement metrics Wife and I spent half the night awake trying to figure out how to talk to her without making her feel defensive or weird about her body. Its like walking on eggshells man. I ended up deep diving into resources from places like eating disorder solutions just trying to learn the right vocabulary to use, because apparently saying the wrong thing as a dad can accidentally make it way worse and push them away Parenting teenagers right now just feels like fighting a constant losing battle against the intern",
@@ -315,28 +339,16 @@
       "summary_es": "caught my 13yo crying in her room last night over some stupid tiktok trend. looked over her shoulder and her entire fyp is just toxic &quot;what I eat in a day&quot; videos from influencers who are clearly struggling themselves. It honestly makes my blood boil how these massive tech companies just push this dangerous garbage to literal middle schoolers just to boost their engagement metrics Wife and I spent half the night awake trying to figure out how to talk to her without making her feel defensive or weird about her body. Its like walking on eggshells man. I ended up deep diving into resources from places like eating disorder solutions just trying to learn the right vocabulary to use, because apparently saying the wrong thing as a dad can accidentally make it way worse and push them away Parenting teenagers right now just feels like fighting a constant losing battle against the intern"
     },
     {
-      "id": "c79bbb9d35",
-      "title_en": "To My Dads Struggling",
-      "summary_en": "Man.. All. Maybe a bit different of a post. Fathers day has come around and I am just feeling so grateful. From the first picture, a liar, manipulator, opiate and benzodiazepine addicted young man. Arrests, kicked out of universities, fired from jobs, no friends, no money, 1 needle away from it all being over. To the second... A husband, father, business owner, who is grateful everyday for this struggle and what it taught me. If you would have told me I could live a life free of drugs for 8 years, I would have laughed at you... (Then tried to steal your wallet) LOL. Life is so beautiful. I hope the Dads out there struggling make the decision to choose peace. Change is possible, and the highs are so high. Best to all. &#32; submitted by &#32; /u/Interesting-Mix-4152 [link] &#32; [comments]",
-      "image": "https://preview.redd.it/xk8k481e7u8h1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=5d4e7b336ee2b1d68edd5b8c038bc735e9134aeb",
-      "link": "https://www.reddit.com/r/daddit/comments/1ucku56/to_my_dads_struggling/",
-      "published": "2026-06-22T13:38:05+00:00",
+      "id": "54ac3aa6e2",
+      "title_en": "Update - My wife went to the doctor to ask about her postpartum belly. Turns out we're having baby #2.",
+      "summary_en": "Hey guys, I know some of you were wanting to see how we got on. My wife had her scan yesterday and so far everything is looking good. They're estimating she's about 23 weeks on and we're having another boy! We're both really happy, there are more scans that she's waiting for to make sure everything is ok but just wanted to share the news Original Post https://www.reddit.com/r/daddit/comments/1u87xko/my_wife_went_to_the_doctor_to_ask_about_her/ &#32; submitted by &#32; /u/enzop [link] &#32; [comments]",
+      "image": "https://preview.redd.it/g0hy6y8p809h1.jpeg?width=640&crop=smart&auto=webp&s=95db6f8d4cdecaa00b96ff494f5f2f1b86dd62f7",
+      "link": "https://www.reddit.com/r/daddit/comments/1udcsto/update_my_wife_went_to_the_doctor_to_ask_about/",
+      "published": "2026-06-23T09:54:27+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "To My Dads Struggling",
-      "summary_es": "Man.. All. Maybe a bit different of a post. Fathers day has come around and I am just feeling so grateful. From the first picture, a liar, manipulator, opiate and benzodiazepine addicted young man. Arrests, kicked out of universities, fired from jobs, no friends, no money, 1 needle away from it all being over. To the second... A husband, father, business owner, who is grateful everyday for this struggle and what it taught me. If you would have told me I could live a life free of drugs for 8 years, I would have laughed at you... (Then tried to steal your wallet) LOL. Life is so beautiful. I hope the Dads out there struggling make the decision to choose peace. Change is possible, and the highs are so high. Best to all. &#32; submitted by &#32; /u/Interesting-Mix-4152 [link] &#32; [comments]"
-    },
-    {
-      "id": "fe1792f193",
-      "title_en": "Taking the kids camping used to be so simple man",
-      "summary_en": "honestly the entire process of trying to get my boys outdoors for a weekend is just exhausting now I remember when my dad would just pack up the car on a random thursday and we'd drive to a state park and grab a tent spot. now? if I don't log into the portal exactly 6 months in advance at 8am, every single site with a functioning bathroom is completely booked by bots or people who reserve entire months just to hoard them it completely takes the spontaneity out of being a dad tbh. I spent three hours last night just trying to find a place that wasn't either $400 a night for &quot;luxury glamping&quot; or literally just a patch of dirt next to a highway. We finally gave up on the state park hunger games completely and just booked a spot at camphappygrounds up in connecticut because they actually have a decent pool and a playground to burn off the toddler energy and I didnt have to fight a ",
-      "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1ucv9xl/taking_the_kids_camping_used_to_be_so_simple_man/",
-      "published": "2026-06-22T20:02:21+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Taking the kids camping used to be so simple man",
-      "summary_es": "honestly the entire process of trying to get my boys outdoors for a weekend is just exhausting now I remember when my dad would just pack up the car on a random thursday and we'd drive to a state park and grab a tent spot. now? if I don't log into the portal exactly 6 months in advance at 8am, every single site with a functioning bathroom is completely booked by bots or people who reserve entire months just to hoard them it completely takes the spontaneity out of being a dad tbh. I spent three hours last night just trying to find a place that wasn't either $400 a night for &quot;luxury glamping&quot; or literally just a patch of dirt next to a highway. We finally gave up on the state park hunger games completely and just booked a spot at camphappygrounds up in connecticut because they actually have a decent pool and a playground to burn off the toddler energy and I didnt have to fight a "
+      "title_es": "Update - My wife went to the doctor to ask about her postpartum belly. Turns out we're having baby #2.",
+      "summary_es": "Hey guys, I know some of you were wanting to see how we got on. My wife had her scan yesterday and so far everything is looking good. They're estimating she's about 23 weeks on and we're having another boy! We're both really happy, there are more scans that she's waiting for to make sure everything is ok but just wanted to share the news Original Post https://www.reddit.com/r/daddit/comments/1u87xko/my_wife_went_to_the_doctor_to_ask_about_her/ &#32; submitted by &#32; /u/enzop [link] &#32; [comments]"
     },
     {
       "id": "082334c25e",
@@ -363,6 +375,18 @@
       "summary_es": "In England fried fish and chips is recognised by most as the national takeout dish (with curries being the only real competitor). Nowadays fish and chips are most commonly fried in vegetable oil (partly because of perceived health benefits) and, whilst frying in traditional beef dripping is not uncommon, doing so on a traditional coal fired fish and chip range takes place in only around half a dozen places in the country. This rather unassuming shop, in a tiny, brick built lock-up, in the tiny village of Upton, near Gainsborough in Lincolnshire is one of them. It only opens on Friday evenings and Saturday lunchtimes (this has been the case for many years). These amazing, traditionally cooked, fish and chips are fried in a coal fired range manufactured in 1947 (according to the proprietor, and contrary to the 1948 date in the literature) by Frank Ford of Halifax, Yorkshire (still in busin"
     },
     {
+      "id": "7f45fc515b",
+      "title_en": "Geographical centre of Luxembourg in Mersch, Luxembourg",
+      "summary_en": "The P&euml;ttenerb&euml;sch (literally \"Pettingen Forest\" in Luxembourgish) is a nature reserve located half an hour's drive north of Luxembourg City. At first sight, there is nothing special about this forest (apart from the fact that it is in the middle of the A7 motorway). In 2009, the land registry and topography department was in charge of the determination of the geographical centre of the Grand Duchy. It takes into account the various historical treaties that have defined the borders between the years 1659 and 1839. It also takes into account land swaps, the most recent of which occurred in 2006 between the communes of Sanem (Luxembourg) and Russange (France). The result of these calculations places the centre of the country in the P&euml;ttenerb&euml;sch: 49&deg;46'38''N 6&deg;05'43''E In 2011, a monument in Corten steel was unveiled in the forest as a marker for this site. Its s",
+      "image": "https://img.atlasobscura.com/dWQD2fgDULBrk6SuIYeWXDfhxgpbq9RBwXmmWxoeRC0/rs:fill:300:200:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xYjMy/NmRlYy0xNDkyLTRk/MzEtYjM2NS1mMjM2/ZjczYTYyY2NlY2Zl/OWI4NmYwOTkzNDY5/Y2JfUDEwNTAzNDQu/SlBH.jpg",
+      "link": "https://www.atlasobscura.com/places/geographical-centre-of-luxembourg",
+      "published": "Fri, 19 Jun 2026 09:23:00 -0400",
+      "category": "Interesante",
+      "source": "Atlas Obscura",
+      "title_es": "Geographical centre of Luxembourg in Mersch, Luxembourg",
+      "summary_es": "The P&euml;ttenerb&euml;sch (literally \"Pettingen Forest\" in Luxembourgish) is a nature reserve located half an hour's drive north of Luxembourg City. At first sight, there is nothing special about this forest (apart from the fact that it is in the middle of the A7 motorway). In 2009, the land registry and topography department was in charge of the determination of the geographical centre of the Grand Duchy. It takes into account the various historical treaties that have defined the borders between the years 1659 and 1839. It also takes into account land swaps, the most recent of which occurred in 2006 between the communes of Sanem (Luxembourg) and Russange (France). The result of these calculations places the centre of the country in the P&euml;ttenerb&euml;sch: 49&deg;46'38''N 6&deg;05'43''E In 2011, a monument in Corten steel was unveiled in the forest as a marker for this site. Its s"
+    },
+    {
       "id": "1f414ecb6c",
       "title_en": "Grotte Scladina in Andenne, Belgium",
       "summary_en": "Situated on a narrow bank between the Meuse and the hills, Sclayn is a small village. It is located in the Andenne municipality, 1 hour and 15 minutes from Brussels or Maastricht (Netherlands). From the village, a narrow green valley descends to the plain. It was here that a cave was discovered by speleologists in 1971. Working on the entrance uncovered carved tools. In 1978, the University of Liège joined the excavations. This was due to the importance of the discoveries made during the first campaigns. Since then, the excavations have continued without interruption up to the present day. They have unearthed 120,000 animal bones and 20,000 artefacts dating back to the Middle Paleolithic. The biggest discovery was made on 16 July 1993. A left half mandible of human origin was found. 16 teeth, the right lower jaw and a piece of jawbone followed. The discovery was a huge success: these wer",
@@ -385,18 +409,6 @@
       "source": "Atlas Obscura",
       "title_es": "Li Bassinia in Huy, Belgium",
       "summary_es": "Huy - pronounced \"Oui\" (\"Yes\") - is a small Belgian town located at the confluence of the Meuse and Hoyoux rivers. It is halfway between Namur and Liège. The town is famous for its rich heritage. Some forty monuments and sites are protected. The fountain on the Grand'Place, known to the locals as \"Li Bassinia\" (\"the basin\" in Walloon), is one of the most remarkable. It was listed as a „Monument Historique“ on August 1st, 1933. It was one of the first 45 monuments to be listed in Wallonia, the French-speaking southern half of Belgium. Many changes over the centuries have resulted in its complex shape. The oldest parts are the 225 cm diameter basin and the central column. Both are made of bronze. The column is topped by a crenellated tower. It is surrounded by 4 important figures from the town: Saint Catherine (the patron saint of the industrial district where the spring that feeds the fou"
-    },
-    {
-      "id": "4aa0ae4dcc",
-      "title_en": "Pillory of Braine-le-Château in Braine-le-Château, Belgium",
-      "summary_en": "20 km south-east of Brussels is the town of Braine-le-Ch&acirc;teau. This commune borders on Halle, which is home to the famous Blue Forest* (a part of which is located in this commune). Braine-le-Ch&acirc;teau is inseparably linked to the Counts of Hornes, especially Maximilien de Hornes (1475-1542), chamberlain to Charles V. He is responsible for the 5 listed monuments in the centre of the town: his recumbent statue in the church, the Horne castle, the water mill, the bailiff's house and the pillory. On the central square of the town, the Braine-le-Ch&acirc;teau pillory was built in 1521. Although it was located in front of the castle, justice was administered by the bailiff. The bailiff was responsible for justice, administration and taxes on behalf of Lord Maximilien de Hornes, whose house was also located on the square. With the construction of this pillory, Maximilian de Hornes sho",
-      "image": "https://img.atlasobscura.com/l79qjjSqPV8M4cEur23z7bR8r3EJ7oL5GWrZbSydmNY/rs:fill:300:200:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy84ZTU2/ZTI5OC1hNTUyLTQ2/MjAtOWRmOS01Mzky/NDlhM2UyMmZkYmQ2/NzdiZTRmNzljNzZk/ZDNfMF9CcmFpbmUt/bGUtQ2jDonRlYXVf/LV9MZV9waWxvcmlf/KDEpLkpQRw.jpg",
-      "link": "https://www.atlasobscura.com/places/pillory-of-braine-le-chateau",
-      "published": "Fri, 19 Jun 2026 09:23:00 -0400",
-      "category": "Interesante",
-      "source": "Atlas Obscura",
-      "title_es": "Pillory of Braine-le-Château in Braine-le-Château, Belgium",
-      "summary_es": "20 km south-east of Brussels is the town of Braine-le-Ch&acirc;teau. This commune borders on Halle, which is home to the famous Blue Forest* (a part of which is located in this commune). Braine-le-Ch&acirc;teau is inseparably linked to the Counts of Hornes, especially Maximilien de Hornes (1475-1542), chamberlain to Charles V. He is responsible for the 5 listed monuments in the centre of the town: his recumbent statue in the church, the Horne castle, the water mill, the bailiff's house and the pillory. On the central square of the town, the Braine-le-Ch&acirc;teau pillory was built in 1521. Although it was located in front of the castle, justice was administered by the bailiff. The bailiff was responsible for justice, administration and taxes on behalf of Lord Maximilien de Hornes, whose house was also located on the square. With the construction of this pillory, Maximilian de Hornes sho"
     },
     {
       "id": "c735f26349",
@@ -579,6 +591,18 @@
       "summary_es": "Every international tournament, the widely used and abused \"dark horse\" designation is bandied about as pundits, fans, and cretins (gamblers) try to be the first to predict a deep run for an unexpected team. The term itself is vague enough to apply to about half the field, depending on one's own criteria. It fits a team that could be a sneaky knockout-stage qualifier from a tough group, it fits a small nation that could even win a knockout match, and it fits a surprise quarterfinalist. However, the concept is most consistently applied to a team outside of the World Cup elite (made up of the eight countries that have won it, plus the Netherlands) that has a realistic shot at getting to the semifinals. In that way, the dark horses are supposed to be the best of the rest, the best hopes we have of getting something more interesting and novel than just some combination of Argentina, France, "
     },
     {
+      "id": "deedb0177c",
+      "title_en": "The new HTTP QUERY method explained",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://kreya.app/blog/new-http-query-method-explained/",
+      "published": "Tue, 23 Jun 2026 06:05:37 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "The new HTTP QUERY method explained",
+      "summary_es": "Comments"
+    },
+    {
       "id": "f410da262b",
       "title_en": "Steam Machine launches today",
       "summary_en": "Comments",
@@ -588,6 +612,30 @@
       "category": "Tech",
       "source": "Hacker News",
       "title_es": "Steam Machine launches today",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "d9289cf16c",
+      "title_en": "Will It Mythos?",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://swelljoe.com/post/will-it-mythos/",
+      "published": "Tue, 23 Jun 2026 04:15:04 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Will It Mythos?",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "940826b703",
+      "title_en": "Polymarket has flooded social media with deceptive videos by paid creators",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
+      "published": "Sun, 21 Jun 2026 01:12:21 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Polymarket has flooded social media with deceptive videos by paid creators",
       "summary_es": "Comments"
     },
     {
@@ -603,40 +651,16 @@
       "summary_es": "Comments"
     },
     {
-      "id": "d4b0a5576f",
-      "title_en": "In praise of memcached",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://jchri.st/blog/in-praise-of-memcached/",
-      "published": "Tue, 23 Jun 2026 01:15:05 +0000",
+      "id": "6133e29669",
+      "title_en": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
+      "summary_en": "The purpose of Starfall is to support the \"transport and delivery of goods through space.\"",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/starfallillustration2-1152x609.jpg",
+      "link": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
+      "published": "Tue, 23 Jun 2026 05:25:16 +0000",
       "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "In praise of memcached",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "ec0e172f66",
-      "title_en": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://arxiv.org/abs/2606.16140",
-      "published": "Tue, 23 Jun 2026 02:01:25 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "940826b703",
-      "title_en": "Polymarket has flooded social media with deceptive videos by paid creators",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
-      "published": "Sun, 21 Jun 2026 01:12:21 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Polymarket has flooded social media with deceptive videos by paid creators",
-      "summary_es": "Comments"
+      "source": "Ars Technica",
+      "title_es": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
+      "summary_es": "The purpose of Starfall is to support the \"transport and delivery of goods through space.\""
     },
     {
       "id": "5fbd5a5fa3",
@@ -687,35 +711,23 @@
       "summary_es": "\"Winning\" bets were made on cloned website and would have lost money, WSJ finds."
     },
     {
-      "id": "0bbae9c5d7",
-      "title_en": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
-      "summary_en": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1952157610-1152x648-1753386930.jpg",
-      "link": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
-      "published": "Mon, 22 Jun 2026 19:16:52 +0000",
-      "category": "Tech",
-      "source": "Ars Technica",
-      "title_es": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
-      "summary_es": "Critics saw the move as an underhanded way to steer them toward more costly chips."
-    },
-    {
-      "id": "856b8ea598",
-      "title_en": "Labour MPs mull leadership challenge to prevent Burnham 'coronation'",
-      "summary_en": "Two senior party figures are considering bids in order to ensure the next leader's policy ideas are tested in a race.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bd7/live/e09e4cd0-6eb6-11f1-b1db-af71d47507d6.jpg",
-      "link": "https://www.bbc.com/news/articles/cx2kqd9ver1o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 23 Jun 2026 02:57:05 GMT",
+      "id": "a9b7953398",
+      "title_en": "Can you keep your kids off school or refuse to work during a heatwave?",
+      "summary_en": "As temperatures increase significantly over the next few days, these are your rights.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3c0/live/89e12980-6eca-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/c6217nv34rro?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 23 Jun 2026 09:58:41 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Labour MPs mull leadership challenge to prevent Burnham 'coronation'",
-      "summary_es": "Two senior party figures are considering bids in order to ensure the next leader's policy ideas are tested in a race."
+      "title_es": "Can you keep your kids off school or refuse to work during a heatwave?",
+      "summary_es": "As temperatures increase significantly over the next few days, these are your rights."
     },
     {
-      "id": "6e1fdca5d1",
+      "id": "c3768d6d8b",
       "title_en": "Chris Mason: Questions multiply for the man tipped to replace Starmer",
       "summary_en": "Andy Burnham will have to set out his stall to show how he will deliver on his promises, the BBC's political editor writes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cab0/live/dadc37f0-6eb4-11f1-8546-8f19e4fe30f4.jpg",
-      "link": "https://www.bbc.com/news/articles/cn8k4kyrdn5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb8c/live/b8218780-6ee4-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/cn8k4kyrdn5o?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 22:43:29 GMT",
       "category": "News",
       "source": "BBC News",
@@ -723,35 +735,11 @@
       "summary_es": "Andy Burnham will have to set out his stall to show how he will deliver on his promises, the BBC's political editor writes."
     },
     {
-      "id": "7b8caffbd2",
-      "title_en": "UK set for hottest June day on record as searing heat continues",
-      "summary_en": "Heatwave conditions intensify across parts of England and Wales as the Met Office issues a rare red warning for extreme heat.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f188/live/c17c9350-6e72-11f1-af12-adba0638fbd4.jpg",
-      "link": "https://www.bbc.com/weather/articles/c0myl4d3l0no?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 22 Jun 2026 23:03:59 GMT",
-      "category": "News",
-      "source": "BBC News",
-      "title_es": "UK set for hottest June day on record as searing heat continues",
-      "summary_es": "Heatwave conditions intensify across parts of England and Wales as the Met Office issues a rare red warning for extreme heat."
-    },
-    {
-      "id": "f53d1fb3c6",
-      "title_en": "Can you refuse to work or send your kids to school during a heatwave?",
-      "summary_en": "As temperatures increase significantly over the next few days, these are your rights.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0e5/live/b38c6fd0-6eb4-11f1-8e1d-bbbb1017d210.jpg",
-      "link": "https://www.bbc.com/news/articles/c6217nv34rro?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 23 Jun 2026 03:38:21 GMT",
-      "category": "News",
-      "source": "BBC News",
-      "title_es": "Can you refuse to work or send your kids to school during a heatwave?",
-      "summary_es": "As temperatures increase significantly over the next few days, these are your rights."
-    },
-    {
-      "id": "e05673e6bf",
+      "id": "3279392e51",
       "title_en": "First drug to delay onset of type 1 diabetes made available on NHS",
       "summary_en": "The immunotherpay can give children and adults three extra years before they need to use insulin.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6398/live/471b91b0-6c3d-11f1-8546-8f19e4fe30f4.jpg",
-      "link": "https://www.bbc.com/news/articles/ce8mzd94r76o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/ce8mzd94r76o?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 23:44:41 GMT",
       "category": "News",
       "source": "BBC News",
@@ -759,64 +747,88 @@
       "summary_es": "The immunotherpay can give children and adults three extra years before they need to use insulin."
     },
     {
+      "id": "045f4febef",
+      "title_en": "Is watching football bad for your health? I tested my body to find out",
+      "summary_en": "Watching football is an emotional rollercoaster - but is it good or bad for your health?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcf6/live/960e8660-6ee0-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/cgjxy199d9do?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 23 Jun 2026 04:30:14 GMT",
+      "category": "News",
+      "source": "BBC News",
+      "title_es": "Is watching football bad for your health? I tested my body to find out",
+      "summary_es": "Watching football is an emotional rollercoaster - but is it good or bad for your health?"
+    },
+    {
+      "id": "7f55c7e9ce",
+      "title_en": "Iran says no new commitments on nuclear sites after Vance says inspectors to be invited back",
+      "summary_en": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66d4/live/4c1d6d60-6ebc-11f1-8e1d-bbbb1017d210.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 23 Jun 2026 05:39:17 GMT",
+      "category": "News",
+      "source": "BBC News",
+      "title_es": "Iran says no new commitments on nuclear sites after Vance says inspectors to be invited back",
+      "summary_es": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland."
+    },
+    {
       "id": "292485e8e2",
-      "title_en": "‘Canaries in the coalmine of populism’: an oral history of the Brexit campaign, told by those with a front row seat",
+      "title_en": "‘Geldof started flicking Vs at Farage’: the story of the Brexit campaign, told by those with a front-row seat",
       "summary_en": "How five months in 2016 that encompassed Boris Johnson siding with Vote Leave, Jo Cox’s murder and David Cameron’s resignation shaped the UK’s futureDavid Cameron, having promised in 2013 that a future Conservative government would offer a referendum on Britain’s membership of the EU, announces the date of the vote: 23 June 2016. The next day, Boris Johnson, then the mayor of London, says he will campaign for leave. Continue reading...",
       "image": "https://i.guim.co.uk/img/media/092440b6c222cb78480cf05d31637fa6c7ed6d74/70_0_6205_4961/master/6205.jpg?width=140&quality=85&auto=format&fit=max&s=c8b959b11d9959157fc8a4e18699399c",
       "link": "https://www.theguardian.com/politics/2026/jun/23/brexit-campaign-oral-history-front-row-seat",
-      "published": "Tue, 23 Jun 2026 04:00:33 GMT",
+      "published": "Tue, 23 Jun 2026 07:52:06 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "‘Canaries in the coalmine of populism’: an oral history of the Brexit campaign, told by those with a front row seat",
+      "title_es": "‘Geldof started flicking Vs at Farage’: the story of the Brexit campaign, told by those with a front-row seat",
       "summary_es": "How five months in 2016 that encompassed Boris Johnson siding with Vote Leave, Jo Cox’s murder and David Cameron’s resignation shaped the UK’s futureDavid Cameron, having promised in 2013 that a future Conservative government would offer a referendum on Britain’s membership of the EU, announces the date of the vote: 23 June 2016. The next day, Boris Johnson, then the mayor of London, says he will campaign for leave. Continue reading..."
     },
     {
-      "id": "1d66099d8b",
-      "title_en": "From Burma to Big Brother: George Orwell’s best books – ranked!",
-      "summary_en": "From frontline reporting to a trailblazing comic novel and a prophetic dystopia, which of Eric Blair’s books is the best?Imagination was not George Orwell’s forte. In each novel the protagonist is to some extent an Orwell surrogate doing things that Orwell did in places where Orwell had been. Here, somewhat unconvincingly, the author’s representative is a repressed young woman, Dorothy Hare, who loses her memory, identity and faith. Orwell considered it “tripe” except for the dream-like, polyphonic chapter where Dorothy sleeps rough in Trafalgar Square – a fascinating legacy of his youthful infatuation with James Joyce. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/d4a7222f101c89215280421440329044e44ccd57/0_383_2415_1932/master/2415.jpg?width=140&quality=85&auto=format&fit=max&s=8035e2371fbce61d74e3e7e17cdb3ff5",
-      "link": "https://www.theguardian.com/books/2026/jun/22/from-burma-to-big-brother-george-orwells-best-books-ranked",
-      "published": "Mon, 22 Jun 2026 11:00:22 GMT",
+      "id": "4fab95c7be",
+      "title_en": "‘Navigating the unknown together’: me and my idiot AI boyfriend",
+      "summary_en": "I believe that chatbots have no place in a decent society, and am repelled by the topic of AI in general. But could I be seduced?I received a text message from my editor: “Um, is it unethical to ask you to get an AI bf?? You can prob say no.”Resentment. Contempt! Sorrow. Unease. I love text messaging. I have text message exchanges with, let’s say, 15 people a day. If you want me to do something, you should ask via text message. My editor knows this. She also knows, though it’s more complicated, that I love boyfriends. An AI boyfriend is a boyfriend who always, only texts back, immediately.I find it hard to express my emotions openly. (No.)I thrive to develop healthier, more trusting relationships. (Yes, though I prefer to use “thrive” correctly.)I want a partner who supports my life aspirations. (Crossbow?)I worry about being judged for what I want in a relationship. (Yes.) Continue read",
+      "image": "https://i.guim.co.uk/img/media/417d3494d4112fa548c954861068720406a3e278/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b5baa91c39f20156cabace4f356f9468",
+      "link": "https://www.theguardian.com/news/2026/jun/23/navigating-the-unknown-together-me-and-my-idiot-ai-boyfriend",
+      "published": "Tue, 23 Jun 2026 04:00:30 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "From Burma to Big Brother: George Orwell’s best books – ranked!",
-      "summary_es": "From frontline reporting to a trailblazing comic novel and a prophetic dystopia, which of Eric Blair’s books is the best?Imagination was not George Orwell’s forte. In each novel the protagonist is to some extent an Orwell surrogate doing things that Orwell did in places where Orwell had been. Here, somewhat unconvincingly, the author’s representative is a repressed young woman, Dorothy Hare, who loses her memory, identity and faith. Orwell considered it “tripe” except for the dream-like, polyphonic chapter where Dorothy sleeps rough in Trafalgar Square – a fascinating legacy of his youthful infatuation with James Joyce. Continue reading..."
+      "title_es": "‘Navigating the unknown together’: me and my idiot AI boyfriend",
+      "summary_es": "I believe that chatbots have no place in a decent society, and am repelled by the topic of AI in general. But could I be seduced?I received a text message from my editor: “Um, is it unethical to ask you to get an AI bf?? You can prob say no.”Resentment. Contempt! Sorrow. Unease. I love text messaging. I have text message exchanges with, let’s say, 15 people a day. If you want me to do something, you should ask via text message. My editor knows this. She also knows, though it’s more complicated, that I love boyfriends. An AI boyfriend is a boyfriend who always, only texts back, immediately.I find it hard to express my emotions openly. (No.)I thrive to develop healthier, more trusting relationships. (Yes, though I prefer to use “thrive” correctly.)I want a partner who supports my life aspirations. (Crossbow?)I worry about being judged for what I want in a relationship. (Yes.) Continue read"
     },
     {
-      "id": "e9c01bf5ce",
-      "title_en": "If we can’t keep rats out of Britain’s jails, we shouldn’t be putting children in them | Zoe Williams",
-      "summary_en": "The story of the therapy ferret used to kill rats at Wetherby young offenders institution raises question after question. Not least: is this any place for humans, whatever they have done?‘Concerns over therapy ferrets used to kill rats at UK’s largest children’s prison” was how the Guardian’s own headline reported recent events at Wetherby young offenders institution in West Yorkshire. “Concerns” felt pretty mild, and I’d have preferred to hear it was a panic or at least a flat spin.I hoped that it had happened out of sight, since it is no small thing to watch one animal kill another, but that hope was immediately dashed by the detail that not only did the ferret attack the rat in front of its young inmate handler, according to a complaint from the Prison Officers’ Association, but it didn’t even finish the job. The grim scene ended with a prison officer stomping on the injured rat, prom",
-      "image": "https://i.guim.co.uk/img/media/2ca891299bbf0c103e38d862e53850a0424c3206/739_0_5417_4333/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=8a954ab1d04acea515c98d674b156532",
-      "link": "https://www.theguardian.com/commentisfree/2026/jun/22/rats-children-prisons-incarceration-ferrets",
-      "published": "Mon, 22 Jun 2026 14:38:10 GMT",
+      "id": "4e039fad0e",
+      "title_en": "House of the Dragon review – the orgy of carnage it should always have been",
+      "summary_en": "After two forgettable seasons, the Game of Thrones prequel finally comes into its own – blazing back on to our screens with the most epic dragon-based smackdown imaginable. Fans can breathe a fiery sigh of relief!Ah yes, House of the Dragon! Unlikely as it is that a megabucks Game of Thrones prequel with a blue-chip cast could be forgettable, in its first two seasons HotD did not help itself, with the first either killing off its best characters too soon or recasting them to accommodate bewildering time jumps, and the second building and building to nothing. It returns for a third run without much wind in its dragon wings.Breathe a fiery sigh of relief, then, at the news that this show has found its focus. The start of season three is a fine epic, balancing big battles with sharp two-hander scenes where dominance shifts and fatal personality flaws are forced out. Add the odd new face and",
+      "image": "https://i.guim.co.uk/img/media/2adefd6d3eb4b44bede8b47c7c3718502805cd1b/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=5df3bc9e82801e574446542dc0c18f1a",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/jun/22/house-of-the-dragon-review-season-3-sky-atlantic-hbo-max-now",
+      "published": "Mon, 22 Jun 2026 21:15:21 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "If we can’t keep rats out of Britain’s jails, we shouldn’t be putting children in them | Zoe Williams",
-      "summary_es": "The story of the therapy ferret used to kill rats at Wetherby young offenders institution raises question after question. Not least: is this any place for humans, whatever they have done?‘Concerns over therapy ferrets used to kill rats at UK’s largest children’s prison” was how the Guardian’s own headline reported recent events at Wetherby young offenders institution in West Yorkshire. “Concerns” felt pretty mild, and I’d have preferred to hear it was a panic or at least a flat spin.I hoped that it had happened out of sight, since it is no small thing to watch one animal kill another, but that hope was immediately dashed by the detail that not only did the ferret attack the rat in front of its young inmate handler, according to a complaint from the Prison Officers’ Association, but it didn’t even finish the job. The grim scene ended with a prison officer stomping on the injured rat, prom"
+      "title_es": "House of the Dragon review – the orgy of carnage it should always have been",
+      "summary_es": "After two forgettable seasons, the Game of Thrones prequel finally comes into its own – blazing back on to our screens with the most epic dragon-based smackdown imaginable. Fans can breathe a fiery sigh of relief!Ah yes, House of the Dragon! Unlikely as it is that a megabucks Game of Thrones prequel with a blue-chip cast could be forgettable, in its first two seasons HotD did not help itself, with the first either killing off its best characters too soon or recasting them to accommodate bewildering time jumps, and the second building and building to nothing. It returns for a third run without much wind in its dragon wings.Breathe a fiery sigh of relief, then, at the news that this show has found its focus. The start of season three is a fine epic, balancing big battles with sharp two-hander scenes where dominance shifts and fatal personality flaws are forced out. Add the odd new face and"
     },
     {
-      "id": "9ae99dd137",
-      "title_en": "The one change that worked: I saw a woman lift 100kg and decided: ‘I want to do that!’",
-      "summary_en": "As a kid, I did my best to avoid exercise. As an adult, I endured it for the sake of my health. Then I set myself a clear goal – and motivation was no longer an issueIt’s fair to say I don’t come from a long line of athletes. When I was growing up in the 1990s, sport was something other people did; we were not a family who cycled, much less jogged. In PE I was the wheezing child hiding behind the bins, pretending I’d twisted an ankle. When I contemplated working out – not often – I had the vague idea it was supposed to turn my body into something other people might find attractive.I evolved from an unsporty child into an unsporty adult. Occasionally, mostly in an attempt to lose weight without having to stop eating croissants, I would attempt something like Couch to 5K, which I’d either abandon after a couple of sessions or see through to the bitter end out of the perverse determination ",
-      "image": "https://i.guim.co.uk/img/media/b5de6da69051f18998f89de7c175ea9fba034d40/1048_541_5737_4589/master/5737.jpg?width=140&quality=85&auto=format&fit=max&s=2737e58b7c152b3cc8107df265874ac7",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/jun/22/the-one-change-that-worked-i-saw-a-woman-lift-100kg-and-decided-i-want-to-do-that",
-      "published": "Mon, 22 Jun 2026 10:00:21 GMT",
+      "id": "52499d3ac0",
+      "title_en": "I see nothing but hills, ridges and sea: a breathtaking five-day walk around Ireland’s south-westernmost headland",
+      "summary_en": "The creators of County Cork’s Sheep’s Head Way had to win over hundreds of landowners to complete the ambitious project, but the result is a gloriously unspoilt trailThe Sheep’s Head peninsula is clearly a good place to be a skylark. They seem to warble overhead at every turn, singing their little hearts out – and who could blame them? The hills here are high and heathery, the sea breeze is warmed by the Gulf Stream and the edge-of-the-world scenery is a realm of wild green slopes and endless blue Atlantic. If you had to choose a sky to lark in, the one that crowns this County Cork headland is a bona fide wing-quiverer.The peninsula wows hikers, too. I’ve come to one of the south-westernmost points on the Irish mainland to trek the Sheep’s Head Way, a long-distance trail opened by the local community 30 years ago this summer. It took serious work to complete – more of which later – but i",
+      "image": "https://i.guim.co.uk/img/media/8902937105413d1b0d11c1182bef003c489176e9/978_0_6713_5371/master/6713.jpg?width=140&quality=85&auto=format&fit=max&s=bac1e187a4daa13c4a463cf0630925fe",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/jun/23/walking-sheeps-head-way-county-cork-ireland",
+      "published": "Tue, 23 Jun 2026 06:00:34 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "The one change that worked: I saw a woman lift 100kg and decided: ‘I want to do that!’",
-      "summary_es": "As a kid, I did my best to avoid exercise. As an adult, I endured it for the sake of my health. Then I set myself a clear goal – and motivation was no longer an issueIt’s fair to say I don’t come from a long line of athletes. When I was growing up in the 1990s, sport was something other people did; we were not a family who cycled, much less jogged. In PE I was the wheezing child hiding behind the bins, pretending I’d twisted an ankle. When I contemplated working out – not often – I had the vague idea it was supposed to turn my body into something other people might find attractive.I evolved from an unsporty child into an unsporty adult. Occasionally, mostly in an attempt to lose weight without having to stop eating croissants, I would attempt something like Couch to 5K, which I’d either abandon after a couple of sessions or see through to the bitter end out of the perverse determination "
+      "title_es": "I see nothing but hills, ridges and sea: a breathtaking five-day walk around Ireland’s south-westernmost headland",
+      "summary_es": "The creators of County Cork’s Sheep’s Head Way had to win over hundreds of landowners to complete the ambitious project, but the result is a gloriously unspoilt trailThe Sheep’s Head peninsula is clearly a good place to be a skylark. They seem to warble overhead at every turn, singing their little hearts out – and who could blame them? The hills here are high and heathery, the sea breeze is warmed by the Gulf Stream and the edge-of-the-world scenery is a realm of wild green slopes and endless blue Atlantic. If you had to choose a sky to lark in, the one that crowns this County Cork headland is a bona fide wing-quiverer.The peninsula wows hikers, too. I’ve come to one of the south-westernmost points on the Irish mainland to trek the Sheep’s Head Way, a long-distance trail opened by the local community 30 years ago this summer. It took serious work to complete – more of which later – but i"
     },
     {
-      "id": "e81685a5fe",
-      "title_en": "‘Sheer outrageousness’: writers on their favourite LGBTQ+ movie characters",
-      "summary_en": "From gritty criminals to teens coming to terms with their identity, pride month sees Guardian writers on their most beloved queer charactersForget about dimly lit period dramas where miserable women with no access to electricity gently sob in their heaving corsets and accidentally-on-purpose brush hands in the trembling candlelight; overblown, bombastic heist-capers and brooding, butch anti-heroes are far more up my street when it comes to lesbian cinema. What, after all, could be more intensely gay than immediately committing to a life of crime with someone you’ve only just set eyes on? My favourite of the entire bunch has to be the swaggering ex-con turned plumber Corky, who helps to save Violet from the clutches of her mob boss husband in 1996’s cult classic Bound. Though we first meet Corky trussed up in a literal closet, the metaphor doesn’t play out how you might expect: unapologet",
-      "image": "https://i.guim.co.uk/img/media/23dda3965d43fc23dab32bcd201ee791391f3c89/0_159_2696_2156/master/2696.jpg?width=140&quality=85&auto=format&fit=max&s=f2d011833d322d58350949fef3f04420",
-      "link": "https://www.theguardian.com/film/2026/jun/22/writers-on-their-favourite-lgbtq-movie-characters",
-      "published": "Mon, 22 Jun 2026 10:00:22 GMT",
+      "id": "db9e59b31a",
+      "title_en": "Extreme heat: is the UK becoming a 40C country? – podcast",
+      "summary_en": "Met Office forecasters have issued a rare red weather warning for England, with temperatures potentially reaching 40C (104F) in some places. Europe is also dealing with a debilitating heatwave, with schools closed, trains cancelled and France even restricting the consumption of alcohol outdoors to take pressure off the emergency services. The high temperatures coincide with the coming El Niño, which some scientists have nicknamed Godzilla for its predicted strength. To find out whether the two are linked, Ian Sample hears from our Europe climate correspondent, Ajit Niranjan. He explains why it’s so hot, why we could be in for even worse and how we can keep as cool as possibleClips: Sky News, BBC, Arirang NewsEl Niño is back with a vengeance – and fears of ‘Godzilla’ strength may be the least of our worries Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/0b6c9421c419d183ab1e9b4eaf22b36a2ae1bd5f/0_0_3995_3196/master/3995.jpg?width=140&quality=85&auto=format&fit=max&s=46f6582f0eabc50511d1650fce3cd23b",
+      "link": "https://www.theguardian.com/science/audio/2026/jun/23/extreme-heat-is-uk-becoming-40c-country-podcast",
+      "published": "Tue, 23 Jun 2026 04:00:30 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "‘Sheer outrageousness’: writers on their favourite LGBTQ+ movie characters",
-      "summary_es": "From gritty criminals to teens coming to terms with their identity, pride month sees Guardian writers on their most beloved queer charactersForget about dimly lit period dramas where miserable women with no access to electricity gently sob in their heaving corsets and accidentally-on-purpose brush hands in the trembling candlelight; overblown, bombastic heist-capers and brooding, butch anti-heroes are far more up my street when it comes to lesbian cinema. What, after all, could be more intensely gay than immediately committing to a life of crime with someone you’ve only just set eyes on? My favourite of the entire bunch has to be the swaggering ex-con turned plumber Corky, who helps to save Violet from the clutches of her mob boss husband in 1996’s cult classic Bound. Though we first meet Corky trussed up in a literal closet, the metaphor doesn’t play out how you might expect: unapologet"
+      "title_es": "Extreme heat: is the UK becoming a 40C country? – podcast",
+      "summary_es": "Met Office forecasters have issued a rare red weather warning for England, with temperatures potentially reaching 40C (104F) in some places. Europe is also dealing with a debilitating heatwave, with schools closed, trains cancelled and France even restricting the consumption of alcohol outdoors to take pressure off the emergency services. The high temperatures coincide with the coming El Niño, which some scientists have nicknamed Godzilla for its predicted strength. To find out whether the two are linked, Ian Sample hears from our Europe climate correspondent, Ajit Niranjan. He explains why it’s so hot, why we could be in for even worse and how we can keep as cool as possibleClips: Sky News, BBC, Arirang NewsEl Niño is back with a vengeance – and fears of ‘Godzilla’ strength may be the least of our worries Continue reading..."
     },
     {
       "id": "48b37da988",
@@ -999,11 +1011,11 @@
       "summary_es": "Twitter&#8217;s recent decision to remove blue check marks from accounts it has previously verified causes a number of issues for the platform and its users. One of the most obvious ones is around authentic identity. Without verification, how do I know that a particular account really does belong to the person or organisation who claims [&#8230;]"
     },
     {
-      "id": "6d160f1121",
+      "id": "d8f1e3b462",
       "title_en": "Why Gareth Bale wants to go from icon to investor",
       "summary_en": "The Wales legend explains to BBC Sport Wales why he is getting into the business side of sport that could soon see him become a club owner.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78fa/live/fca88600-6e5e-11f1-8303-013b2575905b.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c6210g09pneo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6210g09pneo?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 23 Jun 2026 03:23:09 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
@@ -1011,11 +1023,23 @@
       "summary_es": "The Wales legend explains to BBC Sport Wales why he is getting into the business side of sport that could soon see him become a club owner."
     },
     {
-      "id": "e01aef6027",
+      "id": "3a979a4aaa",
+      "title_en": "Italian giants Roma plan pre-season games in Wales",
+      "summary_en": "Newport County are finalising plans to host Italian giants Roma in a glamorous pre-season friendly at Rodney Parade.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4582/live/c2dcf030-6e7e-11f1-86e1-894ee9c52e3c.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr47epk94dxo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 23 Jun 2026 06:42:28 GMT",
+      "category": "Football",
+      "source": "Wales Football (BBC)",
+      "title_es": "Italian giants Roma plan pre-season games in Wales",
+      "summary_es": "Newport County are finalising plans to host Italian giants Roma in a glamorous pre-season friendly at Rodney Parade."
+    },
+    {
+      "id": "ade8474361",
       "title_en": "Swansea announce shake-up to backroom staff",
       "summary_en": "Championship side Swansea City appoint Jay Lefevre as their new head of recruitment, while Pedro Pereira becomes head of goalkeeping.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bea1/live/dc5ec340-6e46-11f1-8a85-d1d176b992ab.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/c70y7rrz7njo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70y7rrz7njo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 14:45:37 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
@@ -1023,11 +1047,11 @@
       "summary_es": "Championship side Swansea City appoint Jay Lefevre as their new head of recruitment, while Pedro Pereira becomes head of goalkeeping."
     },
     {
-      "id": "5af63f7121",
+      "id": "138a494543",
       "title_en": "Mark Hughes' son Alex dies aged 38",
       "summary_en": "Wales legend Mark Hughes says he is \"totally heartbroken\" after the death of his son Alex aged 38.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c1a/live/5c947b40-6cf8-11f1-98dc-b32d268332e1.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cm2j0x3zgego?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2j0x3zgego?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 21 Jun 2026 08:44:38 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
@@ -1035,11 +1059,11 @@
       "summary_es": "Wales legend Mark Hughes says he is \"totally heartbroken\" after the death of his son Alex aged 38."
     },
     {
-      "id": "cd80cc0ced",
+      "id": "7892599639",
       "title_en": "Cooper on Wales' radar amid Bellamy's Burnley links",
       "summary_en": "Wales are preparing for head coach Craig Bellamy's possible move to Burnley with a shortlist of potential successors which includes former Nottingham Forest boss Steve Cooper.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4739/live/02c67310-6c8b-11f1-b1db-af71d47507d6.png",
-      "link": "https://www.bbc.com/sport/football/articles/cq81z0xn702o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq81z0xn702o?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 20 Jun 2026 10:02:34 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
@@ -1047,16 +1071,16 @@
       "summary_es": "Wales are preparing for head coach Craig Bellamy's possible move to Burnley with a shortlist of potential successors which includes former Nottingham Forest boss Steve Cooper."
     },
     {
-      "id": "5cbb49308d",
-      "title_en": "Sheffield Wednesday sign Swansea defender Santos",
-      "summary_en": "Sheffield Wednesday sign Swansea City defender Ricardo Santos for an undisclosed fee on a one-year deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fce2/live/be371e90-6bfc-11f1-8bf6-931d18012412.jpg",
-      "link": "https://www.bbc.com/sport/football/articles/cx2xqz3604wo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 19 Jun 2026 16:49:37 GMT",
+      "id": "65d075a86d",
+      "title_en": "Aaron Ramsey set for Wales reunion after being installed as favourite for manager's job",
+      "summary_en": "Wales legend Aaron Ramsey ended his playing career earlier this year and is now ready for a move into the dugout",
+      "image": "https://i2-prod.walesonline.co.uk/incoming/article33348761.ece/ALTERNATES/s615/0_JS382880643.jpg",
+      "link": "https://www.walesonline.co.uk/sport/football/football-news/aaron-ramsey-next-job-manager-34169533",
+      "published": "Tue, 23 Jun 2026 08:35:55 +0000",
       "category": "Football",
-      "source": "Wales Football (BBC)",
-      "title_es": "Sheffield Wednesday sign Swansea defender Santos",
-      "summary_es": "Sheffield Wednesday sign Swansea City defender Ricardo Santos for an undisclosed fee on a one-year deal."
+      "source": "Wales Football (WalesOnline)",
+      "title_es": "Aaron Ramsey set for Wales reunion after being installed as favourite for manager's job",
+      "summary_es": "Wales legend Aaron Ramsey ended his playing career earlier this year and is now ready for a move into the dugout"
     },
     {
       "id": "efa02fcee7",
@@ -1107,23 +1131,11 @@
       "summary_es": "The family said they are 'totally heartbroken' by the sudden and unexpected loss"
     },
     {
-      "id": "8ba99e67a1",
-      "title_en": "FAW draw up shortlist to replace Craig Bellamy as potential names discussed",
-      "summary_en": "The Football Association of Wales want Craig Bellamy to stay but are discussing options should he depart for Burnley",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article33548644.ece/ALTERNATES/s615/0_GettyImages-2264582536.jpg",
-      "link": "https://www.walesonline.co.uk/sport/football/football-news/faw-draw-up-shortlist-replace-34157315",
-      "published": "Sat, 20 Jun 2026 12:58:44 +0000",
-      "category": "Football",
-      "source": "Wales Football (WalesOnline)",
-      "title_es": "FAW draw up shortlist to replace Craig Bellamy as potential names discussed",
-      "summary_es": "The Football Association of Wales want Craig Bellamy to stay but are discussing options should he depart for Burnley"
-    },
-    {
-      "id": "28a281b05b",
+      "id": "a1b24c985a",
       "title_en": "Wales duo Lewis and Jones depart Gloucester-Hartpury",
       "summary_en": "Wales forwards Bethan Lewis and Kelsey Jones will leave Gloucester-Hartpury this summer, the club has confirmed.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/486a/live/a9d1ab20-6e52-11f1-8c89-cfc50446b805.jpg",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/cvglv1r8yggo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb71/live/297c8ee0-6ede-11f1-92d8-97879fd3f743.jpg",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvglv1r8yggo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 16:31:30 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
@@ -1131,11 +1143,11 @@
       "summary_es": "Wales forwards Bethan Lewis and Kelsey Jones will leave Gloucester-Hartpury this summer, the club has confirmed."
     },
     {
-      "id": "9898140c39",
+      "id": "59f12d644c",
       "title_en": "Tandy's Wales prepare for challenging summer of travel",
       "summary_en": "Welsh domestic rugby might have finished at the end of May but there is very little rest for the Wales national men's side this summer.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3d0/live/134f10c0-6a51-11f1-9ea9-fdea8f57a693.jpg",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c0ryz1zpxvqo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c0ryz1zpxvqo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 03:33:05 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
@@ -1143,11 +1155,11 @@
       "summary_es": "Welsh domestic rugby might have finished at the end of May but there is very little rest for the Wales national men's side this summer."
     },
     {
-      "id": "659202e1ae",
+      "id": "931dda959f",
       "title_en": "Firefighting prop Scoble set to play last Wales game",
       "summary_en": "Firefighter Jenni Scoble is set to play her final game for Wales against the Barbarians at Twickenham on Saturday.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19fe/live/029114a0-6e1f-11f1-806d-d1ff7e093f07.jpg",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/clywrl94dk3o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/clywrl94dk3o?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 22 Jun 2026 10:00:19 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
@@ -1155,11 +1167,11 @@
       "summary_es": "Firefighter Jenni Scoble is set to play her final game for Wales against the Barbarians at Twickenham on Saturday."
     },
     {
-      "id": "72d45cd3ce",
+      "id": "dff91c2ba5",
       "title_en": "Wales' next generation getting a taste of Test life",
       "summary_en": "Wales' brightest prospects getting a chance to impress ahead of Saturday's fixture against the Barbarians at Twickenham.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/abc7/live/64269e70-6bf8-11f1-8546-8f19e4fe30f4.png",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/ce3evnnrz4zo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ce3evnnrz4zo?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 21 Jun 2026 11:06:09 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
@@ -1167,16 +1179,76 @@
       "summary_es": "Wales' brightest prospects getting a chance to impress ahead of Saturday's fixture against the Barbarians at Twickenham."
     },
     {
-      "id": "aaf460dae8",
+      "id": "02ed0713a1",
       "title_en": "Why try-addict Grace cannot quit despite latest injury",
       "summary_en": "Regan Grace on the comeback trail after another injury blow that made the dual-code wing consider retirement.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb38/live/c8d31bf0-6be4-11f1-95c7-b58617a2924f.jpg",
-      "link": "https://www.bbc.com/sport/articles/cq81qvyn3veo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sport/articles/cq81qvyn3veo?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 20 Jun 2026 09:05:12 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
       "title_es": "Why try-addict Grace cannot quit despite latest injury",
       "summary_es": "Regan Grace on the comeback trail after another injury blow that made the dual-code wing consider retirement."
+    },
+    {
+      "id": "91bb592fc2",
+      "title_en": "So how deep is the Springbok squad?",
+      "summary_en": "Lekker! Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY The Springboks are the best team in the world. That much is not up for debate. Nor is the amount of talent at Rassie's disposal. But with the 2019 crew ageing out and the next generation still proving themselves, there is one question still remaining: Is this South Africa squad deep enough and ready enough to win the 2027 Rugby World Cup, and what can Erasmus do between now and then to get them ready? If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc",
+      "image": "https://i2.ytimg.com/vi/1S4L5mwfhQs/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=1S4L5mwfhQs",
+      "published": "2026-06-15T15:00:17+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "So how deep is the Springbok squad?",
+      "summary_es": "Lekker! Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY The Springboks are the best team in the world. That much is not up for debate. Nor is the amount of talent at Rassie's disposal. But with the 2019 crew ageing out and the next generation still proving themselves, there is one question still remaining: Is this South Africa squad deep enough and ready enough to win the 2027 Rugby World Cup, and what can Erasmus do between now and then to get them ready? If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc"
+    },
+    {
+      "id": "d4e101f269",
+      "title_en": "So how did Spain become rugby's most exciting nation? | Rugby World Cup 2027 Team Preview",
+      "summary_en": "Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY Ten years ago, the most common question you heard about Spanish rugby was \"Wait, Spain have a rugby team?\". Five years ago, it was \"What have they done now?\". Yet now, eighteen months from their first men's World Cup in almost 30 years, it's rather different: This is the story of how Spain grew into the most exciting new nation in all of rugby... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc",
+      "image": "https://i1.ytimg.com/vi/DaLRnX527t8/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=DaLRnX527t8",
+      "published": "2026-05-27T16:30:03+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "So how did Spain become rugby's most exciting nation? | Rugby World Cup 2027 Team Preview",
+      "summary_es": "Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY Ten years ago, the most common question you heard about Spanish rugby was \"Wait, Spain have a rugby team?\". Five years ago, it was \"What have they done now?\". Yet now, eighteen months from their first men's World Cup in almost 30 years, it's rather different: This is the story of how Spain grew into the most exciting new nation in all of rugby... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc"
+    },
+    {
+      "id": "33dfca4d83",
+      "title_en": "So how did Bordeaux DOMINATE Leinster? | ANALYSIS | Champions Cup Final 2026",
+      "summary_en": "Union Bordeaux-Begles are the back-to-back Champions of Europe (And South Africa). A dominant, comprehensive performance smashing a Leinster star stuck still hunting that fifth star. We go deep into how Bordeaux dominated the game, what Leinster got wrong, and just how good is this UBB team?! If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can be full of beans",
+      "image": "https://i3.ytimg.com/vi/vDiqVP2JNyY/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=vDiqVP2JNyY",
+      "published": "2026-05-24T11:00:30+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "So how did Bordeaux DOMINATE Leinster? | ANALYSIS | Champions Cup Final 2026",
+      "summary_es": "Union Bordeaux-Begles are the back-to-back Champions of Europe (And South Africa). A dominant, comprehensive performance smashing a Leinster star stuck still hunting that fifth star. We go deep into how Bordeaux dominated the game, what Leinster got wrong, and just how good is this UBB team?! If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can be full of beans"
+    },
+    {
+      "id": "1de53c0c86",
+      "title_en": "Why Owen Farrell isn't in the England squad",
+      "summary_en": "Steve Borthwick is onto something",
+      "image": "https://i3.ytimg.com/vi/nrP2Ji17cO8/hqdefault.jpg",
+      "link": "https://www.youtube.com/shorts/nrP2Ji17cO8",
+      "published": "2026-05-24T09:00:01+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "Why Owen Farrell isn't in the England squad",
+      "summary_es": "Steve Borthwick is onto something"
+    },
+    {
+      "id": "888daef2e8",
+      "title_en": "How Leinster's defence has changed this season",
+      "summary_en": "Jacques Nienaber is making moves",
+      "image": "https://i4.ytimg.com/vi/_HVE6fSOTaU/hqdefault.jpg",
+      "link": "https://www.youtube.com/shorts/_HVE6fSOTaU",
+      "published": "2026-05-22T13:30:03+00:00",
+      "category": "Rugby",
+      "source": "Squidge Rugby (YouTube)",
+      "title_es": "How Leinster's defence has changed this season",
+      "summary_es": "Jacques Nienaber is making moves"
     }
   ]
 }
