@@ -9,8 +9,10 @@ import os
 import re
 import time
 import hashlib
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone, timedelta
-from typing import Optional
+from typing import Callable, Optional
 
 import feedparser
 import anthropic
@@ -34,6 +36,33 @@ MAX_ITEMS_PER_FEED = CONFIG.get("max_items_per_feed", 5)
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY")
+
+# ─── Translation backend selection ──────────────────────────────────────────
+# TRANSLATE_BACKEND:
+#   "auto"   (default) — use Ollama if OLLAMA_HOST is set, otherwise Claude.
+#                        Whichever is primary, the other is used as fallback.
+#   "ollama"           — Ollama primary (defaults to localhost), Claude fallback.
+#   "claude"           — Claude only (original behaviour).
+# This keeps the existing GitHub Actions run unchanged (no OLLAMA_HOST -> Claude),
+# while letting the home-server M1 run translation locally for free by setting
+# TRANSLATE_BACKEND=ollama (or pointing OLLAMA_HOST at the box).
+TRANSLATE_BACKEND = os.environ.get("TRANSLATE_BACKEND", "auto").lower().strip()
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "").strip()
+# qwen2.5:7b-instruct is a strong, fast multilingual default that fits an M1/16GB
+# at Q4 (~5GB). For higher Spanish fidelity bump to qwen2.5:14b-instruct or
+# aya-expanse:8b (Cohere's translation-tuned model) — see README.
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:7b-instruct")
+OLLAMA_TIMEOUT = int(os.environ.get("OLLAMA_TIMEOUT", "180"))
+CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
+
+OLLAMA_ENABLED = TRANSLATE_BACKEND == "ollama" or (
+    TRANSLATE_BACKEND == "auto" and bool(OLLAMA_HOST)
+)
+
+
+def _ollama_base() -> str:
+    return (OLLAMA_HOST or "http://localhost:11434").rstrip("/")
+
 
 SUMMARY_CAP = 900  # max chars of summary kept for translation
 
@@ -143,9 +172,6 @@ def fetch_world_cup_results(days_back: int = 3) -> list[dict]:
         print("Mundial: FOOTBALL_API_KEY not set — skipping World Cup results.")
         return []
 
-    import urllib.request
-    import urllib.error
-
     today = datetime.now(timezone.utc).date()
     date_from = (today - timedelta(days=days_back)).isoformat()
     date_to = today.isoformat()
@@ -220,7 +246,125 @@ Items to translate:
 """
 
 
-def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
+# A "completer" is any callable that takes a prompt string and returns the
+# model's raw text response. This lets the chunk translator stay agnostic about
+# whether the text came from Ollama or Claude.
+Completer = Callable[[str], str]
+
+
+def _claude_completer(client: anthropic.Anthropic) -> Completer:
+    def complete(prompt: str) -> str:
+        response = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=8000,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return response.content[0].text
+    return complete
+
+
+def _ollama_completer() -> Completer:
+    url = _ollama_base() + "/api/chat"
+
+    def complete(prompt: str) -> str:
+        payload = {
+            "model": OLLAMA_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "stream": False,
+            # Low temperature keeps translations faithful; format=json nudges
+            # local models to emit parseable output instead of prose.
+            "format": "json",
+            "options": {"temperature": 0.2},
+        }
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+        )
+        with urllib.request.urlopen(req, timeout=OLLAMA_TIMEOUT) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        return data["message"]["content"]
+    return complete
+
+
+def _chained_completer(providers: list[tuple[str, Completer]]) -> Completer:
+    """
+    Try each backend in order; the first that returns without raising wins.
+    A failing primary (e.g. Ollama down, or Claude out of credits) silently
+    falls through to the next, so translation degrades gracefully.
+    """
+    def complete(prompt: str) -> str:
+        last_err: Optional[Exception] = None
+        for name, fn in providers:
+            try:
+                return fn(prompt)
+            except Exception as e:  # noqa: BLE001 — any backend failure -> try next
+                last_err = e
+                print(f"    ! {name} backend failed ({e}); trying next backend")
+        raise last_err or RuntimeError("no translation backend configured")
+    return complete
+
+
+def build_completer() -> tuple[Optional[Completer], list[str]]:
+    """
+    Assemble the ordered list of translation backends from configuration.
+    Returns (completer, backend_names). completer is None if none are available.
+    """
+    providers: list[tuple[str, Completer]] = []
+
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
+
+    if TRANSLATE_BACKEND == "claude":
+        if client:
+            providers.append(("claude", _claude_completer(client)))
+    elif TRANSLATE_BACKEND == "ollama":
+        providers.append(("ollama", _ollama_completer()))
+        if client:
+            providers.append(("claude", _claude_completer(client)))
+    else:  # "auto"
+        if OLLAMA_ENABLED:
+            providers.append(("ollama", _ollama_completer()))
+        if client:
+            providers.append(("claude", _claude_completer(client)))
+
+    if not providers:
+        return None, []
+    return _chained_completer(providers), [name for name, _ in providers]
+
+
+def _parse_translations(raw: str) -> list:
+    """
+    Pull a JSON array of translation objects out of a model response, tolerating
+    code fences and (from format=json local models) an object wrapper like
+    {"items": [...]} or {"translations": [...]}.
+    """
+    raw = raw.strip()
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+        raw = raw.strip()
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        # Last resort: grab the outermost [...] span.
+        start, end = raw.find("["), raw.rfind("]")
+        if start != -1 and end > start:
+            data = json.loads(raw[start:end + 1])
+        else:
+            raise
+
+    if isinstance(data, dict):
+        # Unwrap the first list-valued key, else treat the dict as a single item.
+        for value in data.values():
+            if isinstance(value, list):
+                return value
+        return [data]
+    return data
+
+
+def _translate_chunk(chunk: list[dict], complete: Completer) -> int:
     """Translate one chunk in place. Returns number of items actually changed."""
     to_translate = [
         {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
@@ -228,19 +372,8 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
     ]
     prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
 
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=8000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = response.content[0].text.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    raw = raw.strip()
-
-    translations = json.loads(raw)
+    raw = complete(prompt)
+    translations = _parse_translations(raw)
     # Match by id (coerced to str). The model sometimes returns the translated
     # text under the *input* key names ("title"/"summary") instead of the
     # requested "title_es"/"summary_es" — accept either, or fall back positionally.
@@ -267,13 +400,14 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
     return changed
 
 
-def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
+def translate_batch(items: list[dict], complete: Completer) -> list[dict]:
     """
-    Translate titles and summaries to Spanish via Claude, in small chunks
-    (better per-item fidelity than one big call) with English fallback on
-    failure and a single targeted retry pass over anything left in English.
+    Translate titles and summaries to Spanish, in small chunks (better per-item
+    fidelity than one big call) with English fallback on failure and a single
+    targeted retry pass over anything left in English. The `complete` callable
+    abstracts the backend (Ollama and/or Claude with graceful fallback).
     """
-    print("Translating to Spanish via Claude...")
+    print("Translating to Spanish...")
 
     # English fallback up front; successful chunks overwrite it
     for item in items:
@@ -284,7 +418,7 @@ def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict
     for start in range(0, len(items), CHUNK_SIZE):
         chunk = items[start:start + CHUNK_SIZE]
         try:
-            _translate_chunk(chunk, client)
+            _translate_chunk(chunk, complete)
             print(f"  ✓ Translated {start + 1}–{start + len(chunk)}")
         except Exception as e:
             print(f"  ✗ Chunk {start + 1}–{start + len(chunk)} failed: {e}")
@@ -297,7 +431,7 @@ def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict
         for start in range(0, len(leftovers), CHUNK_SIZE):
             chunk = leftovers[start:start + CHUNK_SIZE]
             try:
-                _translate_chunk(chunk, client)
+                _translate_chunk(chunk, complete)
             except Exception as e:
                 print(f"  ✗ Retry chunk failed: {e}")
 
@@ -309,10 +443,13 @@ def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
-    if not ANTHROPIC_API_KEY:
-        raise ValueError("ANTHROPIC_API_KEY environment variable not set")
-
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    complete, backends = build_completer()
+    if complete is None:
+        raise ValueError(
+            "No translation backend available. Set ANTHROPIC_API_KEY, or configure "
+            "Ollama (TRANSLATE_BACKEND=ollama, or OLLAMA_HOST=http://host:11434)."
+        )
+    print(f"Translation backends (in order): {', '.join(backends)}")
 
     # Fetch World Cup results first so they render as the top "Mundial" section
     wc_items = fetch_world_cup_results()
@@ -327,7 +464,7 @@ def main():
         return
 
     # Translate (World Cup results go through the same path as everything else)
-    items = translate_batch(items, client)
+    items = translate_batch(items, complete)
 
     # Build output
     output = {
