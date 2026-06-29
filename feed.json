@@ -1,79 +1,7 @@
 {
-  "generated_at": "2026-06-28T19:51:08.134807+00:00",
+  "generated_at": "2026-06-29T05:07:51.183191+00:00",
   "item_count": 110,
   "items": [
-    {
-      "id": "wc734e324a",
-      "title_en": "Czechia 0–3 Mexico",
-      "summary_en": "Group Stage · GROUP_A. Played on 2026-06-25.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-25T01:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Czechia 0–3 Mexico",
-      "summary_es": "Group Stage · GROUP_A. Played on 2026-06-25."
-    },
-    {
-      "id": "wc79f4cb9a",
-      "title_en": "South Africa 1–0 South Korea",
-      "summary_en": "Group Stage · GROUP_A. Played on 2026-06-25.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-25T01:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "South Africa 1–0 South Korea",
-      "summary_es": "Group Stage · GROUP_A. Played on 2026-06-25."
-    },
-    {
-      "id": "wcab80553d",
-      "title_en": "Ecuador 2–1 Germany",
-      "summary_en": "Group Stage · GROUP_E. Played on 2026-06-25.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-25T20:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Ecuador 2–1 Germany",
-      "summary_es": "Group Stage · GROUP_E. Played on 2026-06-25."
-    },
-    {
-      "id": "wc45a0e4f9",
-      "title_en": "Curaçao 0–2 Ivory Coast",
-      "summary_en": "Group Stage · GROUP_E. Played on 2026-06-25.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-25T20:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Curaçao 0–2 Ivory Coast",
-      "summary_es": "Group Stage · GROUP_E. Played on 2026-06-25."
-    },
-    {
-      "id": "wcdaa7caac",
-      "title_en": "Tunisia 1–3 Netherlands",
-      "summary_en": "Group Stage · GROUP_F. Played on 2026-06-25.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-25T23:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Tunisia 1–3 Netherlands",
-      "summary_es": "Group Stage · GROUP_F. Played on 2026-06-25."
-    },
-    {
-      "id": "wc76108e84",
-      "title_en": "Japan 1–1 Sweden",
-      "summary_en": "Group Stage · GROUP_F. Played on 2026-06-25.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-25T23:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Japan 1–1 Sweden",
-      "summary_es": "Group Stage · GROUP_F. Played on 2026-06-25."
-    },
     {
       "id": "wc001d821b",
       "title_en": "Turkey 3–2 United States",
@@ -243,28 +171,52 @@
       "summary_es": "Group Stage · GROUP_J. Played on 2026-06-28."
     },
     {
-      "id": "908fc8a056",
-      "title_en": "South Africa v Canada: World Cup 2026 last 32 – live",
-      "summary_en": "⚽️ Kick-off: 8pm BST/3pm EDT/5am AEST⚽️ Player guide | Bracketology | Golden Boot | Mail DanielOh man, my eyeballs are sweating and we’re 45 minutes away from watching the teams come out. Can Stokes play football?Oh my goodness. Nothing to do with football, but everything to do with humanity: Ben Stokes, what a man. If you’re near a telly with Sky, get it on – it’s montage time. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/0d0a48640b2de657c916ae1e341fc596c11f4574/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6183f638c213da01d0e8114ab835228d",
-      "link": "https://www.theguardian.com/football/live/2026/jun/28/south-africa-v-canada-world-cup-2026-last-32-live",
-      "published": "Sun, 28 Jun 2026 19:38:38 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "South Africa v Canada: World Cup 2026 last 32 – live",
-      "summary_es": "⚽️ Kick-off: 8pm BST/3pm EDT/5am AEST⚽️ Player guide | Bracketology | Golden Boot | Mail DanielOh man, my eyeballs are sweating and we’re 45 minutes away from watching the teams come out. Can Stokes play football?Oh my goodness. Nothing to do with football, but everything to do with humanity: Ben Stokes, what a man. If you’re near a telly with Sky, get it on – it’s montage time. Continue reading..."
+      "id": "wc39303182",
+      "title_en": "South Africa 0–1 Canada",
+      "summary_en": "Last 32. Played on 2026-06-28.",
+      "image": "",
+      "link": "",
+      "published": "2026-06-28T19:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "South Africa 0–1 Canada",
+      "summary_es": "Last 32. Played on 2026-06-28."
     },
     {
-      "id": "3cc3347ef7",
-      "title_en": "‘We don’t want penalties’: Pickford backs England’s attacking approach",
-      "summary_en": "Jordan Pickford has enjoyed shootout success but believes his England side can deliver World Cup glory without penaltiesJordan Pickford has pretty much seen it all since making his first England appearance at under-16 level in 2009. Although he experienced the embarrassment of conceding the only goal scored by a goalkeeper from open play at a Fifa World Cup match against Canada in the under-17 edition in Mexico two years later, the 32-year-old has more than made up for it.The 2-0 victory against Panama on Saturday was the 29th major tournament England game in a row to feature Pickford as Thomas Tuchel’s side secured top spot in Group L to set up a meeting with the Democratic Republic of Congo in Atlanta on Wednesday. As the Everton goalkeeper is fully aware, things are about to get much more serious. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/4345c06e33492a06a984e400a95cb7aa8ae387bb/160_87_1431_1145/master/1431.jpg?width=140&quality=85&auto=format&fit=max&s=25a4200c5b1133ddc38afe73b0c20d26",
-      "link": "https://www.theguardian.com/football/2026/jun/28/jordan-pickford-england-world-cup-democratic-republic-congo",
-      "published": "Sun, 28 Jun 2026 18:00:15 GMT",
+      "id": "2c23a2c7dd",
+      "title_en": "Canada first into last 16 as Stephen Eustáquio scores in stoppage time against South Africa",
+      "summary_en": "As Canada’s players and staff huddled on the pitch to savour reaching the last 16 for the first time, the overhead Spidercam and the cameras belonging to the host broadcaster were the only outsiders present for Jesse Marsch’s impassioned victory speech. “You guys are Canadian heroes today, Canadian heroes for the future children of this country who play this sport,” he said, wagging his right index finger at different squad members, before a series of whoops, cheers and applause.If that was a sacred, special moment, then so was the sight of Marsch kissing the Canada crest on his grey zip-top before embracing Ismaël Koné, who took to the field to join the celebrations on crutches after surgery on a broken leg. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/7db18b3d5f7f41cd50fae8faa45a419a06981289/144_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b9009b633a5da4da8048b5225e80bc7d",
+      "link": "https://www.theguardian.com/football/2026/jun/28/south-africa-canada-world-cup-last-32-match-report",
+      "published": "Sun, 28 Jun 2026 21:23:01 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "‘We don’t want penalties’: Pickford backs England’s attacking approach",
-      "summary_es": "Jordan Pickford has enjoyed shootout success but believes his England side can deliver World Cup glory without penaltiesJordan Pickford has pretty much seen it all since making his first England appearance at under-16 level in 2009. Although he experienced the embarrassment of conceding the only goal scored by a goalkeeper from open play at a Fifa World Cup match against Canada in the under-17 edition in Mexico two years later, the 32-year-old has more than made up for it.The 2-0 victory against Panama on Saturday was the 29th major tournament England game in a row to feature Pickford as Thomas Tuchel’s side secured top spot in Group L to set up a meeting with the Democratic Republic of Congo in Atlanta on Wednesday. As the Everton goalkeeper is fully aware, things are about to get much more serious. Continue reading..."
+      "title_es": "Canada first into last 16 as Stephen Eustáquio scores in stoppage time against South Africa",
+      "summary_es": "As Canada’s players and staff huddled on the pitch to savour reaching the last 16 for the first time, the overhead Spidercam and the cameras belonging to the host broadcaster were the only outsiders present for Jesse Marsch’s impassioned victory speech. “You guys are Canadian heroes today, Canadian heroes for the future children of this country who play this sport,” he said, wagging his right index finger at different squad members, before a series of whoops, cheers and applause.If that was a sacred, special moment, then so was the sight of Marsch kissing the Canada crest on his grey zip-top before embracing Ismaël Koné, who took to the field to join the celebrations on crutches after surgery on a broken leg. Continue reading..."
+    },
+    {
+      "id": "19f2ffc9b0",
+      "title_en": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
+      "summary_en": "For anyone outside the dressing room it is hard to predict what the Mister will do but he will be prepared for Japan on MondayThe 2022 Champions League semi-final. The Santiago Bernabéu. More than 60,000 fans in the stands, and Manchester City leading 1-0. I was on the Real&nbsp;Madrid bench when Carlo Ancelotti called me over and told me to get on the pitch, play aggressively and decide the match.I stepped on to the field in the 68th minute. In the 90th minute, I equalised but we still trailed by a goal on aggregate. We restarted, and the next minute I scored again to force extra time. We won and the rest is history: another title for the club after beating Liverpool in the final. I bring up this moment to highlight how important coaches are to a team’s journey and how decisive they are in a player’s&nbsp;career, doing work that often goes unseen by the public. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/a075e3c7e86f874e9ee35381bd018ff6ade1a9db/0_371_1020_816/master/1020.jpg?width=140&quality=85&auto=format&fit=max&s=3c4122aedd95791b2e8fd84c9bcd815b",
+      "link": "https://www.theguardian.com/football/2026/jun/28/carlo-ancelotti-brazil-japan-world-cup",
+      "published": "Sun, 28 Jun 2026 20:00:18 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
+      "summary_es": "For anyone outside the dressing room it is hard to predict what the Mister will do but he will be prepared for Japan on MondayThe 2022 Champions League semi-final. The Santiago Bernabéu. More than 60,000 fans in the stands, and Manchester City leading 1-0. I was on the Real&nbsp;Madrid bench when Carlo Ancelotti called me over and told me to get on the pitch, play aggressively and decide the match.I stepped on to the field in the 68th minute. In the 90th minute, I equalised but we still trailed by a goal on aggregate. We restarted, and the next minute I scored again to force extra time. We won and the rest is history: another title for the club after beating Liverpool in the final. I bring up this moment to highlight how important coaches are to a team’s journey and how decisive they are in a player’s&nbsp;career, doing work that often goes unseen by the public. Continue reading..."
+    },
+    {
+      "id": "da818cf00a",
+      "title_en": "South Korea coach resigns after president condemns ‘incompetent people’ in World Cup exit",
+      "summary_en": "Korean president Lee lashes out and apologises to nationSon Heung-min omission against South Africa backfiresHong Myung-bo resigned on Sunday as South Korea’s head coach, a day after his side’s group-stage exit from the World Cup and after condemnation from the country’s president.The 57-year-old former captain, in his second stint as coach, oversaw an early World Cup departure for the second time to go with the failure in 2014. South Korea were expected to get out of a Group A that included the co-hosts Mexico as well as South Africa and Czechia. But they lost 1-0 against South Africa and Mexico, and finished on three points, their only success a 2-1 win against Czechia. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/0475420ca8c4202a7a245030d864e8f3896d15a8/683_361_5576_4461/master/5576.jpg?width=140&quality=85&auto=format&fit=max&s=02859ae35b89077077bbd2d6a303affa",
+      "link": "https://www.theguardian.com/football/2026/jun/28/south-korea-coach-resigns-president-condemns-world-cup-exit",
+      "published": "Sun, 28 Jun 2026 20:55:03 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "South Korea coach resigns after president condemns ‘incompetent people’ in World Cup exit",
+      "summary_es": "Korean president Lee lashes out and apologises to nationSon Heung-min omission against South Africa backfiresHong Myung-bo resigned on Sunday as South Korea’s head coach, a day after his side’s group-stage exit from the World Cup and after condemnation from the country’s president.The 57-year-old former captain, in his second stint as coach, oversaw an early World Cup departure for the second time to go with the failure in 2014. South Korea were expected to get out of a Group A that included the co-hosts Mexico as well as South Africa and Czechia. But they lost 1-0 against South Africa and Mexico, and finished on three points, their only success a 2-1 win against Czechia. Continue reading..."
     },
     {
       "id": "7aaf9152a3",
@@ -279,40 +231,40 @@
       "summary_es": "Search for Steve Clarke’s replacement must look outside the country’s borders to avoid future World Cup disappointmentThere was one element of the Scottish Football Association’s otherwise baffling decision to give&nbsp;Steve Clarke a four‑year deal weeks before a World Cup ball had been kicked that made sense.When assessing alternatives to Clarke as the Scotland manager, it is apparent that paucity of talent among the country’s footballers is replicated in the coaching ranks. Clarke’s sudden resignation places the SFA in a position it was not only desperate to avoid but requires something it typically lacks; out‑of‑the-box thinking. Clarke has&nbsp;spared himself and his paymasters an acrimonious, lengthy goodbye while placing them in precisely the quandary they thought they had seen off. Continue reading..."
     },
     {
-      "id": "fa13cd2dc5",
-      "title_en": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
-      "summary_en": "Team Melli’s agonizing exit after other results failed to break their way is a moment of anguish that rises to the top of a football history full of themMehdi Taremi lay on the ground at Seattle Stadium staring at the heavens, devastated. The Iran team he captains had just finished a 1-1 draw with Egypt in their final World Cup group game – one where a win would have put them through to the knockout round for the first time in seven tournament appearances. Taremi had missed a penalty in Friday’s contest, and a seeming late winner had sent the team into bedlam before being correctly ruled out for offside.Taremi lay on the ground for several minutes. He did so as Alireza Jahanbakhsh, his longtime teammate on a veteran-laden Iran squad, offered comfort. Taremi remained after other teammates who had collapsed in exhaustion had arisen again, trudging to the locker room. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/587391db88d3e299e79db7cff6ee6d05475bff94/0_0_2988_2392/master/2988.jpg?width=140&quality=85&auto=format&fit=max&s=958332beedad7871a1ddd3fd11b22732",
-      "link": "https://www.theguardian.com/football/2026/jun/28/iran-world-cup-exit-heartbreak",
-      "published": "Sun, 28 Jun 2026 13:27:44 GMT",
+      "id": "81a37937ab",
+      "title_en": "Kane and Bellingham produce the goods but England need others to step up",
+      "summary_en": "Pair’s goals saw off Panama but Tuchel has problems at right-back and on flanks for last-32 tie against the DRCEngland will head to Atlanta with problems in central defence, right-backs dropping like flies, weary legs in midfield and hope that everything will turn out fine if the Harry and Jude show continues to thrill. For Thomas Tuchel, it is “a moment to keep believe and pushing”.Did England convince while securing top spot in Group L by beating Panama 2-0 in New Jersey? Not at all, but for a team looking to keep spirits high all that matters for now is they have a winnable last-32 tie against the Democratic Republic of the Congo on Wednesday and will be a threat against anyone if Jude Bellingham and Harry Kane continue to produce. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/722680fa760bc749c7cc1915e11c7752751d1ff4/1858_204_6069_4855/master/6069.jpg?width=140&quality=85&auto=format&fit=max&s=5744b8168324742f333933f5f889c2d7",
+      "link": "https://www.theguardian.com/football/2026/jun/28/kane-and-bellingham-produce-the-goods-but-england-need-others-to-step-up",
+      "published": "Sun, 28 Jun 2026 21:00:19 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
-      "summary_es": "Team Melli’s agonizing exit after other results failed to break their way is a moment of anguish that rises to the top of a football history full of themMehdi Taremi lay on the ground at Seattle Stadium staring at the heavens, devastated. The Iran team he captains had just finished a 1-1 draw with Egypt in their final World Cup group game – one where a win would have put them through to the knockout round for the first time in seven tournament appearances. Taremi had missed a penalty in Friday’s contest, and a seeming late winner had sent the team into bedlam before being correctly ruled out for offside.Taremi lay on the ground for several minutes. He did so as Alireza Jahanbakhsh, his longtime teammate on a veteran-laden Iran squad, offered comfort. Taremi remained after other teammates who had collapsed in exhaustion had arisen again, trudging to the locker room. Continue reading..."
+      "title_es": "Kane and Bellingham produce the goods but England need others to step up",
+      "summary_es": "Pair’s goals saw off Panama but Tuchel has problems at right-back and on flanks for last-32 tie against the DRCEngland will head to Atlanta with problems in central defence, right-backs dropping like flies, weary legs in midfield and hope that everything will turn out fine if the Harry and Jude show continues to thrill. For Thomas Tuchel, it is “a moment to keep believe and pushing”.Did England convince while securing top spot in Group L by beating Panama 2-0 in New Jersey? Not at all, but for a team looking to keep spirits high all that matters for now is they have a winnable last-32 tie against the Democratic Republic of the Congo on Wednesday and will be a threat against anyone if Jude Bellingham and Harry Kane continue to produce. Continue reading..."
     },
     {
-      "id": "dd6c2ba629",
-      "title_en": "World Cup 2026 power rankings: France still kings but who has climbed 26 places?",
-      "summary_en": "From Algeria to Uzbekistan, we assess the standing of the 48 nations after the group stage of the tournamentIt took a little over an hour for Kylian Mbappé to find his groove. Irked by a poor refereeing decision, he scored twice in France’s opener against Senegal. Ably supported by a stunning cast, Mbappé will already have his sights on winning the competition. Michael Olise has shown his class throughout, while Ousmane Dembélé dazzled with a hat-trick against Norway. We’ll see if anyone can stop Didier Deschamps’ team. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/64420a139b7291849b1c372767e75065c5a30d35/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=a39be5e48424d765540ba4be83ead9be",
-      "link": "https://www.theguardian.com/football/2026/jun/28/world-cup-2026-power-rankings-france-argentina-england-scotland",
-      "published": "Sun, 28 Jun 2026 08:30:04 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "World Cup 2026 power rankings: France still kings but who has climbed 26 places?",
-      "summary_es": "From Algeria to Uzbekistan, we assess the standing of the 48 nations after the group stage of the tournamentIt took a little over an hour for Kylian Mbappé to find his groove. Irked by a poor refereeing decision, he scored twice in France’s opener against Senegal. Ably supported by a stunning cast, Mbappé will already have his sights on winning the competition. Michael Olise has shown his class throughout, while Ousmane Dembélé dazzled with a hat-trick against Norway. We’ll see if anyone can stop Didier Deschamps’ team. Continue reading..."
-    },
-    {
-      "id": "8b96c36d4e",
-      "title_en": "Nothing off table in picking Clarke successor - SFA",
-      "summary_en": "The Scottish FA's chief executive says \"nothing's off the table\" in replacing Steve Clarke as national head coach, a process that \"starts now\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e67/live/d7d46180-731a-11f1-8e1d-bbbb1017d210.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vy03gln8lo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 17:59:24 GMT",
+      "id": "63b2d8283a",
+      "title_en": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
+      "summary_en": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a6a/live/b6f81890-734b-11f1-8e1d-bbbb1017d210.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 29 Jun 2026 00:02:44 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Nothing off table in picking Clarke successor - SFA",
-      "summary_es": "The Scottish FA's chief executive says \"nothing's off the table\" in replacing Steve Clarke as national head coach, a process that \"starts now\"."
+      "title_es": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
+      "summary_es": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever."
+    },
+    {
+      "id": "a561577bd3",
+      "title_en": "Canada into last 16 with late winner against South Africa",
+      "summary_en": "Stephen Eustaquio scores a dramatic winner in the second minute of injury time as co-hosts Canada beat South Africa to move into the last 16 of the World Cup for the first time.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dde7/live/4c6fc700-7339-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.co.uk/sport/videos/clyx5432r8do?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 28 Jun 2026 21:49:24 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "Canada into last 16 with late winner against South Africa",
+      "summary_es": "Stephen Eustaquio scores a dramatic winner in the second minute of injury time as co-hosts Canada beat South Africa to move into the last 16 of the World Cup for the first time."
     },
     {
       "id": "21fe316873",
@@ -327,6 +279,18 @@
       "summary_es": "The speculation has started, but who do Scotland fans want to replace Steve Clarke?"
     },
     {
+      "id": "cd086489d0",
+      "title_en": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
+      "summary_en": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 28 Jun 2026 19:14:59 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
+      "summary_es": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo."
+    },
+    {
       "id": "babf0f1bc8",
       "title_en": "How Bellingham became Tuchel's most important player",
       "summary_en": "His starting place was the subject of much debate in Thomas Tuchel's England team, but Jude Bellingham has become integral to the manager's style of play.",
@@ -339,28 +303,16 @@
       "summary_es": "His starting place was the subject of much debate in Thomas Tuchel's England team, but Jude Bellingham has become integral to the manager's style of play."
     },
     {
-      "id": "c0ff993669",
-      "title_en": "Ugarte has 'most serious injury footballer can face'",
-      "summary_en": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 17:42:20 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "Ugarte has 'most serious injury footballer can face'",
-      "summary_es": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain."
-    },
-    {
-      "id": "2cb45bb453",
-      "title_en": "Are Iran the unluckiest side in World Cup history?",
-      "summary_en": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 06:52:21 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "Are Iran the unluckiest side in World Cup history?",
-      "summary_es": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice."
+      "id": "159cb80dbe",
+      "title_en": "Well dads, for the first time in over two years, I have the house to myself for multiple days. We’re calling it Dad Retreat.",
+      "summary_en": "A big shoutout to my wife for the generous Father’s Day gift. &#32; submitted by &#32; /u/Appropriate_Feed8987 [link] &#32; [comments]",
+      "image": "https://preview.redd.it/h78g2b6mm3ah1.jpeg?width=640&crop=smart&auto=webp&s=bec250dadab55e1727cd9dfb568e65954afe3b4f",
+      "link": "https://www.reddit.com/r/daddit/comments/1uiamau/well_dads_for_the_first_time_in_over_two_years_i/",
+      "published": "2026-06-28T22:21:31+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Well dads, for the first time in over two years, I have the house to myself for multiple days. We’re calling it Dad Retreat.",
+      "summary_es": "A big shoutout to my wife for the generous Father’s Day gift. &#32; submitted by &#32; /u/Appropriate_Feed8987 [link] &#32; [comments]"
     },
     {
       "id": "c12c0ba732",
@@ -375,6 +327,30 @@
       "summary_es": "I’m not equipped for this, we are mid 40s 3 boys. Wife was just diagnosed with colorectal cancer that we actually found via ovarian tumor which is backwards to how people usually find it. It’s been a wild three weeks from flu and uti to this. By classification this is stage 4 cancer, because it spread from initial zone to other parts of the body. The saving grace is based off current information lungs, liver, pelvis arnt affected and initial mri shows little if any lymph node interaction. She just had a full hysterectomy and are waiting for swelling to go down for further scans. She does have a rectal tumor. The plan is chemo for a few months then operate and then more chemo. She starts chemo in a week. Now that we have an idea and a treatment plan we are telling the kids today. We have counselors and a great support system. We have lots of living to do and are continuing to look to the "
     },
     {
+      "id": "4f3e5e0f89",
+      "title_en": "Does anybody here speak “wife”??",
+      "summary_en": "What does this mean?! &#32; submitted by &#32; /u/_Earthbound_Misfit [link] &#32; [comments]",
+      "image": "https://preview.redd.it/62hr074xv3ah1.jpeg?width=640&crop=smart&auto=webp&s=147908bae6f8b46dae510d8c16eb3b655f05d2e5",
+      "link": "https://www.reddit.com/r/daddit/comments/1uibt1v/does_anybody_here_speak_wife/",
+      "published": "2026-06-28T23:13:36+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Does anybody here speak “wife”??",
+      "summary_es": "What does this mean?! &#32; submitted by &#32; /u/_Earthbound_Misfit [link] &#32; [comments]"
+    },
+    {
+      "id": "83e6318a00",
+      "title_en": "My 7 year old son refuses to put any effort into anything and rejects any knowledge I try to share.",
+      "summary_en": "&#x200b; I have been frustrated for about 4 years straight when it comes to talking to my son about anything, or when I try to encourage him in different activities. Any question he asks me, when I answer his immediate response 90% of the time is &quot;no it isn't&quot; or &quot;that's not true.&quot; When he attempts to learn a new skill, like drawing or coloring, he tries for 10 seconds and gives up, saying &quot;I can't do it&quot;. I'm patient, I try to walk him through steps only to be met with &quot;that isn't how you do it&quot; or &quot;thats too hard I can never do it.&quot; I've talked to him about how some skills take a lot of practice and effort to get good at, but he's not interested, he just gives up. This has happened with sports, cooking, drawing, writing stories, making paper airplanes, building with blocks and legos, you name it he's given up on it or completely rejecte",
+      "image": "",
+      "link": "https://www.reddit.com/r/daddit/comments/1uicqwl/my_7_year_old_son_refuses_to_put_any_effort_into/",
+      "published": "2026-06-28T23:56:11+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "My 7 year old son refuses to put any effort into anything and rejects any knowledge I try to share.",
+      "summary_es": "&#x200b; I have been frustrated for about 4 years straight when it comes to talking to my son about anything, or when I try to encourage him in different activities. Any question he asks me, when I answer his immediate response 90% of the time is &quot;no it isn't&quot; or &quot;that's not true.&quot; When he attempts to learn a new skill, like drawing or coloring, he tries for 10 seconds and gives up, saying &quot;I can't do it&quot;. I'm patient, I try to walk him through steps only to be met with &quot;that isn't how you do it&quot; or &quot;thats too hard I can never do it.&quot; I've talked to him about how some skills take a lot of practice and effort to get good at, but he's not interested, he just gives up. This has happened with sports, cooking, drawing, writing stories, making paper airplanes, building with blocks and legos, you name it he's given up on it or completely rejecte"
+    },
+    {
       "id": "e79b37a1c2",
       "title_en": "She picked correctly",
       "summary_en": "Gentlemen, My 16 year old daughter has been dating a guy for several months. I cannot express my worry over how much time she spends with him............until today. My daughter had a surgery that incapacitated her. She's barely been able to get off the couch. What does her boyfriend do? Brings over a basket full of goodies. The book from &quot;Project Hail Mary&quot; (her favorite movie), tons of recess peanut butter cups (her favorite candy), a dozen of her favorite flowers, etc. Let me put it all into perspective.... The 17 year old bought her $200 worth of stuff. When she pressed him about it, he said &quot;You. Are. Worth. It.&quot; Is there some sub-reddit for guys doing it right? I will personally sing his praises. Dude is amazing. &#32; submitted by &#32; /u/MakingItElsewhere [link] &#32; [comments]",
@@ -385,42 +361,6 @@
       "source": "r/daddit",
       "title_es": "She picked correctly",
       "summary_es": "Gentlemen, My 16 year old daughter has been dating a guy for several months. I cannot express my worry over how much time she spends with him............until today. My daughter had a surgery that incapacitated her. She's barely been able to get off the couch. What does her boyfriend do? Brings over a basket full of goodies. The book from &quot;Project Hail Mary&quot; (her favorite movie), tons of recess peanut butter cups (her favorite candy), a dozen of her favorite flowers, etc. Let me put it all into perspective.... The 17 year old bought her $200 worth of stuff. When she pressed him about it, he said &quot;You. Are. Worth. It.&quot; Is there some sub-reddit for guys doing it right? I will personally sing his praises. Dude is amazing. &#32; submitted by &#32; /u/MakingItElsewhere [link] &#32; [comments]"
-    },
-    {
-      "id": "6e22ea801b",
-      "title_en": "I find it oddly heartening that the Kratt Brothers are still on PBS Kids",
-      "summary_en": "I watched the first episode of their first show, Kratt’s Creatures, as an animal-loving 11-year-old in 1996. Lately Wild Kratts has become my 7-year-old’s latest obsession; she’s inhaling episodes (at least as much as I’ll let her) on YouTube and the PBS Kids app. And it’s weirdly reassuring to see the same two dudes still doing their thing 30 years later. Sure, they’re fatter and balder, but then, so am I. Shine on, you crazy brothers. &#32; submitted by &#32; /u/PedalPDX [link] &#32; [comments]",
-      "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1uhz1vz/i_find_it_oddly_heartening_that_the_kratt/",
-      "published": "2026-06-28T14:42:11+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "I find it oddly heartening that the Kratt Brothers are still on PBS Kids",
-      "summary_es": "I watched the first episode of their first show, Kratt’s Creatures, as an animal-loving 11-year-old in 1996. Lately Wild Kratts has become my 7-year-old’s latest obsession; she’s inhaling episodes (at least as much as I’ll let her) on YouTube and the PBS Kids app. And it’s weirdly reassuring to see the same two dudes still doing their thing 30 years later. Sure, they’re fatter and balder, but then, so am I. Shine on, you crazy brothers. &#32; submitted by &#32; /u/PedalPDX [link] &#32; [comments]"
-    },
-    {
-      "id": "edd2f8e135",
-      "title_en": "Next is the big game.",
-      "summary_en": "&#32; submitted by &#32; /u/NuttyMcShithead [link] &#32; [comments]",
-      "image": "https://preview.redd.it/81ozub40py9h1.jpeg?width=640&crop=smart&auto=webp&s=4ccd320ac9480ddfae9948cd8705bc1552c74de1",
-      "link": "https://www.reddit.com/r/daddit/comments/1uhoyz2/next_is_the_big_game/",
-      "published": "2026-06-28T05:46:33+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Next is the big game.",
-      "summary_es": "&#32; submitted by &#32; /u/NuttyMcShithead [link] &#32; [comments]"
-    },
-    {
-      "id": "15ec356977",
-      "title_en": "My wife and newborn daughter are both in the ICU after a 1-in-50,000 birth complication. I feel alone in this, I'm a wreck and I don't know what to do.",
-      "summary_en": "I don't even know how to write this. Today my wife went into labor and everything was normal. She was fully dilated, the midwife had felt the head, and then within minutes everything fell apart. She had a spontaneous uterine rupture about a 1-in-50,000 thing and got rushed into an emergency C-section under general anesthesia. The last thing I saw was her screaming my name as they took her, and I couldn't be in the room. Because of the rupture, our daughter had a period of compromised blood flow to her brain during delivery. To save my wife's life they had to do an emergency hysterectomy. Both of them made it. My wife is in the ICU now, stable, expected to fully recover physically, but she won't be awake until Sunday or Monday which means I'm going to be the one who has to tell her everything when she wakes up. Our daughter got transferred to a children's hospital NICU. She's stable and o",
-      "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1uhmgzj/my_wife_and_newborn_daughter_are_both_in_the_icu/",
-      "published": "2026-06-28T03:35:49+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "My wife and newborn daughter are both in the ICU after a 1-in-50,000 birth complication. I feel alone in this, I'm a wreck and I don't know what to do.",
-      "summary_es": "I don't even know how to write this. Today my wife went into labor and everything was normal. She was fully dilated, the midwife had felt the head, and then within minutes everything fell apart. She had a spontaneous uterine rupture about a 1-in-50,000 thing and got rushed into an emergency C-section under general anesthesia. The last thing I saw was her screaming my name as they took her, and I couldn't be in the room. Because of the rupture, our daughter had a period of compromised blood flow to her brain during delivery. To save my wife's life they had to do an emergency hysterectomy. Both of them made it. My wife is in the ICU now, stable, expected to fully recover physically, but she won't be awake until Sunday or Monday which means I'm going to be the one who has to tell her everything when she wakes up. Our daughter got transferred to a children's hospital NICU. She's stable and o"
     },
     {
       "id": "9705990849",
@@ -543,6 +483,66 @@
       "summary_es": "A Trail Gone Cold: Iceland is known to the rest of the world as the land of Vikings and volcanos, an island caught between continents at the extremities of the map. Remote and comparatively inhospitable, it was settled only as long ago as the 9th century, and has seen little additional in-migration since. Even today, more than 90 percent [&#8230;]"
     },
     {
+      "id": "5c76056281",
+      "title_en": "100 Objects #6: “Sharpened Screwdriver”",
+      "summary_en": "In this episode, Roman and historians Heather Ann Thompson and Elliot Williams tell the story of the sharpened screwdriver: the object at the heart of the 1984 Bernhard Goetz subway shooting. In a difficult moment in New York City, four Black teenagers were transformed in the public imagination into armed criminals. What follows is a",
+      "image": "https://99percentinvisible.org/wp-content/uploads/2026/05/100-objects-6-sharpened-screwdriver-600x338.png",
+      "link": "https://99percentinvisible.org/episode/100-objects-006-sharpened-screwdriver/",
+      "published": "Fri, 26 Jun 2026 07:00:15 +0000",
+      "category": "Interesante",
+      "source": "99% Invisible",
+      "title_es": "100 Objects #6: “Sharpened Screwdriver”",
+      "summary_es": "In this episode, Roman and historians Heather Ann Thompson and Elliot Williams tell the story of the sharpened screwdriver: the object at the heart of the 1984 Bernhard Goetz subway shooting. In a difficult moment in New York City, four Black teenagers were transformed in the public imagination into armed criminals. What follows is a"
+    },
+    {
+      "id": "ec4dc0ac85",
+      "title_en": "The Most Exciting Change America Has Ever Seen",
+      "summary_en": "This past February, the American Numismatic Association held its annual convention in Savannah, Georgia. Numismatics is the fancy word for coins (and the study of coins), and the hall was full of small but avid fandoms: gold pieces struck from California gold rush ore, dealers in three-cent silver pieces, a whole society devoted to crushed",
+      "image": "https://99percentinvisible.org/wp-content/uploads/2026/06/WEBSITE-1-1-600x314.png",
+      "link": "https://99percentinvisible.org/episode/671-the-most-exciting-change-america-has-ever-seen/",
+      "published": "Tue, 23 Jun 2026 08:00:11 +0000",
+      "category": "Interesante",
+      "source": "99% Invisible",
+      "title_es": "The Most Exciting Change America Has Ever Seen",
+      "summary_es": "This past February, the American Numismatic Association held its annual convention in Savannah, Georgia. Numismatics is the fancy word for coins (and the study of coins), and the hall was full of small but avid fandoms: gold pieces struck from California gold rush ore, dealers in three-cent silver pieces, a whole society devoted to crushed"
+    },
+    {
+      "id": "4d0584e639",
+      "title_en": "100 Objects #5: Blue Back Speller",
+      "summary_en": "In this episode, Roman and historian Imani Perry follow the Webster Blue Back Speller from the early days of the United States, to the heart of Black intellectual life. Through the lives of Booker T. Washington and W. E. B. Du Bois, Roman and Imani uncover how a single object became a gateway to literacy,",
+      "image": "https://99percentinvisible.org/wp-content/uploads/2026/05/005-100objects-bluebackspeller-art-r1-1920x1080-1-600x338.png",
+      "link": "https://99percentinvisible.org/episode/100-objects-005-blue-back-speller/",
+      "published": "Fri, 19 Jun 2026 07:00:26 +0000",
+      "category": "Interesante",
+      "source": "99% Invisible",
+      "title_es": "100 Objects #5: Blue Back Speller",
+      "summary_es": "In this episode, Roman and historian Imani Perry follow the Webster Blue Back Speller from the early days of the United States, to the heart of Black intellectual life. Through the lives of Booker T. Washington and W. E. B. Du Bois, Roman and Imani uncover how a single object became a gateway to literacy,"
+    },
+    {
+      "id": "4cb9161d12",
+      "title_en": "Vuvuzela",
+      "summary_en": "South Africa wanted to be the first African nation to host the World Cup. They also wanted the tournament to be the start of a new chapter. During apartheid, the country was banned from the international sporting community. But in 2004, they were on the precipice of hosting soccer&#8217;s biggest event. South Africans gathered in",
+      "image": "https://99percentinvisible.org/wp-content/uploads/2026/06/Artboard-2-600x314.png",
+      "link": "https://99percentinvisible.org/episode/511-vuvuzela/",
+      "published": "Tue, 16 Jun 2026 08:00:02 +0000",
+      "category": "Interesante",
+      "source": "99% Invisible",
+      "title_es": "Vuvuzela",
+      "summary_es": "South Africa wanted to be the first African nation to host the World Cup. They also wanted the tournament to be the start of a new chapter. During apartheid, the country was banned from the international sporting community. But in 2004, they were on the precipice of hosting soccer&#8217;s biggest event. South Africans gathered in"
+    },
+    {
+      "id": "4e40a482c8",
+      "title_en": "100 Objects #4: Lowe’s Gas Bag",
+      "summary_en": "In 1861, one man and a &#8220;gas bag&#8221; filled with hydrogen sparked America&#8217;s obsession with going higher, farther, into the unknown. In this episode, Roman and journalist Jack Hitt tell the story of Thaddeus Lowe &#8212; showman, scientist, and dreamer &#8212; whose balloon flight from Cincinnati went wildly off course and straight into the Civil",
+      "image": "https://99percentinvisible.org/wp-content/uploads/2026/06/100-objects-4-lowe-gas-bag-600x338.png",
+      "link": "https://99percentinvisible.org/episode/100-objects-004-lowes-gas-bag/",
+      "published": "Fri, 12 Jun 2026 07:00:25 +0000",
+      "category": "Interesante",
+      "source": "99% Invisible",
+      "title_es": "100 Objects #4: Lowe’s Gas Bag",
+      "summary_es": "In 1861, one man and a &#8220;gas bag&#8221; filled with hydrogen sparked America&#8217;s obsession with going higher, farther, into the unknown. In this episode, Roman and journalist Jack Hitt tell the story of Thaddeus Lowe &#8212; showman, scientist, and dreamer &#8212; whose balloon flight from Cincinnati went wildly off course and straight into the Civil"
+    },
+    {
       "id": "8b6331b93c",
       "title_en": "Who wins the 2026 World Cup if “not football” decides?...",
       "summary_en": "Who wins the 2026 World Cup if “not football” decides? This starts with the same 64-team bracket as the actual WC but uses metrics like life expectancy &#038; CO2 per capita to decide matches.",
@@ -603,6 +603,18 @@
       "summary_es": "The Boeing 747 Begins Its Final Descent. The 747 is being phased out for newer and more efficient jets. Ian Bogost takes a look at how the massive plane, which took flight only 5 months before &#8220;Neil Armstrong set foot on the moon”, came to be."
     },
     {
+      "id": "1d8dcffc4f",
+      "title_en": "Dublin Pulls Off Comeback To Beat Galway In All-Ireland Quarterfinal",
+      "summary_en": "Dublin closed out a thrilling All-Ireland football quarterfinal weekend with a massive and penalty-aided comeback to beat Galway Sunday afternoon in Croke Park, 1-25 to 1-21. Galway was up by six points with just 15 minutes left on the clock. But the game turned Dublin’s way when Galway defender Liam Silke was assessed a black card for fouling on a goal-scoring opportunity. Veteran Dublin forward Con O’Callaghan banged home the penalty shot to knot the score, and his team never looked back. Galway, forced to play a man down for the game’s final 10 minutes, never scored again. The win could be seen as sweet revenge for Dublin manager Ger Brennan. He’d been handed a stout 12-week suspension in March following a donnybrook between Dublin and Galway during a National League match in which Brennan was red-carded for shoving Galway’s strength and conditioning coach Cian Breathnach McGinn. The ",
+      "image": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2283221320.jpg?w=564",
+      "link": "https://defector.com/dublin-pulls-off-comeback-to-beat-galway-in-all-ireland-quarterfinal",
+      "published": "Sun, 28 Jun 2026 20:45:45 +0000",
+      "category": "Interesante",
+      "source": "Defector",
+      "title_es": "Dublin Pulls Off Comeback To Beat Galway In All-Ireland Quarterfinal",
+      "summary_es": "Dublin closed out a thrilling All-Ireland football quarterfinal weekend with a massive and penalty-aided comeback to beat Galway Sunday afternoon in Croke Park, 1-25 to 1-21. Galway was up by six points with just 15 minutes left on the clock. But the game turned Dublin’s way when Galway defender Liam Silke was assessed a black card for fouling on a goal-scoring opportunity. Veteran Dublin forward Con O’Callaghan banged home the penalty shot to knot the score, and his team never looked back. Galway, forced to play a man down for the game’s final 10 minutes, never scored again. The win could be seen as sweet revenge for Dublin manager Ger Brennan. He’d been handed a stout 12-week suspension in March following a donnybrook between Dublin and Galway during a National League match in which Brennan was red-carded for shoving Galway’s strength and conditioning coach Cian Breathnach McGinn. The "
+    },
+    {
       "id": "b5c1af8761",
       "title_en": "Boots Ennis KO’s Zayas In Brooklyn Thriller",
       "summary_en": "BROOKLYN — Boots Ennis survived the toughest round of his career, then KO’d game but overmatched champ Xander Zayas in a beautifully brutal Saturday night title fight at Barclays Center. When Ennis put Zayas on the canvas for the third time of the bout, Zayas's corner decided to save him from himself and threw in the towel with 1:12 left in the seventh round. With the win, Ennis took Zayas's WBO and WBA super welterweight belts and remained undefeated at 36-0. The Philly fighter also greatly advanced his pursuit of imaginary but highly coveted titles like “the face of boxing” and “pound-for-pound champ.” https://www.youtube.com/watch?v=cb_jO5KUCuw",
@@ -651,16 +663,52 @@
       "summary_es": "If you went back in time to New York in the early '90s, not a soul would believe you if you told them Jay-Z would end up where he is today. Well, maybe one person would: Jay himself. Jay-Z's relatively delayed breakthrough made him something of a late bloomer, even in an era when stars weren't minted as quickly and early as they are now. It took him a while to figure out how to be himself on wax. It was his big homie Jaz-O who put him on, and the two of them had a Das EFX, Fu-Schnickens fast-rapping style that was as technically impressive as it was uninteresting. The labels didn't know what to do with them. Those who heard them tended to think Jaz was cool, but that the light-skinned kid had something else they couldn't quite put into words. DJ Clark Kent was Jay's biggest cheerleader at that time, but without label interest, Jay figured he was better off prioritizing his life in the st"
     },
     {
-      "id": "c1bc9b32a2",
-      "title_en": "The People Have Spoken: Ernie Clement Is The Best Player In The American League Now",
-      "summary_en": "The Ernie Clement Voting Scandal shoved all the rest of the news this week into the street—the World Cup, the NBA draft, the NHL draft, the NBA trades, the NHL trades, the Mets firing their manager for the sin of managing the Mets, the latest sports media meltdown around but not quite about Caitlin Clark, all of it. Or maybe you didn't notice that Ernie Clement was the highest vote-getter among American League players for the upcoming All-Star Game in Philadelphia. It's quite possible that you didn't notice Ernie Clement at all. Maybe you're not noticing him right now. Such is the beauty of that arcane old baseball storytelling staple, the unworthy All-Star. Ernie Clement mentioned in proximity to Shohei Ohtani—quel scandale! Perhaps we should instead refresh your memories on who Clement is before we start. He is the starting second baseman for the Toronto Blue Jays, and he really is one",
-      "image": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/06/GettyImages-2281138154.jpg?w=564",
-      "link": "https://defector.com/the-people-have-spoken-ernie-clement-is-the-best-player-in-the-american-league-now",
-      "published": "Fri, 26 Jun 2026 16:37:36 +0000",
-      "category": "Interesante",
-      "source": "Defector",
-      "title_es": "The People Have Spoken: Ernie Clement Is The Best Player In The American League Now",
-      "summary_es": "The Ernie Clement Voting Scandal shoved all the rest of the news this week into the street—the World Cup, the NBA draft, the NHL draft, the NBA trades, the NHL trades, the Mets firing their manager for the sin of managing the Mets, the latest sports media meltdown around but not quite about Caitlin Clark, all of it. Or maybe you didn't notice that Ernie Clement was the highest vote-getter among American League players for the upcoming All-Star Game in Philadelphia. It's quite possible that you didn't notice Ernie Clement at all. Maybe you're not noticing him right now. Such is the beauty of that arcane old baseball storytelling staple, the unworthy All-Star. Ernie Clement mentioned in proximity to Shohei Ohtani—quel scandale! Perhaps we should instead refresh your memories on who Clement is before we start. He is the starting second baseman for the Toronto Blue Jays, and he really is one"
+      "id": "a92ea7afdd",
+      "title_en": "GLM 5.2 beats Claude in our benchmarks",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "published": "Sun, 28 Jun 2026 17:50:47 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "GLM 5.2 beats Claude in our benchmarks",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "56b431a794",
+      "title_en": "Age verification is just a precursor to automated attribution of speech",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+      "published": "Mon, 29 Jun 2026 03:42:07 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Age verification is just a precursor to automated attribution of speech",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "ed2181489b",
+      "title_en": "Historical memory prices 1960-2026",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://dam.stanford.edu/memory-prices.html",
+      "published": "Sun, 28 Jun 2026 18:32:53 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Historical memory prices 1960-2026",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "a3ae684026",
+      "title_en": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "published": "Mon, 29 Jun 2026 01:44:40 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "summary_es": "Comments"
     },
     {
       "id": "f2ffd68657",
@@ -672,54 +720,6 @@
       "category": "Tech",
       "source": "Hacker News",
       "title_es": "5k menus from the New York Public Library’s Buttolph Collection (1880-1920)",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "8c41818081",
-      "title_en": "I used Claude Code to get a second opinion on my MRI",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "published": "Sun, 28 Jun 2026 16:35:19 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "I used Claude Code to get a second opinion on my MRI",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "67a103ebed",
-      "title_en": "Tokenmaxxing is dead, long live tokenmaxxing",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing",
-      "published": "Sun, 28 Jun 2026 16:24:10 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Tokenmaxxing is dead, long live tokenmaxxing",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "e59a7e8df8",
-      "title_en": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
-      "published": "Sun, 28 Jun 2026 16:58:59 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "7b9ed75eb6",
-      "title_en": "The Boeing 747 begins its final descent",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://www.theatlantic.com/magazine/2026/07/boeing-747-retirement/687304/",
-      "published": "Thu, 25 Jun 2026 15:54:46 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "The Boeing 747 begins its final descent",
       "summary_es": "Comments"
     },
     {
@@ -783,76 +783,112 @@
       "summary_es": "Illinois passed a similar law, giving services more incentive to make ads less booming."
     },
     {
+      "id": "9c5242a3be",
+      "title_en": "Burnham to promise devolution in first major speech since launching No 10 bid",
+      "summary_en": "The favourite to be the next prime minister will set out his economic vision in a speech in Manchester.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7954/live/eba46400-733b-11f1-8e1d-bbbb1017d210.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/c14yr0mgdp6o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 29 Jun 2026 02:52:55 GMT",
+      "category": "News",
+      "source": "BBC News",
+      "title_es": "Burnham to promise devolution in first major speech since launching No 10 bid",
+      "summary_es": "The favourite to be the next prime minister will set out his economic vision in a speech in Manchester."
+    },
+    {
+      "id": "7ce9aa746b",
+      "title_en": "Chris Mason: Burnham begins to sketch out vision but faces huge and imminent questions",
+      "summary_en": "The new MP for Makerfield will give what his team has called \"his first major leadership speech\" on Monday morning.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3890/live/b1c7e240-732f-11f1-873e-b188b9703f87.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/ckg4vypy8lzo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 28 Jun 2026 21:20:53 GMT",
+      "category": "News",
+      "source": "BBC News",
+      "title_es": "Chris Mason: Burnham begins to sketch out vision but faces huge and imminent questions",
+      "summary_es": "The new MP for Makerfield will give what his team has called \"his first major leadership speech\" on Monday morning."
+    },
+    {
       "id": "ef5f1c2e02",
-      "title_en": "Two boys rescued from Venezuela earthquake rubble after days of being trapped",
-      "summary_en": "Rescuers spent six hours carefully digging to reach one of the boys, as many residents continue searching through the rubble by hand, still waiting for heavy machinery to arrive.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e90b/live/b36ae050-72e1-11f1-b28d-37d67ec29837.png",
+      "title_en": "Two boys pulled from Venezuela earthquake rubble among 33 people rescued over weekend",
+      "summary_en": "With tens of thousands of people missing, relatives face another night waiting for news of loved ones as the crucial window for locating survivors closes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd93/live/fc2f4510-7345-11f1-95e1-39c8d2c78f5f.png",
       "link": "https://www.bbc.co.uk/news/articles/cr47dvywvy5o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 19:21:07 GMT",
+      "published": "Mon, 29 Jun 2026 01:23:32 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Two boys rescued from Venezuela earthquake rubble after days of being trapped",
-      "summary_es": "Rescuers spent six hours carefully digging to reach one of the boys, as many residents continue searching through the rubble by hand, still waiting for heavy machinery to arrive."
+      "title_es": "Two boys pulled from Venezuela earthquake rubble among 33 people rescued over weekend",
+      "summary_es": "With tens of thousands of people missing, relatives face another night waiting for news of loved ones as the crucial window for locating survivors closes."
     },
     {
-      "id": "a1c112c15d",
-      "title_en": "England captain Ben Stokes says retiring from international cricket 'best thing' for him",
-      "summary_en": "Ben Stokes describes the reasons for his international retirement as he says he became 'burned out' in the build-up to the summer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbbc/live/77216880-731d-11f1-b1db-af71d47507d6.jpg",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/c3dymxr4187o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 18:57:03 GMT",
+      "id": "741839b17a",
+      "title_en": "US says it agreed with Iran for both to 'stand down' after exchange of strikes",
+      "summary_en": "A series of strikes over the weekend saw the US and Iran accuse each other of violating the ceasefire agreement.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bc4/live/b244c380-7368-11f1-8546-8f19e4fe30f4.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 29 Jun 2026 04:52:17 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "England captain Ben Stokes says retiring from international cricket 'best thing' for him",
-      "summary_es": "Ben Stokes describes the reasons for his international retirement as he says he became 'burned out' in the build-up to the summer."
+      "title_es": "US says it agreed with Iran for both to 'stand down' after exchange of strikes",
+      "summary_es": "A series of strikes over the weekend saw the US and Iran accuse each other of violating the ceasefire agreement."
     },
     {
-      "id": "6053ea3a53",
-      "title_en": "Eleven killed after plane carrying skydivers crashes in eastern France",
-      "summary_en": "The pilot and 10 passengers - including five first-time parachutists - died in the incident, local officials said.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f645/live/c3ce2a40-72ed-11f1-a52b-4f9c73b26afb.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/c5yz9yj9x74o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 18:34:07 GMT",
+      "id": "34d9dcde7f",
+      "title_en": "White working-class children failed by education system, says inquiry",
+      "summary_en": "The inquiry spoke to thousands of young people and their parents, as well as hundreds of teachers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd5b/live/8eda9340-70a5-11f1-a074-f75fb10ee765.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/cq51j10q601o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 29 Jun 2026 00:21:50 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Eleven killed after plane carrying skydivers crashes in eastern France",
-      "summary_es": "The pilot and 10 passengers - including five first-time parachutists - died in the incident, local officials said."
+      "title_es": "White working-class children failed by education system, says inquiry",
+      "summary_es": "The inquiry spoke to thousands of young people and their parents, as well as hundreds of teachers."
     },
     {
-      "id": "df12af5928",
-      "title_en": "Senior Labour figures say party is united behind Andy Burnham",
-      "summary_en": "Lucy Powell and Steve Reed say Labour MPs are backing a coronation of Burnham rather than a contest.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e1c/live/06b1efb0-72ce-11f1-8d28-af7129502366.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/cn0vkle1q5ro?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 14:57:11 GMT",
-      "category": "News",
-      "source": "BBC News",
-      "title_es": "Senior Labour figures say party is united behind Andy Burnham",
-      "summary_es": "Lucy Powell and Steve Reed say Labour MPs are backing a coronation of Burnham rather than a contest."
-    },
-    {
-      "id": "f1ddca5cbd",
-      "title_en": "Catherine completes Three Peaks Challenge to 'explore life beyond' cancer diagnosis",
-      "summary_en": "The Princess of Wales did the endurance event to raise awareness about \"holistic healthcare\" for cancer patients.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d746/live/763df840-731b-11f1-a489-2d4c87e59982.png",
-      "link": "https://www.bbc.co.uk/news/articles/cwydwgy7125o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 18:05:35 GMT",
-      "category": "News",
-      "source": "BBC News",
-      "title_es": "Catherine completes Three Peaks Challenge to 'explore life beyond' cancer diagnosis",
-      "summary_es": "The Princess of Wales did the endurance event to raise awareness about \"holistic healthcare\" for cancer patients."
-    },
-    {
-      "id": "2d56a31c82",
-      "title_en": "Will Andy Burnham ‘go big’ in expanding the role of the state?",
-      "summary_en": "In the first of a series on nationalisation, we look at the critical tests ahead for the PM-in-waiting, from choosing a chancellor to the future of Thames WaterAs he swept towards victory in the Makerfield byelection, Andy Burnham told voters he wanted to see “the essentials of life being run primarily for the public interest, not for the private interests”.Citing the Bee Network of buses and trams across Manchester city region, brought together on his watch, Burnham repeatedly highlighted the need for more “public control” over the necessities of life. Water, energy, transport and housing are at the top of his list. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/fbc6630ad38cd7ba7cd0fbdfdeb25d4c7eecef68/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d381018cf710c34fa4f3e270767ea537",
-      "link": "https://www.theguardian.com/politics/2026/jun/28/andy-burnham-nationalisation-pm-chancellor-thames-water",
-      "published": "Sun, 28 Jun 2026 06:00:01 GMT",
+      "id": "81b7bab268",
+      "title_en": "Trafficked, beaten and raped: raids reveal scale of abuse of women in Asia’s cyberscam centres",
+      "summary_en": "As tens of thousands are freed, female survivors are increasingly reporting gender-based violence in the compounds, previously thought to hold mainly menLate one evening in October 2023, Sarah* felt labour pains starting. It was 11pm, but at the cyberscam compound inside Laos’ Golden Triangle, workers were logging on for a long night shift, scamming Americans online.Every night, workers sat at their computers until the early hours, building fake profiles of glamorous, jet-setting women on Facebook and Instagram. Sarah trawled the web to find older men to target with messages, where she fawned over their jobs, asked how their day had been and exchanged photos of luxury travel and beach trips. Each conversation she had was meticulously designed to follow a multi-day script, and monitored by bosses who walked up and down the long rows of desks. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/c4280def113212f206898d53a8d252163f518b6b/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=7840a901dfc9713183ecd2ec484482fb",
+      "link": "https://www.theguardian.com/global-development/2026/jun/29/trafficked-beaten-raped-raids-abuse-women-asia-cyberscam-centres",
+      "published": "Mon, 29 Jun 2026 04:00:27 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Will Andy Burnham ‘go big’ in expanding the role of the state?",
-      "summary_es": "In the first of a series on nationalisation, we look at the critical tests ahead for the PM-in-waiting, from choosing a chancellor to the future of Thames WaterAs he swept towards victory in the Makerfield byelection, Andy Burnham told voters he wanted to see “the essentials of life being run primarily for the public interest, not for the private interests”.Citing the Bee Network of buses and trams across Manchester city region, brought together on his watch, Burnham repeatedly highlighted the need for more “public control” over the necessities of life. Water, energy, transport and housing are at the top of his list. Continue reading..."
+      "title_es": "Trafficked, beaten and raped: raids reveal scale of abuse of women in Asia’s cyberscam centres",
+      "summary_es": "As tens of thousands are freed, female survivors are increasingly reporting gender-based violence in the compounds, previously thought to hold mainly menLate one evening in October 2023, Sarah* felt labour pains starting. It was 11pm, but at the cyberscam compound inside Laos’ Golden Triangle, workers were logging on for a long night shift, scamming Americans online.Every night, workers sat at their computers until the early hours, building fake profiles of glamorous, jet-setting women on Facebook and Instagram. Sarah trawled the web to find older men to target with messages, where she fawned over their jobs, asked how their day had been and exchanged photos of luxury travel and beach trips. Each conversation she had was meticulously designed to follow a multi-day script, and monitored by bosses who walked up and down the long rows of desks. Continue reading..."
+    },
+    {
+      "id": "f030017be8",
+      "title_en": "‘Treating children like cattle’: what happens when private equity takes over a UK care home?",
+      "summary_en": "Experts raise alarm as firms aiming to maximise assets and sell for profit become more involved in vital public services‘Financial pandemic’: £1 in every £11 spent on UK public contractors goes to private equityNurseries, vets and shops: the sectors where private equity plays a big rolePrivate equity companies have slowly and invisibly increased their involvement in public services – from elderly care homes to fostering placements for vulnerable children – with some unintended consequences.Take Compass Community, a private equity-backed firm which provides children’s homes, fostering services and schooling for children with special educational needs (Send). Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/40aa1f47a3c59b0a1955ccd1a6adf95cc5be92be/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=d1520a4764d6d751691932dbcd130b56",
+      "link": "https://www.theguardian.com/society/2026/jun/28/private-equity-uk-public-services-care-homes-children",
+      "published": "Sun, 28 Jun 2026 16:00:13 GMT",
+      "category": "News",
+      "source": "The Guardian",
+      "title_es": "‘Treating children like cattle’: what happens when private equity takes over a UK care home?",
+      "summary_es": "Experts raise alarm as firms aiming to maximise assets and sell for profit become more involved in vital public services‘Financial pandemic’: £1 in every £11 spent on UK public contractors goes to private equityNurseries, vets and shops: the sectors where private equity plays a big rolePrivate equity companies have slowly and invisibly increased their involvement in public services – from elderly care homes to fostering placements for vulnerable children – with some unintended consequences.Take Compass Community, a private equity-backed firm which provides children’s homes, fostering services and schooling for children with special educational needs (Send). Continue reading..."
+    },
+    {
+      "id": "c698cd9d53",
+      "title_en": "‘Meet me at the dancing dogs tent!’ What’s behind Britain’s festival frenzy?",
+      "summary_en": "They used to mean crusties, hippies, all-male lineups, near riots and burning toilets. Now, from Dorset to Inverness, there’s a festival – and a costume – for everyone. What caused this boom? And is there a dark side?It’s 7pm on the first day of Gala festival in Peckham Rye park and dry ice drifts into the trees as grime MC Novelist, born just miles away, raps about a south London bus. “Four eight four! Going on raw on the 484,” he spits with a grin, bouncing like the sweaty moshpit in front of him. There are already hands in the air for this hyperlocal elegy when the DJ teases the next instrumental, Skream’s unmistakable Midnight Request Line – dubstep’s greatest ever anthem.Gala is one of the first festivals of the now overflowing British summer season. That same weekend, Black Water County kicked off the Cursus cider and music festival in Dorset, Fatboy Slim headlined the Radio 1 Big ",
+      "image": "https://i.guim.co.uk/img/media/999ff7178de9ddbf0989c4c0c4b2d91f5abbd24e/324_0_3881_3105/master/3881.jpg?width=140&quality=85&auto=format&fit=max&s=03222e3eac3018338261d97da3c8c399",
+      "link": "https://www.theguardian.com/culture/2026/jun/29/britain-frenzy-festivals-riots-toilets",
+      "published": "Mon, 29 Jun 2026 04:00:28 GMT",
+      "category": "News",
+      "source": "The Guardian",
+      "title_es": "‘Meet me at the dancing dogs tent!’ What’s behind Britain’s festival frenzy?",
+      "summary_es": "They used to mean crusties, hippies, all-male lineups, near riots and burning toilets. Now, from Dorset to Inverness, there’s a festival – and a costume – for everyone. What caused this boom? And is there a dark side?It’s 7pm on the first day of Gala festival in Peckham Rye park and dry ice drifts into the trees as grime MC Novelist, born just miles away, raps about a south London bus. “Four eight four! Going on raw on the 484,” he spits with a grin, bouncing like the sweaty moshpit in front of him. There are already hands in the air for this hyperlocal elegy when the DJ teases the next instrumental, Skream’s unmistakable Midnight Request Line – dubstep’s greatest ever anthem.Gala is one of the first festivals of the now overflowing British summer season. That same weekend, Black Water County kicked off the Cursus cider and music festival in Dorset, Fatboy Slim headlined the Radio 1 Big "
+    },
+    {
+      "id": "51d2b21f6e",
+      "title_en": "‘We’re up against forces that have all the money in the world’: Erin Brockovich on her battle against AI datacentres",
+      "summary_en": "In 1993, she squeezed a $333m settlement from a Californian energy company in a scandal over contaminated water. Three decades later, she has a new target in her sights – and it’s globalWhen Erin Brockovich woke to find 30 emails from people from the same town, she realised something was going on. People email Brockovich all the time because of what happened in 1993, when she was instrumental in suing Pacific Gas and Electric Company (PG&amp;E) on behalf of residents of the town of Hinkley, California, whose groundwater had been contaminated. The case resulted in a settlement of $333m – then the largest ever payout for a direct-action lawsuit. When she was immortalised by Julia Roberts in the 2000 film Erin Brockovich, she became the hero we didn’t know we needed, a modern day Joan of Arc. She had won against PG&amp;E with no formal legal training.The emails she received a few weeks ago ",
+      "image": "https://i.guim.co.uk/img/media/68746faa5e33b308f6973011d880f796e499ae5c/3_478_5301_4242/master/5301.jpg?width=140&quality=85&auto=format&fit=max&s=c6ad69903342fe6ed3023951971e3c8a",
+      "link": "https://www.theguardian.com/environment/2026/jun/29/were-up-against-forces-that-have-all-the-money-in-the-world-erin-brockovich-on-her-battle-against-ai-datacentres",
+      "published": "Mon, 29 Jun 2026 04:00:28 GMT",
+      "category": "News",
+      "source": "The Guardian",
+      "title_es": "‘We’re up against forces that have all the money in the world’: Erin Brockovich on her battle against AI datacentres",
+      "summary_es": "In 1993, she squeezed a $333m settlement from a Californian energy company in a scandal over contaminated water. Three decades later, she has a new target in her sights – and it’s globalWhen Erin Brockovich woke to find 30 emails from people from the same town, she realised something was going on. People email Brockovich all the time because of what happened in 1993, when she was instrumental in suing Pacific Gas and Electric Company (PG&amp;E) on behalf of residents of the town of Hinkley, California, whose groundwater had been contaminated. The case resulted in a settlement of $333m – then the largest ever payout for a direct-action lawsuit. When she was immortalised by Julia Roberts in the 2000 film Erin Brockovich, she became the hero we didn’t know we needed, a modern day Joan of Arc. She had won against PG&amp;E with no formal legal training.The emails she received a few weeks ago "
     },
     {
       "id": "ceb0e61632",
@@ -865,42 +901,6 @@
       "source": "The Guardian",
       "title_es": "Ben Stokes’ remarkable England career: in pictures",
       "summary_es": "After the England captain announced his international retirement, we look back at the highs and lows of the all-rounder’s incredible career Continue reading..."
-    },
-    {
-      "id": "696226f95c",
-      "title_en": "Do you need electrolytes? Will tea cool you down? Is it safe to drink beer? How to stay hydrated in a heatwave",
-      "summary_en": "The hotter it gets, the faster our bodies lose water. Obviously, we need to replace it – but is anything better than plain H₂O? And does timing matter? Here’s what the science saysHydration is important. In temperatures like those we’re increasingly seeing in much of the world, sweating can be the only way for our bodies to cool down, and our thirst isn’t always the best indicator of how much water we’ve lost or need. The consequences of not being sufficiently hydrated as temperatures creep towards the 40s can be severe, and can kick in much faster than most people realise. The good news is that remembering to drink plenty of water at regular intervals throughout the day will be enough for most people to avoid the worst. But if you’d like to understand why dehydration is so dangerous, whether you really need extra electrolytes, or if a cup of tea really can cool you down, read on.To star",
-      "image": "https://i.guim.co.uk/img/media/95ba641c217cde1ba55aca7b0fac597926c3af6f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=616932694380c72a1038e40ee90982cc",
-      "link": "https://www.theguardian.com/society/2026/jun/28/do-you-need-electrolytes-will-tea-cool-you-down-is-it-safe-to-drink-beer-how-to-stay-hydrated-in-a-heatwave",
-      "published": "Sun, 28 Jun 2026 13:00:10 GMT",
-      "category": "News",
-      "source": "The Guardian",
-      "title_es": "Do you need electrolytes? Will tea cool you down? Is it safe to drink beer? How to stay hydrated in a heatwave",
-      "summary_es": "The hotter it gets, the faster our bodies lose water. Obviously, we need to replace it – but is anything better than plain H₂O? And does timing matter? Here’s what the science saysHydration is important. In temperatures like those we’re increasingly seeing in much of the world, sweating can be the only way for our bodies to cool down, and our thirst isn’t always the best indicator of how much water we’ve lost or need. The consequences of not being sufficiently hydrated as temperatures creep towards the 40s can be severe, and can kick in much faster than most people realise. The good news is that remembering to drink plenty of water at regular intervals throughout the day will be enough for most people to avoid the worst. But if you’d like to understand why dehydration is so dangerous, whether you really need extra electrolytes, or if a cup of tea really can cool you down, read on.To star"
-    },
-    {
-      "id": "e4f1638169",
-      "title_en": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded",
-      "summary_en": "Document appears to have been subject to conflicting interpretations on key issues of Lebanon ceasefire and strait of HormuzMiddle East crisis live – latest updatesThe sudden eruption of fresh hostilities in the Gulf – just 10 days after Iran and the US signed a memorandum of understanding to end the conflict – threatens to put the two countries back on the path to war.It appears the deliberately opaque wording in the memorandum has been unable to withstand the pressure of conflicting interpretations, and as a result supporters of the deal inside Tehran are on the back foot. Statements to the effect that Iran’s government should never have agreed to reopen the strait of Hormuz are proliferating – and not just among the country’s hardliners. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/67176d5d07091c7ecdcb4cafd653f48b9be5a19d/0_179_1496_1197/master/1496.jpg?width=140&quality=85&auto=format&fit=max&s=eee3881c4afad1fc2278373daf62cb66",
-      "link": "https://www.theguardian.com/world/2026/jun/28/fresh-hostilities-gulf-us-iran-memorandum-interpretations-lebanon-ceasefire-strait-of-hormuz",
-      "published": "Sun, 28 Jun 2026 15:02:53 GMT",
-      "category": "News",
-      "source": "The Guardian",
-      "title_es": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded",
-      "summary_es": "Document appears to have been subject to conflicting interpretations on key issues of Lebanon ceasefire and strait of HormuzMiddle East crisis live – latest updatesThe sudden eruption of fresh hostilities in the Gulf – just 10 days after Iran and the US signed a memorandum of understanding to end the conflict – threatens to put the two countries back on the path to war.It appears the deliberately opaque wording in the memorandum has been unable to withstand the pressure of conflicting interpretations, and as a result supporters of the deal inside Tehran are on the back foot. Statements to the effect that Iran’s government should never have agreed to reopen the strait of Hormuz are proliferating – and not just among the country’s hardliners. Continue reading..."
-    },
-    {
-      "id": "b3471b7eeb",
-      "title_en": "Will the Mamdani effect make 2028 the year of the leftwing president?",
-      "summary_en": "The mayor hopes to ‘write a new chapter in the party’s history’ – and recent democratic socialist wins prove he might be able to do itIn the back yard of a Brooklyn bar, beneath strung-up lightbulbs and swaths of fabric that swooped like great sails, an ecstatic crowd greeted Zohran Mamdani, the New York City mayor, and his victorious ally, Brad Lander. These Democrats also had a withering verdict on their own party establishment.“To me, centrists can go fuck themselves,” said Léa Zimmerman, 34. “They’re fucking useless, they don’t stand for anything, and if they do stand on something, it’s pathetic. I’m done with pathetic, performative people.” Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/19e729dd956625b3479b98e2097687d47a297f68/0_159_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=76b084d1c09c848e53c4e23d52cec8e8",
-      "link": "https://www.theguardian.com/news/ng-interactive/2026/jun/28/mamdani-democratic-socialist-2028-election",
-      "published": "Sun, 28 Jun 2026 05:00:00 GMT",
-      "category": "News",
-      "source": "The Guardian",
-      "title_es": "Will the Mamdani effect make 2028 the year of the leftwing president?",
-      "summary_es": "The mayor hopes to ‘write a new chapter in the party’s history’ – and recent democratic socialist wins prove he might be able to do itIn the back yard of a Brooklyn bar, beneath strung-up lightbulbs and swaths of fabric that swooped like great sails, an ecstatic crowd greeted Zohran Mamdani, the New York City mayor, and his victorious ally, Brad Lander. These Democrats also had a withering verdict on their own party establishment.“To me, centrists can go fuck themselves,” said Léa Zimmerman, 34. “They’re fucking useless, they don’t stand for anything, and if they do stand on something, it’s pathetic. I’m done with pathetic, performative people.” Continue reading..."
     },
     {
       "id": "8381e8c102",
@@ -1203,16 +1203,16 @@
       "summary_es": "Reports suggest the move is now off, with the Wales boss now not moving to Turf Moor"
     },
     {
-      "id": "9a03db8048",
-      "title_en": "Lynn given welcome headache by Wales' young talent",
-      "summary_en": "Wales' next generation are to push for Test action after taking their chance to impress boss Sean Lynn against Barbarians.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87cd/live/15824420-7307-11f1-8b3a-1977d6dee6ef.jpg",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c8x29enqkweo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 28 Jun 2026 15:53:02 GMT",
+      "id": "4af0bddb03",
+      "title_en": "Morgan backs Lake's Wales captaincy credentials",
+      "summary_en": "Flanker Jac Morgan says he will back up \"brilliant\" captain Dewi Lake after the hooker retained the Wales leadership role.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02fa/live/899d5910-7304-11f1-8b3a-1977d6dee6ef.jpg",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c8021rm9n23o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 29 Jun 2026 03:20:46 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Lynn given welcome headache by Wales' young talent",
-      "summary_es": "Wales' next generation are to push for Test action after taking their chance to impress boss Sean Lynn against Barbarians."
+      "title_es": "Morgan backs Lake's Wales captaincy credentials",
+      "summary_es": "Flanker Jac Morgan says he will back up \"brilliant\" captain Dewi Lake after the hooker retained the Wales leadership role."
     },
     {
       "id": "fbe573b9c7",
@@ -1227,6 +1227,30 @@
       "summary_es": "Head coach Steve Tandy says the Wales squad for the Nations Championship will be cut to between 32 and 34 players early next week."
     },
     {
+      "id": "9a03db8048",
+      "title_en": "Lynn given welcome headache by Wales' young talent",
+      "summary_en": "Wales' next generation are to push for Test action after taking their chance to impress boss Sean Lynn against Barbarians.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87cd/live/15824420-7307-11f1-8b3a-1977d6dee6ef.jpg",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c8x29enqkweo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 28 Jun 2026 15:53:02 GMT",
+      "category": "Rugby",
+      "source": "Wales Rugby (BBC)",
+      "title_es": "Lynn given welcome headache by Wales' young talent",
+      "summary_es": "Wales' next generation are to push for Test action after taking their chance to impress boss Sean Lynn against Barbarians."
+    },
+    {
+      "id": "7af8c63124",
+      "title_en": "Bowen free to play for Wales U20s after red card",
+      "summary_en": "Wales Under-20s wing Tom Bowen avoids suspension after his red card in the win against Georgia in the Junior World Championship.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3767/live/d2234d80-7321-11f1-8652-33416afa297f.jpg",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c05y0lnm6p5o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 28 Jun 2026 20:35:43 GMT",
+      "category": "Rugby",
+      "source": "Wales Rugby (BBC)",
+      "title_es": "Bowen free to play for Wales U20s after red card",
+      "summary_es": "Wales Under-20s wing Tom Bowen avoids suspension after his red card in the win against Georgia in the Junior World Championship."
+    },
+    {
       "id": "86d783db87",
       "title_en": "New-look Wales end losing streak with Barbarians win",
       "summary_en": "Amy Williams scores two tries on her first Wales appearance as visitors end a run of nine defeats against a star-studded Baa-Baas.",
@@ -1237,30 +1261,6 @@
       "source": "Wales Rugby (BBC)",
       "title_es": "New-look Wales end losing streak with Barbarians win",
       "summary_es": "Amy Williams scores two tries on her first Wales appearance as visitors end a run of nine defeats against a star-studded Baa-Baas."
-    },
-    {
-      "id": "e9c6cbbcbd",
-      "title_en": "North star shines bright right to the end",
-      "summary_en": "Even by the extraordinary standards George North has reached during his glittering 16-year career, the Wales great found something special for his farewell match.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a05c/live/89b84940-7242-11f1-a6b1-e743cbb66042.jpg",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3ey0pqd2wxo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 27 Jun 2026 18:43:59 GMT",
-      "category": "Rugby",
-      "source": "Wales Rugby (BBC)",
-      "title_es": "North star shines bright right to the end",
-      "summary_es": "Even by the extraordinary standards George North has reached during his glittering 16-year career, the Wales great found something special for his farewell match."
-    },
-    {
-      "id": "808be69867",
-      "title_en": "Wales beat Barbarians as North signs off in style",
-      "summary_en": "Wales beat Barbarians 33-31 at the Allianz Stadium in Twickenham but the day belongs to two-try George North in his last rugby match.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33f7/live/c891daa0-722e-11f1-b6b6-39a51194ddf9.jpg",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c9q2exwqxlvo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 27 Jun 2026 15:18:38 GMT",
-      "category": "Rugby",
-      "source": "Wales Rugby (BBC)",
-      "title_es": "Wales beat Barbarians as North signs off in style",
-      "summary_es": "Wales beat Barbarians 33-31 at the Allianz Stadium in Twickenham but the day belongs to two-try George North in his last rugby match."
     },
     {
       "id": "16c275a0e9",
