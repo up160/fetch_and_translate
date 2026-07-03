@@ -9,6 +9,8 @@ Daily RSS reader: fetches English-language feeds, translates to Spanish (Spain) 
 - `feed.json` — **generated output, committed by CI**. Never hand-edit; changes are overwritten on the next scheduled run.
 - `index.html` — the entire frontend: single self-contained file (inline CSS + JS), loads `./feed.json` client-side, ES/EN toggle built in.
 - `.github/workflows/update-feed.yml` — runs every 12h (06:23/18:23 UTC) + manual dispatch; commits `feed.json` only when it changed.
+- `.github/workflows/ci.yml` — ruff + pytest on every PR/push to main. `tests/` covers the pure (no-network) pipeline logic.
+- `index.html` is also a PWA (`manifest.webmanifest`, `sw.js`, `icon.svg`) — installable, works offline from the cached feed.
 
 ## Gotchas
 
@@ -33,7 +35,7 @@ python -m http.server 8000                          # then open http://localhost
 
 In restricted remote sessions the egress proxy may 403 all feed hosts — the dry run then reports every feed dead. That's the sandbox, not the feeds; verify via a manual CI run instead.
 
-There are no tests; verification is running the pipeline (or the fetch-only dry run) and eyeballing output. Keep it that way unless asked.
+Lint and unit tests (`pip install -r requirements-dev.txt`, then `ruff check .` and `pytest`) run in CI on every PR — keep them green. They cover the pure logic only; behavioral verification is still running the pipeline (or the fetch-only dry run) and eyeballing output.
 
 ## Conventions
 

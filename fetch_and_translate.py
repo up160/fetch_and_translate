@@ -41,6 +41,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY")
 
 SUMMARY_CAP = 900  # max chars of summary kept for translation
+STALE_FEED_DAYS = 45  # warn if a feed's newest item is older than this
 
 # ─── Fetch Feeds ─────────────────────────────────────────────────────────────
 
@@ -82,6 +83,22 @@ def extract_image(entry, raw_html: str) -> str:
     return ""
 
 
+def newest_entry_age_days(parsed) -> Optional[float]:
+    """Age in days of the most recent entry in a parsed feed, or None if no
+    entry carries a usable date."""
+    newest = None
+    for entry in parsed.entries:
+        t = entry.get("published_parsed") or entry.get("updated_parsed")
+        if not t:
+            continue
+        dt = datetime(*t[:6], tzinfo=timezone.utc)
+        if newest is None or dt > newest:
+            newest = dt
+    if newest is None:
+        return None
+    return (datetime.now(timezone.utc) - newest).total_seconds() / 86400
+
+
 def fetch_feed(feed_config: dict) -> list[dict]:
     """Fetch and parse a single RSS feed."""
     try:
@@ -92,6 +109,13 @@ def fetch_feed(feed_config: dict) -> list[dict]:
         if not parsed.entries and "reddit.com" in url:
             time.sleep(6)
             parsed = feedparser.parse(url)
+
+        # Surface feeds that have quietly gone stale (like the old Scarlets feed
+        # that hadn't updated since 2022) so they can be pruned.
+        age = newest_entry_age_days(parsed)
+        if age is not None and age > STALE_FEED_DAYS:
+            print(f"  ⚠ STALE: {feed_config['name']} — newest item {int(age)} days old")
+
         items = []
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = entry.get("title", "").strip()
@@ -202,21 +226,6 @@ def fetch_world_cup_results(days_back: int = 3) -> list[dict]:
     return items
 
 
-def load_previous_feed() -> dict:
-    """
-    Map id -> item from the last committed feed.json (empty on first run or
-    any read failure). Ids are stable (md5 of link), so unchanged items can
-    reuse their existing translation instead of re-paying the API every run.
-    """
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "feed.json")
-    try:
-        with open(path, encoding="utf-8") as f:
-            prev = json.load(f)
-        return {i["id"]: i for i in prev.get("items", []) if "id" in i}
-    except Exception:
-        return {}
-
-
 def dedupe_items(items: list[dict]) -> list[dict]:
     """
     Drop items whose id (md5 of link) was already seen, keeping the first
@@ -297,24 +306,25 @@ def _build_prompt(chunk: list[dict]) -> str:
     return TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
 
 
-def _apply_translations(chunk: list[dict], raw: str) -> int:
-    """
-    Parse a model response and apply it to the chunk in place. Items that got
-    a response entry are marked es_confirmed — for proper-noun headlines that
-    legitimately stay identical to English, this is what stops them being
-    re-sent to the API on every future run. Returns number of items changed.
-    """
+def _strip_code_fence(raw: str) -> str:
+    """Remove a leading ```json / ``` fence the model sometimes adds."""
     raw = raw.strip()
     if raw.startswith("```"):
         raw = raw.split("```")[1]
         if raw.startswith("json"):
             raw = raw[4:]
-    raw = raw.strip()
+    return raw.strip()
 
-    translations = json.loads(raw)
-    # Match by id (coerced to str). The model sometimes returns the translated
-    # text under the *input* key names ("title"/"summary") instead of the
-    # requested "title_es"/"summary_es" — accept either, or fall back positionally.
+
+def _apply_translations(chunk: list[dict], translations: list[dict]) -> int:
+    """
+    Apply a parsed translation array onto a chunk in place.
+    Pure (no network) so it can be unit-tested. Returns items actually changed.
+
+    Match by id (coerced to str). The model sometimes returns the translated
+    text under the *input* key names ("title"/"summary") instead of the
+    requested "title_es"/"summary_es" — accept either, or fall back positionally.
+    """
     by_id = {str(t.get("id")): t for t in translations}
 
     def pick(t, primary, secondary):
@@ -348,7 +358,8 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
         messages=[{"role": "user", "content": _build_prompt(chunk)}],
     )
     _count_usage(response, batched=False)
-    return _apply_translations(chunk, response.content[0].text)
+    translations = json.loads(_strip_code_fence(response.content[0].text))
+    return _apply_translations(chunk, translations)
 
 
 def _translate_chunks_batched(chunks: list[list[dict]], client: anthropic.Anthropic) -> bool:
@@ -401,10 +412,57 @@ def _translate_chunks_batched(chunks: list[list[dict]], client: anthropic.Anthro
             msg = result.result.message
             _count_usage(msg, batched=True)
             text = next(b.text for b in msg.content if b.type == "text")
-            _apply_translations(chunks[idx], text)
+            _apply_translations(chunks[idx], json.loads(_strip_code_fence(text)))
         except Exception as e:
             print(f"  ✗ Chunk {idx + 1} unparseable: {e}")
     return True
+
+
+def load_translation_cache(path: str) -> dict:
+    """
+    Load translations from the previous feed.json so unchanged items don't get
+    re-translated on every run (the job runs several times a day). Returns a
+    map of item id -> previous item dict. Missing/invalid file -> {}.
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return {it["id"]: it for it in data.get("items", []) if it.get("id")}
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
+def apply_cached_translations(items: list[dict], cache: dict) -> list[dict]:
+    """
+    Reuse a previous Spanish translation for any item whose id and English text
+    are unchanged — but only when the previous run actually translated it
+    (Spanish differs from English) or a successful API call confirmed it stays
+    identical (es_confirmed, e.g. proper-noun headlines and score lines).
+    English-identical items *without* the flag are fallbacks from failed runs
+    and stay pending, so a broken run can never freeze the site in English.
+    Mutates matching items in place; returns the items still needing translation.
+    """
+    pending = []
+    for item in items:
+        prev = cache.get(item["id"])
+        if (
+            prev
+            and prev.get("title_en") == item["title_en"]
+            and prev.get("summary_en") == item["summary_en"]
+            and prev.get("title_es")
+            and (prev["title_es"] != prev["title_en"]
+                 or prev.get("summary_es") != prev.get("summary_en")
+                 or prev.get("es_confirmed"))
+        ):
+            item["title_es"] = prev["title_es"]
+            item["summary_es"] = prev.get("summary_es", item["summary_en"])
+            if prev.get("es_confirmed"):
+                item["es_confirmed"] = True
+        else:
+            pending.append(item)
+    print(f"Reused {len(items) - len(pending)} cached translations; "
+          f"{len(pending)} new to translate.")
+    return pending
 
 
 def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
@@ -459,8 +517,10 @@ def main():
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
-    # Fetch World Cup results first so they render as the top "Mundial" section
-    wc_items = fetch_world_cup_results()
+    # Fetch World Cup results first so they render as the top "Mundial" section.
+    # Seasonal: set "world_cup_results": false in feeds.json once the tournament
+    # is over so the dead API call is skipped.
+    wc_items = fetch_world_cup_results() if CONFIG.get("world_cup_results", True) else []
 
     # Fetch RSS feeds
     items = fetch_all_feeds()
@@ -471,37 +531,16 @@ def main():
         print("No items fetched. Exiting.")
         return
 
-    # Reuse translations from the previous run for unchanged items. Reusable:
-    # items whose Spanish differs from English (actually translated), or
-    # es_confirmed items (a successful API call returned them unchanged —
-    # legit proper-noun headlines). Unconfirmed English-identical items
-    # (earlier failures) go back through the API.
-    prev = load_previous_feed()
-    to_translate = []
-    for item in items:
-        p = prev.get(item["id"])
-        if (p and p.get("title_en") == item["title_en"]
-                and p.get("summary_en") == item["summary_en"]
-                and p.get("title_es")
-                and (p["title_es"] != p["title_en"]
-                     or p.get("summary_es") != p.get("summary_en")
-                     or p.get("es_confirmed"))):
-            item["title_es"] = p["title_es"]
-            item["summary_es"] = p.get("summary_es") or item["summary_en"]
-            if p.get("es_confirmed"):
-                item["es_confirmed"] = True
-        else:
-            to_translate.append(item)
+    out_path = os.path.join(os.path.dirname(__file__), "feed.json")
 
-    reused = len(items) - len(to_translate)
-    if reused:
-        print(f"Reusing {reused} existing translations; {len(to_translate)} items need the API.")
-
-    # Translate (World Cup results go through the same path as everything else)
-    if to_translate:
-        translate_batch(to_translate, client)
+    # Reuse translations from the previous run for unchanged items, then only
+    # send genuinely new items to Claude.
+    cache = load_translation_cache(out_path)
+    pending = apply_cached_translations(items, cache)
+    if pending:
+        translate_batch(pending, client)
     else:
-        print("Nothing new to translate.")
+        print("All items already translated from cache — no Claude calls needed.")
     print_usage()
 
     # Build output
@@ -512,7 +551,6 @@ def main():
     }
 
     # Write feed.json to repo root (where index.html lives)
-    out_path = os.path.join(os.path.dirname(__file__), "feed.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 

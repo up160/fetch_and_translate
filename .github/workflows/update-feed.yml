@@ -3,9 +3,12 @@ name: Update feed
 on:
   schedule:
     # GitHub's scheduled triggers are best-effort and frequently delay/drop
-    # individual slots under load. Run every 12 hours (off-peak minute) so a
-    # missed slot is covered the same day; twice daily halves API spend vs
-    # the old 6-hour cadence. The job only commits when feed.json changed.
+    # individual slots under load. Twice daily (off-peak minute) keeps API
+    # spend minimal while a missed slot is still covered the same day; the
+    # per-item translation cache means reruns over unchanged items make zero
+    # Claude calls anyway. The job only commits when feed.json changed.
+    # (If fresher World Cup scores matter more than a few $/year, restore
+    # the old 4-slot line: "23 5,6,12,21 * * *".)
     - cron: "23 6,18 * * *"   # 06:23 / 18:23 UTC
   workflow_dispatch:        # allow manual runs from the Actions tab
 
