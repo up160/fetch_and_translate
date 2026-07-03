@@ -7,6 +7,7 @@ Fetches RSS feeds, translates to Spanish via Claude API, outputs feed.json
 import json
 import os
 import re
+import socket
 import time
 import hashlib
 from datetime import datetime, timezone, timedelta
@@ -19,6 +20,10 @@ import anthropic
 # (and several block feedparser's default agent outright).
 USER_AGENT = "senal-feed-reader/1.0"
 feedparser.USER_AGENT = USER_AGENT
+
+# feedparser has no timeout parameter; without this a single unresponsive host
+# hangs the whole scheduled run until the Actions job limit kills it.
+socket.setdefaulttimeout(30)
 
 # ─── Feed Sources (loaded from feeds.json) ──────────────────────────────────
 
@@ -221,6 +226,24 @@ def fetch_world_cup_results(days_back: int = 3) -> list[dict]:
     return items
 
 
+def dedupe_items(items: list[dict]) -> list[dict]:
+    """
+    Drop items whose id (md5 of link) was already seen, keeping the first
+    occurrence. Overlapping feeds (e.g. the two Guardian/BBC football sources)
+    can surface the same article twice; duplicate ids also collide in the
+    frontend's data-id read-tracking.
+    """
+    seen: set[str] = set()
+    unique = []
+    for item in items:
+        if item["id"] in seen:
+            print(f"  – dropped duplicate: [{item['source']}] {item['title_en'][:60]}")
+            continue
+        seen.add(item["id"])
+        unique.append(item)
+    return unique
+
+
 # ─── Translate ────────────────────────────────────────────────────────────────
 
 TRANSLATE_PROMPT = """You are a professional news translator producing Spanish (Spain) copy for a daily reader.
@@ -242,6 +265,45 @@ Each object must have exactly these keys: id, title_es, summary_es.
 
 Items to translate:
 """
+
+
+# Haiku 4.5 — short journalistic translation is squarely its use case, and it
+# costs a third of Sonnet. Don't upgrade without measuring the quality gap.
+TRANSLATE_MODEL = "claude-haiku-4-5"
+CHUNK_SIZE = 8
+BATCH_POLL_SECONDS = 10
+BATCH_TIMEOUT_SECONDS = 600  # workflow job timeout is 15 min; leave headroom
+
+# Haiku 4.5 $/Mtok as of 2026-07 (batch = 50%). Update if TRANSLATE_MODEL changes.
+PRICE_IN, PRICE_OUT = 1.00, 5.00
+# Token usage this run, so every Actions log shows real spend, not an estimate.
+USAGE = {"batch_in": 0, "batch_out": 0, "direct_in": 0, "direct_out": 0}
+
+
+def _count_usage(message, batched: bool):
+    try:
+        key = "batch" if batched else "direct"
+        USAGE[key + "_in"] += message.usage.input_tokens
+        USAGE[key + "_out"] += message.usage.output_tokens
+    except Exception:
+        pass  # telemetry must never break the build
+
+
+def print_usage():
+    cost = (USAGE["batch_in"] * PRICE_IN / 2 + USAGE["batch_out"] * PRICE_OUT / 2
+            + USAGE["direct_in"] * PRICE_IN + USAGE["direct_out"] * PRICE_OUT) / 1e6
+    tokens_in = USAGE["batch_in"] + USAGE["direct_in"]
+    tokens_out = USAGE["batch_out"] + USAGE["direct_out"]
+    print(f"API usage this run: {tokens_in} in / {tokens_out} out tokens "
+          f"≈ ${cost:.4f} (≈ ${cost * 2 * 365:.2f}/year at 2 runs/day)")
+
+
+def _build_prompt(chunk: list[dict]) -> str:
+    to_translate = [
+        {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
+        for item in chunk
+    ]
+    return TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
 
 
 def _strip_code_fence(raw: str) -> str:
@@ -281,29 +343,79 @@ def _apply_translations(chunk: list[dict], translations: list[dict]) -> int:
         summary_es = pick(t, "summary_es", "summary")
         item["title_es"] = title_es if title_es else item["title_en"]
         item["summary_es"] = summary_es if summary_es is not None else item["summary_en"]
+        if title_es:
+            item["es_confirmed"] = True
         if item["title_es"] != item["title_en"]:
             changed += 1
     return changed
 
 
 def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
-    """Translate one chunk in place. Returns number of items actually changed."""
-    to_translate = [
-        {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
-        for item in chunk
-    ]
-    prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
-
-    # Haiku is ~3x cheaper than Sonnet on input/output and is more than capable
-    # of translating short news headlines and summaries. Output tokens dominate
-    # the bill, so this is the single biggest per-token cost lever.
+    """Translate one chunk in place with a direct (synchronous) API call."""
     response = client.messages.create(
-        model="claude-haiku-4-5",
+        model=TRANSLATE_MODEL,
         max_tokens=8000,
-        messages=[{"role": "user", "content": prompt}],
+        messages=[{"role": "user", "content": _build_prompt(chunk)}],
     )
+    _count_usage(response, batched=False)
     translations = json.loads(_strip_code_fence(response.content[0].text))
     return _apply_translations(chunk, translations)
+
+
+def _translate_chunks_batched(chunks: list[list[dict]], client: anthropic.Anthropic) -> bool:
+    """
+    Translate all chunks through the Message Batches API (50% of standard
+    price). Small batches normally finish in a couple of minutes; on timeout
+    the unprocessed items simply keep their English fallback and are retried
+    on the next scheduled run. Returns False if the batch could not even be
+    submitted — the caller then falls back to direct calls.
+    """
+    try:
+        batch = client.messages.batches.create(
+            requests=[
+                {
+                    "custom_id": f"chunk-{i}",
+                    "params": {
+                        "model": TRANSLATE_MODEL,
+                        "max_tokens": 8000,
+                        "messages": [{"role": "user", "content": _build_prompt(c)}],
+                    },
+                }
+                for i, c in enumerate(chunks)
+            ]
+        )
+    except Exception as e:
+        print(f"  Batch submit failed ({e}) — falling back to direct calls.")
+        return False
+
+    print(f"  Submitted batch {batch.id} ({len(chunks)} chunks); polling...")
+    deadline = time.time() + BATCH_TIMEOUT_SECONDS
+    while True:
+        status = client.messages.batches.retrieve(batch.id)
+        if status.processing_status == "ended":
+            break
+        if time.time() > deadline:
+            print("  ✗ Batch timed out — publishing with fallbacks; next run retries.")
+            try:
+                client.messages.batches.cancel(batch.id)
+            except Exception:
+                pass
+            return True
+        time.sleep(BATCH_POLL_SECONDS)
+
+    for result in client.messages.batches.results(batch.id):
+        idx = int(result.custom_id.rsplit("-", 1)[1])
+        if result.result.type != "succeeded":
+            print(f"  ✗ Chunk {idx + 1} failed in batch: {result.result.type}")
+            continue
+        try:
+            msg = result.result.message
+            _count_usage(msg, batched=True)
+            text = next(b.text for b in msg.content if b.type == "text")
+            _apply_translations(chunks[idx], json.loads(_strip_code_fence(text)))
+        except Exception as e:
+            print(f"  ✗ Chunk {idx + 1} unparseable: {e}")
+    return True
 
 
 def load_translation_cache(path: str) -> dict:
@@ -322,9 +434,13 @@ def load_translation_cache(path: str) -> dict:
 
 def apply_cached_translations(items: list[dict], cache: dict) -> list[dict]:
     """
-    Reuse a previous Spanish translation for any item whose id and English title
-    are unchanged. Mutates matching items in place and returns the list of items
-    that still need translating.
+    Reuse a previous Spanish translation for any item whose id and English text
+    are unchanged — but only when the previous run actually translated it
+    (Spanish differs from English) or a successful API call confirmed it stays
+    identical (es_confirmed, e.g. proper-noun headlines and score lines).
+    English-identical items *without* the flag are fallbacks from failed runs
+    and stay pending, so a broken run can never freeze the site in English.
+    Mutates matching items in place; returns the items still needing translation.
     """
     pending = []
     for item in items:
@@ -334,9 +450,14 @@ def apply_cached_translations(items: list[dict], cache: dict) -> list[dict]:
             and prev.get("title_en") == item["title_en"]
             and prev.get("summary_en") == item["summary_en"]
             and prev.get("title_es")
+            and (prev["title_es"] != prev["title_en"]
+                 or prev.get("summary_es") != prev.get("summary_en")
+                 or prev.get("es_confirmed"))
         ):
             item["title_es"] = prev["title_es"]
             item["summary_es"] = prev.get("summary_es", item["summary_en"])
+            if prev.get("es_confirmed"):
+                item["es_confirmed"] = True
         else:
             pending.append(item)
     print(f"Reused {len(items) - len(pending)} cached translations; "
@@ -346,9 +467,10 @@ def apply_cached_translations(items: list[dict], cache: dict) -> list[dict]:
 
 def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
     """
-    Translate titles and summaries to Spanish via Claude, in small chunks
-    (better per-item fidelity than one big call) with English fallback on
-    failure and a single targeted retry pass over anything left in English.
+    Translate titles and summaries to Spanish via Claude — one Batches-API
+    submission for all chunks (falling back to direct calls if batching is
+    unavailable), English fallback per item on failure, and a targeted direct
+    retry pass over anything left in English and unconfirmed.
     """
     print("Translating to Spanish via Claude...")
 
@@ -357,20 +479,24 @@ def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict
         item["title_es"] = item["title_en"]
         item["summary_es"] = item["summary_en"]
 
-    CHUNK_SIZE = 8
-    for start in range(0, len(items), CHUNK_SIZE):
-        chunk = items[start:start + CHUNK_SIZE]
-        try:
-            _translate_chunk(chunk, client)
-            print(f"  ✓ Translated {start + 1}–{start + len(chunk)}")
-        except Exception as e:
-            print(f"  ✗ Chunk {start + 1}–{start + len(chunk)} failed: {e}")
+    chunks = [items[i:i + CHUNK_SIZE] for i in range(0, len(items), CHUNK_SIZE)]
+    if not _translate_chunks_batched(chunks, client):
+        for i, chunk in enumerate(chunks):
+            try:
+                _translate_chunk(chunk, client)
+                print(f"  ✓ Translated chunk {i + 1}/{len(chunks)}")
+            except Exception as e:
+                print(f"  ✗ Chunk {i + 1}/{len(chunks)} failed: {e}")
 
-    # Targeted retry: re-translate items still identical to English (model
-    # sometimes echoes terse headlines). Idempotent for true proper-noun items.
-    leftovers = [i for i in items if i["title_es"] == i["title_en"]]
+    # Targeted retry (direct calls — the volume is small): items still equal
+    # to English whose chunk failed or whose entry went missing. Items the
+    # model *returned* unchanged are es_confirmed and don't retry.
+    leftovers = [
+        i for i in items
+        if i["title_es"] == i["title_en"] and not i.get("es_confirmed")
+    ]
     if leftovers:
-        print(f"  Retrying {len(leftovers)} items left in English...")
+        print(f"  Retrying {len(leftovers)} unconfirmed items left in English...")
         for start in range(0, len(leftovers), CHUNK_SIZE):
             chunk = leftovers[start:start + CHUNK_SIZE]
             try:
@@ -399,7 +525,7 @@ def main():
     # Fetch RSS feeds
     items = fetch_all_feeds()
 
-    items = wc_items + items
+    items = dedupe_items(wc_items + items)
 
     if not items:
         print("No items fetched. Exiting.")
@@ -415,6 +541,7 @@ def main():
         translate_batch(pending, client)
     else:
         print("All items already translated from cache — no Claude calls needed.")
+    print_usage()
 
     # Build output
     output = {

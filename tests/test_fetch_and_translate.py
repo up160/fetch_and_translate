@@ -114,3 +114,51 @@ def test_apply_cached_translations_new_item_pending():
 
 def test_load_translation_cache_missing_file_returns_empty():
     assert m.load_translation_cache("/nonexistent/feed.json") == {}
+
+
+# ─── es_confirmed: confirmed-identical vs failure fallback ──────────────────
+
+def test_apply_translations_marks_returned_items_confirmed():
+    # A successful response that echoes the title (proper noun) confirms it.
+    chunk = [{"id": "1", "title_en": "Bellingcat", "summary_en": ""}]
+    m._apply_translations(chunk, [{"id": "1", "title_es": "Bellingcat", "summary_es": ""}])
+    assert chunk[0]["title_es"] == "Bellingcat"
+    assert chunk[0].get("es_confirmed") is True
+
+
+def test_apply_translations_missing_entry_not_confirmed():
+    chunk = [{"id": "1", "title_en": "Keep", "summary_en": "kept"}]
+    m._apply_translations(chunk, [])
+    assert not chunk[0].get("es_confirmed")
+
+
+def test_apply_cached_translations_reuses_confirmed_identical():
+    cache = {"a": {"id": "a", "title_en": "Bellingcat", "summary_en": "",
+                   "title_es": "Bellingcat", "summary_es": "", "es_confirmed": True}}
+    items = [{"id": "a", "title_en": "Bellingcat", "summary_en": ""}]
+    pending = m.apply_cached_translations(items, cache)
+    assert pending == []
+    assert items[0].get("es_confirmed") is True
+
+
+def test_apply_cached_translations_retries_unconfirmed_english():
+    # English-identical WITHOUT es_confirmed = fallback from a failed run.
+    # It must stay pending, or a broken run would freeze the site in English.
+    cache = {"a": {"id": "a", "title_en": "Some headline", "summary_en": "S",
+                   "title_es": "Some headline", "summary_es": "S"}}
+    items = [{"id": "a", "title_en": "Some headline", "summary_en": "S"}]
+    pending = m.apply_cached_translations(items, cache)
+    assert [p["id"] for p in pending] == ["a"]
+
+
+# ─── dedupe_items ────────────────────────────────────────────────────────────
+
+def test_dedupe_items_keeps_first_occurrence():
+    items = [
+        {"id": "x", "source": "A", "title_en": "Story"},
+        {"id": "x", "source": "B", "title_en": "Story"},
+        {"id": "y", "source": "A", "title_en": "Other"},
+    ]
+    out = m.dedupe_items(items)
+    assert [i["id"] for i in out] == ["x", "y"]
+    assert out[0]["source"] == "A"
