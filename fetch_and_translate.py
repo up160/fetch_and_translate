@@ -258,20 +258,30 @@ Items to translate:
 """
 
 
-def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
-    """Translate one chunk in place. Returns number of items actually changed."""
+# Haiku 4.5 — short journalistic translation is squarely its use case, and it
+# costs a third of Sonnet. Don't upgrade without measuring the quality gap.
+TRANSLATE_MODEL = "claude-haiku-4-5"
+CHUNK_SIZE = 8
+BATCH_POLL_SECONDS = 10
+BATCH_TIMEOUT_SECONDS = 600  # workflow job timeout is 15 min; leave headroom
+
+
+def _build_prompt(chunk: list[dict]) -> str:
     to_translate = [
         {"id": item["id"], "title": item["title_en"], "summary": item["summary_en"]}
         for item in chunk
     ]
-    prompt = TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
+    return TRANSLATE_PROMPT + json.dumps(to_translate, ensure_ascii=False)
 
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=8000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = response.content[0].text.strip()
+
+def _apply_translations(chunk: list[dict], raw: str) -> int:
+    """
+    Parse a model response and apply it to the chunk in place. Items that got
+    a response entry are marked es_confirmed — for proper-noun headlines that
+    legitimately stay identical to English, this is what stops them being
+    re-sent to the API on every future run. Returns number of items changed.
+    """
+    raw = raw.strip()
     if raw.startswith("```"):
         raw = raw.split("```")[1]
         if raw.startswith("json"):
@@ -300,16 +310,84 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
         summary_es = pick(t, "summary_es", "summary")
         item["title_es"] = title_es if title_es else item["title_en"]
         item["summary_es"] = summary_es if summary_es is not None else item["summary_en"]
+        if title_es:
+            item["es_confirmed"] = True
         if item["title_es"] != item["title_en"]:
             changed += 1
     return changed
 
 
+def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
+    """Translate one chunk in place with a direct (synchronous) API call."""
+    response = client.messages.create(
+        model=TRANSLATE_MODEL,
+        max_tokens=8000,
+        messages=[{"role": "user", "content": _build_prompt(chunk)}],
+    )
+    return _apply_translations(chunk, response.content[0].text)
+
+
+def _translate_chunks_batched(chunks: list[list[dict]], client: anthropic.Anthropic) -> bool:
+    """
+    Translate all chunks through the Message Batches API (50% of standard
+    price). Small batches normally finish in a couple of minutes; on timeout
+    the unprocessed items simply keep their English fallback and are retried
+    on the next scheduled run. Returns False if the batch could not even be
+    submitted — the caller then falls back to direct calls.
+    """
+    try:
+        batch = client.messages.batches.create(
+            requests=[
+                {
+                    "custom_id": f"chunk-{i}",
+                    "params": {
+                        "model": TRANSLATE_MODEL,
+                        "max_tokens": 8000,
+                        "messages": [{"role": "user", "content": _build_prompt(c)}],
+                    },
+                }
+                for i, c in enumerate(chunks)
+            ]
+        )
+    except Exception as e:
+        print(f"  Batch submit failed ({e}) — falling back to direct calls.")
+        return False
+
+    print(f"  Submitted batch {batch.id} ({len(chunks)} chunks); polling...")
+    deadline = time.time() + BATCH_TIMEOUT_SECONDS
+    while True:
+        status = client.messages.batches.retrieve(batch.id)
+        if status.processing_status == "ended":
+            break
+        if time.time() > deadline:
+            print("  ✗ Batch timed out — publishing with fallbacks; next run retries.")
+            try:
+                client.messages.batches.cancel(batch.id)
+            except Exception:
+                pass
+            return True
+        time.sleep(BATCH_POLL_SECONDS)
+
+    for result in client.messages.batches.results(batch.id):
+        idx = int(result.custom_id.rsplit("-", 1)[1])
+        if result.result.type != "succeeded":
+            print(f"  ✗ Chunk {idx + 1} failed in batch: {result.result.type}")
+            continue
+        try:
+            msg = result.result.message
+            text = next(b.text for b in msg.content if b.type == "text")
+            _apply_translations(chunks[idx], text)
+        except Exception as e:
+            print(f"  ✗ Chunk {idx + 1} unparseable: {e}")
+    return True
+
+
 def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
     """
-    Translate titles and summaries to Spanish via Claude, in small chunks
-    (better per-item fidelity than one big call) with English fallback on
-    failure and a single targeted retry pass over anything left in English.
+    Translate titles and summaries to Spanish via Claude — one Batches-API
+    submission for all chunks (falling back to direct calls if batching is
+    unavailable), English fallback per item on failure, and a targeted direct
+    retry pass over anything left in English and unconfirmed.
     """
     print("Translating to Spanish via Claude...")
 
@@ -318,20 +396,24 @@ def translate_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict
         item["title_es"] = item["title_en"]
         item["summary_es"] = item["summary_en"]
 
-    CHUNK_SIZE = 8
-    for start in range(0, len(items), CHUNK_SIZE):
-        chunk = items[start:start + CHUNK_SIZE]
-        try:
-            _translate_chunk(chunk, client)
-            print(f"  ✓ Translated {start + 1}–{start + len(chunk)}")
-        except Exception as e:
-            print(f"  ✗ Chunk {start + 1}–{start + len(chunk)} failed: {e}")
+    chunks = [items[i:i + CHUNK_SIZE] for i in range(0, len(items), CHUNK_SIZE)]
+    if not _translate_chunks_batched(chunks, client):
+        for i, chunk in enumerate(chunks):
+            try:
+                _translate_chunk(chunk, client)
+                print(f"  ✓ Translated chunk {i + 1}/{len(chunks)}")
+            except Exception as e:
+                print(f"  ✗ Chunk {i + 1}/{len(chunks)} failed: {e}")
 
-    # Targeted retry: re-translate items still identical to English (model
-    # sometimes echoes terse headlines). Idempotent for true proper-noun items.
-    leftovers = [i for i in items if i["title_es"] == i["title_en"]]
+    # Targeted retry (direct calls — the volume is small): items still equal
+    # to English whose chunk failed or whose entry went missing. Items the
+    # model *returned* unchanged are es_confirmed and don't retry.
+    leftovers = [
+        i for i in items
+        if i["title_es"] == i["title_en"] and not i.get("es_confirmed")
+    ]
     if leftovers:
-        print(f"  Retrying {len(leftovers)} items left in English...")
+        print(f"  Retrying {len(leftovers)} unconfirmed items left in English...")
         for start in range(0, len(leftovers), CHUNK_SIZE):
             chunk = leftovers[start:start + CHUNK_SIZE]
             try:
@@ -364,9 +446,11 @@ def main():
         print("No items fetched. Exiting.")
         return
 
-    # Reuse translations from the previous run for unchanged items. Items whose
-    # Spanish equals the English (proper-noun headlines or earlier failures) go
-    # back through the API — same treatment the retry pass always gave them.
+    # Reuse translations from the previous run for unchanged items. Reusable:
+    # items whose Spanish differs from English (actually translated), or
+    # es_confirmed items (a successful API call returned them unchanged —
+    # legit proper-noun headlines). Unconfirmed English-identical items
+    # (earlier failures) go back through the API.
     prev = load_previous_feed()
     to_translate = []
     for item in items:
@@ -375,9 +459,12 @@ def main():
                 and p.get("summary_en") == item["summary_en"]
                 and p.get("title_es")
                 and (p["title_es"] != p["title_en"]
-                     or p.get("summary_es") != p.get("summary_en"))):
+                     or p.get("summary_es") != p.get("summary_en")
+                     or p.get("es_confirmed"))):
             item["title_es"] = p["title_es"]
             item["summary_es"] = p.get("summary_es") or item["summary_en"]
+            if p.get("es_confirmed"):
+                item["es_confirmed"] = True
         else:
             to_translate.append(item)
 

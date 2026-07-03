@@ -47,4 +47,4 @@ A source configured in `feeds.json` but absent here failed at the last CI run �
 ## Rules
 
 - Never let a fix make a feed failure fatal: `fetch_feed` must keep returning `[]` on error. A dead feed must never break the daily build.
-- Don't hand-edit `feed.json` to patch in missing items — it's regenerated every 6 hours.
+- Don't hand-edit `feed.json` to patch in missing items — it's regenerated twice a day.

@@ -45,7 +45,7 @@ Commit the resulting `feed.json`, then push. The site will render immediately.
 
 ### 4. Let it run automatically
 
-The GitHub Action runs every 6 hours (00:23 / 06:23 / 12:23 / 18:23 UTC) and only commits when `feed.json` actually changed. You can also trigger it manually from the **Actions** tab → **Update feed** → **Run workflow**.
+The GitHub Action runs every 12 hours (06:23 / 18:23 UTC) and only commits when `feed.json` actually changed. You can also trigger it manually from the **Actions** tab → **Update feed** → **Run workflow**.
 
 > GitHub disables scheduled workflows after ~60 days without repo activity — re-enable from the Actions tab if updates stop.
 
@@ -72,4 +72,4 @@ The GitHub Action runs every 6 hours (00:23 / 06:23 / 12:23 / 18:23 UTC) and onl
 
 ## Estimated Claude API cost
 
-Item ids are stable across runs, so each run reuses existing translations and only sends new or changed items to the API — typically a few dozen items a day at ~150 tokens each. At Sonnet pricing that is well under $0.05/day.
+The pipeline is aggressively cost-optimised: translations are reused across runs (only new or changed items hit the API), proper-noun headlines are confirmed once and never re-sent, the model is Haiku 4.5 ($1/$5 per million tokens), and calls go through the Message Batches API at 50% of standard price. At the twice-daily schedule that works out to roughly **$0.05/day (~$20/year)** — a $5 credit balance lasts about three months.

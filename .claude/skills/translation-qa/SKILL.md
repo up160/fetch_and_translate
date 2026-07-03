@@ -24,7 +24,8 @@ To eyeball quality, print a few en/es pairs per category and judge: natural jour
 ## Tuning the prompt (`TRANSLATE_PROMPT`)
 
 - The prompt demands **ONLY a raw JSON array** with keys `id, title_es, summary_es`. Any prompt change must preserve that contract — the parser strips code fences but expects JSON.
-- Known model quirk already handled downstream: translations sometimes come back under the *input* key names (`title`/`summary`); `_translate_chunk`'s `pick()` accepts both, with positional fallback. Don't remove that leniency.
+- Known model quirk already handled downstream: translations sometimes come back under the *input* key names (`title`/`summary`); `_apply_translations`'s `pick()` accepts both, with positional fallback. Don't remove that leniency.
+- Items a successful call returns unchanged are marked `es_confirmed` in feed.json and are never re-sent. After a prompt change that should affect previously-confirmed items, they only re-translate when the story ages out — that's accepted; don't add invalidation machinery.
 - Style rules live in the prompt, not the code. Add style guidance as new bullet lines; keep the output-format paragraph last and intact.
 
 ## Testing prompt changes cheaply
@@ -48,4 +49,4 @@ Pick a mixed batch (a score line, a tech headline, a long summary) rather than t
 - Per-item English fallback stays: every item must always have `title_es`/`summary_es`, even if every API call fails.
 - A translation failure must never crash the pipeline (CI commits whatever was produced).
 - `CHUNK_SIZE = 8` balances fidelity vs. calls; `max_tokens=8000` must comfortably fit a chunk — if you raise CHUNK_SIZE or SUMMARY_CAP, re-check that budget.
-- The model is pinned (`claude-sonnet-4-6`) for cost (~50 items/day). Model changes are the user's call — if asked, check current model names/pricing via the claude-api skill rather than from memory.
+- The model is pinned (`TRANSLATE_MODEL = "claude-haiku-4-5"`) and production calls go through the Message Batches API (50% price, with direct-call fallback). Cost is the binding constraint — model or call-pattern changes are the user's call; if asked, check current model names/pricing via the claude-api skill rather than from memory.
