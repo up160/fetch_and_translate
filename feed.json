@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-07-02T19:58:15.166866+00:00",
+  "generated_at": "2026-07-03T04:14:31.419850+00:00",
   "item_count": 104,
   "items": [
-    {
-      "id": "wc65f78657",
-      "title_en": "Brazil 2–1 Japan",
-      "summary_en": "Last 32. Played on 2026-06-29.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-29T17:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Brazil 2–1 Japan",
-      "summary_es": "Last 32. Played on 2026-06-29."
-    },
-    {
-      "id": "wcee9820b6",
-      "title_en": "Germany 4–5 Paraguay",
-      "summary_en": "Last 32. Played on 2026-06-29.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-29T20:30:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Germany 4–5 Paraguay",
-      "summary_es": "Last 32. Played on 2026-06-29."
-    },
     {
       "id": "wce699ef22",
       "title_en": "Netherlands 3–4 Morocco",
@@ -111,28 +87,52 @@
       "summary_es": "Last 32. Played on 2026-07-02."
     },
     {
-      "id": "b4a55ddb17",
-      "title_en": "Spain v Austria: World Cup 2026 last 32 – live",
-      "summary_en": "⚽️ Kick-off time: 12pm local/3pm EDT/8pm BST/5am AEST⚽️ Player guide | Bracketology | The full draw | Golden Boot1 min Lamine Yamal works Alexander Schlager inside the first minute with a low shot from 20 yards after a sharp Spain break.1 min And they’re off. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/e4464f3429bbc76b98b3f7438b8690b49a60e9be/534_0_2748_2199/master/2748.jpg?width=140&quality=85&auto=format&fit=max&s=b8fbbe481f4c15d743593ea1b7f535c0",
-      "link": "https://www.theguardian.com/football/live/2026/jul/02/spain-v-austria-world-cup-2026-last-32-live",
-      "published": "Thu, 02 Jul 2026 19:45:44 GMT",
-      "category": "World Cup",
-      "source": "World Cup 2026 (Guardian)",
-      "title_es": "Spain v Austria: World Cup 2026 last 32 – live",
-      "summary_es": "⚽️ Kick-off time: 12pm local/3pm EDT/8pm BST/5am AEST⚽️ Player guide | Bracketology | The full draw | Golden Boot1 min Lamine Yamal works Alexander Schlager inside the first minute with a low shot from 20 yards after a sharp Spain break.1 min And they’re off. Continue reading..."
+      "id": "wccd820bca",
+      "title_en": "Spain 3–0 Austria",
+      "summary_en": "Last 32. Played on 2026-07-02.",
+      "image": "",
+      "link": "",
+      "published": "2026-07-02T19:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Spain 3–0 Austria",
+      "summary_es": "Last 32. Played on 2026-07-02."
     },
     {
-      "id": "3f867b3b9e",
-      "title_en": "Ghosts of the Azteca: England return to scene of infamous Maradona handball",
-      "summary_en": "Mexico have a formidable record in their iconic stadium but for many it will always be associated with one playerAs soon as the World Cup draw was completed in Washington DC last December, the date went into the diary, circled in bold by every England fan that hoped to travel, and millions more who knew they would not. Sunday 5 July, Mexico City. If everything went to plan and Thomas Tuchel’s team topped Group L and won their last-32 tie, they would be going to the Azteca Stadium for the last 16.There was another element in play. If Mexico won their group and advanced in the last 32, they would provide the opposition. Just imagine. England to play a critical knockout tie against one of the host nations in their back yard. It is a back yard where Mexico boast a fearsome record, where they feel close to invincible, owing in part to it being about 2,240 metres above sea level. The altitude ",
-      "image": "https://i.guim.co.uk/img/media/7a1180ba31f154c66dfb60fff29133c33c3bb39f/607_0_5785_4629/master/5785.jpg?width=140&quality=85&auto=format&fit=max&s=b6ebc937d74ddb2ba1a964ac1474f889",
-      "link": "https://www.theguardian.com/football/2026/jul/02/azteca-england-diego-maradona-handball-mexico-world-cup",
-      "published": "Thu, 02 Jul 2026 18:00:06 GMT",
+      "id": "wc519e658b",
+      "title_en": "Portugal 2–1 Croatia",
+      "summary_en": "Last 32. Played on 2026-07-02.",
+      "image": "",
+      "link": "",
+      "published": "2026-07-02T23:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Portugal 2–1 Croatia",
+      "summary_es": "Last 32. Played on 2026-07-02."
+    },
+    {
+      "id": "2f4e46525c",
+      "title_en": "Switzerland v Algeria: World Cup 2026 last 32 – live",
+      "summary_en": "⚽️ Kick-off time: 8pm local/1pm AEST/4am BST/11pm EDT⚽️ Player guide | Bracketology | Golden Boot | Mail MartinThe smallest details can make a difference at the World Cup.All eyes will be on Switzerland’s 20-year-old attacker Johan Manzambi against Algeria, with the emerging talent living up to the hype so far with three goals in the group stage. Only Kylian Mbappé and Thomas Müller have scored more at a World Cup under the age of 21 this century. The France and Germany greats of course went on to win the golden boot at previous World Cups – without wanting to pile more pressure on Manzambi, here is where he sits in this year’s race … Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/d2ea66f00b0abccceb8587239673efae4d2b34ec/204_0_2636_2109/master/2636.jpg?width=140&quality=85&auto=format&fit=max&s=638fd0fa10277db3370e6d857b1c6577",
+      "link": "https://www.theguardian.com/football/live/2026/jul/03/fifa-world-cup-2026-live-switzerland-v-algeria-updates-sui-vs-alg-last-round-32-match-score-latest",
+      "published": "Fri, 03 Jul 2026 03:57:50 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Ghosts of the Azteca: England return to scene of infamous Maradona handball",
-      "summary_es": "Mexico have a formidable record in their iconic stadium but for many it will always be associated with one playerAs soon as the World Cup draw was completed in Washington DC last December, the date went into the diary, circled in bold by every England fan that hoped to travel, and millions more who knew they would not. Sunday 5 July, Mexico City. If everything went to plan and Thomas Tuchel’s team topped Group L and won their last-32 tie, they would be going to the Azteca Stadium for the last 16.There was another element in play. If Mexico won their group and advanced in the last 32, they would provide the opposition. Just imagine. England to play a critical knockout tie against one of the host nations in their back yard. It is a back yard where Mexico boast a fearsome record, where they feel close to invincible, owing in part to it being about 2,240 metres above sea level. The altitude "
+      "title_es": "Switzerland v Algeria: World Cup 2026 last 32 – live",
+      "summary_es": "⚽️ Kick-off time: 8pm local/1pm AEST/4am BST/11pm EDT⚽️ Player guide | Bracketology | Golden Boot | Mail MartinThe smallest details can make a difference at the World Cup.All eyes will be on Switzerland’s 20-year-old attacker Johan Manzambi against Algeria, with the emerging talent living up to the hype so far with three goals in the group stage. Only Kylian Mbappé and Thomas Müller have scored more at a World Cup under the age of 21 this century. The France and Germany greats of course went on to win the golden boot at previous World Cups – without wanting to pile more pressure on Manzambi, here is where he sits in this year’s race … Continue reading..."
+    },
+    {
+      "id": "6fda2f2595",
+      "title_en": "Ramos sends Portugal into last 16 as VAR drama caps wild finish against Croatia",
+      "summary_en": "Rafael Leão dropped to his knees. His cross had just been flicked into the net by Gonçalo Ramos to take Portugal to the last 16 of the World Cup. Leão’s expression was not one of delight, but relief.Billed as the last dance for two footballing icons, it was Luka Modrić who, at the age of 40, had to leave what will surely be his final World Cup. Cristiano Ronaldo, meanwhile, plays on, and both scored and was even substituted in a match of endless incident. But this was a contest about more than two individuals, who were far from the most influential players on show, even if Ronaldo was bewilderingly named player of the match. Instead this was an old-fashioned World Cup battle between hardened teams, with momentum swinging first one way then the other then back again. It was also a match stuffed with incident, including – for the first time in World Cup history – a total of four disallowed",
+      "image": "https://i.guim.co.uk/img/media/428e5118923c319583c4a64ae1deb8681ae6ee8f/503_0_2941_2353/master/2941.jpg?width=140&quality=85&auto=format&fit=max&s=9aed1ebd808ff77e72b358927a37f398",
+      "link": "https://www.theguardian.com/football/2026/jul/02/portugal-croatia-world-cup-2026-last-32-match-report",
+      "published": "Fri, 03 Jul 2026 01:32:31 GMT",
+      "category": "World Cup",
+      "source": "World Cup 2026 (Guardian)",
+      "title_es": "Ramos sends Portugal into last 16 as VAR drama caps wild finish against Croatia",
+      "summary_es": "Rafael Leão dropped to his knees. His cross had just been flicked into the net by Gonçalo Ramos to take Portugal to the last 16 of the World Cup. Leão’s expression was not one of delight, but relief.Billed as the last dance for two footballing icons, it was Luka Modrić who, at the age of 40, had to leave what will surely be his final World Cup. Cristiano Ronaldo, meanwhile, plays on, and both scored and was even substituted in a match of endless incident. But this was a contest about more than two individuals, who were far from the most influential players on show, even if Ronaldo was bewilderingly named player of the match. Instead this was an old-fashioned World Cup battle between hardened teams, with momentum swinging first one way then the other then back again. It was also a match stuffed with incident, including – for the first time in World Cup history – a total of four disallowed"
     },
     {
       "id": "476b37bedb",
@@ -147,28 +147,40 @@
       "summary_es": "For all its gloss and elitist governance, football will not bend to the will of a president so eager to demonise and excludeAt 4.38pm on 28 June Donald Trump dropped a Truth. Nothing unusual in that. Trump’s Truth Social feed is relentless and ever-giving.That same afternoon he also Truthed at 3.58pm, 3.59pm, and twice at 7.42pm, all in the same instantly recognisable, weirdly cartoonish tone, as if a giant maize-based salted snack from a jaunty 1970s TV advert has been pumped full of voodoo and vitamins and propped up behind a lectern to explain geopolitics to the world, but only in the kind of words you might use while arguing with your nine-year-old sister. Continue reading..."
     },
     {
-      "id": "300cffad6e",
-      "title_en": "Football Daily | England survive a Lionel M masterclass and roll on to the Azteca … just",
-      "summary_en": "Sign up now! Sign up now! Sign up now? Sign up now!“For us now, it’s absolutely not a time to panic,” Anthony Barry urged in his now customary half-time debrief, with England 1-0 down to a Democratic Republic of Congo side playing with serious confidence. Thomas Tuchel’s No 2 coldly broke down what was required in the second half – “not a time to play gung-ho football” – but was done dirty by the stat that flashed up on the BBC’s coverage as he spoke. The last time England went on to win a World Cup match in which they conceded first? West Germany in the 1966 final. Yes, you may panic.As an ex-pat Sassenach now living in Edinburgh, capital of the Democratic Republic of Scongo, I can only express my frustration at Harry Kane for depriving the locals of what would inevitably have been an extra bank holiday today. Oh well, all attention now turns to the wee small hours of Monday, when Edinb",
-      "image": "https://i.guim.co.uk/img/media/3579b305a5d9ca81f135fb50ecb56d2a928b5187/933_258_5734_4587/master/5734.jpg?width=140&quality=85&auto=format&fit=max&s=e36493633544f072e8c85b0d27624bda",
-      "link": "https://www.theguardian.com/football/2026/jul/02/england-football-daily-geopolitics-world-cup",
-      "published": "Thu, 02 Jul 2026 12:52:12 GMT",
+      "id": "86d32481e9",
+      "title_en": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
+      "summary_en": "The group stage is something you have to do but the World Cup starts here, Lamine Yamal had insisted, and down on the Pacific that was how it played out. It wasn’t just that Spain defeated Austria to reach the last 16 against Portugal or Croatia, their first victory at the knockout stage since they were champions in 2010; it was that on an enjoyable sunny afternoon they were Spain again. Two goals from Mikel Oyarzabal and another from Pedro Porro completed a 3-0 win that was as recognisably theirs as their coach had requested beforehand. “Almost perfect,” Luis de la Fuente called it afterwards.For the fourth consecutive game Spain kept a clean sheet, Unai Simón breaking Iker Casillas’s 2010 title-winning record while Pau Cubarsí and Aymeric Laporte confirmed their status as the centre-back partnership of the tournament so far, but what really stood out was what was happening either side ",
+      "image": "https://i.guim.co.uk/img/media/69c5f8122c35f6aa5524f310c0d6aa8fd5bd924c/217_0_2914_2332/master/2914.jpg?width=140&quality=85&auto=format&fit=max&s=dd2100326d25fc1684cdfabdddb467ec",
+      "link": "https://www.theguardian.com/football/2026/jul/02/spain-austria-world-cup-2026-last-32-match-report",
+      "published": "Thu, 02 Jul 2026 21:12:38 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Football Daily | England survive a Lionel M masterclass and roll on to the Azteca … just",
-      "summary_es": "Sign up now! Sign up now! Sign up now? Sign up now!“For us now, it’s absolutely not a time to panic,” Anthony Barry urged in his now customary half-time debrief, with England 1-0 down to a Democratic Republic of Congo side playing with serious confidence. Thomas Tuchel’s No 2 coldly broke down what was required in the second half – “not a time to play gung-ho football” – but was done dirty by the stat that flashed up on the BBC’s coverage as he spoke. The last time England went on to win a World Cup match in which they conceded first? West Germany in the 1966 final. Yes, you may panic.As an ex-pat Sassenach now living in Edinburgh, capital of the Democratic Republic of Scongo, I can only express my frustration at Harry Kane for depriving the locals of what would inevitably have been an extra bank holiday today. Oh well, all attention now turns to the wee small hours of Monday, when Edinb"
+      "title_es": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
+      "summary_es": "The group stage is something you have to do but the World Cup starts here, Lamine Yamal had insisted, and down on the Pacific that was how it played out. It wasn’t just that Spain defeated Austria to reach the last 16 against Portugal or Croatia, their first victory at the knockout stage since they were champions in 2010; it was that on an enjoyable sunny afternoon they were Spain again. Two goals from Mikel Oyarzabal and another from Pedro Porro completed a 3-0 win that was as recognisably theirs as their coach had requested beforehand. “Almost perfect,” Luis de la Fuente called it afterwards.For the fourth consecutive game Spain kept a clean sheet, Unai Simón breaking Iker Casillas’s 2010 title-winning record while Pau Cubarsí and Aymeric Laporte confirmed their status as the centre-back partnership of the tournament so far, but what really stood out was what was happening either side "
     },
     {
-      "id": "48e12a2dfe",
-      "title_en": "Modric and Ronaldo reunited at World Cup as Croatia aim to snap Portugal’s streak",
-      "summary_en": "Two of international football’s 200 club have had parallel careers with their countries, but will this be their last meeting?Can you remember what you were doing on 1&nbsp;March 2006? Perhaps you were at Anfield, watching England beat Uruguay 2-1. You might have seen Switzerland put three goals past Scotland at Hampden&nbsp;Park.Or you might have watched Luka Modric make his debut for Croatia. They beat Argentina 3-2, with Lionel Messi scoring his first international goal. The same evening, Cristiano Ronaldo scored twice in a 3-0 Portugal victory against Saudi Arabia, no doubt dreaming of the day he would live and work in the country. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/cba98f97d2471d5b8302ce4efa32f9ecad3de1b9/0_5_2494_1995/master/2494.jpg?width=140&quality=85&auto=format&fit=max&s=d5992b4c96c8b9e59e6ec1d4b250d716",
-      "link": "https://www.theguardian.com/football/2026/jul/02/modric-ronaldo-reunited-world-cup-croatia-portugal",
-      "published": "Thu, 02 Jul 2026 07:00:06 GMT",
+      "id": "a278f0bc25",
+      "title_en": "Thomas Tuchel claims Fifa rule puts England at ‘huge’ disadvantage in Mexico City altitude",
+      "summary_en": "FA’s preferred acclimatisation option ruled outTuchel reveals Declan Rice came off ‘in terrible pain’Thomas Tuchel says England will be at a “huge” disadvantage in the high altitude of Mexico City on Sunday when they face Mexico in the last 16 of the World Cup as he lamented a Fifa rule that has shut down one possible acclimatisation plan.The Football Association has looked into how the altitude will affect the England players and spoken to teams from other sports as part of its research. They included the British Olympic team. One of the findings is that if it is not possible to travel to the venue 10 days beforehand to get used to the conditions, then it would be preferable to go on the day of the game – arriving as close to kick-off as possible. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/a612f7d98bc09217581aa0a49b8c07438b5a2611/314_0_3242_2594/master/3242.jpg?width=140&quality=85&auto=format&fit=max&s=c3fb77057a05011f562e0170e6e433ca",
+      "link": "https://www.theguardian.com/football/2026/jul/02/tuchel-hits-out-at-fifa-as-rule-puts-england-at-huge-disadvantage",
+      "published": "Thu, 02 Jul 2026 18:00:05 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Modric and Ronaldo reunited at World Cup as Croatia aim to snap Portugal’s streak",
-      "summary_es": "Two of international football’s 200 club have had parallel careers with their countries, but will this be their last meeting?Can you remember what you were doing on 1&nbsp;March 2006? Perhaps you were at Anfield, watching England beat Uruguay 2-1. You might have seen Switzerland put three goals past Scotland at Hampden&nbsp;Park.Or you might have watched Luka Modric make his debut for Croatia. They beat Argentina 3-2, with Lionel Messi scoring his first international goal. The same evening, Cristiano Ronaldo scored twice in a 3-0 Portugal victory against Saudi Arabia, no doubt dreaming of the day he would live and work in the country. Continue reading..."
+      "title_es": "Thomas Tuchel claims Fifa rule puts England at ‘huge’ disadvantage in Mexico City altitude",
+      "summary_es": "FA’s preferred acclimatisation option ruled outTuchel reveals Declan Rice came off ‘in terrible pain’Thomas Tuchel says England will be at a “huge” disadvantage in the high altitude of Mexico City on Sunday when they face Mexico in the last 16 of the World Cup as he lamented a Fifa rule that has shut down one possible acclimatisation plan.The Football Association has looked into how the altitude will affect the England players and spoken to teams from other sports as part of its research. They included the British Olympic team. One of the findings is that if it is not possible to travel to the venue 10 days beforehand to get used to the conditions, then it would be preferable to go on the day of the game – arriving as close to kick-off as possible. Continue reading..."
+    },
+    {
+      "id": "991eaf2f29",
+      "title_en": "The one club man who is Spain's under-the-radar hero",
+      "summary_en": "Mikel Oyarzabal is perhaps not the biggest name in Spain's World Cup squad, but the one who has so far shone brightest.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5016/live/0686fc80-765a-11f1-83a9-eb3c3c8f4e93.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgd0jz1xq7o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 02 Jul 2026 22:49:15 GMT",
+      "category": "World Cup",
+      "source": "BBC Football",
+      "title_es": "The one club man who is Spain's under-the-radar hero",
+      "summary_es": "Mikel Oyarzabal is perhaps not the biggest name in Spain's World Cup squad, but the one who has so far shone brightest."
     },
     {
       "id": "0876074192",
@@ -183,64 +195,40 @@
       "summary_es": "England are taking precautions to ensure boisterous locals do not disrupt their preparations in Mexico."
     },
     {
-      "id": "702285e427",
-      "title_en": "England were 15 minutes from humiliation - the issues Tuchel must solve",
-      "summary_en": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e5b/live/31d97ee0-75af-11f1-ad58-1b9b2309c3b3.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czx59l1knv0o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 10:37:10 GMT",
+      "id": "22f792d74a",
+      "title_en": "Victorious Portugal pay emotional tribute to Jota",
+      "summary_en": "One year after his death, Portugal are using Diogo Jota's memory to help inspire them at the 2026 World Cup.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0362/live/72fadd80-7684-11f1-8a83-e73d0b3edc51.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1kyl71wxw9o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 02:27:04 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "England were 15 minutes from humiliation - the issues Tuchel must solve",
-      "summary_es": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel."
+      "title_es": "Victorious Portugal pay emotional tribute to Jota",
+      "summary_es": "One year after his death, Portugal are using Diogo Jota's memory to help inspire them at the 2026 World Cup."
     },
     {
-      "id": "547c930c59",
-      "title_en": "Why are Man City breaking the bank for Anderson?",
-      "summary_en": "Elliot Anderson will become the most expensive British player, but why are Manchester City prepared to pay a record fee to sign the midfielder?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64fc/live/e9609640-75f3-11f1-8c3f-e37c76e39331.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3dynyg0j1lo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 13:16:54 GMT",
+      "id": "93108abbd7",
+      "title_en": "Portugal through to last 16 after dramatic victory over Croatia",
+      "summary_en": "Portugal beat Croatia 2-1 with goals from Cristiano Ronaldo and Goncalo Ramos after a chaotic second-half in Toronto to set up a last 16 tie with Iberian rivals Spain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/678f/live/d9af8c70-7683-11f1-9510-1546718f668b.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cy9r11gj8lzo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 02:57:22 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Why are Man City breaking the bank for Anderson?",
-      "summary_es": "Elliot Anderson will become the most expensive British player, but why are Manchester City prepared to pay a record fee to sign the midfielder?"
+      "title_es": "Portugal through to last 16 after dramatic victory over Croatia",
+      "summary_es": "Portugal beat Croatia 2-1 with goals from Cristiano Ronaldo and Goncalo Ramos after a chaotic second-half in Toronto to set up a last 16 tie with Iberian rivals Spain."
     },
     {
-      "id": "c36a569357",
-      "title_en": "England have 'big concerns' - so who would you pick to face Mexico?",
-      "summary_en": "Who should play at right-back? Does Anthony Gordon deserve to start? Select and share your England team to face Mexico.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0e3/live/a2756110-760d-11f1-a627-714adb4eed6e.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr7x18r0z59o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 13:00:15 GMT",
+      "id": "aabf2397a7",
+      "title_en": "England, France & Spain v Portugal on BBC in last 16",
+      "summary_en": "England's meeting with Mexico is one of four World Cup last-16 matches to be broadcast live on BBC One, BBC iPlayer and across BBC Sport.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c6d/live/daceb080-7661-11f1-81dc-457c16554056.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckg4wvn1ke9o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 02 Jul 2026 22:15:53 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "England have 'big concerns' - so who would you pick to face Mexico?",
-      "summary_es": "Who should play at right-back? Does Anthony Gordon deserve to start? Select and share your England team to face Mexico."
-    },
-    {
-      "id": "2453091210",
-      "title_en": "Why Spurs' statement spending appears set to continue",
-      "summary_en": "Tottenham are set to break their record transfer for the second time in a matter of days with the club's impressive performance off the field allowing greater flexibility for investment into the first-team squad.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1974/live/94747480-762a-11f1-ac11-19a4319081d7.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crel1w2ddq3o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 15:50:51 GMT",
-      "category": "World Cup",
-      "source": "BBC Football",
-      "title_es": "Why Spurs' statement spending appears set to continue",
-      "summary_es": "Tottenham are set to break their record transfer for the second time in a matter of days with the club's impressive performance off the field allowing greater flexibility for investment into the first-team squad."
-    },
-    {
-      "id": "28965c2065",
-      "title_en": "Nothing in dad school prepared me for taking my kid to the dentist for the first time",
-      "summary_en": "One of the hardest parts of taking your kids to the dentist is sitting beside them while they trust you completely. They look at you with absolute confidence that you’d never let anything hurt them… and all the while, you know this is probably going to be painful. Then, somehow, they surprise you. They squeeze your hand, take a deep breath, and get through it. Sometimes our kids are far braver than we give them credit for. God bless children. &#32; submitted by &#32; /u/AltruisticEar5318 [link] &#32; [comments]",
-      "image": "https://preview.redd.it/7t5auadhprah1.jpeg?width=640&crop=smart&auto=webp&s=59c1980315b631a2e6162ddc7831bfae46b6b29f",
-      "link": "https://www.reddit.com/r/daddit/comments/1ulbb80/nothing_in_dad_school_prepared_me_for_taking_my/",
-      "published": "2026-07-02T07:25:41+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Nothing in dad school prepared me for taking my kid to the dentist for the first time",
-      "summary_es": "One of the hardest parts of taking your kids to the dentist is sitting beside them while they trust you completely. They look at you with absolute confidence that you’d never let anything hurt them… and all the while, you know this is probably going to be painful. Then, somehow, they surprise you. They squeeze your hand, take a deep breath, and get through it. Sometimes our kids are far braver than we give them credit for. God bless children. &#32; submitted by &#32; /u/AltruisticEar5318 [link] &#32; [comments]"
+      "title_es": "England, France & Spain v Portugal on BBC in last 16",
+      "summary_es": "England's meeting with Mexico is one of four World Cup last-16 matches to be broadcast live on BBC One, BBC iPlayer and across BBC Sport."
     },
     {
       "id": "f1ae2273ae",
@@ -255,40 +243,52 @@
       "summary_es": "I'm agnostic and due to my beliefs I don't pray with my family. My wife and I agreed that we'd raise them Christian, but if they asked me about my beliefs, I wouldn't hide it. Well last night while I was in my martial arts class, my wife was putting them to bed, and they were doing their nightly prayer. My wife told them they were old enough to do different prayers other than usual chant styles. They wanted to pray for all the animals and their grandparents who have passed. My wife told them that they didn't have to pray for people who have gone to heaven, they could pray for people who are still alive. She said they prayed for me. Well I expected that they would have prayed for me to pray with them or something along the lines of be more Christian. No, they prayed for me because &quot;I do everything for them and they love me.&quot; That shit hit me right in the gut man. It made me feel"
     },
     {
-      "id": "aef0b71c7c",
-      "title_en": "I blame her mother.",
-      "summary_en": "**Edit** Sincere apologies to the folks I offended with this post and a heartfelt thanks but don’t worry to the ones who are concerned. I thought the humor tag combined with the (obviously in jest) suggestion that I would resort to drastic measures to finance the kid’s fancy tastes was enough to convey that this was not meant to be taken in a serious fashion. None of this is actually expensive and I’m very much not rich. Now if you’ll kindly excuse me, I must finish polishing my spats before I make dodo eggs for dinner. I just couldn’t leave well enough alone. Could have just let her eat plain spaghetti her whole life. But no, I had to insist she broaden her culinary horizons. Now she wants hot rock steak or escargot or truffle pizza every damned meal. I’m going broke trying to keep this kid in fancy food. I’m already selling plasma to finance this bougie eating addiction. If this goes o",
-      "image": "https://preview.redd.it/f3dcgs2kjsah1.jpeg?width=640&crop=smart&auto=webp&s=51fd0e44c74dd3e804e08c79afe389f7e0213ef5",
-      "link": "https://www.reddit.com/r/daddit/comments/1ule3hu/i_blame_her_mother/",
-      "published": "2026-07-02T10:08:59+00:00",
+      "id": "4e82a78ff5",
+      "title_en": "Two under two was a lie, I meant three under two..",
+      "summary_en": "We had our first ultrasound yesterday and I am still in shock. Two sacs, two heartbeats.. we are having twins..😳🫣😵‍💫 My boy of 14 months will be a big brother of twins happy and blessed that everything was alright but have been staring into the void ever since.. Been awake since 03:30 AM &#32; submitted by &#32; /u/Still-Barracuda-1984 [link] &#32; [comments]",
+      "image": "https://preview.redd.it/drgq3w0dgxah1.jpeg?width=640&crop=smart&auto=webp&s=69aa9452cdd9594b2fe92b02029f4432f850f099",
+      "link": "https://www.reddit.com/r/daddit/comments/1um258d/two_under_two_was_a_lie_i_meant_three_under_two/",
+      "published": "2026-07-03T02:39:51+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "I blame her mother.",
-      "summary_es": "**Edit** Sincere apologies to the folks I offended with this post and a heartfelt thanks but don’t worry to the ones who are concerned. I thought the humor tag combined with the (obviously in jest) suggestion that I would resort to drastic measures to finance the kid’s fancy tastes was enough to convey that this was not meant to be taken in a serious fashion. None of this is actually expensive and I’m very much not rich. Now if you’ll kindly excuse me, I must finish polishing my spats before I make dodo eggs for dinner. I just couldn’t leave well enough alone. Could have just let her eat plain spaghetti her whole life. But no, I had to insist she broaden her culinary horizons. Now she wants hot rock steak or escargot or truffle pizza every damned meal. I’m going broke trying to keep this kid in fancy food. I’m already selling plasma to finance this bougie eating addiction. If this goes o"
+      "title_es": "Two under two was a lie, I meant three under two..",
+      "summary_es": "We had our first ultrasound yesterday and I am still in shock. Two sacs, two heartbeats.. we are having twins..😳🫣😵‍💫 My boy of 14 months will be a big brother of twins happy and blessed that everything was alright but have been staring into the void ever since.. Been awake since 03:30 AM &#32; submitted by &#32; /u/Still-Barracuda-1984 [link] &#32; [comments]"
     },
     {
-      "id": "401f971e99",
-      "title_en": "My wife said she’s done",
-      "summary_en": "This might read like a ramble. I’ve not been able to get all of this off my chest yet, so it is just pouring out. My wife told me last night that she no longer wants to work on us. She’s done, and would be doing herself a disservice to continue in our relationship. May made 7 years. We share a 4 year old daughter, and an 11 year old daughter from her previous marriage. I know I’m a good dad. I show up every day for my kids. I help them regulate their emotions, I teach them, I hold them, I tell them I love them and I’m proud of them every day. I know I’m a good “partner” in the sense that I help. I don’t go out often, I clean daily, I keep up with laundry, I do the yard work, I make improvements to our house, I fix things when they break, I make intentional, nourishing meals for everyone, i help with baths, and bedtime, and home work. I go to work everyday and pay bills. I never shy away ",
+      "id": "426015d884",
+      "title_en": "Not being able to take away my daughter’s pain is the worst feeling in the world",
+      "summary_en": "It’s my third day at the hospital, they say we will probably be here for a week. Three days ago, I had the healthiest 7.5 month old in the world. She always ate really well, slept pretty well, was active, smiled a lot, made funny noises. She never even had a diaper rash. Two mornings ago, when she woke up, she was unusually fussy. We tried to feed her, but she threw it up. She went back to sleep but then couldn’t, and then she kept throwing up every 30m. We took her to urgent care, and they said it was probably just a stomach bug and gave us some zofran. Just as we were about to leave, she pooped out very bloody stool, and they sent us to the ER right away. At the ER, they told us it was intussusception. I’d never heard of it before, and I hope I never have to hear it again. Something about the intestines telescoping on each other and then getting stuck. It’s usually treatable with a non",
       "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1ulibtr/my_wife_said_shes_done/",
-      "published": "2026-07-02T13:29:32+00:00",
+      "link": "https://www.reddit.com/r/daddit/comments/1ulseue/not_being_able_to_take_away_my_daughters_pain_is/",
+      "published": "2026-07-02T19:43:41+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "My wife said she’s done",
-      "summary_es": "This might read like a ramble. I’ve not been able to get all of this off my chest yet, so it is just pouring out. My wife told me last night that she no longer wants to work on us. She’s done, and would be doing herself a disservice to continue in our relationship. May made 7 years. We share a 4 year old daughter, and an 11 year old daughter from her previous marriage. I know I’m a good dad. I show up every day for my kids. I help them regulate their emotions, I teach them, I hold them, I tell them I love them and I’m proud of them every day. I know I’m a good “partner” in the sense that I help. I don’t go out often, I clean daily, I keep up with laundry, I do the yard work, I make improvements to our house, I fix things when they break, I make intentional, nourishing meals for everyone, i help with baths, and bedtime, and home work. I go to work everyday and pay bills. I never shy away "
+      "title_es": "Not being able to take away my daughter’s pain is the worst feeling in the world",
+      "summary_es": "It’s my third day at the hospital, they say we will probably be here for a week. Three days ago, I had the healthiest 7.5 month old in the world. She always ate really well, slept pretty well, was active, smiled a lot, made funny noises. She never even had a diaper rash. Two mornings ago, when she woke up, she was unusually fussy. We tried to feed her, but she threw it up. She went back to sleep but then couldn’t, and then she kept throwing up every 30m. We took her to urgent care, and they said it was probably just a stomach bug and gave us some zofran. Just as we were about to leave, she pooped out very bloody stool, and they sent us to the ER right away. At the ER, they told us it was intussusception. I’d never heard of it before, and I hope I never have to hear it again. Something about the intestines telescoping on each other and then getting stuck. It’s usually treatable with a non"
     },
     {
-      "id": "3dd0478ffa",
-      "title_en": "My time has come to join the club!",
-      "summary_en": "Ive seen this post so many times and now I'm here! Wish me luck fellas!!! &#32; submitted by &#32; /u/WesternShock5987 [link] &#32; [comments]",
-      "image": "https://preview.redd.it/pyhm43d3xuah1.jpeg?width=640&crop=smart&auto=webp&s=182771b670f8d9ad38c37814379e5ed7c0c76686",
-      "link": "https://www.reddit.com/r/daddit/comments/1ulptmr/my_time_has_come_to_join_the_club/",
-      "published": "2026-07-02T18:08:28+00:00",
+      "id": "b6e96712e0",
+      "title_en": "Does anyone else feel like they're winging it financially even though they \"should\" have it figured out by now?",
+      "summary_en": "I'm 40+ man with a wife, two young kids, aging parents, and a career that keeps me busy enough that I barely have time to think about money beyond paying bills. I've read a few books, I know the basics (max 401k, index funds, emergency fund), but I still feel like I'm just... guessing? Like there's some roadmap everyone else got that I missed. I don't even know if I'm doing things in the right order. Did anyone else feel this way? What actually helped you get clarity on where you stood and what to focus on next? &#32; submitted by &#32; /u/Houdiniwashereagain [link] &#32; [comments]",
+      "image": "",
+      "link": "https://www.reddit.com/r/daddit/comments/1um0okl/does_anyone_else_feel_like_theyre_winging_it/",
+      "published": "2026-07-03T01:30:16+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "My time has come to join the club!",
-      "summary_es": "Ive seen this post so many times and now I'm here! Wish me luck fellas!!! &#32; submitted by &#32; /u/WesternShock5987 [link] &#32; [comments]"
+      "title_es": "Does anyone else feel like they're winging it financially even though they \"should\" have it figured out by now?",
+      "summary_es": "I'm 40+ man with a wife, two young kids, aging parents, and a career that keeps me busy enough that I barely have time to think about money beyond paying bills. I've read a few books, I know the basics (max 401k, index funds, emergency fund), but I still feel like I'm just... guessing? Like there's some roadmap everyone else got that I missed. I don't even know if I'm doing things in the right order. Did anyone else feel this way? What actually helped you get clarity on where you stood and what to focus on next? &#32; submitted by &#32; /u/Houdiniwashereagain [link] &#32; [comments]"
+    },
+    {
+      "id": "28965c2065",
+      "title_en": "Nothing in dad school prepared me for taking my kid to the dentist for the first time",
+      "summary_en": "One of the hardest parts of taking your kids to the dentist is sitting beside them while they trust you completely. They look at you with absolute confidence that you’d never let anything hurt them… and all the while, you know this is probably going to be painful. Then, somehow, they surprise you. They squeeze your hand, take a deep breath, and get through it. Sometimes our kids are far braver than we give them credit for. God bless children. &#32; submitted by &#32; /u/AltruisticEar5318 [link] &#32; [comments]",
+      "image": "https://preview.redd.it/7t5auadhprah1.jpeg?width=640&crop=smart&auto=webp&s=59c1980315b631a2e6162ddc7831bfae46b6b29f",
+      "link": "https://www.reddit.com/r/daddit/comments/1ulbb80/nothing_in_dad_school_prepared_me_for_taking_my/",
+      "published": "2026-07-02T07:25:41+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Nothing in dad school prepared me for taking my kid to the dentist for the first time",
+      "summary_es": "One of the hardest parts of taking your kids to the dentist is sitting beside them while they trust you completely. They look at you with absolute confidence that you’d never let anything hurt them… and all the while, you know this is probably going to be painful. Then, somehow, they surprise you. They squeeze your hand, take a deep breath, and get through it. Sometimes our kids are far braver than we give them credit for. God bless children. &#32; submitted by &#32; /u/AltruisticEar5318 [link] &#32; [comments]"
     },
     {
       "id": "1607a0c66f",
@@ -591,15 +591,51 @@
       "summary_es": "This here is not a personal diatribe about Taylor Swift and Travis Kelce. I got no beef with either of these two crazy kids. Swift is one of the hardest-working entertainers in show business, and Kelce is one of the greatest tight ends to ever play pro football. They’re more than welcome to fall in love, and Swift is more than welcome to pen songs about her man’s girthy member. The pair are also free to tie the knot anytime, and anywhere, they like. Except for … One of the biggest events of the summer has been a mystery: When and where are Taylor Swift and Travis Kelce getting married? And when does everyone get to celebrate? New details confirmed by The New York Times suggest a multiple-day event at Madison Square Garden, which an entertainment industry executive said Ms. Swift had rented. The entertainment industry executive and another person with knowledge of the matter described the"
     },
     {
-      "id": "a168a91a84",
-      "title_en": "Exapunks (2018)",
+      "id": "486d391fa0",
+      "title_en": "Virginia bans sale of geolocation data",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://www.zachtronics.com/exapunks/",
-      "published": "Thu, 02 Jul 2026 18:41:19 +0000",
+      "link": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "published": "Thu, 02 Jul 2026 21:03:45 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Exapunks (2018)",
+      "title_es": "Virginia bans sale of geolocation data",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "2a53310ead",
+      "title_en": "CarPlay Is Additive",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
+      "published": "Fri, 03 Jul 2026 01:02:45 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "CarPlay Is Additive",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "1763e93d33",
+      "title_en": "crustc: entirety of `rustc`, translated to C",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://github.com/FractalFir/crustc",
+      "published": "Thu, 02 Jul 2026 22:57:35 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "crustc: entirety of `rustc`, translated to C",
+      "summary_es": "Comments"
+    },
+    {
+      "id": "eab75f447f",
+      "title_en": "Right to Local Intelligence",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://righttointelligence.org/",
+      "published": "Thu, 02 Jul 2026 23:54:03 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Right to Local Intelligence",
       "summary_es": "Comments"
     },
     {
@@ -615,40 +651,16 @@
       "summary_es": "Comments"
     },
     {
-      "id": "3f0e1b5456",
-      "title_en": "PeerTube is a free, decentralized and federated video platform",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://github.com/Chocobozzz/PeerTube",
-      "published": "Thu, 02 Jul 2026 11:17:45 +0000",
+      "id": "cd32aa676a",
+      "title_en": "Newly discovered PamStealer isn't your typical macOS malware",
+      "summary_en": "The discovery underscores the increased effort being poured into Mac infostealers.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-1152x648.jpg",
+      "link": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+      "published": "Thu, 02 Jul 2026 19:38:57 +0000",
       "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "PeerTube is a free, decentralized and federated video platform",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "c2664692b7",
-      "title_en": "Podman v6.0.0",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
-      "published": "Thu, 02 Jul 2026 14:23:09 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Podman v6.0.0",
-      "summary_es": "Comments"
-    },
-    {
-      "id": "3d57ce5ccd",
-      "title_en": "Android Developer Verification: Threat masquerading as protection",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "published": "Thu, 02 Jul 2026 03:00:15 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "Android Developer Verification: Threat masquerading as protection",
-      "summary_es": "Comments"
+      "source": "Ars Technica",
+      "title_es": "Newly discovered PamStealer isn't your typical macOS malware",
+      "summary_es": "The discovery underscores the increased effort being poured into Mac infostealers."
     },
     {
       "id": "ef54315256",
@@ -699,18 +711,6 @@
       "summary_es": "Early reports indicate there may be another case, but spread is thought to be localized."
     },
     {
-      "id": "3c85a80290",
-      "title_en": "Artificial cell manages a few rounds of cell division",
-      "summary_en": "It only works for a few divisions thanks to a lot of added materials.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1152x648-1783004554.jpeg",
-      "link": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
-      "published": "Thu, 02 Jul 2026 16:21:23 +0000",
-      "category": "Tech",
-      "source": "Ars Technica",
-      "title_es": "Artificial cell manages a few rounds of cell division",
-      "summary_es": "It only works for a few divisions thanks to a lot of added materials."
-    },
-    {
       "id": "e041a87299",
       "title_en": "Married at First Sight UK star arrested on suspicion of rape",
       "summary_en": "It follows a BBC Panorama investigation, broadcast in May, into the hit Channel 4 reality TV show.",
@@ -740,35 +740,35 @@
       "summary_en": "The government had initially said it would not relax licensing laws further for the World Cup.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab2/live/e30a5c40-7634-11f1-9510-1546718f668b.jpg",
       "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 18:45:49 GMT",
+      "published": "Thu, 02 Jul 2026 20:49:17 GMT",
       "category": "News",
       "source": "BBC News",
       "title_es": "Pubs allowed to stay open until 5am for England Mexico match",
       "summary_es": "The government had initially said it would not relax licensing laws further for the World Cup."
     },
     {
-      "id": "ffe494a17d",
-      "title_en": "Labour failed to prepare for power, admits PM's former top aide",
-      "summary_en": "In his first-ever interview, Morgan McSweeney tells the BBC the party did not deliver quickly enough in office.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a2ba/live/8d2414f0-761c-11f1-b976-0b9c15b0ccfc.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/ce8j2e38zzgo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 12:23:14 GMT",
+      "id": "588d4a2786",
+      "title_en": "Taylor Swift's rumoured wedding celebrations begin with star-studded New York event",
+      "summary_en": "Actress Lena Dunham, model Gigi Hadid and longtime music collaborator Jack Antonoff were spotted in formal attire near Madison Square Garden.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/236d/live/cc2a4710-7675-11f1-9510-1546718f668b.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/crlw1eeez19o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 02:33:40 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Labour failed to prepare for power, admits PM's former top aide",
-      "summary_es": "In his first-ever interview, Morgan McSweeney tells the BBC the party did not deliver quickly enough in office."
+      "title_es": "Taylor Swift's rumoured wedding celebrations begin with star-studded New York event",
+      "summary_es": "Actress Lena Dunham, model Gigi Hadid and longtime music collaborator Jack Antonoff were spotted in formal attire near Madison Square Garden."
     },
     {
-      "id": "3832cb8379",
-      "title_en": "Survivor pulled from rubble eight days after Venezuela earthquakes",
-      "summary_en": "Hernán Gil was trapped under a collapsed multi-storey car park, and encouraged them as they inched closer to him.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116a/live/fcec98d0-763e-11f1-a627-714adb4eed6e.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 16:11:24 GMT",
+      "id": "fc17814272",
+      "title_en": "Instagram running ads promoting child sexual abuse material in India, BBC finds",
+      "summary_en": "The ads use terms including “rape” and “child video” and link to content on the messaging app Telegram.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe2/live/b16ef2d0-755e-11f1-bd47-e1ebd62de3b7.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 03:50:18 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Survivor pulled from rubble eight days after Venezuela earthquakes",
-      "summary_es": "Hernán Gil was trapped under a collapsed multi-storey car park, and encouraged them as they inched closer to him."
+      "title_es": "Instagram running ads promoting child sexual abuse material in India, BBC finds",
+      "summary_es": "The ads use terms including “rape” and “child video” and link to content on the messaging app Telegram."
     },
     {
       "id": "476b37bedb",
@@ -1011,6 +1011,18 @@
       "summary_es": "Twitter&#8217;s recent decision to remove blue check marks from accounts it has previously verified causes a number of issues for the platform and its users. One of the most obvious ones is around authentic identity. Without verification, how do I know that a particular account really does belong to the person or organisation who claims [&#8230;]"
     },
     {
+      "id": "94e2a5a594",
+      "title_en": "Fuchs had no more to give says Newport chairman",
+      "summary_en": "Newport County chairman Huw Jenkins says Christian Fuchs' decision to resign as manager came as a big surprise.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a93/live/b4a9f220-7625-11f1-ac11-19a4319081d7.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c36yrj81dx0o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 04:03:06 GMT",
+      "category": "Football",
+      "source": "Wales Football (BBC)",
+      "title_es": "Fuchs had no more to give says Newport chairman",
+      "summary_es": "Newport County chairman Huw Jenkins says Christian Fuchs' decision to resign as manager came as a big surprise."
+    },
+    {
       "id": "f72460c56b",
       "title_en": "Swansea youngster Margetson set for Man Utd move",
       "summary_en": "Wales Under-21 goalkeeper Kit Margetson is poised to leave Swansea City for Manchester United.",
@@ -1057,18 +1069,6 @@
       "source": "Wales Football (BBC)",
       "title_es": "TNS kick off new-look Cymru Premier at Penybont",
       "summary_es": "Champions The New Saints will begin the new expanded Cymru Premier season at Penybont, while the league's three debutants have also been handed away trips."
-    },
-    {
-      "id": "2c97a1b408",
-      "title_en": "Disney's Euro adventures - with Ramsey support",
-      "summary_en": "Rhyl boss John Disney can draw on the support of big-name Pro Licence colleagues, including Aaron Ramsey, as he prepares for Europa League qualifiers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d150/live/3eb7e2e0-752e-11f1-80a1-17435238a3d4.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn4r8vy2491o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 02 Jul 2026 05:46:22 GMT",
-      "category": "Football",
-      "source": "Wales Football (BBC)",
-      "title_es": "Disney's Euro adventures - with Ramsey support",
-      "summary_es": "Rhyl boss John Disney can draw on the support of big-name Pro Licence colleagues, including Aaron Ramsey, as he prepares for Europa League qualifiers."
     },
     {
       "id": "c3c2ef0d44",
@@ -1131,6 +1131,18 @@
       "summary_es": "Wales star Harry Wilson is set to leave Fulham when his contract expires and join Leeds United as a free agent, with Liverpool missing out on a potential £3.23m windfall from their sell-on clause"
     },
     {
+      "id": "4dcffcfd7b",
+      "title_en": "Welsh Sports Hall of Fame to honour rugby great Gravell",
+      "summary_en": "Former Wales and Lions centre Ray Gravell to be inducted into Welsh Sports Hall of Fame.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2d5/live/0ee73b80-7612-11f1-ac6e-25f7e4f0c9b9.jpg",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c30yr80e2j9o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 03:23:17 GMT",
+      "category": "Rugby",
+      "source": "Wales Rugby (BBC)",
+      "title_es": "Welsh Sports Hall of Fame to honour rugby great Gravell",
+      "summary_es": "Former Wales and Lions centre Ray Gravell to be inducted into Welsh Sports Hall of Fame."
+    },
+    {
       "id": "8960fd98e6",
       "title_en": "Rees-Zammit reverts to Wales wing for Fiji Test",
       "summary_en": "Wales head coach Steve Tandy has made six changes for the Nations Championship opener from the side that defeated Barbarians.",
@@ -1177,18 +1189,6 @@
       "source": "Wales Rugby (BBC)",
       "title_es": "Wales squad in dispute with WRU before Fiji opener",
       "summary_es": "Wales squad settle dispute with the Welsh Rugby Union over match fees three days before their Nations Championship opener with Fiji."
-    },
-    {
-      "id": "ad1c1c6e95",
-      "title_en": "Cardiff handed tough Champions Cup assignment",
-      "summary_en": "Cardiff will face Northampton, Bath, Bulls, Montpellier and Stade Francais in a tough Champions Cup pool next season, while Ospreys, Scarlets and Dragons learn their Challenge Cup opponents.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8eb/live/b88b4c10-7556-11f1-b976-0b9c15b0ccfc.jpg",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cewqzr1vvg1o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 01 Jul 2026 13:58:49 GMT",
-      "category": "Rugby",
-      "source": "Wales Rugby (BBC)",
-      "title_es": "Cardiff handed tough Champions Cup assignment",
-      "summary_es": "Cardiff will face Northampton, Bath, Bulls, Montpellier and Stade Francais in a tough Champions Cup pool next season, while Ospreys, Scarlets and Dragons learn their Challenge Cup opponents."
     },
     {
       "id": "d87c54d4fe",
