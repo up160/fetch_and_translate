@@ -7,6 +7,7 @@ Fetches RSS feeds, translates to Spanish via Claude API, outputs feed.json
 import json
 import os
 import re
+import socket
 import time
 import hashlib
 from datetime import datetime, timezone, timedelta
@@ -19,6 +20,10 @@ import anthropic
 # (and several block feedparser's default agent outright).
 USER_AGENT = "senal-feed-reader/1.0"
 feedparser.USER_AGENT = USER_AGENT
+
+# feedparser has no timeout parameter; without this a single unresponsive host
+# hangs the whole scheduled run until the Actions job limit kills it.
+socket.setdefaulttimeout(30)
 
 # ─── Feed Sources (loaded from feeds.json) ──────────────────────────────────
 
@@ -197,6 +202,39 @@ def fetch_world_cup_results(days_back: int = 3) -> list[dict]:
     return items
 
 
+def load_previous_feed() -> dict:
+    """
+    Map id -> item from the last committed feed.json (empty on first run or
+    any read failure). Ids are stable (md5 of link), so unchanged items can
+    reuse their existing translation instead of re-paying the API every run.
+    """
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "feed.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            prev = json.load(f)
+        return {i["id"]: i for i in prev.get("items", []) if "id" in i}
+    except Exception:
+        return {}
+
+
+def dedupe_items(items: list[dict]) -> list[dict]:
+    """
+    Drop items whose id (md5 of link) was already seen, keeping the first
+    occurrence. Overlapping feeds (e.g. the two Guardian/BBC football sources)
+    can surface the same article twice; duplicate ids also collide in the
+    frontend's data-id read-tracking.
+    """
+    seen: set[str] = set()
+    unique = []
+    for item in items:
+        if item["id"] in seen:
+            print(f"  – dropped duplicate: [{item['source']}] {item['title_en'][:60]}")
+            continue
+        seen.add(item["id"])
+        unique.append(item)
+    return unique
+
+
 # ─── Translate ────────────────────────────────────────────────────────────────
 
 TRANSLATE_PROMPT = """You are a professional news translator producing Spanish (Spain) copy for a daily reader.
@@ -320,14 +358,38 @@ def main():
     # Fetch RSS feeds
     items = fetch_all_feeds()
 
-    items = wc_items + items
+    items = dedupe_items(wc_items + items)
 
     if not items:
         print("No items fetched. Exiting.")
         return
 
+    # Reuse translations from the previous run for unchanged items. Items whose
+    # Spanish equals the English (proper-noun headlines or earlier failures) go
+    # back through the API — same treatment the retry pass always gave them.
+    prev = load_previous_feed()
+    to_translate = []
+    for item in items:
+        p = prev.get(item["id"])
+        if (p and p.get("title_en") == item["title_en"]
+                and p.get("summary_en") == item["summary_en"]
+                and p.get("title_es")
+                and (p["title_es"] != p["title_en"]
+                     or p.get("summary_es") != p.get("summary_en"))):
+            item["title_es"] = p["title_es"]
+            item["summary_es"] = p.get("summary_es") or item["summary_en"]
+        else:
+            to_translate.append(item)
+
+    reused = len(items) - len(to_translate)
+    if reused:
+        print(f"Reusing {reused} existing translations; {len(to_translate)} items need the API.")
+
     # Translate (World Cup results go through the same path as everything else)
-    items = translate_batch(items, client)
+    if to_translate:
+        translate_batch(to_translate, client)
+    else:
+        print("Nothing new to translate.")
 
     # Build output
     output = {

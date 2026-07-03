@@ -12,15 +12,24 @@ on:
 permissions:
   contents: write
 
+# Never run two updates at once — both would race to push to main.
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Normal runs finish in ~2-3 min; a hung feed or API call must not
+    # burn the default 6-hour job limit.
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -38,4 +47,26 @@ jobs:
           git add feed.json
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Update feed.json ($(date -u +%Y-%m-%d))"
+          # main may have moved (e.g. a merged PR) while this job ran
+          git pull --rebase origin main
           git push
+
+      - name: Alert if translation is broken
+        # Translation failures are non-fatal by design (English fallback), so a
+        # dead API key or empty credit balance would otherwise stay green
+        # forever. Runs after the commit step: content still publishes, but the
+        # job goes red so GitHub notifies the repo owner. Normal runs sit well
+        # under the threshold — only proper-noun headlines stay English.
+        run: |
+          python - <<'EOF'
+          import json
+          items = json.load(open("feed.json"))["items"]
+          same = sum(1 for i in items if i["title_es"] == i["title_en"])
+          frac = same / max(len(items), 1)
+          print(f"{same}/{len(items)} items untranslated ({frac:.0%})")
+          if frac > 0.8:
+              print("::error::Translation looks broken (expired key? no API credits?) "
+                    "- feed.json was still published, but mostly in English. "
+                    "Check the 'Fetch and translate feeds' step log.")
+              raise SystemExit(1)
+          EOF
