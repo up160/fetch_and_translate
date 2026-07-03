@@ -265,6 +265,29 @@ CHUNK_SIZE = 8
 BATCH_POLL_SECONDS = 10
 BATCH_TIMEOUT_SECONDS = 600  # workflow job timeout is 15 min; leave headroom
 
+# Haiku 4.5 $/Mtok as of 2026-07 (batch = 50%). Update if TRANSLATE_MODEL changes.
+PRICE_IN, PRICE_OUT = 1.00, 5.00
+# Token usage this run, so every Actions log shows real spend, not an estimate.
+USAGE = {"batch_in": 0, "batch_out": 0, "direct_in": 0, "direct_out": 0}
+
+
+def _count_usage(message, batched: bool):
+    try:
+        key = "batch" if batched else "direct"
+        USAGE[key + "_in"] += message.usage.input_tokens
+        USAGE[key + "_out"] += message.usage.output_tokens
+    except Exception:
+        pass  # telemetry must never break the build
+
+
+def print_usage():
+    cost = (USAGE["batch_in"] * PRICE_IN / 2 + USAGE["batch_out"] * PRICE_OUT / 2
+            + USAGE["direct_in"] * PRICE_IN + USAGE["direct_out"] * PRICE_OUT) / 1e6
+    tokens_in = USAGE["batch_in"] + USAGE["direct_in"]
+    tokens_out = USAGE["batch_out"] + USAGE["direct_out"]
+    print(f"API usage this run: {tokens_in} in / {tokens_out} out tokens "
+          f"≈ ${cost:.4f} (≈ ${cost * 2 * 365:.2f}/year at 2 runs/day)")
+
 
 def _build_prompt(chunk: list[dict]) -> str:
     to_translate = [
@@ -324,6 +347,7 @@ def _translate_chunk(chunk: list[dict], client: anthropic.Anthropic) -> int:
         max_tokens=8000,
         messages=[{"role": "user", "content": _build_prompt(chunk)}],
     )
+    _count_usage(response, batched=False)
     return _apply_translations(chunk, response.content[0].text)
 
 
@@ -375,6 +399,7 @@ def _translate_chunks_batched(chunks: list[list[dict]], client: anthropic.Anthro
             continue
         try:
             msg = result.result.message
+            _count_usage(msg, batched=True)
             text = next(b.text for b in msg.content if b.type == "text")
             _apply_translations(chunks[idx], text)
         except Exception as e:
@@ -477,6 +502,7 @@ def main():
         translate_batch(to_translate, client)
     else:
         print("Nothing new to translate.")
+    print_usage()
 
     # Build output
     output = {

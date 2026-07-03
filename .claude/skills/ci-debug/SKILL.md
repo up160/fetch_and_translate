@@ -11,6 +11,7 @@ description: Diagnose and fix the scheduled GitHub Action (update-feed.yml) — 
 
 1. Check `feed.json`'s `generated_at` field and the last `Update feed.json` commit date — that tells you when the pipeline last succeeded, before reading any logs.
 2. List recent runs of the "Update feed" workflow and get logs for the newest failure (`get_job_logs` with `failed_only: true`).
+3. Every run's log ends with an `API usage this run: … ≈ $X (≈ $Y/year)` line — real measured spend, not an estimate. If cost questions come up, quote that line rather than recomputing.
 
 ## Failure taxonomy
 
