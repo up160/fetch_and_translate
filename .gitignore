@@ -2,5 +2,9 @@
 # Local secrets — never commit
 .env
 
-# Local preview tooling
-.claude/
+# Claude Code: skills/config are committed; local-only state is not
+.claude/settings.local.json
+
+# Local Python env
+.venv/
+__pycache__/
