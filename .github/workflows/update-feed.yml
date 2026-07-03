@@ -2,11 +2,17 @@ name: Update feed
 
 on:
   schedule:
-    # GitHub's scheduled triggers are best-effort and frequently delay/drop
-    # individual slots under load. Run every 6 hours (off-peak minute) so a
-    # missed slot is covered within hours and World Cup scores refresh through
-    # the day. The job only commits when feed.json actually changes.
-    - cron: "23 0,6,12,18 * * *"   # 00:23 / 06:23 / 12:23 / 18:23 UTC
+    # Translations are cached per item (see fetch_and_translate.py), so a run
+    # over unchanged items makes ZERO Claude calls — only genuinely new items
+    # cost tokens. That means run frequency is essentially free, so we run often
+    # enough to guarantee fresh World Cup scores for a UK morning read:
+    #   05:23 UTC (06:23 BST)  ┐ two morning slots an hour apart hedge GitHub's
+    #   06:23 UTC (07:23 BST)  ┘ best-effort scheduler so one lands before ~07:30
+    #   12:23 UTC (13:23 BST)    midday refresh
+    #   21:23 UTC (22:23 BST)    evening — catches US afternoon kickoffs
+    # World Cup results use days_back=3, so any dropped slot is backfilled by the
+    # next run. The job only commits when feed.json actually changes.
+    - cron: "23 5,6,12,21 * * *"
   workflow_dispatch:        # allow manual runs from the Actions tab
 
 permissions:
