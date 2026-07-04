@@ -8,3 +8,7 @@
 # M1 local pipeline runtime
 .venv/
 pipeline.log
+
+# Python bytecode
+__pycache__/
+*.pyc
