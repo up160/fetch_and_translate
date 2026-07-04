@@ -1,43 +1,7 @@
 {
-  "generated_at": "2026-07-03T22:57:51.261543+00:00",
-  "item_count": 104,
+  "generated_at": "2026-07-04T08:26:41.894763+00:00",
+  "item_count": 105,
   "items": [
-    {
-      "id": "wce699ef22",
-      "title_en": "Netherlands 3–4 Morocco",
-      "summary_en": "Last 32. Played on 2026-06-30.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-30T01:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Netherlands 3–4 Morocco",
-      "summary_es": "Last 32. Played on 2026-06-30."
-    },
-    {
-      "id": "wcd80fd401",
-      "title_en": "Ivory Coast 1–2 Norway",
-      "summary_en": "Last 32. Played on 2026-06-30.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-30T17:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "Ivory Coast 1–2 Norway",
-      "summary_es": "Last 32. Played on 2026-06-30."
-    },
-    {
-      "id": "wc65c91e1b",
-      "title_en": "France 3–0 Sweden",
-      "summary_en": "Last 32. Played on 2026-06-30.",
-      "image": "",
-      "link": "",
-      "published": "2026-06-30T21:00:00Z",
-      "category": "Mundial",
-      "source": "Resultados del Mundial",
-      "title_es": "France 3–0 Sweden",
-      "summary_es": "Last 32. Played on 2026-06-30."
-    },
     {
       "id": "wc35172929",
       "title_en": "Mexico 2–0 Ecuador",
@@ -47,8 +11,9 @@
       "published": "2026-07-01T02:00:00Z",
       "category": "Mundial",
       "source": "Resultados del Mundial",
-      "title_es": "Mexico 2–0 Ecuador",
-      "summary_es": "Last 32. Played on 2026-07-01."
+      "title_es": "México 2–0 Ecuador",
+      "summary_es": "Octavos de final. Disputado el 1 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wcc183eff5",
@@ -60,7 +25,8 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "England 2–1 Congo DR",
-      "summary_es": "Last 32. Played on 2026-07-01."
+      "summary_es": "Octavos de final. Disputado el 1 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wc4b2b46e8",
@@ -72,7 +38,8 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Belgium 3–2 Senegal",
-      "summary_es": "Last 32. Played on 2026-07-01."
+      "summary_es": "Octavos de final. Disputado el 1 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wc125dff1f",
@@ -84,7 +51,8 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "United States 2–0 Bosnia-Herzegovina",
-      "summary_es": "Last 32. Played on 2026-07-02."
+      "summary_es": "Octavos de final. Disputado el 2 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wccd820bca",
@@ -96,7 +64,8 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Spain 3–0 Austria",
-      "summary_es": "Last 32. Played on 2026-07-02."
+      "summary_es": "Octavos de final. Disputado el 2 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wc519e658b",
@@ -108,7 +77,8 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Portugal 2–1 Croatia",
-      "summary_es": "Last 32. Played on 2026-07-02."
+      "summary_es": "Octavos de final. Disputado el 2 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wc8526ff75",
@@ -120,7 +90,8 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Switzerland 2–0 Algeria",
-      "summary_es": "Last 32. Played on 2026-07-03."
+      "summary_es": "Octavos de final. Disputado el 3 de julio de 2026.",
+      "es_confirmed": true
     },
     {
       "id": "wc68ba2028",
@@ -132,127 +103,164 @@
       "category": "Mundial",
       "source": "Resultados del Mundial",
       "title_es": "Australia 3–5 Egypt",
-      "summary_es": "Last 32. Played on 2026-07-03."
+      "summary_es": "Octavos de final. Disputado el 3 de julio de 2026.",
+      "es_confirmed": true
     },
     {
-      "id": "1dd44e9cb5",
-      "title_en": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
-      "summary_en": "⚽️ Kick-off time: 6pm local/8am AEST/11pm BST⚽️ Egypt edge Australia on penalties | Mail TomLionel Messi will play in his 30th World Cup match tonight, extending his record for the most by a men’s player in their career. He’ll be joined by Lautaro Martinez in attack, while Julian Alvarez drops to the bench.For Cape Verde, Cape Verde midfielder Telmo Arcanjo, who was struggling with a leg injury, starts on the bench. Sidny Lopes Cabral returns from suspension to start at left-back. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/999b2e168a291759dfa995633ce88c0e0cc378bc/1003_0_6622_5297/master/6622.jpg?width=140&quality=85&auto=format&fit=max&s=7a1d6dda263cb624e675ed100f2ddddc",
-      "link": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live",
-      "published": "Fri, 03 Jul 2026 22:41:17 GMT",
+      "id": "wc9675bf12",
+      "title_en": "Argentina 3–2 Cape Verde Islands",
+      "summary_en": "Last 32. Played on 2026-07-03.",
+      "image": "",
+      "link": "",
+      "published": "2026-07-03T22:00:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Argentina 3–2 Islas de Cabo Verde",
+      "summary_es": "Fase de treintaidosavos. Disputado el 3 de julio de 2026.",
+      "es_confirmed": true
+    },
+    {
+      "id": "wcb6e8502c",
+      "title_en": "Colombia 1–0 Ghana",
+      "summary_en": "Last 32. Played on 2026-07-04.",
+      "image": "",
+      "link": "",
+      "published": "2026-07-04T01:30:00Z",
+      "category": "Mundial",
+      "source": "Resultados del Mundial",
+      "title_es": "Colombia 1–0 Ghana",
+      "summary_es": "Fase de treintaidosavos. Disputado el 4 de julio de 2026.",
+      "es_confirmed": true
+    },
+    {
+      "id": "2ea7482f80",
+      "title_en": "World Cup 2026: Cape Verde give Argentina mighty scare; last 16 begins amid Mexico v England fixture chaos – live",
+      "summary_en": "⚽ All the latest news and reaction from the World Cup⚽ Player guide | Bracketology | Knockout draw | Mail usAustralia lost to Egypt on penalties in one of the more disastrous shootout cock ups. Changing goalkeepers is a bold move, especially when Mat Ryan made a right Shilton of himself.Jonathan Wilson was there. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/f51e2725ad093dfa41aa1d07bfc26ee2da44c46c/441_0_2522_2018/master/2522.jpg?width=140&quality=85&auto=format&fit=max&s=8a2071ebc4cf9d420a6bd049e1532add",
+      "link": "https://www.theguardian.com/football/live/2026/jul/04/world-cup-2026-cape-verde-give-argentina-mighty-scare-last-16-mexico-v-england-fixture-chaos-morocco-canada-france-paraguay-live",
+      "published": "Sat, 04 Jul 2026 08:17:42 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
-      "summary_es": "⚽️ Kick-off time: 6pm local/8am AEST/11pm BST⚽️ Egypt edge Australia on penalties | Mail TomLionel Messi will play in his 30th World Cup match tonight, extending his record for the most by a men’s player in their career. He’ll be joined by Lautaro Martinez in attack, while Julian Alvarez drops to the bench.For Cape Verde, Cape Verde midfielder Telmo Arcanjo, who was struggling with a leg injury, starts on the bench. Sidny Lopes Cabral returns from suspension to start at left-back. Continue reading..."
+      "title_es": "Mundial 2026: Cabo Verde pone en apuros a Argentina; comienzan los dieciseisavos con el caos del partido México vs Inglaterra – en directo",
+      "summary_es": "⚽ Todas las noticias y reacciones en directo del Mundial ⚽ Guía de jugadores | Análisis de llaves | Sorteo de eliminatoria | Contacta con nosotrosAustralia cayó ante Egipto en una tanda de penaltis que fue uno de los mayores desastres. El cambio de portero fue una decisión arriesgada, especialmente cuando Mat Ryan cometió un error garrafal. Jonathan Wilson estuvo allí. Continuar leyendo...",
+      "es_confirmed": true
     },
     {
       "id": "b826d9a219",
-      "title_en": "England’s game against Mexico could be moved to noon local time, 7pm UK time Sunday",
-      "summary_en": "Game originally set to kick off at 6pm local timeCould be rescheduled due to risk of thunderstormsFifa is in discussions over moving the kick-off time of Mexico v England to earlier in day on Sunday due to risk of weather disruption including flooding and thunderstorms, a source has confirmed to the Guardian.The round of 16 game at the ‌Estadio Azteca was scheduled to start at 6pm local time (1am BST) but it could now be brought forward by six hours to midday local time (7pm BST). Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/8af99ca87f712835d7213a88e11d7bb0f08f552d/550_0_4856_3886/master/4856.jpg?width=140&quality=85&auto=format&fit=max&s=8d3bfb002787577e9e92510725d20085",
+      "title_en": "England’s game against Mexico to stay at 1am UK kick-off after day of chaos",
+      "summary_en": "Fifa held discussions about game kicking off earlierRisk of thunderstorms in Mexico had caused concern England have avoided the prospect of their World Cup match against Mexico on Sunday being brought forward by six hours after a chaotic day that saw Fifa engaged in discussions with multiple stakeholders over a new kick-off time.The eagerly anticipated last 16 clash in Mexico City will still be played at 6pm local time (1am Monday BST), but only after a period of intense confusion in which both camps were left scrambling for clarity. Fifa were wrong footed when news leaked in Mexico during the afternoon that negotiations to make the switch, which would ostensibly have been down to the prospect of thunderstorms and flooding on Sunday evening, were taking place but ultimately decided to keep the status quo. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/aa3d94e947918c3f6752976bd46d60eef6efb229/1113_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=a511d761bd452409b004c5f0f2972d51",
       "link": "https://www.theguardian.com/football/2026/jul/03/england-mexico-match-timing",
-      "published": "Fri, 03 Jul 2026 18:59:25 GMT",
+      "published": "Fri, 03 Jul 2026 23:26:43 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "England’s game against Mexico could be moved to noon local time, 7pm UK time Sunday",
-      "summary_es": "Game originally set to kick off at 6pm local timeCould be rescheduled due to risk of thunderstormsFifa is in discussions over moving the kick-off time of Mexico v England to earlier in day on Sunday due to risk of weather disruption including flooding and thunderstorms, a source has confirmed to the Guardian.The round of 16 game at the ‌Estadio Azteca was scheduled to start at 6pm local time (1am BST) but it could now be brought forward by six hours to midday local time (7pm BST). Continue reading..."
+      "title_es": "El partido de Inglaterra contra México se mantiene a las 01:00 UK tras un día caótico",
+      "summary_es": "La FIFA mantuvo conversaciones sobre cambiar la hora del partidoLa amenaza de tormentas en México había generado preocupación Inglaterra ha evitado que su partido de octavos de final del Mundial contra México el domingo se adelantara seis horas tras un día caótico en el que la FIFA negoció con múltiples partes interesadas sobre una nueva hora de inicio. El esperado partido de dieciseisavos en la Ciudad de México seguirá disputándose a las 18:00 hora local (01:00 del lunes BST), pero solo después de un período de gran confusión en el que ambos equipos quedaron a la deriva buscando claridad. La FIFA fue sorprendida cuando trascendió en México por la tarde que se estaban negociando cambios de horario, supuestamente por la amenaza de tormentas y inundaciones el domingo por la noche, pero finalmente decidió mantener el estatus quo. Continuar leyendo...",
+      "es_confirmed": true
     },
     {
-      "id": "8c106271e8",
-      "title_en": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
-      "summary_en": "Hossam Abdelmaguid puffed out his cheeks, began his run up with exaggerated slowness, checked and then, as Mat Ryan fell to his left, put the ball to his right. Harry Souttar and the 18-year-old Lucas Herrington had already missed for Australia and Egypt, having scored all of their penalties, were through. Abdelmaguid ran off to the corner, ripping off his shirt, and was soon joined by an ecstatic posse of Egyptian players. Mohamed Salah, who had converted a Panenka, was in tears, and the manager, Hossam Hassan, was in tears. Don’t worry about the scrappy, largely formless game from which the emotion stemmed: Egypt had won a World Cup knockout tie for the first time.“My heart and soul are with the Palestinian people,” said Hassan. “I thank them and dedicate this victory to them. We succeeded in making Arab people proud. I wanted to win for the sake of the good people. God is honouring us",
-      "image": "https://i.guim.co.uk/img/media/628104b8ff7e6deb930c87d27914945aba6643a6/138_0_3456_2766/master/3456.jpg?width=140&quality=85&auto=format&fit=max&s=5374f73e6567355f7b8272d6f4dd8d7c",
-      "link": "https://www.theguardian.com/football/2026/jul/03/australia-egypt-world-cup-2026-last-32-match-report",
-      "published": "Fri, 03 Jul 2026 21:03:29 GMT",
+      "id": "a606d04336",
+      "title_en": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
+      "summary_en": "Ghana can only have feared the worst when Luis Suárez’s number came up in the seventh minute. A day on from the 16th anniversary of one of the most infamous episodes in World Cup history, the Colombia forward who shares a name with the man whose handball broke the hearts of Black Stars supporters in the quarter-finals of the 2010 World Cup returned to haunt them.Not long after coming off the bench, it was the Sporting striker who provided the assist for what turned out to be the winning goal from Jhon Arias to set up a last-16 clash against Switzerland in Vancouver on Tuesday. Even if they couldn’t find another goal that their superiority clearly warranted, Colombia were deserved winners and look more than capable of at least matching their previous best result at the 2014 World Cup when they lost to Brazil in the last eight. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/7ed06c757eea91ae79cbeb3512a287edfca5da4a/917_0_4907_3928/master/4907.jpg?width=140&quality=85&auto=format&fit=max&s=bb3efacdda28b54b752268ad41d4cc7a",
+      "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
+      "published": "Sat, 04 Jul 2026 03:44:49 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
-      "summary_es": "Hossam Abdelmaguid puffed out his cheeks, began his run up with exaggerated slowness, checked and then, as Mat Ryan fell to his left, put the ball to his right. Harry Souttar and the 18-year-old Lucas Herrington had already missed for Australia and Egypt, having scored all of their penalties, were through. Abdelmaguid ran off to the corner, ripping off his shirt, and was soon joined by an ecstatic posse of Egyptian players. Mohamed Salah, who had converted a Panenka, was in tears, and the manager, Hossam Hassan, was in tears. Don’t worry about the scrappy, largely formless game from which the emotion stemmed: Egypt had won a World Cup knockout tie for the first time.“My heart and soul are with the Palestinian people,” said Hassan. “I thank them and dedicate this victory to them. We succeeded in making Arab people proud. I wanted to win for the sake of the good people. God is honouring us"
+      "title_es": "El gol de Jhon Arias mete a Colombia en octavos y elimina a Ghana del Mundial",
+      "summary_es": "Ghana solo podía temer lo peor cuando el nombre de Luis Suárez salió en el minuto siete. Un día después del 16 aniversario de uno de los episodios más infames de la historia del Mundial, el futbolista colombiano que comparte nombre con el hombre cuya mano rota en los cuartos de final de 2010 destrozó el corazón de los aficionados de Ghana volvió a perseguirles. Poco después de salir del banquillo, fue el delantero del Sporting quien asistió para lo que resultó ser el gol de la victoria de Jhon Arias, preparando un enfrentamiento de dieciseisavos contra Suiza en Vancouver el martes. Aunque no pudieron encontrar otro gol que su superioridad claramente justificaba, Colombia fue merecedora de la victoria y parece más que capaz de al menos igualar su mejor resultado en el Mundial 2014, cuando perdieron ante Brasil en cuartos de final. Continuar leyendo...",
+      "es_confirmed": true
     },
     {
-      "id": "12f20a7beb",
-      "title_en": "Family ties and focus: Lamine Yamal carries burden of Spain’s World Cup dream",
-      "summary_en": "The 18-year-old is leading a nation’s effort to win a second title – to the delight of his three-year-old brotherNo one celebrated Spain’s last-32 win quite like Keyne. As the third goal against Austria went in, cameras caught Lamine Yamal’s younger brother, still only three, raising his arms and shouting: “Come on!” And so a million memes were launched in Los Angeles.Not long after, 30 metres below ground – Los Angeles Stadium had to be built from beneath the surface because of its proximity to LAX airport – Lamine Yamal stood on a platform before a scrum of cameras, microphones and mobile phones. Someone in there showed him the footage, asked what he thought about this small boy enjoying the childhood he never could, and there was a pause. “I don’t know …” Lamine Yamal said eventually. “It makes me emotional to see my brother happy, and my mum. He is everything to me. It’s like he is m",
-      "image": "https://i.guim.co.uk/img/media/84bb331f9ef6ffdd6bcc6646bd37ee7377156dd8/270_481_2133_1705/master/2133.jpg?width=140&quality=85&auto=format&fit=max&s=b34023429cf4867dacf66b4dc24b2c40",
-      "link": "https://www.theguardian.com/football/2026/jul/03/lamine-yamal-spain-world-cup-brother-keyne",
-      "published": "Fri, 03 Jul 2026 10:43:57 GMT",
+      "id": "f918ed32cd",
+      "title_en": "Shootout heartbreak leaves Socceroos still searching for elusive World Cup knockout win | Jack Snape",
+      "summary_en": "Following their painful defeat on penalties to Egypt, there is a nagging suspicion Australia may not get a better chance to break their duck Lucas Herrington did not deserve to be the face of this painful defeat. The 18-year-old was already the youngest starter the Socceroos have ever fielded at a World Cup. Now he will be forever connected with one of Australian football’s great tragedies.Once he missed his penalty kick – his side-footed effort placed too high and into the crossbar – first Awer Mabil ran to him, the gesture acknowledging the pain that will never leave him. When Egypt finished the shootout moments later, Herrington quickly turned his back to the crossbar that did him wrong, and put one arm to his mop of curly hair. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/e62fdc02a8366d537b873d7fb6b9b212ff0c4df6/403_0_4124_3301/master/4124.jpg?width=140&quality=85&auto=format&fit=max&s=9f12bb92ca8957bab5db5549f0c7da79",
+      "link": "https://www.theguardian.com/football/2026/jul/04/australia-socceroos-egypt-world-cup-last-32-penalty-shootout-defeat",
+      "published": "Fri, 03 Jul 2026 21:17:22 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Family ties and focus: Lamine Yamal carries burden of Spain’s World Cup dream",
-      "summary_es": "The 18-year-old is leading a nation’s effort to win a second title – to the delight of his three-year-old brotherNo one celebrated Spain’s last-32 win quite like Keyne. As the third goal against Austria went in, cameras caught Lamine Yamal’s younger brother, still only three, raising his arms and shouting: “Come on!” And so a million memes were launched in Los Angeles.Not long after, 30 metres below ground – Los Angeles Stadium had to be built from beneath the surface because of its proximity to LAX airport – Lamine Yamal stood on a platform before a scrum of cameras, microphones and mobile phones. Someone in there showed him the footage, asked what he thought about this small boy enjoying the childhood he never could, and there was a pause. “I don’t know …” Lamine Yamal said eventually. “It makes me emotional to see my brother happy, and my mum. He is everything to me. It’s like he is m"
+      "title_es": "El drama de los penaltis deja a Australia buscando aún su ansiada victoria en octavos | Jack Snape",
+      "summary_es": "Tras su dolorosa derrota ante Egipto en la tanda de penaltis, existe la sospecha de que Australia quizá no tenga una oportunidad mejor Lucas Herrington no merecía ser la cara de esta derrota dolorosa. Con 18 años, era ya el futbolista más joven jamás alineado por Australia en un Mundial. Ahora quedará para siempre asociado con una de las grandes tragedias del fútbol australiano. Cuando falló su penalti —su disparo con efecto pasó demasiado alto e impactó en el larguero— primero Awer Mabil corrió hacia él, en un gesto que reconocía el dolor que nunca lo abandonará. Cuando Egipto terminó la tanda minutos después, Herrington rápidamente giró la espalda al larguero que lo traicionó, llevándose una mano al pelo rizado. Continuar leyendo...",
+      "es_confirmed": true
     },
     {
-      "id": "b6e971cfbe",
-      "title_en": "Facing Mexico at the Azteca? Suddenly our expectations of England are unusually realistic | Max Rushden",
-      "summary_en": "Thomas Tuchel’s side have problems aside from the altitude: defeat in a Mexican haze would be no embarrassmentIt’s a warm June afternoon in 2009. The teams look uneven. At 30, I am the second-oldest player in our lineup. Lloyd, Nathan and Ben are early 20s – they can all play. Micky the German isn’t in top condition, and at 34 is past his peak. But at a conservative estimate every member of the opposition has two more decades in their legs. A couple of them might be pushing 70. We’re in kit. They are in jeans. We have trainers. They’re in boots – working boots, not “cleats”. And yet after an hour we have been beaten to a pulp. The final score evades my memory, but it might be the only six-a-side I’ve ever played in where “next goal wins” wasn’t a vaguely justifiable way to end things.How had this team of old men beaten us? A word you may have heard more often than usual in the last three",
-      "image": "https://i.guim.co.uk/img/media/adfab501e05568057c9cf6b62c7b7c4352b7c768/31_0_2402_1921/master/2402.png?width=140&quality=85&auto=format&fit=max&s=1969f9e913a0073094dfe65fb4284aa4",
-      "link": "https://www.theguardian.com/football/2026/jul/03/world-cup-mexico-azteca-altitude-england-thomas-tuchel-tactics",
-      "published": "Fri, 03 Jul 2026 17:13:01 GMT",
+      "id": "c9017cbbc1",
+      "title_en": "Survival is key for England in epic test or it will be a Mexican wave goodbye",
+      "summary_en": "Azteca tie is one of those World Cup occasions that transcend sport – and Tuchel’s side face a challenge all about progress, not processNausea, cramps, shortness of breath. Time-lagged, unacclimatised, eyes bulging as the vertigo hits. Not to mention three times more likely to suffer unwanted swelling of the brain. Watching England play football at this World Cup has certainly been a physical trial at times. Not least for those back home hunkered around the screen, feeling the energy surge then sag again through the dead periods in Boston, New York and Atlanta.And now we move on to the altitude of Mexico City, the Azteca, host nation energy and a beautifully pitched last-16 game, one of those occasions that seems to go beyond sport, to carry its own sense of something epic and gravitational, an emotional weather front about to break. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/a45332910ef1f8c0fa242252d85fab9db440c75e/132_0_6231_4985/master/6231.jpg?width=140&quality=85&auto=format&fit=max&s=43064b886f9747b7e2f69a69f8304b6b",
+      "link": "https://www.theguardian.com/football/2026/jul/04/england-survival-mexico-world-cup-2026-thomas-tuchel",
+      "published": "Sat, 04 Jul 2026 07:00:08 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
-      "title_es": "Facing Mexico at the Azteca? Suddenly our expectations of England are unusually realistic | Max Rushden",
-      "summary_es": "Thomas Tuchel’s side have problems aside from the altitude: defeat in a Mexican haze would be no embarrassmentIt’s a warm June afternoon in 2009. The teams look uneven. At 30, I am the second-oldest player in our lineup. Lloyd, Nathan and Ben are early 20s – they can all play. Micky the German isn’t in top condition, and at 34 is past his peak. But at a conservative estimate every member of the opposition has two more decades in their legs. A couple of them might be pushing 70. We’re in kit. They are in jeans. We have trainers. They’re in boots – working boots, not “cleats”. And yet after an hour we have been beaten to a pulp. The final score evades my memory, but it might be the only six-a-side I’ve ever played in where “next goal wins” wasn’t a vaguely justifiable way to end things.How had this team of old men beaten us? A word you may have heard more often than usual in the last three"
+      "title_es": "La supervivencia es clave para Inglaterra en una prueba épica o será adiós a la ola mexicana",
+      "summary_es": "El duelo del Azteca es una de esas ocasiones de Mundial que trascienden el deporte —y el equipo de Tuchel se enfrenta a un reto sobre el progreso, no el proceso Náuseas, calambres, falta de aire. Desfasados, sin aclimatación, ojos desorbitados conforme el vértigo golpea. Sin mencionar que hay tres veces más probabilidades de sufrir hinchazón no deseada del cerebro. Ver jugar a Inglaterra en este Mundial ciertamente ha sido una prueba física en momentos. Especialmente para quienes en casa se acurrucaban alrededor de la pantalla, sintiendo la energía crecer y luego desplomarse en los períodos muertos en Boston, Nueva York y Atlanta. Y ahora nos dirigimos a la altitud de la Ciudad de México, el Azteca, la energía de la nación anfitriona y un partido de dieciseisavos perfectamente equilibrado, una de esas ocasiones que parece ir más allá del deporte, llevando su propio sentido de algo épico y gravitacional, un frente de tiempo emocional a punto de romperse. Continuar leyendo...",
+      "es_confirmed": true
     },
     {
-      "id": "2085bffbb5",
-      "title_en": "England, Mexico & Fifa locked in kick-off time talks",
-      "summary_en": "England's World Cup last-16 tie with Mexico is set to be moved to 19:00 BST on Sunday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 22:45:55 GMT",
+      "id": "c61f97f83d",
+      "title_en": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+      "summary_en": "Cape Verde may have been the World Cup's second-smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7b4/live/b7fee070-774c-11f1-8e4e-2dc6898b0152.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 03:09:37 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "England, Mexico & Fifa locked in kick-off time talks",
-      "summary_es": "England's World Cup last-16 tie with Mexico is set to be moved to 19:00 BST on Sunday."
+      "title_es": "Adiós Cabo Verde —los outsiders que el Mundial nunca olvidará",
+      "summary_es": "Cabo Verde quizá fue la segunda nación más pequeña del Mundial pero se va dejando el mayor impacto tras su derrota ante los campeones defensores Argentina en un duelo épico.",
+      "es_confirmed": true
     },
     {
-      "id": "0edde27b1f",
-      "title_en": "Rice likely to be available for England v Mexico",
-      "summary_en": "Declan Rice is likely to be available to start England's World Cup tie against Mexico despite an ongoing injury issue.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9adf/live/6055bf00-772a-11f1-a627-714adb4eed6e.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crm0pnnldeyo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 22:02:50 GMT",
+      "id": "afe54ced31",
+      "title_en": "Five and a half hours that left England's World Cup tie in chaos",
+      "summary_en": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport tells how a story of confusion and anger - culminating in a Fifa U-turn - unfolded.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a110/live/5dd8ea40-774d-11f1-a627-714adb4eed6e.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0ey24q42w2o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 01:36:43 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Rice likely to be available for England v Mexico",
-      "summary_es": "Declan Rice is likely to be available to start England's World Cup tie against Mexico despite an ongoing injury issue."
+      "title_es": "Cinco horas y media que sumieron en el caos el partido de octavos de Inglaterra",
+      "summary_es": "Durante varias horas el viernes, nadie parecía saber cuándo comenzaría el partido de octavos de final del Mundial entre Inglaterra y México, anfitrión. BBC Sport relata cómo se desarrolló una historia de confusión e ira, que culminó con un cambio de decisión de la FIFA.",
+      "es_confirmed": true
     },
     {
-      "id": "d794450c52",
-      "title_en": "Mexico's unlikely hero who England could fear most",
-      "summary_en": "Julian Quinones' path to being a Mexican hero has been unorthodox - and he will hope to become a legend against England on Monday morning.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f33/live/0f1ebf40-765f-11f1-b953-0b29fdbd957b.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqx1l3n9dj5o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 12:02:36 GMT",
+      "id": "9cb55beb2a",
+      "title_en": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
+      "summary_en": "Lionel Messi's World Cup goals roadshow continued with his seventh of the tournament for Argentina against Cape Verde - and delighted the fans who were in Miami to see their hero.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00f5/live/caa8a4b0-7768-11f1-b976-0b9c15b0ccfc.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2jpkkdld4o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 05:37:08 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Mexico's unlikely hero who England could fear most",
-      "summary_es": "Julian Quinones' path to being a Mexican hero has been unorthodox - and he will hope to become a legend against England on Monday morning."
+      "title_es": "Murales, banderas y platos de carne: la manía de Messi se apodera de Miami",
+      "summary_es": "El show de goles del Mundial de Lionel Messi continuó con su séptimo tanto del torneo para Argentina ante Cabo Verde, deleitando a los aficionados que se encontraban en Miami para ver a su ídolo.",
+      "es_confirmed": true
     },
     {
-      "id": "e706e85bab",
-      "title_en": "England fan tickets for Mexico on resale for up to £26K",
-      "summary_en": "Tickets originally bought by England fans for the World Cup last-16 game against Mexico are relisted for thousands of pounds on Fifa's official resale portal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73f5/live/f12e8d60-76c9-11f1-bd3f-0f791277aaa0.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj3g7dxlvexo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 11:36:17 GMT",
+      "id": "bacdb41da4",
+      "title_en": "Argentina overcome Cape Verde in extra-time thriller",
+      "summary_en": "Argentina overcome a huge scare as they beat Cape Verde 3-2 in extra time thanks to a deflected header from Cristian Romero to advance to the last 16.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bcc/live/6e4a8380-7742-11f1-a627-714adb4eed6e.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cj6gp70g967o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 01:55:42 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "England fan tickets for Mexico on resale for up to £26K",
-      "summary_es": "Tickets originally bought by England fans for the World Cup last-16 game against Mexico are relisted for thousands of pounds on Fifa's official resale portal."
+      "title_es": "Argentina supera a Cabo Verde en un dramático partido de prórroga",
+      "summary_es": "Argentina superó un susto mayúsculo al vencer a Cabo Verde 3-2 en la prórroga gracias a un cabezazo desviado de Cristian Romero, clasificándose para los octavos de final.",
+      "es_confirmed": true
     },
     {
-      "id": "7cd0a3d743",
-      "title_en": "Egypt into last 16 after shootout victory against Australia",
-      "summary_en": "Egypt defeated Australia on penalties to claim their first ever win in the World Cup knockout stage and set up a last-16 tie with either Argentina or Cape Verde.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6841/live/fd6cdec0-7722-11f1-a627-714adb4eed6e.jpg",
-      "link": "https://www.bbc.co.uk/sport/football/videos/czde25nmq6no?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 21:45:03 GMT",
+      "id": "d9b40425b5",
+      "title_en": "Liverpool open to Van Dijk offers - Saturday's gossip",
+      "summary_en": "Virgil van Dijk's Liverpool future appears a little uncertain with the club prepared to listen to offers for him, Fulham keen on West Ham winger Crysencio Summerville while Inter Milan want Chelsea centre-back Trevoh Chalobah.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c7e/live/ed19f970-771f-11f1-a627-714adb4eed6e.png",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czx59xrgnppo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Jul 2026 21:01:04 GMT",
       "category": "World Cup",
       "source": "BBC Football",
-      "title_es": "Egypt into last 16 after shootout victory against Australia",
-      "summary_es": "Egypt defeated Australia on penalties to claim their first ever win in the World Cup knockout stage and set up a last-16 tie with either Argentina or Cape Verde."
+      "title_es": "Liverpool abierto a ofertas por Van Dijk - Rumores del sábado",
+      "summary_es": "El futuro de Virgil van Dijk en Liverpool parece algo incierto, con el club dispuesto a escuchar ofertas por él. Fulham está interesado en el extremo del West Ham Crysencio Summerville, mientras que Inter Milan busca al defensa central del Chelsea Trevoh Chalobah.",
+      "es_confirmed": true
     },
     {
       "id": "f6ab8df024",
@@ -263,20 +271,35 @@
       "published": "2026-07-03T21:49:59+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "Wife is out of town and my son is my mother in law for the night. Time for a drink and playing records as loud as I would like!",
-      "summary_es": "*Son is at my mother in law‘s house* Too excited to have the house to myself I guess lol Feels weird to have the house completely to myself for a night. I think it is the first time since my son was born (17 months old) that I have had the house to myself for a night. Guess I’ll tidy up at some point lol. &#32; submitted by &#32; /u/pistol_12_pete [link] &#32; [comments]"
+      "title_es": "Mi mujer está fuera y mi hijo se queda en casa de mi suegra. ¡Hora de una copa y poner música a todo volumen!",
+      "summary_es": "Mi hijo está en casa de mi suegra. Demasiado emocionado de tener la casa para mí solo, supongo jajaja. Es raro tener la casa completamente para mí una noche. Creo que es la primera vez desde que nació mi hijo (17 meses) que tengo la casa para mí solo una noche. Supongo que en algún momento limpiaré jajaja.",
+      "es_confirmed": true
     },
     {
-      "id": "c26af6842c",
-      "title_en": "Texts with my teen re: period pads",
-      "summary_en": "Saluting all girl dads out there! 🫡 Thank you for your service. &#32; submitted by &#32; /u/freedomtopoast [link] &#32; [comments]",
-      "image": "https://preview.redd.it/qtq5wk9lg1bh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=1d2f4fe9b51a1e116fdfcb51c042ea1ffc71dbc2",
-      "link": "https://www.reddit.com/r/daddit/comments/1umik79/texts_with_my_teen_re_period_pads/",
-      "published": "2026-07-03T16:08:15+00:00",
+      "id": "71f7e57f89",
+      "title_en": "To the dad who gave the advice of just throwing shit out",
+      "summary_en": "Thank you brother. You were right that's the only way shit gets clean and tbh I don't think my wife nor my kid will notice anything that I threw out. I filled up two trash cans full and have been cleaning for like 10 hours straight. Another day of throwing shit out tomorrow and I think my house will be half way acceptable. Now let's see how long it lasts. &#32; submitted by &#32; /u/SeeJayWolf7113 [link] &#32; [comments]",
+      "image": "",
+      "link": "https://www.reddit.com/r/daddit/comments/1umy5u5/to_the_dad_who_gave_the_advice_of_just_throwing/",
+      "published": "2026-07-04T03:22:08+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "Texts with my teen re: period pads",
-      "summary_es": "Saluting all girl dads out there! 🫡 Thank you for your service. &#32; submitted by &#32; /u/freedomtopoast [link] &#32; [comments]"
+      "title_es": "Al papá que me dio el consejo de simplemente tirar cosas",
+      "summary_es": "Hermano, te debo una. Tenías razón en que esa es la única forma de que una casa quede limpia, y honestamente no creo que mi mujer ni mi hijo se den cuenta de nada de lo que tiré. Llené dos cubos de basura completos y llevo unas 10 horas limpiando sin parar. Mañana pienso tirar más cosas y creo que mi casa estará más o menos presentable. Ahora a ver cuánto tiempo dura así.",
+      "es_confirmed": true
+    },
+    {
+      "id": "1e77b8061d",
+      "title_en": "Holy heck…I have one of the pickiest eaters!!",
+      "summary_en": "This is the second time I’ve made this meal. Trying to find the right consistency and a balance of spices since his taste palate is far from formed lul. My gf has been teaching me to cook and not only did he have it and ask for seconds, but her daughter had some and loved it as well and said it was “just as good as momma’s” with a hearty 👍🏽. My heart is full right now 🥹 &#32; submitted by &#32; /u/dredgknight [link] &#32; [comments]",
+      "image": "https://preview.redd.it/l1unu5epo4bh1.jpeg?width=640&crop=smart&auto=webp&s=cacfd0ca8143399ab40b77fe2f36a0c63338654c",
+      "link": "https://www.reddit.com/r/daddit/comments/1umxpcf/holy_hecki_have_one_of_the_pickiest_eaters/",
+      "published": "2026-07-04T02:59:04+00:00",
+      "category": "Parenting",
+      "source": "r/daddit",
+      "title_es": "Vaya... ¡tengo uno de los comensales más exigentes!",
+      "summary_es": "Es la segunda vez que preparo esta comida. Intento encontrar la consistencia adecuada y un equilibrio de especias ya que su paladar aún está muy en desarrollo jajaja. Mi novia me está enseñando a cocinar y no solo comió sino que pidió repetir, sino que su hija también probó y le encantó, incluso dijo que era \"tan bueno como la comida de mamá\" con un entusiasta 👍🏽. El corazón me estalla de alegría 🥹",
+      "es_confirmed": true
     },
     {
       "id": "eb2e6f001b",
@@ -287,32 +310,22 @@
       "published": "2026-07-03T18:40:52+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "My 10yo was called “stupid” by his friend’s father, and I need to know if I handled it right.",
-      "summary_es": "My son has a best friend he’s known since PreK. They were classmates through 3rd grade until we moved, and they play Fortnite and Minecraft together regularly. Today I noticed him quietly heading upstairs, shoulders slumped, and shutting his bedroom door. That’s not like him at all. He only does that when something’s really wrong. I knocked, went in, and found him hunched over in his chair, crying. It took a bit, but he finally told me whats wrong. During their game, he heard his friend’s dad in the background call him a “stupid kid.” It wasn’t said to him directly, just picked up through the mic from the room, but it hit him hard. He’s always struggled with being called stupid or an idiot and it’s one of those things that just breaks him. For context, this dad has never been the greatest role model, and the friend himself has had some behavioral issues over the years. I sat with my son "
+      "title_es": "Mi hijo de 10 años fue llamado \"estúpido\" por el padre del amigo, y necesito saber si actué correctamente.",
+      "summary_es": "Mi hijo tiene un mejor amigo al que conoce desde Educación Infantil. Fueron compañeros de clase hasta tercero hasta que nos mudamos, y juegan regularmente a Fortnite y Minecraft juntos. Hoy lo noté subir silenciosamente por las escaleras con los hombros caídos y cerrando la puerta de su habitación. Eso no es típico en él. Solo hace eso cuando algo está realmente mal. Llamé a la puerta, entré y lo encontré encogido en su silla, llorando. Le costó un poco, pero finalmente me contó qué estaba mal. Durante su partida, escuchó al padre de su amigo de fondo llamarlo \"estúpido\". No fue directo a él, solo lo captó por el micrófono desde la habitación, pero lo afectó mucho. Siempre le ha costado que lo llamen estúpido o idiota y es una de esas cosas que lo destroza. Para contextualizar, este padre nunca ha sido un gran modelo a seguir, y el amigo en sí ha tenido algunos problemas de comportamiento a lo largo de los años.",
+      "es_confirmed": true
     },
     {
-      "id": "7b34f355c8",
-      "title_en": "It’s another boy, wife is not happy",
-      "summary_en": "She wanted a daughter, since her first (soon to be 5). When he was born, she was upset, it took years for her to accept him as he is, and now after the ultrasound we find it’s another boy. she’s blaming me, angry, and I feel like I’m going to have to deal with that all over again. I though she was over those things, I don’t know how I’ll handle it, I’m already overwhelmed with so much happening already. &#32; submitted by &#32; /u/LupusDeusMagnus [link] &#32; [comments]",
+      "id": "5de32ff08b",
+      "title_en": "Wife is leaving me. Any advice appreciated",
+      "summary_en": "Welp fellas, it's been a good run as a married couple, but it looks like my wife wants to file for divorce. We've always struggled a bit to connect intimately, but I was really hoping we could find common ground. We've got a 1 year old now and it's been brutal the last two years trying to connect sexually, but I figured once we got through some of these first years we could find our footing a bit more. I've always supported her, been there for her, and I feel completely blindsided right now. I'm not sure what I'm looking for by posting this, but I've never felt more alone, sad, and scared for the future. I never wanted this for my child and now it feels like so much is out of my control and it's breaking my heart. I come from a broken family and I have told my wife since day one that the number one thing I want in life is to be with someone who wants to be with me through thick and thin ",
       "image": "",
-      "link": "https://www.reddit.com/r/daddit/comments/1umfinl/its_another_boy_wife_is_not_happy/",
-      "published": "2026-07-03T14:10:32+00:00",
+      "link": "https://www.reddit.com/r/daddit/comments/1umx7az/wife_is_leaving_me_any_advice_appreciated/",
+      "published": "2026-07-04T02:33:33+00:00",
       "category": "Parenting",
       "source": "r/daddit",
-      "title_es": "It’s another boy, wife is not happy",
-      "summary_es": "She wanted a daughter, since her first (soon to be 5). When he was born, she was upset, it took years for her to accept him as he is, and now after the ultrasound we find it’s another boy. she’s blaming me, angry, and I feel like I’m going to have to deal with that all over again. I though she was over those things, I don’t know how I’ll handle it, I’m already overwhelmed with so much happening already. &#32; submitted by &#32; /u/LupusDeusMagnus [link] &#32; [comments]"
-    },
-    {
-      "id": "7dd5b4b629",
-      "title_en": "Letting kids have the use of a PC...",
-      "summary_en": "One of those things we all have to navigate eventually is what technology to allow. This is one place where my wife and I don't see eye to eye. For context, I think our kids are well rounded. They love going outside and interacting with friends, playing ball, and endless arts and crafts. But they also love their screens too. I set up a mini computer lab for them in our dining room. I just don't believe in sticking your head in the sand and pretending the digital world doesn't exist. My two older kids, 11yo son and 8yo daughter can competently use a Windows 11 desktop. They think they are having fun but it's up to me as a parent to proctor what content they get to consume. I told my wife that learning to use a desktop is a more useful skill than consuming endless Amazon Kids garbage content on a Kindle. I think my wife is warming up to the idea of kids using a screen that is in a common a",
-      "image": "https://preview.redd.it/qa240828h1bh1.jpeg?width=640&crop=smart&auto=webp&s=a8952d8242a18946cda57cbf6006dd7c75e2af86",
-      "link": "https://www.reddit.com/r/daddit/comments/1uminjc/letting_kids_have_the_use_of_a_pc/",
-      "published": "2026-07-03T16:11:49+00:00",
-      "category": "Parenting",
-      "source": "r/daddit",
-      "title_es": "Letting kids have the use of a PC...",
-      "summary_es": "One of those things we all have to navigate eventually is what technology to allow. This is one place where my wife and I don't see eye to eye. For context, I think our kids are well rounded. They love going outside and interacting with friends, playing ball, and endless arts and crafts. But they also love their screens too. I set up a mini computer lab for them in our dining room. I just don't believe in sticking your head in the sand and pretending the digital world doesn't exist. My two older kids, 11yo son and 8yo daughter can competently use a Windows 11 desktop. They think they are having fun but it's up to me as a parent to proctor what content they get to consume. I told my wife that learning to use a desktop is a more useful skill than consuming endless Amazon Kids garbage content on a Kindle. I think my wife is warming up to the idea of kids using a screen that is in a common a"
+      "title_es": "Mi esposa me deja. Agradezco cualquier consejo",
+      "summary_es": "Bueno, chicos, ha sido un buen viaje como pareja casada, pero parece que mi esposa quiere pedir el divorcio. Siempre hemos tenido dificultades para conectar íntimamente, pero realmente esperaba que pudiéramos encontrar un terreno común. Tenemos un hijo de 1 año y los últimos dos años han sido brutales intentando conectar sexualmente, pero pensaba que una vez que superáramos estos primeros años podríamos recuperarnos un poco más. Siempre la he apoyado, he estado ahí para ella, y ahora me siento completamente sorprendido. No sé qué espero lograr publicando esto, pero nunca me he sentido más solo, triste y asustado por el futuro. Nunca quise esto para mi hijo y ahora siento que muchas cosas están fuera de mi control y se me está rompiendo el corazón. Vengo de una familia deshecha y le he dicho a mi esposa desde el primer día que lo número uno que quiero en la vida es estar con alguien que quiera estar conmigo en las buenas y en las malas.",
+      "es_confirmed": true
     },
     {
       "id": "1607a0c66f",
@@ -323,8 +336,9 @@
       "published": "Wed, 01 Jul 2026 18:00:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "These Five Fantastic Events Are Worth Traveling For",
-      "summary_es": "The United States is celebrating its 250th birthday this weekend, but there are loads more events to get excited about around the world this weekend. The International Festival of Life transforms Chicago into a living crossroads of Caribbean rhythms, African traditions, and global culture. Live performances fill the air while vendors offer a marketplace of crafts, goods, and stories from around the world. Jamaican heritage anchors the celebration, but the spirit here reaches far beyond any single tradition, weaving together sounds, flavors, and perspectives that span continents. Stretching more than 900 kilometers through the Lazio region, the Rally di Roma Capitale transforms the streets and countryside surrounding Rome into a stage for world-class motorsport competition. Over three days, talented drivers navigate a mix of urban terrain and open roads, bringing high-speed racing to one "
+      "title_es": "Cinco eventos fantásticos que merecen un viaje",
+      "summary_es": "Estados Unidos celebra su 250 aniversario este fin de semana, pero hay muchos más eventos emocionantes alrededor del mundo en estos días. El International Festival of Life transforma Chicago en una encrucijada viviente de ritmos caribeños, tradiciones africanas y cultura global. Actuaciones en directo llenan el aire mientras vendedores ofrecen un mercado de artesanía, productos e historias de todo el mundo. El patrimonio jamaicano ancla la celebración, pero el espíritu aquí va mucho más allá de cualquier tradición única, tejiendo sonidos, sabores y perspectivas que abarcan continentes. Extendiéndose más de 900 kilómetros por la región del Lazio, el Rally di Roma Capitale transforma las calles y el campo que rodea Roma en un escenario para competencia de automovilismo de clase mundial. Durante tres días, conductores talentosos navegan una mezcla de terreno urbano y carreteras abiertas, llevando carreras de alta velocidad a una",
+      "es_confirmed": true
     },
     {
       "id": "aa2ea5e39e",
@@ -335,8 +349,9 @@
       "published": "Wed, 01 Jul 2026 14:00:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "Tomb of Dai Anga in Lahore, Pakistan",
-      "summary_es": "Tucked away behind the bustling Grand Trunk Road and modern railway lines in Lahore lies the Tomb of Dai Anga, a brilliant but frequently overlooked piece of Mughal heritage. Built in 1671, this mausoleum belongs to Zeb-un-Nisa, popularly known as Dai Anga, who was the wet nurse of Emperor Shah Jahan and a woman of significant wealth and influence in the royal court. Architectural enthusiasts will marvel at the structure's brilliant, albeit fading, Kashi-kari (mosaic tile work) featuring intricate floral patterns and rich turquoise hues that contrast beautifully with the surrounding urban grit. The tomb sits on a raised platform, featuring a central dome surrounded by smaller arches, and offers a quiet, melancholic escape from the chaotic city noise just outside its walls. Despite the encroachment of modern development, it stands as a striking reminder of the grand scale of royal Mughal "
+      "title_es": "Tumba de Dai Anga en Lahore, Pakistán",
+      "summary_es": "Escondida detrás de la bulliciosa Grand Trunk Road y las líneas ferroviarias modernas en Lahore se encuentra la Tumba de Dai Anga, una pieza brillante pero frecuentemente pasada por alto del patrimonio Mughal. Construido en 1671, este mausoleo pertenece a Zeb-un-Nisa, popularmente conocida como Dai Anga, quien fue la nodriza del Emperador Shah Jahan y una mujer de considerable riqueza e influencia en la corte real. Los entusiastas de la arquitectura maravillarán ante los brillantes, aunque descoloridos, trabajos Kashi-kari (mosaicos de azulejos) de la estructura, con patrones florales intrincados y ricos tonos turquesas que contrastan bellamente con el entorno urbano circundante. La tumba se asienta sobre una plataforma elevada, presenta una cúpula central rodeada de arcos más pequeños, y ofrece un escape tranquilo y melancólico del caos de la ciudad justo afuera de sus muros. A pesar de la invasión del desarrollo moderno, se erige como un recordatorio sorprendente de la gran escala de la",
+      "es_confirmed": true
     },
     {
       "id": "75d1329f28",
@@ -347,8 +362,9 @@
       "published": "Wed, 01 Jul 2026 12:00:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "HM Prison Maze (Long Kesh) in Lisburn, Northern Ireland",
-      "summary_es": "Opened in 1971 on the site of a former Royal Air Force base, few places in Northern Ireland tell the story of the Troubles as powerfully as the former HM Prison. Referred to as 'Maze Prison', 'Long Kesh' or 'the H-Blocks', it became one of the most infamous prisons in Europe and worldwide, housing both republican and loyalist paramilitary prisoners during decades of conflict. The prison is best known for pivotal events that shaped modern Irish and British history, including the Blanket Protest, the 1981 Hunger Strike led by Bobby Sands (whose face you may have seen on murals around Belfast), and the dramatic 1983 mass escape of 38 Irish Republican Army prisoners. This was the largest prison escape in the history of the British Isles. These events transformed the Maze from an ordinary prison into an internationally-recognised symbol of political conflict. Today, little remains of the vast"
+      "title_es": "HM Prison Maze (Long Kesh) en Lisburn, Irlanda del Norte",
+      "summary_es": "Abierto en 1971 en el sitio de una antigua base de la Royal Air Force, pocos lugares en Irlanda del Norte cuentan la historia de los Troubles tan poderosamente como la antigua HM Prison. Conocido como 'Maze Prison', 'Long Kesh' o 'the H-Blocks', se convirtió en una de las prisiones más infames de Europa y el mundo, alojando a prisioneros paramilitares republicanos y leales durante décadas de conflicto. La prisión es mejor conocida por eventos cruciales que moldearon la historia moderna irlandesa y británica, incluyendo la Blanket Protest, la Huelga de Hambre de 1981 liderada por Bobby Sands (cuyo rostro quizás hayas visto en murales alrededor de Belfast), y la dramática fuga masiva de 1983 de 38 prisioneros del Irish Republican Army. Esta fue la mayor fuga de prisión en la historia de las Islas Británicas. Estos eventos transformaron el Maze de una prisión ordinaria en un símbolo internacionalmente reconocido de conflicto político. Hoy en día, poco queda del",
+      "es_confirmed": true
     },
     {
       "id": "003c0eb713",
@@ -359,8 +375,9 @@
       "published": "Wed, 01 Jul 2026 10:00:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "Vancouver Crow Nesting Zone in Burnaby, British Columbia",
-      "summary_es": "If you want a unique bird and crow experience then this is a must. In Vancouver all crows in what we call the Lower Mainland which extends far beyond Vancouver come to roost in the same five block section.This is along the Still Creek Drive between Willingdon Avenue and Gilmour Avenue. The crows will leave at dawn and return at dusk in a massive migration that is loud and obvious. One of the best places to view this is the McDonald’s on Willingdon Avenue, as it has second floor wide open windows that view onto Still Creek Drive.Near dawn, go out and walk amongst this massive crow nesting site. They sometimes cover the road like a feathered black tarp...until one of those annoying cars gets in the way. Be aware, if you agitate them, they will remember you. Crows have an amazing ability to remember faces and if they learn you are not friendly, they will run away and spread the news to thei"
+      "title_es": "Zona de anidamiento de cuervos de Vancouver en Burnaby, Columbia Británica",
+      "summary_es": "Si quieres una experiencia única con cuervos, esto es imprescindible. En Vancouver, todos los cuervos de lo que llamamos Lower Mainland, que se extiende mucho más allá de Vancouver, llegan a dormir en la misma sección de cinco cuadras. Esta es a lo largo de Still Creek Drive entre Willingdon Avenue y Gilmour Avenue. Los cuervos se irán al amanecer y regresarán al anochecer en una migración masiva que es ruidosa y obvia. Uno de los mejores lugares para verla es el McDonald's en Willingdon Avenue, ya que tiene ventanas abiertas en el segundo piso que dan a Still Creek Drive. Cerca del amanecer, sal a caminar entre este enorme sitio de anidamiento de cuervos. A veces cubren la carretera como una lona negra emplumada... hasta que uno de esos coches molestos se interpone. Ten cuidado, si los agitas, te recordarán. Los cuervos tienen una capacidad asombrosa para recordar caras y si aprenden que no eres amistoso, huirán y difundirán la noticia a sus",
+      "es_confirmed": true
     },
     {
       "id": "0f3b773489",
@@ -371,8 +388,9 @@
       "published": "Tue, 30 Jun 2026 16:00:00 -0400",
       "category": "Interesante",
       "source": "Atlas Obscura",
-      "title_es": "Gates of the City or Portas da Cidade in Fall River, Massachusetts",
-      "summary_es": "This amazing monument is 60 feet tall and and 30 feet wide. It is an exact replica of the Gates to the City monument in the city of Ponta Delgada on the island of San Miguel in the Azores Islands. Built in 2006, it commemorates the sister city relationship between Fall River and Ponta Delgada and honors the many Portuguese immigrants to the city of Fall River. It is a short walking distance from nearby attractions such as the collection of U.S. Navy ships at Battleship Cove. Also a few blocks away is the city's Portuguese Heritage District on Columbia Street featuring the Church of Santo Christo and many Portuguese restaurants, bakeries and shops."
+      "title_es": "Portas da Cidade en Fall River, Massachusetts",
+      "summary_es": "Este monumento asombroso mide 60 pies de alto y 30 pies de ancho. Es una réplica exacta del monumento Gates to the City en la ciudad de Ponta Delgada en la isla de San Miguel en las Islas Azores. Construido en 2006, conmemora la relación de ciudades hermanas entre Fall River y Ponta Delgada y honra a los muchos inmigrantes portugueses a la ciudad de Fall River. Está a una corta distancia a pie de atracciones cercanas como la colección de buques de la Marina de EE.UU. en Battleship Cove. También a pocos cuadras está el Distrito de Patrimonio Portugués de la ciudad en Columbia Street, donde se encuentra la Iglesia de Santo Christo y muchos restaurantes, panaderías y tiendas portuguesas.",
+      "es_confirmed": true
     },
     {
       "id": "c735f26349",
@@ -383,8 +401,9 @@
       "published": "Fri, 19 Sep 2025 13:32:24 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "Twenty",
-      "summary_es": "Twenty: In 2005, YouTube, reddit, and Facebook were all still wet and screaming infants. Google, working under the motto &#8220;Don&#8217;t Be Evil,&#8221; had just dethroned Yahoo! as the planet&#8217;s most popular Internet search engine (AskJeeves was not available for comment). Nickelback was at the height of its fame. Internet Explorer was the most used web browser, [&#8230;]"
+      "title_es": "Veinte",
+      "summary_es": "Veinte: En 2005, YouTube, reddit y Facebook eran aún bebés mojados y gritones. Google, trabajando bajo el lema \"Don't Be Evil\", acababa de destronar a Yahoo! como el motor de búsqueda de Internet más popular del planeta (AskJeeves no estaba disponible para comentar). Nickelback estaba en el apogeo de su fama. Internet Explorer era el navegador web más utilizado,",
+      "es_confirmed": true
     },
     {
       "id": "bc0a3354b5",
@@ -395,8 +414,9 @@
       "published": "Sat, 06 Sep 2025 14:50:32 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "There Once Was a Man Called Curley",
-      "summary_es": "There Once Was a Man Called Curley: In the village of Bellewstown, about 15 miles north of Dublin, Ireland, they still talk about what Barney Curley did back in 1975. It all happened during a horse race on the Hill of Crockafotha. It was just an amateur jockey race on a lazy summer day in a sleepy, remote town; it wasn’t meant [&#8230;]"
+      "title_es": "Había una vez un hombre llamado Curley",
+      "summary_es": "Había una vez un hombre llamado Curley: En el pueblo de Bellewstown, a unos 15 millas al norte de Dublín, Irlanda, aún hablan de lo que Barney Curley hizo en 1975. Todo sucedió durante una carrera de caballos en la Hill of Crockafotha. Era apenas una carrera de jockeys aficionados en un perezoso día de verano en un pueblo remoto y dormido; no estaba destinada a",
+      "es_confirmed": true
     },
     {
       "id": "4926177e65",
@@ -407,8 +427,9 @@
       "published": "Mon, 21 Jul 2025 13:51:23 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "Omiword, a Word Game",
-      "summary_es": "Omiword, a Word Game: In certain dialects of Chinese, Japanese, Korean, and Vietnamese, the word for &#8216;four&#8217; sounds very similar to the word for &#8216;death&#8217;1. Consequently, the number 4 is considered by many people in East Asian nations to be unlucky. It is not unusual for buildings in that region to skip the number 4 when labeling floors, much [&#8230;]"
+      "title_es": "Omiword, un juego de palabras",
+      "summary_es": "Omiword, un juego de palabras: En ciertos dialectos del chino, japonés, coreano y vietnamita, la palabra para «cuatro» suena muy parecida a la palabra para «muerte». En consecuencia, el número 4 es considerado por muchas personas en naciones de Asia Oriental como de mala suerte. No es inusual que los edificios en esa región omitan el número 4 al etiquetar los pisos, mucho [...]",
+      "es_confirmed": true
     },
     {
       "id": "7a96f91369",
@@ -419,8 +440,9 @@
       "published": "Mon, 23 Jun 2025 12:51:39 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "Much Ado About Adenoids",
-      "summary_es": "Much Ado About Adenoids: Edmund Lawall must have felt cursed. He’d brought his family to New York in the late 1800s to carry on his father’s business as a pharmacist, but fate—or perhaps the city itself—seemed determined to drive him back out again. Lawall’s health had been in decline since their arrival, and his wife’s kidney disease had worsened, [&#8230;]"
+      "title_es": "Mucho ruido y pocas nueces sobre las adenoides",
+      "summary_es": "Mucho ruido y pocas nueces sobre las adenoides: Edmund Lawall debe haber sentido que estaba maldito. Había traído a su familia a Nueva York a finales de los años 1800 para continuar el negocio de su padre como farmacéutico, pero el destino —o quizás la ciudad misma— parecía decidido a expulsarlos de nuevo. La salud de Lawall había ido decayendo desde su llegada, y la enfermedad renal de su esposa había empeorado, [...]",
+      "es_confirmed": true
     },
     {
       "id": "76b30164ca",
@@ -431,8 +453,9 @@
       "published": "Thu, 21 Mar 2024 12:50:03 +0000",
       "category": "Interesante",
       "source": "Damn Interesting",
-      "title_es": "A Trail Gone Cold",
-      "summary_es": "A Trail Gone Cold: Iceland is known to the rest of the world as the land of Vikings and volcanos, an island caught between continents at the extremities of the map. Remote and comparatively inhospitable, it was settled only as long ago as the 9th century, and has seen little additional in-migration since. Even today, more than 90 percent [&#8230;]"
+      "title_es": "Un rastro que se desvaneció",
+      "summary_es": "Un rastro que se desvaneció: Islandia es conocida en el resto del mundo como la tierra de los vikingos y los volcanes, una isla atrapada entre continentes en los extremos del mapa. Remota e inhóspita en comparación, fue colonizada hace apenas el siglo IX, y ha experimentado poca inmigración adicional desde entonces. Incluso hoy, más del 90 por ciento [...]",
+      "es_confirmed": true
     },
     {
       "id": "bfae871c61",
@@ -443,8 +466,9 @@
       "published": "Fri, 03 Jul 2026 07:00:18 +0000",
       "category": "Interesante",
       "source": "99% Invisible",
-      "title_es": "100 Objects #7: The Otis Pamphlet",
-      "summary_es": "Before the Declaration of Independence was even a twinkle in the founding fathers&#8217; eyes, there was James Otis. Journalist Jack Hitt returns to tell the wild, tragic story of America&#8217;s forgotten proto-founding father and his inflammatory 1764 pamphlet. A story that is, in many ways, the story of the founding document of the United States"
+      "title_es": "100 objetos #7: El folleto de Otis",
+      "summary_es": "Antes de que la Declaración de Independencia fuera siquiera un destello en los ojos de los padres fundadores, estaba James Otis. El periodista Jack Hitt regresa para contar la historia salvaje y trágica del proto-padre fundador olvidado de América y su inflamatorio folleto de 1764. Una historia que es, en muchos aspectos, la historia del documento fundacional de Estados Unidos.",
+      "es_confirmed": true
     },
     {
       "id": "29802ad97f",
@@ -455,8 +479,9 @@
       "published": "Tue, 30 Jun 2026 08:00:33 +0000",
       "category": "Interesante",
       "source": "99% Invisible",
-      "title_es": "Transatlantic Fiber-Optic Expialidocious",
-      "summary_es": "Terms like &#8220;the cloud&#8221; and &#8220;WiFi&#8221; can make it seem like the Internet exists in the air, without wires. But that&#8217;s not true. Almost all of our online world moves around the planet not across the sky or through space, but by way of a massive complex of cables crisscrossing the globe. And those cables"
+      "title_es": "Fibra óptica transatlántica supercalifragilístico",
+      "summary_es": "Términos como «la nube» y «WiFi» pueden hacer creer que Internet existe en el aire, sin cables. Pero eso no es cierto. Casi todo nuestro mundo en línea se mueve alrededor del planeta no a través del cielo o del espacio, sino mediante un complejo masivo de cables que crisscrosean el globo. Y esos cables [...]",
+      "es_confirmed": true
     },
     {
       "id": "5c76056281",
@@ -467,8 +492,9 @@
       "published": "Fri, 26 Jun 2026 07:00:15 +0000",
       "category": "Interesante",
       "source": "99% Invisible",
-      "title_es": "100 Objects #6: “Sharpened Screwdriver”",
-      "summary_es": "In this episode, Roman and historians Heather Ann Thompson and Elliot Williams tell the story of the sharpened screwdriver: the object at the heart of the 1984 Bernhard Goetz subway shooting. In a difficult moment in New York City, four Black teenagers were transformed in the public imagination into armed criminals. What follows is a"
+      "title_es": "100 objetos #6: «Destornillador afilado»",
+      "summary_es": "En este episodio, Roman y los historiadores Heather Ann Thompson y Elliot Williams cuentan la historia del destornillador afilado: el objeto en el corazón del tiroteo en el metro de Bernhard Goetz en 1984. En un momento difícil en Nueva York, cuatro adolescentes negros fueron transformados en la imaginación pública en criminales armados. Lo que sigue es [...]",
+      "es_confirmed": true
     },
     {
       "id": "ec4dc0ac85",
@@ -479,8 +505,9 @@
       "published": "Tue, 23 Jun 2026 08:00:11 +0000",
       "category": "Interesante",
       "source": "99% Invisible",
-      "title_es": "The Most Exciting Change America Has Ever Seen",
-      "summary_es": "This past February, the American Numismatic Association held its annual convention in Savannah, Georgia. Numismatics is the fancy word for coins (and the study of coins), and the hall was full of small but avid fandoms: gold pieces struck from California gold rush ore, dealers in three-cent silver pieces, a whole society devoted to crushed"
+      "title_es": "El cambio más emocionante que América ha visto jamás",
+      "summary_es": "El pasado febrero, la American Numismatic Association celebró su convención anual en Savannah, Georgia. La numismática es la palabra de fantasía para monedas (y el estudio de las monedas), y la sala estaba llena de aficiones pequeñas pero apasionadas: piezas de oro acuñadas a partir del mineral de la fiebre del oro de California, comerciantes de monedas de plata de tres centavos, toda una sociedad dedicada a [...]",
+      "es_confirmed": true
     },
     {
       "id": "4d0584e639",
@@ -491,8 +518,9 @@
       "published": "Fri, 19 Jun 2026 07:00:26 +0000",
       "category": "Interesante",
       "source": "99% Invisible",
-      "title_es": "100 Objects #5: Blue Back Speller",
-      "summary_es": "In this episode, Roman and historian Imani Perry follow the Webster Blue Back Speller from the early days of the United States, to the heart of Black intellectual life. Through the lives of Booker T. Washington and W. E. B. Du Bois, Roman and Imani uncover how a single object became a gateway to literacy,"
+      "title_es": "100 objetos #5: Webster Blue Back Speller",
+      "summary_es": "En este episodio, Roman y la historiadora Imani Perry siguen el Webster Blue Back Speller desde los primeros días de Estados Unidos hasta el corazón de la vida intelectual negra. A través de las vidas de Booker T. Washington y W. E. B. Du Bois, Roman e Imani descubren cómo un único objeto se convirtió en una puerta de entrada a la alfabetización, [...]",
+      "es_confirmed": true
     },
     {
       "id": "4876dbfe44",
@@ -503,8 +531,9 @@
       "published": "2026-07-02T19:25:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "As it was foretold: the Trump regime gutted the NOAA and...",
-      "summary_es": "As it was foretold: the Trump regime gutted the NOAA and now weather forecasts are less accurate. An atmospheric scientist: &#8220;The forecasts I’m able to offer you are less accurate than they would otherwise be.&#8221;"
+      "title_es": "Tal como se predijo: el régimen Trump desmanteló la NOAA y ahora los pronósticos meteorológicos son menos precisos",
+      "summary_es": "Tal como se predijo: el régimen Trump desmanteló la NOAA y ahora los pronósticos meteorológicos son menos precisos. Un científico atmosférico: «Los pronósticos que puedo ofrecerle son menos precisos de lo que serían de otra manera».",
+      "es_confirmed": true
     },
     {
       "id": "e583b598b5",
@@ -515,8 +544,9 @@
       "published": "2026-07-02T18:45:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "Something for the digital crate-diggers:  The 40 Best...",
-      "summary_es": "Something for the digital crate-diggers: The 40 Best Albums From the Last 40 Years That You Probably Didn’t Hear (But Should’ve). I’d only heard of one or two these&#8230;"
+      "title_es": "Algo para los cazadores de joyas musicales: Los 40 mejores álbumes de los últimos 40 años que probablemente no hayas escuchado (pero deberías)",
+      "summary_es": "Algo para los cazadores de joyas musicales: Los 40 mejores álbumes de los últimos 40 años que probablemente no hayas escuchado (pero deberías). Yo solo había oído uno o dos de estos...",
+      "es_confirmed": true
     },
     {
       "id": "1f7bfc55dd",
@@ -527,8 +557,9 @@
       "published": "2026-07-02T18:05:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "&#8220; Dictionary of the Illegible  proposes...",
-      "summary_es": "&#8220;Dictionary of the Illegible proposes illegibility as a strategy for navigating a world increasingly governed by visibility, efficiency, and total surveillance.”"
+      "title_es": "«Dictionary of the Illegible propone la ilegibilidad como estrategia para navegar un mundo cada vez más gobernado por la visibilidad, la eficiencia y la vigilancia total»",
+      "summary_es": "«Dictionary of the Illegible propone la ilegibilidad como estrategia para navegar un mundo cada vez más gobernado por la visibilidad, la eficiencia y la vigilancia total».",
+      "es_confirmed": true
     },
     {
       "id": "479a4b3ec3",
@@ -539,8 +570,9 @@
       "published": "2026-07-02T17:25:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "&#8220; The average paid newsletter costs $10 per month...",
-      "summary_es": "&#8220;The average paid newsletter costs $10 per month or $100 per year, according to analysis of thousands of publications hosted on Beehiiv.” KDO memberships start at $3/mo. and I haven’t raised prices since 2016. You folks are getting an incredible deal!"
+      "title_es": "«El boletín de pago promedio cuesta 10 dólares mensuales o 100 dólares anuales», según análisis de miles de publicaciones",
+      "summary_es": "«El boletín de pago promedio cuesta 10 dólares mensuales o 100 dólares anuales, según análisis de miles de publicaciones alojadas en Beehiiv». Las membresías de KDO comienzan en 3 dólares/mes y no he subido los precios desde 2016. ¡Estáis consiguiendo un trato increíble!",
+      "es_confirmed": true
     },
     {
       "id": "08bfdd78dd",
@@ -551,8 +583,9 @@
       "published": "2026-07-02T16:45:00Z",
       "category": "Interesante",
       "source": "Kottke",
-      "title_es": "Hank Green interviews Ze Frank , who kind of invented...",
-      "summary_es": "Hank Green interviews Ze Frank, who kind of invented the modern YouTube format (aka vlogging). &#8220;At the episode’s end, Ze lays down some of the best advice Hank’s ever heard.&#8221;"
+      "title_es": "Hank Green entrevista a Ze Frank, quien prácticamente inventó el formato moderno de YouTube (alias vlogging)",
+      "summary_es": "Hank Green entrevista a Ze Frank, quien prácticamente inventó el formato moderno de YouTube (alias vlogging). «Al final del episodio, Ze comparte algunos de los mejores consejos que Hank ha escuchado jamás».",
+      "es_confirmed": true
     },
     {
       "id": "e4d8d2b047",
@@ -563,8 +596,9 @@
       "published": "Fri, 03 Jul 2026 17:59:59 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "Darren Aronofsky’s AI Videos Are A Fitting Tribute To America, I Guess",
-      "summary_es": "Darren Aronofsky's AI production studio Primordial Soup was announced in May of 2025 during Google's annual developer conference. The launch was meant to burnish the pioneering reputations of both entities simultaneously: Google released a new version of its text-to-video model Veo and an AI video tool called Flow, while Aronofsky, like a worrying number of other filmmakers, sought to forge a new and daring path into unknown technological territory by partnering with one of the world's biggest tech companies. In a classically hyperbolic statement crediting the dawn of a new artform with hardware rather than human creativity, Aronofsky said, \"Filmmaking has always been driven by technology. After the Lumiere Brothers and Edison's ground-breaking invention, filmmakers unleashed the hidden storytelling power of cameras.\"&#160; The first Primordial Soup project was a short film called Ancest"
+      "title_es": "Los vídeos de IA de Darren Aronofsky son un tributo apropiado a América, supongo",
+      "summary_es": "El estudio de producción de IA Primordial Soup de Darren Aronofsky fue anunciado en mayo de 2025 durante la conferencia anual de desarrolladores de Google. El lanzamiento pretendía reforzar simultáneamente las reputaciones pioneras de ambas entidades: Google lanzó una nueva versión de su modelo de texto a vídeo Veo y una herramienta de vídeo con IA llamada Flow, mientras que Aronofsky, como un número preocupante de otros cineastas, buscaba forjar un nuevo y audaz camino hacia territorio tecnológico desconocido asociándose con una de las mayores empresas tecnológicas del mundo. En una declaración clásicamente hiperbólica que atribuye el nacimiento de un nuevo arte a la tecnología en lugar de la creatividad humana, Aronofsky dijo: «El cine siempre ha sido impulsado por la tecnología. Después de la invención revolucionaria de los Hermanos Lumière y Edison, los cineastas desataron el poder narrativo oculto de las cámaras». El primer proyecto de Primordial Soup fue un cortometraje titulado Ancest",
+      "es_confirmed": true
     },
     {
       "id": "c8731aa798",
@@ -575,8 +609,9 @@
       "published": "Fri, 03 Jul 2026 14:58:28 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "25 Rap Songs For America’s 250th",
-      "summary_es": "Welcome to&#160;Listening Habits,&#160;a column where I share the music and musical topics I’ve been fixated on recently. It can be hard to remember amidst the downfall of everything, but 250 years of America is a major milestone. America, more of a grand experiment than a nation, a fantastical idea suggesting a very modern notion that the point of a country is the pursuit of the unachievable, starting with happiness. A nation that aspires toward its utopian principles but at heart is just as much about territory, empire, and extraction. It's a nation of contradictions, is what I'm getting at: atop those purple mountains' majesty and above those fruited plains lies both beauty and madness, achievement and grift, togetherness and division. And no nation loves its own mythology like America does. You can follow official White House Twitter accounts to see that. It's a mythology that imagin"
+      "title_es": "25 canciones de rap para los 250 años de América",
+      "summary_es": "Bienvenido a Listening Habits, una columna en la que comparto la música y los temas musicales en los que me he obsesionado recientemente. Es difícil recordarlo en medio del colapso de todo, pero 250 años de América es un hito importante. América, más un gran experimento que una nación, una idea fantástica que sugiere una noción muy moderna de que el propósito de un país es la búsqueda de lo inaccesible, comenzando con la felicidad. Una nación que aspira a sus principios utópicos pero que en el fondo también se trata de territorio, imperio y extracción. Es una nación de contradicciones, eso es lo que quiero decir: sobre esas montañas de majestad púrpura y sobre esas llanuras fructíferas yacen tanto belleza como locura, logro y estafa, unidad y división. Y ninguna nación ama su propia mitología como lo hace América. Podéis seguir las cuentas oficiales de Twitter de la Casa Blanca para verlo. Es una mitología que imaginan...",
+      "es_confirmed": true
     },
     {
       "id": "d5743196b1",
@@ -587,8 +622,9 @@
       "published": "Fri, 03 Jul 2026 14:00:00 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "Try To Cool Off In The July 4th Weekend Open Thread",
-      "summary_es": "Perhaps it is too fucking hot where you are to do anything outside this weekend. Perhaps you prefer to be locked inside watching World Cup matches while eating popsicles. While you do that, feel free to hang out here and chat in the open thread."
+      "title_es": "Intentad refrescaros en el hilo abierto del fin de semana del 4 de julio",
+      "summary_es": "Quizá hace demasiado calor donde vives para hacer algo al aire libre este fin de semana. Quizá prefieras estar encerrado viendo partidos de la Copa del Mundo mientras comes paletas de hielo. Mientras haces eso, siéntete libre de pasar por aquí y charlar en el hilo abierto.",
+      "es_confirmed": true
     },
     {
       "id": "41016014c3",
@@ -599,8 +635,9 @@
       "published": "Fri, 03 Jul 2026 13:51:51 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "‘The Final Set’ Tells The Story Of Tennis’ Greatest Rivalry Becoming A Friendship",
-      "summary_es": "There's a bit of symmetry in the new Netflix documentary The Final Set, a chronicle of the epic, tumultuous rivalry and friendship between Martina Navratilova and Chris Evert. Long removed from their legendary careers, both women were diagnosed with cancer in recent years: ovarian for Evert, breast and throat for Navratilova. After beating back the disease, they each go in for a scan. Just before sliding into the tubular machine, Evert hesitates, then removes her cap for comfort, revealing her chemo-bald head. Navratilova follows the exact same instinct at her appointment, taking off her shoes at the last second. In both cases, the discarded article of clothing lay nearest their greatest on-court asset, as portrayed in the doc. Evert is praised for her unwaveringly calm mindset; Navratilova, for her indefatigable legs. The Hall of Famers ended their careers in a deadlock at 18 major titl"
+      "title_es": "'The Final Set' cuenta la historia de la mayor rivalidad del tenis convirtiéndose en amistad",
+      "summary_es": "Hay cierta simetría en el nuevo documental de Netflix The Final Set, una crónica de la épica y tumultuosa rivalidad y amistad entre Martina Navratilova y Chris Evert. Lejos ya de sus legendarias carreras, ambas fueron diagnosticadas de cáncer en años recientes: cáncer de ovario en el caso de Evert, y de mama y garganta en el de Navratilova. Tras vencer la enfermedad, cada una se somete a un escáner. Justo antes de entrar en la máquina, Evert duda y se quita la gorra por comodidad, dejando al descubierto su cabeza calva por la quimioterapia. Navratilova sigue exactamente el mismo impulso en su cita, quitándose los zapatos en el último momento. En ambos casos, la prenda descartada quedaba junto a su mayor fortaleza en la cancha, tal como se refleja en el documental. A Evert se la alaba por su templanza inquebrantable; a Navratilova, por sus piernas incansables. Las miembros del Salón de la Fama terminaron sus carreras empatadas con 18 títulos de Grand Slam",
+      "es_confirmed": true
     },
     {
       "id": "acbc515608",
@@ -611,68 +648,74 @@
       "published": "Thu, 02 Jul 2026 17:38:42 +0000",
       "category": "Interesante",
       "source": "Defector",
-      "title_es": "Your Guide To The 2026 Tour de France",
-      "summary_es": "Now that we've covered two of the most interesting fellas who will be riding the 2026 Tour de France, and the theory of why they'll be riding this particular route, it's time to talk about the route itself. This year's Tour, starting on July 4, will span 3,321 kilometers of Spain and France while flirting with the Swiss and German borders. The route's 54,450 meters of vertical gain make it the third-most demanding Tour of the last 20 years, though that's deceptive, since a lot of that gain is distributed across the many intermediate, hilly stages rather than condensed in set-piece mountain stages. The 26 kilometers of individual time-trialing are also the third fewest of the last 20 years. There are four obvious sprint stages, as well as two stages I am pretty sure will come down to bunch kicks. It's a difficult route, but also quite fun. The second week is where I think I will crack, th"
+      "title_es": "Guía de la edición 2026 del Tour de Francia",
+      "summary_es": "Tras haber cubierto dos de los competidores más interesantes que participarán en el Tour de Francia 2026 y la teoría sobre por qué correrán esta ruta en particular, es hora de hablar del recorrido en sí. La edición de este año, que comenzará el 4 de julio, abarcará 3.321 kilómetros entre España y Francia mientras roza las fronteras suiza y alemana. Los 54.450 metros de ganancia de altitud de la ruta la convierten en la tercera más exigente de los últimos 20 años, aunque eso resulta engañoso, ya que mucha de esa ganancia se distribuye entre numerosas etapas intermedias y montañosas en lugar de concentrarse en etapas de montaña definidas. Los 26 kilómetros de contrarreloj individual también son los terceros más bajos de los últimos 20 años. Hay cuatro etapas de sprint evidentes, además de dos etapas que con seguridad terminarán en sprint masivo. Es una ruta difícil, pero también muy entretenida. La segunda semana es donde creo que me vendrá abajo",
+      "es_confirmed": true
     },
     {
-      "id": "e2dc986997",
-      "title_en": "Espionage Against the European Parliament",
+      "id": "7a9f3017f2",
+      "title_en": "The bottleneck might be the air in the room",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
-      "published": "Fri, 03 Jul 2026 20:38:26 +0000",
+      "link": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+      "published": "Sat, 04 Jul 2026 06:32:28 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Espionage Against the European Parliament",
-      "summary_es": "Comments"
+      "title_es": "El cuello de botella podría ser el aire de la habitación",
+      "summary_es": "",
+      "es_confirmed": true
     },
     {
-      "id": "d95eb50fe8",
-      "title_en": "SearXNG: A free internet metasearch engine",
+      "id": "10bcf103c2",
+      "title_en": "Agentic coding notes from Galapagos Island",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://github.com/searxng/searxng",
-      "published": "Fri, 03 Jul 2026 20:15:49 +0000",
+      "link": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+      "published": "Sat, 04 Jul 2026 04:37:15 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "SearXNG: A free internet metasearch engine",
-      "summary_es": "Comments"
+      "title_es": "Notas sobre codificación agentic desde las Islas Galápagos",
+      "summary_es": "",
+      "es_confirmed": true
     },
     {
-      "id": "786f81b6f7",
-      "title_en": "Africans Are Turning to Starlink",
+      "id": "48ff7a9b40",
+      "title_en": "Performance per dollar is getting faster and cheaper",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://www.economist.com/middle-east-and-africa/2026/07/02/africans-are-turning-to-starlink",
-      "published": "Fri, 03 Jul 2026 21:08:37 +0000",
+      "link": "https://www.wafer.ai/blog/glm52-amd",
+      "published": "Fri, 03 Jul 2026 21:49:06 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Africans Are Turning to Starlink",
-      "summary_es": "Comments"
+      "title_es": "El rendimiento por dólar es cada vez más rápido y barato",
+      "summary_es": "",
+      "es_confirmed": true
     },
     {
-      "id": "8a2791d6d4",
-      "title_en": "Jamesob's guide to running SOTA LLMs locally",
+      "id": "20760114f5",
+      "title_en": "Leanstral 1.5: Proof abundance for all",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://github.com/jamesob/local-llm",
-      "published": "Fri, 03 Jul 2026 15:03:43 +0000",
+      "link": "https://mistral.ai/news/leanstral-1-5/",
+      "published": "Fri, 03 Jul 2026 22:33:10 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Jamesob's guide to running SOTA LLMs locally",
-      "summary_es": "Comments"
+      "title_es": "Leanstral 1.5: Prueba de abundancia para todos",
+      "summary_es": "",
+      "es_confirmed": true
     },
     {
-      "id": "bd44fd2698",
-      "title_en": "Applied Category Theory Course (2018)",
+      "id": "cd19f1c90c",
+      "title_en": "Giant trees have no trouble pumping water to top branches: new research",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://math.ucr.edu/home/baez/act_course/index.html",
-      "published": "Fri, 03 Jul 2026 20:42:00 +0000",
+      "link": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
+      "published": "Fri, 03 Jul 2026 22:40:29 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Applied Category Theory Course (2018)",
-      "summary_es": "Comments"
+      "title_es": "Los árboles gigantes no tienen problemas para bombear agua hacia sus ramas más altas: nueva investigación",
+      "summary_es": "",
+      "es_confirmed": true
     },
     {
       "id": "9c171ea26c",
@@ -683,8 +726,9 @@
       "published": "Fri, 03 Jul 2026 13:55:35 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
-      "summary_es": "NASA awarded Rocket Lab deals for three dedicated launches using the company's Electron rocket."
+      "title_es": "Rocket Report: la startup india se acerca a su primer lanzamiento; Rocket Lab alcanza su hito milenario",
+      "summary_es": "NASA otorgó a Rocket Lab contratos para tres lanzamientos dedicados utilizando el cohete Electron de la compañía.",
+      "es_confirmed": true
     },
     {
       "id": "f661491647",
@@ -695,8 +739,9 @@
       "published": "Fri, 03 Jul 2026 12:00:36 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech",
-      "summary_es": "New York City’s Summer of Ludd festival is teaching people how to live offline."
+      "title_es": "Dentro del festival ludita que canaliza la ira de la Gen Z contra Big Tech",
+      "summary_es": "El festival Summer of Ludd de Nueva York enseña a la gente a vivir sin conexión.",
+      "es_confirmed": true
     },
     {
       "id": "94f5eb9c6d",
@@ -707,8 +752,9 @@
       "published": "Fri, 03 Jul 2026 11:30:22 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Despite the darkness, I still see signs of hope in America",
-      "summary_es": "It's difficult to pinpoint the moment in my life where America started to lose the plot."
+      "title_es": "A pesar de la oscuridad, sigo viendo signos de esperanza en Estados Unidos",
+      "summary_es": "Es difícil precisar el momento en que América comenzó a perder el rumbo.",
+      "es_confirmed": true
     },
     {
       "id": "70b4b76c1e",
@@ -719,8 +765,9 @@
       "published": "Fri, 03 Jul 2026 11:15:35 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Visiting the stars (and planets, and telescopes) in VR",
-      "summary_es": "Walkthrough experience includes visits to stars, exoplanets, and observatories."
+      "title_es": "Visitando las estrellas (y planetas, y telescopios) en realidad virtual",
+      "summary_es": "La experiencia incluye visitas a estrellas, exoplanetas y observatorios.",
+      "es_confirmed": true
     },
     {
       "id": "4447c9ed6c",
@@ -731,8 +778,9 @@
       "published": "Fri, 03 Jul 2026 11:03:39 +0000",
       "category": "Tech",
       "source": "Ars Technica",
-      "title_es": "Wing Commander IV and the FMV future that never quite was",
-      "summary_es": "C:\\ArsGames takes a look at the time Chris Roberts more or less made a whole movie."
+      "title_es": "Wing Commander IV y el futuro del FMV que nunca llegó a ser",
+      "summary_es": "C:\\ArsGames analiza la época en que Chris Roberts hizo prácticamente una película completa.",
+      "es_confirmed": true
     },
     {
       "id": "c6594f1e6c",
@@ -743,92 +791,126 @@
       "published": "Fri, 03 Jul 2026 21:26:53 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Starmer tells of 'intensely personal' decision to quit and warns Burnham in first interview since resigning",
-      "summary_es": "In an untypically candid interview, the outgoing PM tells the BBC it was \"really tough\" to accept his political career was over."
+      "title_es": "Starmer relata su decisión \"profundamente personal\" de dimitir y advierte a Burnham en su primera entrevista tras renunciar",
+      "summary_es": "En una inusualmente sincera entrevista, el primer ministro saliente cuenta a la BBC que fue \"realmente difícil\" aceptar que su carrera política había terminado.",
+      "es_confirmed": true
     },
     {
-      "id": "4255cfa54a",
-      "title_en": "Three men found not guilty of journalist Lyra McKee's murder",
-      "summary_en": "The 29-year-old was shot while observing rioting in Londonderry in April 2019.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/710d/live/dcd0aeb0-76e8-11f1-aa27-c3659c2f1588.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/cpd357j7020o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 16:12:32 GMT",
+      "id": "2085bffbb5",
+      "title_en": "England-Mexico kick-off unchanged at 1am after Fifa u-turn",
+      "summary_en": "England's World Cup last-16 tie against Mexico will kick off as scheduled at 01:00 BST on Monday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 00:16:26 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Three men found not guilty of journalist Lyra McKee's murder",
-      "summary_es": "The 29-year-old was shot while observing rioting in Londonderry in April 2019."
+      "title_es": "Inglaterra-México mantiene el saque inicial a las 01:00 tras marcha atrás de la Fifa",
+      "summary_es": "El partido de octavos de final del Mundial entre Inglaterra y México comenzará a la hora prevista, a las 01:00 BST del lunes.",
+      "es_confirmed": true
     },
     {
-      "id": "3ee7c9d64d",
-      "title_en": "Nowak killer appeals against conviction and sentence",
-      "summary_en": "Vickrum Digwa is serving a minimum of 21 years behind bars after fatally stabbing the student.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d8f/live/371989b0-6040-11f1-89a3-d1f559421220.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/c3wy26p5lexo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 16:11:14 GMT",
+      "id": "fe7b15eeff",
+      "title_en": "Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler",
+      "summary_en": "It was the bash of the century, with celebrities from singer Benson Boone and actor Hugh Grant to model Gigi Hadid and actor Ethan Hawke in attendence.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87fd/live/91ddb5d0-7763-11f1-a627-714adb4eed6e.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/c982ry2pen3o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 02:26:54 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Nowak killer appeals against conviction and sentence",
-      "summary_es": "Vickrum Digwa is serving a minimum of 21 years behind bars after fatally stabbing the student."
+      "title_es": "Taylor Swift se casa con Travis Kelce en ceremonia en Nueva York oficiada por Adam Sandler",
+      "summary_es": "Fue la fiesta del siglo, con celebridades como el cantante Benson Boone, el actor Hugh Grant, la modelo Gigi Hadid y el actor Ethan Hawke entre los asistentes.",
+      "es_confirmed": true
     },
     {
-      "id": "f36bbaa4ff",
-      "title_en": "How to walk 30 minutes a day - your tips after NHS reward scheme announced",
-      "summary_en": "From walking the dog before breakfast to getting off the bus a stop early, readers share their tips for building a daily walking habit.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60b5/live/bee49920-771f-11f1-a627-714adb4eed6e.jpg",
-      "link": "https://www.bbc.co.uk/news/articles/c20y2lkgz13o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 03 Jul 2026 21:31:05 GMT",
+      "id": "daf2a8e933",
+      "title_en": "Watch: Taylor Swift and Travis Kelce are married - here's how the day unfolded",
+      "summary_en": "The couple tied the knot in a star-studded ceremony officiated by comedian Adam Sandler at Madison Square Garden.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bc4/live/028631e0-7764-11f1-a3d8-7ddc16337a2d.jpg",
+      "link": "https://www.bbc.co.uk/news/videos/cewqpdgqj0ko?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 04:50:06 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "How to walk 30 minutes a day - your tips after NHS reward scheme announced",
-      "summary_es": "From walking the dog before breakfast to getting off the bus a stop early, readers share their tips for building a daily walking habit."
+      "title_es": "Ver: Taylor Swift y Travis Kelce se casan - cómo se desarrolló el día",
+      "summary_es": "La pareja se casó en una ceremonia llena de celebridades oficiada por el cómico Adam Sandler en Madison Square Garden.",
+      "es_confirmed": true
     },
     {
-      "id": "0c8c88db1c",
-      "title_en": "Hormones on the brain? Everything you need to know about HRT, testosterone, melatonin and more",
-      "summary_en": "Cortisol is bad. Testosterone makes you aggressive. Melatonin helps you sleep. Experts bust common hormone mythsFalse The main puberty hormones are oestrogen and progesterone for girls and testosterone for boys. “They are active in the womb during foetal development and in infancy in a phase called mini-puberty,” says Sasha Howard, clinical reader and honorary consultant in paediatric endocrinology at Queen Mary, University of London and Barts Health NHS trust. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/014a55e21a172a9721bd8e2797ceea10cf9c72fd/0_0_1771_1417/master/1771.jpg?width=140&quality=85&auto=format&fit=max&s=30bfd78c99082008ddc19b720beb31ee",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/jul/03/everything-you-need-to-know-about-hrt-testosterone-melatonin-hormones",
-      "published": "Fri, 03 Jul 2026 14:00:30 GMT",
+      "id": "68dd78130d",
+      "title_en": "Fireworks, flyovers and a 'really long' Trump speech ahead as US celebrates 250th",
+      "summary_en": "The celebrations in the US capital will feature 850,000 fireworks, a \"really long\" speech from the president and scorching temperatures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82ab/live/f631f020-765d-11f1-b976-0b9c15b0ccfc.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/cp36l4e6v9po?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 06:54:54 GMT",
       "category": "News",
-      "source": "The Guardian",
-      "title_es": "Hormones on the brain? Everything you need to know about HRT, testosterone, melatonin and more",
-      "summary_es": "Cortisol is bad. Testosterone makes you aggressive. Melatonin helps you sleep. Experts bust common hormone mythsFalse The main puberty hormones are oestrogen and progesterone for girls and testosterone for boys. “They are active in the womb during foetal development and in infancy in a phase called mini-puberty,” says Sasha Howard, clinical reader and honorary consultant in paediatric endocrinology at Queen Mary, University of London and Barts Health NHS trust. Continue reading..."
+      "source": "BBC News",
+      "title_es": "Fuegos artificiales, sobrevuelos y un discurso de Trump «muy largo» en el 250 aniversario de EE UU",
+      "summary_es": "Las celebraciones en la capital estadounidense incluirán 850.000 fuegos artificiales, un discurso «muy largo» del presidente y temperaturas abrasadoras.",
+      "es_confirmed": true
     },
     {
-      "id": "a199de736d",
-      "title_en": "I used to revere the great experiment that is the United States. After Trump, I’m not so sure | Jonathan Freedland",
-      "summary_en": "On paper, the US constitution is a thing of beauty. But the would-be emperor in Washington has revealed its great weaknessAmerica’s big birthday has come at a bad time. On Saturday it will be a divided nation that marks 250 years since 13 North American colonies declared their independence from the Great Britain of George III. Many will be anxious that the republic they established that day is fragile – not least because of the would-be emperor in the White House.Some will console themselves that hope and angst have always been intertwined in the American story. From the very start, confidence in a bright, exceptional US future was combined with foreboding and doubt. At the close of the 1787 constitutional convention, a woman approached one of the founding fathers, Benjamin Franklin, to ask if the delegates had established a monarchy or a republic. Franklin’s answer: “A republic, if you ",
-      "image": "https://i.guim.co.uk/img/media/b993e00535b956b17d5b830b189767c63b8378ab/573_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=10095cf36fbe58f842ba0d9e56d2a8f3",
-      "link": "https://www.theguardian.com/commentisfree/2026/jul/03/united-states-constitution-donald-trump-washington-dc",
-      "published": "Fri, 03 Jul 2026 16:10:30 GMT",
+      "id": "f1d32c8281",
+      "title_en": "Burning flags, busty blondes and bison skulls: 48 photographs that capture America at 250",
+      "summary_en": "From the gold rush to civil rights, the moon landing to 9/11, the US has always understood, mythologised and sold itself through the power of the still imageThe United States was founded in 1776, but did not begin to see itself until the autumn of 1839, when daguerreotypes, the first form of photograph, reached American cities. You could argue the US began again on the morning it could look at its own face.At first photography seemed to answer the democratic promise of 1776. A portrait was no longer reserved for the rich; almost anyone could now leave a trace of their existence. The gold rush became one of the first great American dramas to find the camera: ordinary diggers squinting into the lens, looking beyond it for gold. A more emblematic American scene can scarcely be imagined: what would be called the American Dream, a lottery everyone plays and very few win. The myth was not that",
+      "image": "https://i.guim.co.uk/img/media/faa71270552b7c9adbc84f337ecc491f242a93e6/0_22_3000_2399/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=194e75c6f1629cabb0a365780fde51a1",
+      "link": "https://www.theguardian.com/us-news/2026/jul/04/america-250-anniversary-photos-civil-rights-moon-landing-9-11-gold-rush",
+      "published": "Sat, 04 Jul 2026 05:00:04 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "I used to revere the great experiment that is the United States. After Trump, I’m not so sure | Jonathan Freedland",
-      "summary_es": "On paper, the US constitution is a thing of beauty. But the would-be emperor in Washington has revealed its great weaknessAmerica’s big birthday has come at a bad time. On Saturday it will be a divided nation that marks 250 years since 13 North American colonies declared their independence from the Great Britain of George III. Many will be anxious that the republic they established that day is fragile – not least because of the would-be emperor in the White House.Some will console themselves that hope and angst have always been intertwined in the American story. From the very start, confidence in a bright, exceptional US future was combined with foreboding and doubt. At the close of the 1787 constitutional convention, a woman approached one of the founding fathers, Benjamin Franklin, to ask if the delegates had established a monarchy or a republic. Franklin’s answer: “A republic, if you "
+      "title_es": "Banderas quemadas, rubias exuberantes y cráneos de bisonte: 48 fotografías que capturan América en su 250 aniversario",
+      "summary_es": "Desde la fiebre del oro hasta los derechos civiles, el alunizaje a 9/11, EE UU siempre se ha entendido, mitificado y vendido a través del poder de la imagen fija. Estados Unidos fue fundado en 1776, pero no comenzó a verse a sí mismo hasta el otoño de 1839, cuando los daguerrotipos, la primera forma de fotografía, llegaron a las ciudades estadounidenses. Se podría argumentar que EE UU renació la mañana en que pudo mirarse a la cara. Al principio, la fotografía parecía responder a la promesa democrática de 1776. Un retrato ya no estaba reservado para los ricos; casi cualquiera podía dejar constancia de su existencia. La fiebre del oro se convirtió en uno de los primeros grandes dramas estadounidenses capturados por la cámara: buscadores ordinarios entornando los ojos ante el objetivo, buscando oro más allá. Difícilmente se puede imaginar una escena más emblemática de América: lo que se llamaría el Sueño Americano, una lotería en la que todos juegan y muy pocos ganan. El mito no era que",
+      "es_confirmed": true
     },
     {
-      "id": "2383df5877",
-      "title_en": "Andy Burnham: dodging scrutiny, or just a different type of communicator?",
-      "summary_en": "Avoiding traditional questions and stilted broadcast clips, PM-in-waiting has evolved his style of media managementHe is due to become prime minister in just over a fortnight as parliament begins its six-week summer break. But at a marquee speech this week, he took precisely zero questions. So is Andy Burnham, as the opposition leader, Kemi Badenoch, claims, dodging scrutiny? His allies say no: he is simply going about it in his own way.The former Greater Manchester mayor is very obviously a different type of communicator from Keir Starmer, and therefore always likely to convey his message in methods beyond Starmer’s traditional questions after a speech and the occasional stilted broadcast clip. Continue reading...",
-      "image": "https://i.guim.co.uk/img/media/018fefd6cb8633c8fe96049e7a0a980645a3c7ec/267_0_3349_2680/master/3349.jpg?width=140&quality=85&auto=format&fit=max&s=876fb0022ba009f3922a3a747c8d1b1e",
-      "link": "https://www.theguardian.com/politics/2026/jul/03/andy-burnham-labour-prime-minister-speech-analysis",
-      "published": "Fri, 03 Jul 2026 16:09:41 GMT",
+      "id": "f5441bd395",
+      "title_en": "Could the next great novel be written by AI (and would you even be able to tell)?",
+      "summary_en": "As allegations of LLM use rock the literary and media worlds, linguists explain what really distinguishes human and machine language, while novelists including Jennifer Egan and Jeanette Winterson reflect on the future of fiction in an age of ChatGPTThree paragraphs, from three different hotel reviews. Can you tell which, if any, were AI‑generated?“The hotel is in a great location for everything. Lots of places to eat and drink. The hotel itself is always abuzz. The tavern located on the ground floor is definitely a must. Food, service, prices and atmosphere were great.” Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/096edd864e2a333f91007726add22c62dc3b1198/23_227_2041_1632/master/2041.jpg?width=140&quality=85&auto=format&fit=max&s=41c529c651850ca2a47bc47540487bac",
+      "link": "https://www.theguardian.com/books/ng-interactive/2026/jul/04/future-of-fiction-next-great-novel-ai-language-chat-gpt",
+      "published": "Sat, 04 Jul 2026 08:00:07 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "Andy Burnham: dodging scrutiny, or just a different type of communicator?",
-      "summary_es": "Avoiding traditional questions and stilted broadcast clips, PM-in-waiting has evolved his style of media managementHe is due to become prime minister in just over a fortnight as parliament begins its six-week summer break. But at a marquee speech this week, he took precisely zero questions. So is Andy Burnham, as the opposition leader, Kemi Badenoch, claims, dodging scrutiny? His allies say no: he is simply going about it in his own way.The former Greater Manchester mayor is very obviously a different type of communicator from Keir Starmer, and therefore always likely to convey his message in methods beyond Starmer’s traditional questions after a speech and the occasional stilted broadcast clip. Continue reading..."
+      "title_es": "¿Podría la próxima gran novela ser escrita por IA (y podrías distinguirla)?",
+      "summary_es": "Mientras las acusaciones de uso de LLM sacuden el mundo literario y mediático, los lingüistas explican qué realmente distingue el lenguaje humano del de máquinas, mientras novelistas como Jennifer Egan y Jeanette Winterson reflexionan sobre el futuro de la ficción en la era de ChatGPT. Tres párrafos de tres críticas de hoteles diferentes. ¿Puedes decir cuál, si alguno, fue generado por IA? «El hotel está en una ubicación excelente para todo. Muchos lugares para comer y beber. El hotel siempre está bullicioso. La taberna en la planta baja es definitivamente imprescindible. La comida, el servicio, los precios y la atmósfera fueron excelentes.»",
+      "es_confirmed": true
     },
     {
-      "id": "3edb0f9c4b",
-      "title_en": "The beauty products worth spending on – and the ones you can buy cheap, according to a beauty editor",
-      "summary_en": "From serums to hand soap, fragrances to hair stylers, here are the beauty buys that justify the price tag and the ones you can happily get on a budget• Don’t get the Filter delivered to your inbox? Sign up hereWalk down any beauty aisle, and you’ll be told every product is essential, transformative and worth hocking a kidney for. For every £300 miracle cream that claims to somehow change your entire facial structure, however, there’s someone – usually on social media – insisting you can buy a perfect dupe of a cult luxury fragrance. It can feel bewildering.After more than 15 years working in the industry – and testing hundreds of products a year – I can confirm that beauty is rarely as simple as luxury v high street. But there are a few insider realities about how beauty products are made, priced and marketed that are worth knowing before you decide which are worth the spend – and which ",
-      "image": "https://i.guim.co.uk/img/media/ce58fa405e1ab2de7c035198a40f5d4b262f2086/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=95d622a2c2039547099a77a736cdb5dc",
-      "link": "https://www.theguardian.com/thefilter/2026/jul/03/beauty-products-worth-money-expert-picks-uk",
-      "published": "Fri, 03 Jul 2026 14:34:09 GMT",
+      "id": "da9f25d6ef",
+      "title_en": "As the US marks 250, does the special relationship still exist – or is the UK just irrelevant?",
+      "summary_en": "The gap between America and Britain has grown economically as Trump asserts ‘the UK is dying’. Culturally, however, it’s a different storyOn 1 June 1785 John Adams travelled to London to become the first US ambassador to Britain, in which capacity he was to meet George III. By his own admission, Adams trembled at the encounter. After all, it had been less than a decade since he helped Thomas Jefferson write the Declaration of Independence denouncing the king as an absolute “tyrant” who had “plundered our seas, ravaged our Coasts, burnt our towns, and destroyed the lives of our people”.A trepidatious Adams trudged through the London drizzle to St James’s Palace, where he presented his credentials to King George. He bowed three times, then declared he would be “the happiest of men if I can be instrumental in recommending my country more and more to your Majesty’s royal benevolence”. Contin",
+      "image": "https://i.guim.co.uk/img/media/2d17f770a6b21da6e3e86a73578eb7ec1cd96ede/660_156_3907_3123/master/3907.jpg?width=140&quality=85&auto=format&fit=max&s=237c34705e068757ff9a64a0cb2e048f",
+      "link": "https://www.theguardian.com/news/ng-interactive/2026/jul/04/us-250-britain-special-relationship",
+      "published": "Sat, 04 Jul 2026 05:00:07 GMT",
       "category": "News",
       "source": "The Guardian",
-      "title_es": "The beauty products worth spending on – and the ones you can buy cheap, according to a beauty editor",
-      "summary_es": "From serums to hand soap, fragrances to hair stylers, here are the beauty buys that justify the price tag and the ones you can happily get on a budget• Don’t get the Filter delivered to your inbox? Sign up hereWalk down any beauty aisle, and you’ll be told every product is essential, transformative and worth hocking a kidney for. For every £300 miracle cream that claims to somehow change your entire facial structure, however, there’s someone – usually on social media – insisting you can buy a perfect dupe of a cult luxury fragrance. It can feel bewildering.After more than 15 years working in the industry – and testing hundreds of products a year – I can confirm that beauty is rarely as simple as luxury v high street. But there are a few insider realities about how beauty products are made, priced and marketed that are worth knowing before you decide which are worth the spend – and which "
+      "title_es": "En el 250 aniversario de EE UU, ¿sigue existiendo la relación especial con Reino Unido o es ya irrelevante?",
+      "summary_es": "La brecha entre América y Reino Unido se ha ampliado económicamente mientras Trump afirma que «UK está muriendo». Culturalmente, sin embargo, la historia es diferente. El 1 de junio de 1785, John Adams viajó a Londres para convertirse en el primer embajador estadounidense ante Reino Unido, cargo en el que conocería a Jorge III. Por su propia admisión, Adams temblaba ante el encuentro. Después de todo, hacía menos de una década que ayudó a Thomas Jefferson a redactar la Declaración de Independencia denunciando al rey como un «tirano» absoluto que había «saqueado nuestros mares, asolado nuestras costas, quemado nuestras ciudades y destruido las vidas de nuestro pueblo». Un Adams aprensivo se abrió paso entre la llovizna londinense hacia el Palacio de St James, donde presentó sus credenciales al Rey Jorge. Se inclinó tres veces y luego declaró que sería «el más feliz de los hombres si pudiera ser instrumental en recomendar mi país cada vez más a la benevolencia real de Su Majestad».",
+      "es_confirmed": true
+    },
+    {
+      "id": "519ec79b60",
+      "title_en": "Blind date: ‘I made him take a few too many selfies…’",
+      "summary_en": "Lily, 26, a PhD student, meets Brodie, 24, a chefWhat were you hoping for? Love, passion … marriage. Failing that, some good craic and a free dinner. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/d11eb59b0c3b9e10a08a3495b34034e6a225fccb/0_0_5000_4000/master/5000.png?width=140&quality=85&auto=format&fit=max&s=6451becd58087f28b889d120fa9ef297",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/jul/04/blind-date-lily-brodie",
+      "published": "Sat, 04 Jul 2026 05:00:08 GMT",
+      "category": "News",
+      "source": "The Guardian",
+      "title_es": "Cita a ciegas: «Le obligué a hacerse demasiados selfis…»",
+      "summary_es": "Lily, 26 años, doctoranda, se encuentra con Brodie, 24 años, chef. ¿Qué esperabas encontrar? Amor, pasión… matrimonio. Si no, al menos buena conversación y cena gratis.",
+      "es_confirmed": true
+    },
+    {
+      "id": "8069e60f32",
+      "title_en": "Fans and A-list stars gather for the wedding of Taylor Swift and Travis Kelce in New York – in pictures",
+      "summary_en": "The couple were married in a star-studded ceremony at Madison Square GardenFull report: Taylor Swift and Travis Kelce marry at New York City’s Madison Square Garden Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/e15e230a961192be102bdfdbe419d9c814c37632/390_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=87ce2b9c2e754975c9d63231e7480491",
+      "link": "https://www.theguardian.com/music/gallery/2026/jul/04/fans-and-a-list-stars-gather-for-the-wedding-of-taylor-swift-and-travis-kelce-in-new-york-in-pictures",
+      "published": "Sat, 04 Jul 2026 02:26:21 GMT",
+      "category": "News",
+      "source": "The Guardian",
+      "title_es": "Fans y celebridades se reúnen para la boda de Taylor Swift y Travis Kelce en Nueva York – en imágenes",
+      "summary_es": "La pareja contrajo matrimonio en una ceremonia de lujo en Madison Square Garden. Reportaje completo: Taylor Swift y Travis Kelce se casan en Madison Square Garden de Nueva York.",
+      "es_confirmed": true
     },
     {
       "id": "0bf3b112e5",
@@ -839,8 +921,9 @@
       "published": "Thu, 02 Jul 2026 19:27:33 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "summary_es": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after KrebsOnSecurity published findings from multiple security firms connecting NetNut to the Popa botnet, a collection of at least two million devices that have been compromised by malicious software with little or no consent from victims."
+      "title_es": "FBI decomisa la plataforma proxy NetNut y el botnet Popa",
+      "summary_es": "El FBI informó hoy de que trabajó con socios del sector para decomisar cientos de dominios asociados a NetNut, un servicio de proxy residencial operado por la empresa israelí que cotiza en bolsa Alarum Technologies [NASDAQ: ALAR]. La acción llega aproximadamente dos semanas después de que KrebsOnSecurity publicara hallazgos de múltiples empresas de seguridad que vinculaban NetNut con el botnet Popa, una colección de al menos dos millones de dispositivos comprometidos por software malicioso sin consentimiento de las víctimas.",
+      "es_confirmed": true
     },
     {
       "id": "8381e8c102",
@@ -851,8 +934,9 @@
       "published": "Tue, 23 Jun 2026 16:12:49 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "summary_es": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as Scattered Spider, and their guilty pleas came on the first day of what was expected to be a six-week trial."
+      "title_es": "Hackers de Scattered Spider se declaran culpables el primer día del juicio",
+      "summary_es": "Dos hombres se declararon culpables esta semana en Reino Unido de cargos criminales derivados de un ciberataque en agosto de 2024 que paralizó Transport for London, la entidad responsable de la red de transporte público del área de la Gran Londres. Ambos fueron miembros clave de un prolífico grupo de ciberdelincuencia conocido como Scattered Spider, y su declaración de culpabilidad llegó el primer día de lo que se esperaba fuera un juicio de seis semanas.",
+      "es_confirmed": true
     },
     {
       "id": "48b37da988",
@@ -863,8 +947,9 @@
       "published": "Thu, 18 Jun 2026 17:37:58 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "summary_es": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a \"residential proxy\" provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR]."
+      "title_es": "El botnet 'Popa' vinculado a una empresa israelí que cotiza en bolsa",
+      "summary_es": "Durante los últimos cuatro años, un amplio botnet basado en Android llamado Popa ha obligado a millones de decodificadores de televisión de consumo a retransmitir tráfico de Internet vinculado a fraude publicitario, tomas de control de cuentas y esfuerzos masivos de raspado de datos. Esta semana, investigadores de múltiples empresas de seguridad concluyeron que el botnet Popa está vinculado a NetNut, un proveedor de \"proxy residencial\" operado por la empresa israelí que cotiza en bolsa Alarum Technologies Ltd [NASDAQ: ALAR].",
+      "es_confirmed": true
     },
     {
       "id": "f447457215",
@@ -875,8 +960,9 @@
       "published": "Wed, 10 Jun 2026 14:03:44 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "summary_es": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group."
+      "title_es": "¿Quién dirige el grupo de ransomware 'The Gentlemen'?",
+      "summary_es": "Un grupo de ciberdelincuencia conocido como The Gentlemen se ha posicionado como la segunda banda de ransomware más activa por número de víctimas, atrayendo rápidamente a un talentoso grupo de hackers mediante una agresiva estrategia de reclutamiento que promete a los afiliados el 90 por ciento de cualquier rescate pagado por las víctimas. Este artículo examina pistas que apuntan a la identidad real del administrador del grupo de ransomware The Gentlemen.",
+      "es_confirmed": true
     },
     {
       "id": "213876dbb1",
@@ -887,8 +973,9 @@
       "published": "Tue, 09 Jun 2026 22:07:28 +0000",
       "category": "Security",
       "source": "Krebs on Security",
-      "title_es": "A Record-Breaking Patch Tuesday for June 2026",
-      "summary_es": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire \"critical\" rating, and exploit code for at least three of the weaknesses is now publicly available."
+      "title_es": "Un Patch Tuesday récord para junio de 2026",
+      "summary_es": "Microsoft lanzó hoy actualizaciones de software para cerrar casi 200 agujeros de seguridad en sus sistemas operativos Windows y software compatible, un número récord de correcciones para su ciclo mensual de Patch Tuesday. Casi tres docenas de esos errores recibieron la calificación más grave de \"crítica\" de Microsoft, y ya está disponible código de explotación para al menos tres de las vulnerabilidades.",
+      "es_confirmed": true
     },
     {
       "id": "aacf391887",
@@ -899,8 +986,9 @@
       "published": "Tue, 30 Jun 2026 08:25:31 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "summary_es": "If you’ve seen reports of a wildfire in your region and you’re looking for open source data, NASA’s fire-tracking tool is often the first place to start. It provides a heat signature and an approximate location. But detection is only the first step in understanding what’s happened. In this guide, we explore ways to analyse [&#8230;] The post Burning Forests: Tools for Tracking and Reporting Wildfire Damage appeared first on bellingcat."
+      "title_es": "Bosques en llamas: herramientas para rastrear e informar sobre daños de incendios forestales",
+      "summary_es": "Si has visto reportes de un incendio forestal en tu región y buscas datos de código abierto, la herramienta de seguimiento de fuegos de NASA es a menudo el primer lugar por donde empezar. Proporciona una firma térmica y una ubicación aproximada. Pero la detección es solo el primer paso para entender lo sucedido. En esta guía, exploramos formas de analizar los daños de incendios forestales.",
+      "es_confirmed": true
     },
     {
       "id": "a0ce365645",
@@ -911,8 +999,9 @@
       "published": "Mon, 29 Jun 2026 22:34:11 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
-      "summary_es": "At least 1,719 people are reported to have died after two devastating earthquakes struck northwestern Venezuela last week. The final casualty count is expected to rise significantly. Some media outlets report resident’s growing frustration with the Venezuelan government and its recovery efforts. Sky News on June 29 reported that the United Nations Coordinator for Humanitarian [&#8230;] The post Satellite Imagery Shows Scale of Venezuela Earthquake Damage appeared first on bellingcat."
+      "title_es": "Imágenes de satélite muestran la magnitud del daño del terremoto en Venezuela",
+      "summary_es": "Se reporta que al menos 1.719 personas murieron tras dos devastadores terremotos que azotaron el noroeste de Venezuela la semana pasada. Se espera que el número final de víctimas aumente significativamente. Algunos medios informan sobre la creciente frustración de los residentes con el gobierno venezolano y sus esfuerzos de recuperación. Sky News reportó el 29 de junio que el Coordinador de Naciones Unidas para Asuntos Humanitarios expresó preocupación.",
+      "es_confirmed": true
     },
     {
       "id": "91171db3c5",
@@ -923,8 +1012,9 @@
       "published": "Sat, 27 Jun 2026 18:02:34 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
-      "summary_es": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here. Every Friday evening, the brochure says, players can compete to win cash prizes in one of the world&#8217;s fastest-growing racquet sports. The padel club in Dubai’s west is the picture of modern wellness culture: climate-controlled courts, [&#8230;] The post Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai appeared first on bellingcat."
+      "title_es": "El póster: teniente del cártel Kinahan sancionado encontrado jugando pádel en Dubái",
+      "summary_es": "Este artículo es el resultado de una colaboración con The Sunday Times. Cada viernes por la noche, según el folleto, los jugadores pueden competir por premios en efectivo en uno de los deportes de raqueta de más rápido crecimiento del mundo. El club de pádel en el oeste de Dubái es la imagen de la cultura de bienestar moderno: canchas climatizadas y servicios de alta gama.",
+      "es_confirmed": true
     },
     {
       "id": "2c564814c9",
@@ -935,8 +1025,9 @@
       "published": "Thu, 25 Jun 2026 13:59:13 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "How to Use AI to Help Find Civilian Harm",
-      "summary_es": "Between February 2022 and September 2025, Bellingcat staff and volunteers collected, geolocated, and shared more than 2,500 incidents of civilian harm following Russia’s full-scale invasion of Ukraine.&#160; As part of this effort, Bellingcat tested a new machine learning model intended to rank Telegram social media posts on their likelihood of containing incidents of civilian harm.&#160; [&#8230;] The post How to Use AI to Help Find Civilian Harm appeared first on bellingcat."
+      "title_es": "Cómo usar inteligencia artificial para ayudar a detectar daño civil",
+      "summary_es": "Entre febrero de 2022 y septiembre de 2025, el personal y voluntarios de Bellingcat recopilaron, geolocalizaron y compartieron más de 2.500 incidentes de daño civil tras la invasión a gran escala de Ucrania por parte de Rusia. Como parte de este esfuerzo, Bellingcat probó un nuevo modelo de aprendizaje automático diseñado para clasificar publicaciones de Telegram según la probabilidad de contener incidentes de daño civil.",
+      "es_confirmed": true
     },
     {
       "id": "196454cee6",
@@ -947,8 +1038,9 @@
       "published": "Thu, 18 Jun 2026 08:59:59 +0000",
       "category": "Security",
       "source": "Bellingcat",
-      "title_es": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
-      "summary_es": "This article was co-published with Signal Ohio and STAT. In high school, Ashley Delgado dreamed of becoming a doctor and one day buying her father a Rolls-Royce. “She wanted to heal people,” said her father, James Taylor. She had a high GPA, Taylor added, and did especially well in science and Latin. In her mid-20s, [&#8230;] The post Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown appeared first on bellingcat."
+      "title_es": "Opioides sintéticos ultrapotentes se propagan por EE.UU. en medio de represión contra el fentanilo",
+      "summary_es": "Este artículo fue copublicado con Signal Ohio y STAT. En la escuela secundaria, Ashley Delgado soñaba con convertirse en médica y algún día comprarle a su padre un Rolls-Royce. \"Ella quería sanar a la gente\", dijo su padre, James Taylor. Tenía un promedio de calificaciones alto, añadió Taylor, y le fue especialmente bien en ciencias y latín. En sus veintitantos años...",
+      "es_confirmed": true
     },
     {
       "id": "2a8c21e2ae",
@@ -959,8 +1051,9 @@
       "published": "Sun, 11 Jan 2026 16:18:35 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Calculating Website Age & Tracking Changes With URL Dater",
-      "summary_es": "How can you determine the age of a webpage in a reliable way? URL Dater uses a range of different sources to present an accurate picture."
+      "title_es": "Calcular la antigüedad de un sitio web y rastrear cambios con URL Dater",
+      "summary_es": "¿Cómo determinar de forma fiable la antigüedad de una página web? URL Dater utiliza diferentes fuentes para ofrecer una imagen precisa.",
+      "es_confirmed": true
     },
     {
       "id": "7e4d545513",
@@ -971,8 +1064,9 @@
       "published": "Sat, 22 Mar 2025 10:32:46 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Using SSL Certificates To Find Threat Actor Infrastructure",
-      "summary_es": "At last month’s SANS OSINT Summit I gave a talk the usefulness of SSL certificates for open source intelligence researchers. The talk looks at three recent examples of how information from certificate transparency logs can be used to discover, attribute, and unmask threat actor infrastructure. The video of the talk has now been published and you can [&#8230;]"
+      "title_es": "Usar certificados SSL para identificar infraestructuras de actores de amenaza",
+      "summary_es": "En la cumbre OSINT de SANS del mes pasado ofrecí una conferencia sobre la utilidad de los certificados SSL para investigadores de inteligencia de fuentes abiertas. La charla analiza tres ejemplos recientes de cómo utilizar la información de los registros de transparencia de certificados para descubrir, atribuir y desenmascarar infraestructuras de actores de amenaza. El vídeo de la conferencia ya se ha publicado y puedes [...]",
+      "es_confirmed": true
     },
     {
       "id": "999f9064e5",
@@ -983,8 +1077,9 @@
       "published": "Sun, 17 Nov 2024 18:57:41 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Telegram For Cyber Investigators",
-      "summary_es": "Telegram is one of the most important platforms for OSINT investigators. I joined the Needlestack podcast to discuss how Telegram works and shared some practical OSINT advice along the way."
+      "title_es": "Telegram para investigadores cibernéticos",
+      "summary_es": "Telegram es una de las plataformas más importantes para investigadores OSINT. Participé en el podcast Needlestack para explicar cómo funciona Telegram y compartir algunos consejos prácticos de OSINT.",
+      "es_confirmed": true
     },
     {
       "id": "93b31e8393",
@@ -995,8 +1090,9 @@
       "published": "Mon, 31 Jul 2023 21:50:10 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Digging Into Russian Disinfo Infrastructure",
-      "summary_es": "Disinformation and propaganda has been one of the key features of the war between Russia and Ukraine. One of the many groups that have sprung up to push pro-Russian propaganda narratives is a small hacktivist organisation called Beregini. This article by Givi Gigitashvili provides a useful introductory insight into the methods of Beregini by analysing [&#8230;]"
+      "title_es": "Desvelando la infraestructura de desinformación rusa",
+      "summary_es": "La desinformación y la propaganda han sido uno de los pilares de la guerra entre Rusia y Ucrania. Una de las muchas organizaciones que han surgido para difundir narrativas de propaganda prorrusas es un pequeño colectivo hacktivista llamado Beregini. Este artículo de Givi Gigitashvili ofrece una introducción útil a los métodos de Beregini mediante el análisis de [...]",
+      "es_confirmed": true
     },
     {
       "id": "9883e8138d",
@@ -1007,8 +1103,9 @@
       "published": "Fri, 21 Apr 2023 16:11:40 +0000",
       "category": "Security",
       "source": "Nixintel",
-      "title_es": "Verify Your Online Identities With Keybase",
-      "summary_es": "Twitter&#8217;s recent decision to remove blue check marks from accounts it has previously verified causes a number of issues for the platform and its users. One of the most obvious ones is around authentic identity. Without verification, how do I know that a particular account really does belong to the person or organisation who claims [&#8230;]"
+      "title_es": "Verifica tu identidad en línea con Keybase",
+      "summary_es": "La reciente decisión de Twitter de eliminar las verificaciones azules de cuentas que previamente había verificado genera varios problemas para la plataforma y sus usuarios. Uno de los más evidentes es el de la autenticidad de la identidad. Sin verificación, ¿cómo sé que una cuenta determinada pertenece realmente a la persona u organización que la reclama? [...]",
+      "es_confirmed": true
     },
     {
       "id": "84585587f1",
@@ -1019,8 +1116,9 @@
       "published": "Fri, 03 Jul 2026 09:47:34 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Cremers leaves Wales role as key Bellamy assistant",
-      "summary_es": "Piet Cremers quits his position as Wales men's assistant coach, leaving boss Craig Bellamy without one of his key backroom staff."
+      "title_es": "Cremers abandona su cargo en Gales como asistente clave de Bellamy",
+      "summary_es": "Piet Cremers deja su posición como asistente del seleccionador de Gales, dejando al técnico Craig Bellamy sin uno de sus ayudantes más importantes.",
+      "es_confirmed": true
     },
     {
       "id": "94e2a5a594",
@@ -1031,8 +1129,9 @@
       "published": "Fri, 03 Jul 2026 04:03:06 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Fuchs had no more to give says Newport chairman",
-      "summary_es": "Newport County chairman Huw Jenkins says Christian Fuchs' decision to resign as manager came as a big surprise."
+      "title_es": "Fuchs «ya no podía dar más» según el presidente del Newport",
+      "summary_es": "El presidente del Newport County, Huw Jenkins, afirma que la decisión de Christian Fuchs de dimitir como entrenador le sorprendió mucho.",
+      "es_confirmed": true
     },
     {
       "id": "1d4e4aafcf",
@@ -1043,8 +1142,9 @@
       "published": "Fri, 03 Jul 2026 10:05:37 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Wales striker Hughes joins Sunderland",
-      "summary_es": "Wales striker Elise Hughes signs for Women's Super League 2 club Sunderland on a two-year contract."
+      "title_es": "La delantera galesa Hughes se une al Sunderland",
+      "summary_es": "Elise Hughes, delantero de Gales, firma por el Sunderland de la Women's Super League 2 en un contrato de dos años.",
+      "es_confirmed": true
     },
     {
       "id": "e7fe5ea7a3",
@@ -1055,8 +1155,9 @@
       "published": "Fri, 03 Jul 2026 14:47:33 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Wales' Evans joins Newcastle after Liverpool exit",
-      "summary_es": "Wales defender Gemma Evans joins Women's Super League 2 side Newcastle United after leaving Liverpool at the end of last season."
+      "title_es": "La galesa Evans se une al Newcastle tras su salida del Liverpool",
+      "summary_es": "La defensa galesa Gemma Evans se incorpora al Newcastle United de la Women's Super League 2 tras abandonar el Liverpool al final de la temporada pasada.",
+      "es_confirmed": true
     },
     {
       "id": "e7ff9a8e1a",
@@ -1067,8 +1168,9 @@
       "published": "Fri, 03 Jul 2026 16:23:50 GMT",
       "category": "Football",
       "source": "Wales Football (BBC)",
-      "title_es": "Wrexham Women sign Jamaica forward Thomas",
-      "summary_es": "Wrexham Women sign Jamaican international Natasha Thomas from Ipswich Town."
+      "title_es": "Wrexham Women ficha a la delantera jamaicana Thomas",
+      "summary_es": "Wrexham Women incorpora a la internacional jamaicana Natasha Thomas procedente del Ipswich Town.",
+      "es_confirmed": true
     },
     {
       "id": "61275d30cd",
@@ -1079,8 +1181,9 @@
       "published": "Fri, 3 Jul 2026 10:49:30 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Harry Wilson's Leeds United move delay as club plot £90m transfer swoop",
-      "summary_es": "Leeds are expected to unveil Harry Wilson as a Leeds player - but could well move for others in the market this summer"
+      "title_es": "El fichaje de Harry Wilson por el Leeds United se retrasa mientras el club prepara una oferta de 90 millones",
+      "summary_es": "Se espera que el Leeds presente a Harry Wilson como nuevo jugador, aunque el club podría moverse en el mercado esta temporada estival.",
+      "es_confirmed": true
     },
     {
       "id": "226ccc818c",
@@ -1091,8 +1194,9 @@
       "published": "Fri, 3 Jul 2026 09:25:29 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Leeds United's £26m deal hangs in balance as star threatens to wreck deal",
-      "summary_es": "Things are very much in the balance at Elland Road"
+      "title_es": "El acuerdo de 26 millones del Leeds United pende de un hilo tras las amenazas de una estrella",
+      "summary_es": "La situación está muy pendiente de un hilo en Elland Road.",
+      "es_confirmed": true
     },
     {
       "id": "c3c2ef0d44",
@@ -1103,8 +1207,9 @@
       "published": "Mon, 29 Jun 2026 11:28:56 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Craig Bellamy breaks cover to watch Wales team be destroyed 7-0",
-      "summary_es": "The senior men's head coach had been in advanced talks with Burnley before the proposed move collapsed"
+      "title_es": "Craig Bellamy reaparece para ver cómo Gales es goleada 7-0",
+      "summary_es": "El seleccionador de la selección masculina había estado en conversaciones avanzadas con el Burnley antes de que el movimiento propuesto se desmoronara.",
+      "es_confirmed": true
     },
     {
       "id": "2e9f11dea8",
@@ -1115,8 +1220,9 @@
       "published": "Sun, 28 Jun 2026 10:24:47 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Harry Wilson to Leeds United latest as club agree £20m deal",
-      "summary_es": "The Wales international is expected to become Leeds' first signing of the summer after agreeing to join the Premier League side"
+      "title_es": "Harry Wilson al Leeds United: el club cierra un acuerdo de 20 millones",
+      "summary_es": "Se espera que el internacional galés se convierta en el primer fichaje del verano del Leeds tras acordar su incorporación al equipo de la Premier League.",
+      "es_confirmed": true
     },
     {
       "id": "cdc77d182f",
@@ -1127,8 +1233,9 @@
       "published": "Sat, 27 Jun 2026 08:35:11 +0000",
       "category": "Football",
       "source": "Wales Football (WalesOnline)",
-      "title_es": "Wales football boss breaks silence on Craig Bellamy exit collapse amid fan concerns",
-      "summary_es": "FAW chief Noel Mooney insists Bellamy is fully committed to his role as Wales manager"
+      "title_es": "El jefe del fútbol galés rompe el silencio sobre el colapso de Craig Bellamy en medio de preocupaciones de la afición",
+      "summary_es": "El presidente de la FAW, Noel Mooney, insiste en que Bellamy está completamente comprometido con su papel como seleccionador de Gales.",
+      "es_confirmed": true
     },
     {
       "id": "e0ed4ab759",
@@ -1139,8 +1246,9 @@
       "published": "Fri, 03 Jul 2026 17:25:07 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Wales aim for control after chaotic week",
-      "summary_es": "Wales start their Nations Championship campaign against Fiji in Cardiff after another week of off-field disruption."
+      "title_es": "Gales busca el control tras una semana caótica",
+      "summary_es": "Gales inicia su campaña de la Nations Championship contra Fiji en Cardiff tras otra semana de perturbaciones fuera del terreno de juego.",
+      "es_confirmed": true
     },
     {
       "id": "08e97d536a",
@@ -1151,20 +1259,22 @@
       "published": "Fri, 03 Jul 2026 16:30:09 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Wales back row Faletau signs new Cardiff deal",
-      "summary_es": "Wales and British and Irish Lions great Taulupe Faletau signs a new one-year contract with Cardiff after his previous deal ended in June."
+      "title_es": "El ala de Gales Faletau firma nuevo contrato con Cardiff",
+      "summary_es": "Taulupe Faletau, internacional galés y estrella de los British and Irish Lions, ha firmado un nuevo contrato de un año con Cardiff tras la expiración de su anterior acuerdo en junio.",
+      "es_confirmed": true
     },
     {
       "id": "c3490b3526",
       "title_en": "Why are Fiji staging home games in the UK?",
       "summary_en": "Fiji will try to make Cardiff a home from home on Saturday as they 'host' Wales to kick off rugby's new Nations Championship.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a8f/live/577a4f10-76ce-11f1-b508-3b3f1f22a3c1.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f283/live/5f032ad0-97a0-11f0-af62-91486a511a31.png",
       "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c4gyxq48zx7o?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 03 Jul 2026 12:56:17 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Why are Fiji staging home games in the UK?",
-      "summary_es": "Fiji will try to make Cardiff a home from home on Saturday as they 'host' Wales to kick off rugby's new Nations Championship."
+      "title_es": "¿Por qué Fiji juega sus partidos de casa en Reino Unido?",
+      "summary_es": "Fiji intentará convertir Cardiff en su feudo el sábado al 'albergar' a Gales para inaugurar el nuevo Campeonato de Naciones de rugby.",
+      "es_confirmed": true
     },
     {
       "id": "4dcffcfd7b",
@@ -1175,8 +1285,9 @@
       "published": "Fri, 03 Jul 2026 03:23:17 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Welsh Sports Hall of Fame honours rugby great Gravell",
-      "summary_es": "Former Wales and Lions centre Ray Gravell has been inducted into Welsh Sports Hall of Fame."
+      "title_es": "El Salón de la Fama del Deporte Galés honra al legendario Gravell",
+      "summary_es": "Ray Gravell, antiguo centro internacional de Gales y los Lions, ha sido incluido en el Salón de la Fama del Deporte Galés.",
+      "es_confirmed": true
     },
     {
       "id": "40ae19bf47",
@@ -1187,8 +1298,9 @@
       "published": "Fri, 03 Jul 2026 19:21:05 GMT",
       "category": "Rugby",
       "source": "Wales Rugby (BBC)",
-      "title_es": "Match fees dispute 'a shame' during Test week - Lake",
-      "summary_es": "Wales captain Dewi Lake says it was \"a shame\" that a dispute over match fees overan into Test week."
+      "title_es": "Disputa por primas de juego «una vergüenza» en semana de test, según Lake",
+      "summary_es": "El capitán de Gales Dewi Lake ha calificado de «vergüenza» que la disputa sobre las primas de juego se prolongase hasta la semana de los partidos internacionales.",
+      "es_confirmed": true
     },
     {
       "id": "d87c54d4fe",
@@ -1199,8 +1311,9 @@
       "published": "2026-07-02T16:00:28+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "So can England trouble the Springboks? | PREVIEW | Nations Championship 2026",
-      "summary_es": "It must be test rugby season again: Rassie is throwing grenades, Borthwick is backing his pack, and Manie Libbok has been trusted at ten. With test rugby season back in just two days, we break down where the Nations Championship opener between the Springboks and England will be won and lost... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can put peas on my plate during Sunday dinner"
+      "title_es": "¿Pueden los Springboks tener problemas con Inglaterra? | PREVIEW | Campeonato de Naciones 2026",
+      "summary_es": "Debe ser temporada de rugby internacional de nuevo: Rassie lanza granadas, Borthwick respalda a su equipo y Manie Libbok ha recibido confianza en la posición de apertura. Con el rugby internacional de vuelta en solo dos días, analizamos dónde se decidirá el partido inaugural del Campeonato de Naciones entre Springboks e Inglaterra. Si has disfrutado del contenido del canal, también puedes apoyar a Squidge Rugby en Patreon visitando https://www.patreon.com/SquidgeRugby para poder poner guisantes en mi plato en la cena del domingo.",
+      "es_confirmed": true
     },
     {
       "id": "29820dc4ca",
@@ -1211,8 +1324,9 @@
       "published": "2026-06-30T16:54:32+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "So do Antoine Dupont & Matthieu Jalibert work together?",
-      "summary_es": "It's become the biggest debate in French rugby: Matthieu Jalibert and Antoine Dupont are both rugby geniuses. But can they play together? Do their unique brands of madness jive together? Time to investigate... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can put beans on toast on my head"
+      "title_es": "¿Funcionan juntos Antoine Dupont y Matthieu Jalibert?",
+      "summary_es": "Se ha convertido en el mayor debate del rugby francés: Matthieu Jalibert y Antoine Dupont son ambos genios del rugby. Pero ¿pueden jugar juntos? ¿Encaja su particular estilo de juego? Hora de investigar. Si has disfrutado del contenido del canal, también puedes apoyar a Squidge Rugby en Patreon visitando https://www.patreon.com/SquidgeRugby para poder comer pan con judías en mi cabeza.",
+      "es_confirmed": true
     },
     {
       "id": "16c275a0e9",
@@ -1223,8 +1337,9 @@
       "published": "2026-06-25T17:00:05+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "So is this Fiji's moment?",
-      "summary_es": "Bula! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY Fiji have long been everybody in rugby's second-favourite team. Yet the next eighteen months may provide a rare opportunity: For 2027 may be the best chance Fiji ever have had, or ever will, to win a World Cup. We break down the incredible generation of talent, unique gameplan, and incredible chance that may just present itself... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can be more full of beans"
+      "title_es": "¿Es este el momento de Fiji?",
+      "summary_es": "¡Bula! Visita https://squarespace.com/squidgerugby para ahorrar un 10% en tu primera compra de un sitio web o dominio usando el código SQUIDGERUGBY. Fiji siempre ha sido el segundo equipo favorito de todo el mundo del rugby. Pero los próximos dieciocho meses pueden ofrecer una oportunidad rara: 2027 podría ser la mejor ocasión que Fiji haya tenido, o tenga jamás, para ganar un Mundial. Desgranamos la increíble generación de talento, el plan de juego único e la increíble oportunidad que podría presentarse. Si has disfrutado del contenido del canal, también puedes apoyar a Squidge Rugby en Patreon visitando https://www.patreon.com/SquidgeRugby para estar más lleno de energía.",
+      "es_confirmed": true
     },
     {
       "id": "91bb592fc2",
@@ -1235,8 +1350,9 @@
       "published": "2026-06-15T15:00:17+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "So how deep is the Springbok squad?",
-      "summary_es": "Lekker! Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY The Springboks are the best team in the world. That much is not up for debate. Nor is the amount of talent at Rassie's disposal. But with the 2019 crew ageing out and the next generation still proving themselves, there is one question still remaining: Is this South Africa squad deep enough and ready enough to win the 2027 Rugby World Cup, and what can Erasmus do between now and then to get them ready? If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc"
+      "title_es": "¿Cuál es la profundidad de la plantilla Springbok?",
+      "summary_es": "¡Lekker! ¡Hola! Visita https://squarespace.com/squidgerugby para ahorrar un 10% en tu primera compra de un sitio web o dominio usando el código SQUIDGERUGBY. Los Springboks son el mejor equipo del mundo. Eso no se discute. Tampoco la cantidad de talento del que dispone Rassie. Pero con la generación de 2019 envejeciendo y la próxima generación aún demostrando su valía, queda una pregunta: ¿Tiene esta plantilla sudafricana la suficiente profundidad y está lista para ganar el Mundial de Rugby 2027, y qué puede hacer Erasmus entre ahora y entonces para prepararlos? Si has disfrutado del contenido del canal, también puedes apoyar a Squidge Rugby en Patreon visitando https://www.patreon.com/SquidgeRugby para poder, etc.",
+      "es_confirmed": true
     },
     {
       "id": "d4e101f269",
@@ -1247,8 +1363,9 @@
       "published": "2026-05-27T16:30:03+00:00",
       "category": "Rugby",
       "source": "Squidge Rugby (YouTube)",
-      "title_es": "So how did Spain become rugby's most exciting nation? | Rugby World Cup 2027 Team Preview",
-      "summary_es": "Hola! Head to https://squarespace.com/squidgerugby to save 10% off your first purchase of a website or domain using code SQUIDGERUGBY Ten years ago, the most common question you heard about Spanish rugby was \"Wait, Spain have a rugby team?\". Five years ago, it was \"What have they done now?\". Yet now, eighteen months from their first men's World Cup in almost 30 years, it's rather different: This is the story of how Spain grew into the most exciting new nation in all of rugby... If you've enjoyed any of the channel's content, you can also support Squidge Rugby on Patreon by visiting https://www.patreon.com/SquidgeRugby, so I can etc"
+      "title_es": "¿Cómo se convirtió España en la nación más emocionante del rugby? | Previa de la Copa Mundial de Rugby 2027",
+      "summary_es": "¡Hola! Accede a https://squarespace.com/squidgerugby para ahorrar un 10% en tu primera compra de sitio web o dominio usando el código SQUIDGERUGBY. Hace diez años, la pregunta más común que se oía sobre el rugby español era «Espera, ¿España tiene equipo de rugby?». Hace cinco años era «¿Qué han hecho ahora?». Pero ahora, dieciocho meses antes de su primer Mundial masculino en casi 30 años, es bastante diferente: esta es la historia de cómo España se convirtió en la nación más emocionante del rugby... Si te ha gustado alguno de los contenidos del canal, también puedes apoyar a Squidge Rugby en Patreon visitando https://www.patreon.com/SquidgeRugby",
+      "es_confirmed": true
     }
   ]
 }
