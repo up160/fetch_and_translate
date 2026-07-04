@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T08:26:41.894763+00:00",
+  "generated_at": "2026-07-04T09:03:42.288969+00:00",
   "item_count": 105,
   "items": [
     {
@@ -138,7 +138,7 @@
       "summary_en": "⚽ All the latest news and reaction from the World Cup⚽ Player guide | Bracketology | Knockout draw | Mail usAustralia lost to Egypt on penalties in one of the more disastrous shootout cock ups. Changing goalkeepers is a bold move, especially when Mat Ryan made a right Shilton of himself.Jonathan Wilson was there. Continue reading...",
       "image": "https://i.guim.co.uk/img/media/f51e2725ad093dfa41aa1d07bfc26ee2da44c46c/441_0_2522_2018/master/2522.jpg?width=140&quality=85&auto=format&fit=max&s=8a2071ebc4cf9d420a6bd049e1532add",
       "link": "https://www.theguardian.com/football/live/2026/jul/04/world-cup-2026-cape-verde-give-argentina-mighty-scare-last-16-mexico-v-england-fixture-chaos-morocco-canada-france-paraguay-live",
-      "published": "Sat, 04 Jul 2026 08:17:42 GMT",
+      "published": "Sat, 04 Jul 2026 08:44:33 GMT",
       "category": "World Cup",
       "source": "World Cup 2026 (Guardian)",
       "title_es": "Mundial 2026: Cabo Verde pone en apuros a Argentina; comienzan los dieciseisavos con el caos del partido México vs Inglaterra – en directo",
@@ -679,19 +679,6 @@
       "es_confirmed": true
     },
     {
-      "id": "48ff7a9b40",
-      "title_en": "Performance per dollar is getting faster and cheaper",
-      "summary_en": "Comments",
-      "image": "",
-      "link": "https://www.wafer.ai/blog/glm52-amd",
-      "published": "Fri, 03 Jul 2026 21:49:06 +0000",
-      "category": "Tech",
-      "source": "Hacker News",
-      "title_es": "El rendimiento por dólar es cada vez más rápido y barato",
-      "summary_es": "",
-      "es_confirmed": true
-    },
-    {
       "id": "20760114f5",
       "title_en": "Leanstral 1.5: Proof abundance for all",
       "summary_en": "Comments",
@@ -705,16 +692,29 @@
       "es_confirmed": true
     },
     {
-      "id": "cd19f1c90c",
-      "title_en": "Giant trees have no trouble pumping water to top branches: new research",
+      "id": "48ff7a9b40",
+      "title_en": "Performance per dollar is getting faster and cheaper",
       "summary_en": "Comments",
       "image": "",
-      "link": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
-      "published": "Fri, 03 Jul 2026 22:40:29 +0000",
+      "link": "https://www.wafer.ai/blog/glm52-amd",
+      "published": "Fri, 03 Jul 2026 21:49:06 +0000",
       "category": "Tech",
       "source": "Hacker News",
-      "title_es": "Los árboles gigantes no tienen problemas para bombear agua hacia sus ramas más altas: nueva investigación",
+      "title_es": "El rendimiento por dólar es cada vez más rápido y barato",
       "summary_es": "",
+      "es_confirmed": true
+    },
+    {
+      "id": "e9383eaefd",
+      "title_en": "Mir Books – Books from the Soviet Era",
+      "summary_en": "Comments",
+      "image": "",
+      "link": "https://mirtitles.org",
+      "published": "Tue, 30 Jun 2026 20:50:58 +0000",
+      "category": "Tech",
+      "source": "Hacker News",
+      "title_es": "Mir Books – Libros de la era soviética",
+      "summary_es": "Comentarios",
       "es_confirmed": true
     },
     {
@@ -822,16 +822,16 @@
       "es_confirmed": true
     },
     {
-      "id": "daf2a8e933",
-      "title_en": "Watch: Taylor Swift and Travis Kelce are married - here's how the day unfolded",
-      "summary_en": "The couple tied the knot in a star-studded ceremony officiated by comedian Adam Sandler at Madison Square Garden.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bc4/live/028631e0-7764-11f1-a3d8-7ddc16337a2d.jpg",
-      "link": "https://www.bbc.co.uk/news/videos/cewqpdgqj0ko?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 04 Jul 2026 04:50:06 GMT",
+      "id": "8651f7adc2",
+      "title_en": "In pictures: Stars and fans celebrate Taylor Swift and Travis Kelce's wedding",
+      "summary_en": "Celebrities and sports stars were spotted as the A-list couple tied the knot in New York on Friday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6900/live/1f32b000-7784-11f1-b976-0b9c15b0ccfc.jpg",
+      "link": "https://www.bbc.co.uk/news/articles/c7vyqgy4r5lo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 04 Jul 2026 08:24:17 GMT",
       "category": "News",
       "source": "BBC News",
-      "title_es": "Ver: Taylor Swift y Travis Kelce se casan - cómo se desarrolló el día",
-      "summary_es": "La pareja se casó en una ceremonia llena de celebridades oficiada por el cómico Adam Sandler en Madison Square Garden.",
+      "title_es": "En imágenes: Estrellas y fans celebran la boda de Taylor Swift y Travis Kelce",
+      "summary_es": "Celebridades y estrellas del deporte fueron avistadas cuando la pareja de élite se casó en Nueva York el viernes.",
       "es_confirmed": true
     },
     {
