@@ -40,4 +40,14 @@ jobs:
           git add feed.json
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Update feed.json ($(date -u +%Y-%m-%d))"
-          git push
+          # Translation takes minutes; the branch can advance under us (the M1, or
+          # a concurrent run). Rebase on top of the remote tip before pushing, and
+          # retry, so a race doesn't drop the update.
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" || true
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              echo "Pushed."; exit 0
+            fi
+            echo "push rejected (attempt $attempt) — retrying"; sleep $((attempt * 3))
+          done
+          echo "::error::failed to push feed.json after retries"; exit 1
