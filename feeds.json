@@ -8,7 +8,6 @@
     { "category": "Parenting", "name": "r/daddit",                   "url": "https://www.reddit.com/r/daddit/.rss" },
 
     { "category": "Interesante", "name": "Atlas Obscura",            "url": "https://www.atlasobscura.com/feeds/latest" },
-    { "category": "Interesante", "name": "Damn Interesting",         "url": "https://www.damninteresting.com/feed/" },
     { "category": "Interesante", "name": "99% Invisible",            "url": "https://99percentinvisible.org/feed/" },
     { "category": "Interesante", "name": "Kottke",                   "url": "https://feeds.kottke.org/main" },
     { "category": "Interesante", "name": "Defector",                 "url": "https://defector.com/feed" },
@@ -21,7 +20,6 @@
 
     { "category": "Security",  "name": "Krebs on Security",          "url": "https://krebsonsecurity.com/feed/" },
     { "category": "Security",  "name": "Bellingcat",                 "url": "https://www.bellingcat.com/feed/" },
-    { "category": "Security",  "name": "Nixintel",                   "url": "https://nixintel.info/feed/" },
 
     { "category": "Football",  "name": "Wales Football (BBC)",       "url": "https://feeds.bbci.co.uk/sport/football/welsh/rss.xml" },
     { "category": "Football",  "name": "Wales Football (WalesOnline)", "url": "https://www.walesonline.co.uk/all-about/wales-football-team?service=rss" },

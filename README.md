@@ -72,10 +72,10 @@ See `feeds.json` for the live list. Current categories:
 | Mundial     | World Cup results (football-data.org) |
 | World Cup   | Guardian World Cup 2026, BBC Football |
 | Parenting   | r/daddit |
-| Interesante | Atlas Obscura, Damn Interesting, 99% Invisible, Kottke, Defector |
+| Interesante | Atlas Obscura, 99% Invisible, Kottke, Defector |
 | Tech        | Hacker News, Ars Technica |
 | News        | BBC News, The Guardian |
-| Security    | Krebs on Security, Bellingcat, Nixintel |
+| Security    | Krebs on Security, Bellingcat |
 | Football    | Wales Football (BBC + WalesOnline) |
 | Rugby       | Wales Rugby (BBC), Squidge Rugby, Inside Welsh Rugby |
 
