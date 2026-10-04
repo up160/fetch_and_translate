@@ -2,6 +2,18 @@
 
 Daily RSS reader: fetches English-language feeds, translates to Spanish (Spain) via the Claude API, publishes as a static site on GitHub Pages.
 
+## How work is done
+
+- Start with `docs/HANDOVER.md` for the current state and what's next. Update it in the same PR whenever the state changes, and before ending a session.
+- Every piece of work is a GitHub issue, opened before any code. One branch and one pull request per issue, based on `main`. The PR body says `Closes #N`.
+- **Claim before you start; other sessions may be working too.** Skip an issue with the `in progress` label or an open PR naming it. Otherwise add the label and comment "Claimed by <session> on <date>". `.github/workflows/issue-claims.yml` keeps the label in sync with open PRs.
+- **Ideas board.** Anything the owner asks for that isn't being done now becomes an issue labelled `idea` straight away, with their words and context.
+- Stay inside the issue's scope. Anything else found along the way becomes a new issue or a note in the PR, not extra code.
+- Plan first for anything beyond a small fix: outline the change and get it agreed before writing code.
+- Before opening a PR: `ruff check .` and `pytest` pass (CI runs the same). Grep the diff for each change the PR claims.
+- The owner reviews and merges. Don't merge your own PRs, and don't run the Update feed workflow unless asked (it spends API credit).
+- Don't leave work stranded on a branch: if a session ends mid-issue, push the branch, open a draft PR, and note where it stopped in the PR and in `docs/HANDOVER.md`.
+
 ## Architecture
 
 - `fetch_and_translate.py` — the whole pipeline: fetch feeds → optional World Cup results → dedupe by id → reuse previous translations for unchanged items → translate the rest in chunks of 8 via the Claude Message Batches API (50% price; direct-call fallback) → write `feed.json`.
