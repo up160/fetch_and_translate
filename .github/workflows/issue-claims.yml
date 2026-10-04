@@ -1,0 +1,37 @@
+# Keeps the "in progress" label honest: an issue named in a pull request ("Ships #N",
+# "Closes #N", "Fixes #N" or "Part of #N") is claimed while the PR is open, and released when
+# it merges or closes. Sessions check the label before starting work (CLAUDE.md → How work is
+# done), so two sessions never pick up the same issue.
+name: Issue claims
+
+on:
+  pull_request:
+    types: [opened, reopened, edited, closed]
+
+permissions:
+  issues: write
+
+jobs:
+  claim:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const label = 'in progress';
+            const { owner, repo } = context.repo;
+            const pr = context.payload.pull_request;
+            const numbers = new Set(
+              [...(pr.body ?? '').matchAll(/\b(?:Ships|Closes|Fixes|Part of) #(\d+)/gi)].map((m) =>
+                Number(m[1]),
+              ),
+            );
+            for (const issue_number of numbers) {
+              if (pr.state === 'open') {
+                await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [label] });
+              } else {
+                await github.rest.issues
+                  .removeLabel({ owner, repo, issue_number, name: label })
+                  .catch(() => {}); // already gone
+              }
+            }
